@@ -7,7 +7,7 @@ import pageObjects.LoginPage;
 import pageObjects.TransferFundsPage;
 import testBase.BaseClass;
 
-public class TC004_TransferFundsTestCase extends BaseClass {
+public class TC004_TransferFundsTest extends BaseClass {
 
 	@Test
 	public void TransferFundsWithoutAmountTest() throws InterruptedException {

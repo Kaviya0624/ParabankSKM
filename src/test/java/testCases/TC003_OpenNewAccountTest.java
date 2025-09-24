@@ -7,7 +7,7 @@ import pageObjects.LoginPage;
 import pageObjects.OpenNewAccountPage;
 import testBase.BaseClass;
 
-public class TC003_OpenNewAccountTestCase extends BaseClass {
+public class TC003_OpenNewAccountTest extends BaseClass {
 
 	@Test
 	public void OpenNewAccountTest() throws InterruptedException {

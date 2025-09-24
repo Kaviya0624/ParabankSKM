@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import pageObjects.RegisterPage;
 import testBase.BaseClass;
 
-public class TC001_RegisterTestCase extends BaseClass {
+public class TC001_RegisterTest extends BaseClass {
 
 	@Test
 	public void RegisterTest()

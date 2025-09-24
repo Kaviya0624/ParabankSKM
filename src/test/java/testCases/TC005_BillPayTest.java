@@ -8,7 +8,7 @@ import pageObjects.LoginPage;
 import pageObjects.TransferFundsPage;
 import testBase.BaseClass;
 
-public class TC005_BillPayTestCase extends BaseClass {
+public class TC005_BillPayTest extends BaseClass {
 
 	@Test
 	public void BillPayWithValidDetailsTest() throws InterruptedException {

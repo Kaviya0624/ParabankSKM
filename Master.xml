@@ -11,12 +11,12 @@
   
     <classes>
       
-    <!--   <class name="testCases.TC001_RegisterTestCase"/> 
-       <class name="testCases.TC002_LoginTestCase"/>
-       <class name="testCases.TC003_OpenNewAccountTestCase"/>
-       <class name="testCases.TC004_TransferFundsTestCase"/>
-       <class name="testCases.TC005_BillPayTestCase"/>
-       <class name="testCases.TC006_ApplyLoanTestCase"/>
+    <!--   <class name="testCases.TC001_RegisterTest"/> 
+       <class name="testCases.TC002_LoginTest"/>
+       <class name="testCases.TC003_OpenNewAccountTest"/>
+       <class name="testCases.TC004_TransferFundsTest"/>
+       <class name="testCases.TC005_BillPayTest"/>
+       <class name="testCases.TC006_ApplyLoanTest"/>
        <class name="testCases.TC007_LoginDDT"/> -->
          
        <class name="testCases.TC007_LoginDDT"/>

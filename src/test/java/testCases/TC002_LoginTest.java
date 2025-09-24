@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import pageObjects.LoginPage;
 import testBase.BaseClass;
 
-public class TC002_LoginTestCase extends BaseClass {
+public class TC002_LoginTest extends BaseClass {
 
 	@Test
 	public void loginTest() throws InterruptedException {
