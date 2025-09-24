@@ -67,5 +67,17 @@ public class LoginPage extends BasePage {
 	public String getSuccessLogin() {
 	    return loginscu.getText();
 	}
+	
+	public boolean isAccountPageExixts()
+	{
+		try
+		{
+			return (loginscu.isDisplayed()) ;
+		}
+		catch(Exception e)
+		{
+			return false;
+		}
+	}
 
 }

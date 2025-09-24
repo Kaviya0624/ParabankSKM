@@ -12,6 +12,7 @@ public class TC006_ApplyLoanTest extends BaseClass{
 	@Test
 	public void VerifyApplyLoan() throws InterruptedException 
 	{
+		
 		        LoginPage lp = new LoginPage(driver);
 		        ApplyLoanPage loanPage = new ApplyLoanPage(driver);
 		        
