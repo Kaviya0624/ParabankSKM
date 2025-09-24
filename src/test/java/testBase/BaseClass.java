@@ -12,6 +12,9 @@ import java.util.Map;
 import java.util.Properties;
 
 import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.logging.log4j.LogManager;  //Log4j
+import org.apache.logging.log4j.Logger;  //Log4j
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
@@ -25,10 +28,6 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
-
-
-import org.apache.logging.log4j.LogManager;  //Log4j
-import org.apache.logging.log4j.Logger;  //Log4j
 
 
 public class BaseClass {
@@ -158,5 +157,15 @@ public Properties p;
 
 	}
 	
+	public void scrollToBottom() 
+	{
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
+    }
 	
+	  public void scrollToTop() 
+	  {
+	        JavascriptExecutor js = (JavascriptExecutor) driver;
+	        js.executeScript("window.scrollTo(0, 0);");
+	   }
 }
