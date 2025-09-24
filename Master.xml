@@ -19,7 +19,7 @@
        <class name="testCases.TC004_TransferFundsTestCase"/>
        <class name="testCases.TC005_BillPayTestCase"/>-->
          
-          <class name="testCases.TC003_OpenNewAccountTestCase"/>
+           <class name="testCases.TC004_TransferFundsTestCase"/>
          
     
     </classes>

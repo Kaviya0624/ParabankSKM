@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 public class TransferFundsPage extends BasePage {
 	
@@ -22,13 +23,16 @@ public class TransferFundsPage extends BasePage {
 	@FindBy(id = "amount")
 	WebElement txtAmount;
 
-	@FindBy(id = "fromAccountId")
-	WebElement SelectFromAccnt;
+	@FindBy(xpath="//select[@id='fromAccountId']")
+	WebElement Frmacc;
+	
+	@FindBy(xpath="//select[@id='toAccountId']")
+	WebElement toacc;
+	
+	@FindBy(xpath = "//h1[normalize-space()='Transfer Complete!']")
+	WebElement transferCompleteMessage;
 
-	@FindBy(id = "toAccountId")
-	WebElement SelectToAccnt;
-
-	// Action Method
+	
 	public void clickOnTransferFunds() {
 		TransferFunds.click();
 	}
@@ -37,18 +41,33 @@ public class TransferFundsPage extends BasePage {
 		txtAmount.sendKeys(Amount);
 	}
 
-	public WebElement selectFromAccount() {
-		SelectFromAccnt.click();
-		return SelectFromAccnt;
-	}
+	
+	 public void selectFromAccount(int index)
+	 {
+	        Select select = new Select(Frmacc);
+	       select.selectByIndex(index);
+	 }
 
-	public WebElement selectToAccount() {
-		SelectToAccnt.click();
-		return SelectToAccnt;
-	}
+	 public void selectToAccount(int index)
+	 {
+	        Select select = new Select(toacc);
+	       select.selectByIndex(index);
+	 }
 
-	public void clickOnTransferSubmitBtn() {
+	public void clickOnTransferSubmitBtn() 
+	{
 		TransferBtn.click();
 	}
 
+	
+	public String isTransferComplete()
+	{
+		try {
+			return(transferCompleteMessage.getText());
+		}
+		catch(Exception e)
+		{
+			return (e.getMessage());
+		}
+	}
 }

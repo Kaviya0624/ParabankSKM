@@ -62,3 +62,9 @@
 2025-09-24 20:30:58 INFO  TC003_OpenNewAccountTestCase:30 - User clicked on Login Button
 2025-09-24 20:31:00 INFO  TC003_OpenNewAccountTestCase:34 - user clicked on Open New Account
 2025-09-24 20:31:02 INFO  TC003_OpenNewAccountTestCase:41 - Clicked on 'Open New Account' submit button
+2025-09-24 21:29:43 INFO  TC004_TransferFundsTestCase:18 - URL is opened
+2025-09-24 21:29:43 INFO  TC004_TransferFundsTestCase:23 - User entered the User Name:
+2025-09-24 21:29:43 INFO  TC004_TransferFundsTestCase:26 - User entered the password:
+2025-09-24 21:31:55 INFO  TC004_TransferFundsTestCase:18 - URL is opened
+2025-09-24 21:31:55 INFO  TC004_TransferFundsTestCase:23 - User entered the User Name:
+2025-09-24 21:31:55 INFO  TC004_TransferFundsTestCase:26 - User entered the password:
