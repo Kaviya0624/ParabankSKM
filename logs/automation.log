@@ -1,0 +1,38 @@
+2025-09-24 15:50:01 INFO  TC003_OpenNewAccountTestCase:18 - URL is opened
+2025-09-24 15:50:01 INFO  TC003_OpenNewAccountTestCase:23 - User entered the User Name:
+2025-09-24 15:50:01 INFO  TC003_OpenNewAccountTestCase:26 - User entered the password:
+2025-09-24 15:50:04 INFO  TC003_OpenNewAccountTestCase:30 - User clicked on Login Button
+2025-09-24 16:11:10 INFO  TC002_LoginTestCase:14 - URL is opened
+2025-09-24 16:11:10 INFO  TC002_LoginTestCase:19 - User entered the User Name:
+2025-09-24 16:11:11 INFO  TC002_LoginTestCase:21 - User entered the password:
+2025-09-24 16:11:13 INFO  TC002_LoginTestCase:24 - User clicked on Login Button
+2025-09-24 16:11:15 INFO  TC002_LoginTestCase:36 - User not able to logout!
+2025-09-24 18:08:52 INFO  TC002_LoginTestCase:14 - URL is opened
+2025-09-24 18:08:52 INFO  TC002_LoginTestCase:19 - User entered the User Name:
+2025-09-24 18:08:52 INFO  TC002_LoginTestCase:21 - User entered the password:
+2025-09-24 18:08:54 INFO  TC002_LoginTestCase:24 - User clicked on Login Button
+2025-09-24 18:08:57 INFO  TC002_LoginTestCase:36 - User not able to logout!
+2025-09-24 18:10:40 INFO  TC002_LoginTestCase:14 - URL is opened
+2025-09-24 18:10:40 INFO  TC002_LoginTestCase:19 - User entered the User Name:
+2025-09-24 18:10:40 INFO  TC002_LoginTestCase:21 - User entered the password:
+2025-09-24 18:10:43 INFO  TC002_LoginTestCase:24 - User clicked on Login Button
+2025-09-24 18:10:46 INFO  TC002_LoginTestCase:36 - User not able to logout!
+2025-09-24 19:17:29 INFO  TC001_RegisterTestCase:15 - URL is opened
+2025-09-24 19:17:30 INFO  TC001_RegisterTestCase:19 - User clicked on register Link
+2025-09-24 19:17:30 INFO  TC001_RegisterTestCase:22 - User Entered the First Name.
+2025-09-24 19:17:30 INFO  TC001_RegisterTestCase:25 - User Entered the Last Name.
+2025-09-24 19:17:30 INFO  TC001_RegisterTestCase:28 - User Entered the Address.
+2025-09-24 19:17:30 INFO  TC001_RegisterTestCase:31 - User Entered the City.
+2025-09-24 19:17:30 INFO  TC001_RegisterTestCase:34 - User Entered the State.
+2025-09-24 19:17:30 INFO  TC001_RegisterTestCase:37 - User Entered the ZipCode.
+2025-09-24 19:17:30 INFO  TC001_RegisterTestCase:40 - User Entered the PhoneNumber.
+2025-09-24 19:17:30 INFO  TC001_RegisterTestCase:43 - User Entered the Ssn.
+2025-09-24 19:17:31 INFO  TC001_RegisterTestCase:46 - User Entered the Username.
+2025-09-24 19:17:31 INFO  TC001_RegisterTestCase:51 - User Entered the Password.
+2025-09-24 19:17:31 INFO  TC001_RegisterTestCase:54 - User Entered the RepeatedPassword.
+2025-09-24 19:17:31 INFO  TC001_RegisterTestCase:63 - Account created successfully! Message displayed: Your account was created successfully. You are now logged in.
+2025-09-24 19:17:33 INFO  TC002_LoginTestCase:14 - URL is opened
+2025-09-24 19:17:33 INFO  TC002_LoginTestCase:19 - User entered the User Name:
+2025-09-24 19:17:33 INFO  TC002_LoginTestCase:21 - User entered the password:
+2025-09-24 19:17:36 INFO  TC002_LoginTestCase:24 - User clicked on Login Button
+2025-09-24 19:17:38 INFO  TC002_LoginTestCase:36 - User not able to logout!
