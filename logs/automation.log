@@ -68,3 +68,46 @@
 2025-09-24 21:31:55 INFO  TC004_TransferFundsTestCase:18 - URL is opened
 2025-09-24 21:31:55 INFO  TC004_TransferFundsTestCase:23 - User entered the User Name:
 2025-09-24 21:31:55 INFO  TC004_TransferFundsTestCase:26 - User entered the password:
+2025-09-24 22:21:33 INFO  TC005_BillPayTestCase:16 - URL is opened
+2025-09-24 22:21:33 INFO  TC005_BillPayTestCase:22 - User entered the User Name:
+2025-09-24 22:21:33 INFO  TC005_BillPayTestCase:25 - User entered the password:
+2025-09-24 22:21:37 INFO  TC005_BillPayTestCase:29 - User clicked on Login Button
+2025-09-24 22:21:39 INFO  TC005_BillPayTestCase:33 - user clicked on Bill Payament Menu! 
+2025-09-24 22:21:40 INFO  TC005_BillPayTestCase:37 - User entered the name.
+2025-09-24 22:21:40 INFO  TC005_BillPayTestCase:39 - User entered the Address.
+2025-09-24 22:21:40 INFO  TC005_BillPayTestCase:41 - User entered the City.
+2025-09-24 22:21:40 INFO  TC005_BillPayTestCase:43 - User entered the State.
+2025-09-24 22:21:40 INFO  TC005_BillPayTestCase:45 - User entered the zipCode.
+2025-09-24 22:21:42 INFO  TC005_BillPayTestCase:48 - User entered the Phone Number.
+2025-09-24 22:21:42 INFO  TC005_BillPayTestCase:50 - User entered the AccountNumber.
+2025-09-24 22:21:42 INFO  TC005_BillPayTestCase:52 - User Verified the Account.
+2025-09-24 22:25:32 INFO  TC005_BillPayTestCase:16 - URL is opened
+2025-09-24 22:25:33 INFO  TC005_BillPayTestCase:22 - User entered the User Name:
+2025-09-24 22:25:33 INFO  TC005_BillPayTestCase:25 - User entered the password:
+2025-09-24 22:25:35 INFO  TC005_BillPayTestCase:29 - User clicked on Login Button
+2025-09-24 22:25:37 INFO  TC005_BillPayTestCase:33 - user clicked on Bill Payament Menu! 
+2025-09-24 22:25:38 INFO  TC005_BillPayTestCase:37 - User entered the name.
+2025-09-24 22:25:38 INFO  TC005_BillPayTestCase:39 - User entered the Address.
+2025-09-24 22:25:38 INFO  TC005_BillPayTestCase:41 - User entered the City.
+2025-09-24 22:25:38 INFO  TC005_BillPayTestCase:43 - User entered the State.
+2025-09-24 22:25:39 INFO  TC005_BillPayTestCase:45 - User entered the zipCode.
+2025-09-24 22:25:40 INFO  TC005_BillPayTestCase:48 - User entered the Phone Number.
+2025-09-24 22:25:40 INFO  TC005_BillPayTestCase:50 - User entered the AccountNumber.
+2025-09-24 22:25:40 INFO  TC005_BillPayTestCase:52 - User Verified the Account.
+2025-09-24 22:27:32 INFO  TC005_BillPayTestCase:16 - URL is opened
+2025-09-24 22:27:32 INFO  TC005_BillPayTestCase:22 - User entered the User Name:
+2025-09-24 22:27:32 INFO  TC005_BillPayTestCase:25 - User entered the password:
+2025-09-24 22:27:34 INFO  TC005_BillPayTestCase:29 - User clicked on Login Button
+2025-09-24 22:27:37 INFO  TC005_BillPayTestCase:33 - user clicked on Bill Payament Menu! 
+2025-09-24 22:27:38 INFO  TC005_BillPayTestCase:37 - User entered the name.
+2025-09-24 22:27:38 INFO  TC005_BillPayTestCase:39 - User entered the Address.
+2025-09-24 22:27:38 INFO  TC005_BillPayTestCase:41 - User entered the City.
+2025-09-24 22:27:38 INFO  TC005_BillPayTestCase:43 - User entered the State.
+2025-09-24 22:27:38 INFO  TC005_BillPayTestCase:45 - User entered the zipCode.
+2025-09-24 22:27:39 INFO  TC005_BillPayTestCase:48 - User entered the Phone Number.
+2025-09-24 22:27:39 INFO  TC005_BillPayTestCase:50 - User entered the AccountNumber.
+2025-09-24 22:27:39 INFO  TC005_BillPayTestCase:52 - User Verified the Account.
+2025-09-24 22:27:40 INFO  TC005_BillPayTestCase:58 - User choose to account from #
+2025-09-24 22:27:41 INFO  TC005_BillPayTestCase:61 - User Send Payment!
+2025-09-24 22:48:37 INFO  TC006_ApplyLoanTest:36 - Loan approval message verified
+2025-09-24 22:48:37 INFO  TC006_ApplyLoanTest:41 - Loan status is Approved. Test Passed!

@@ -35,10 +35,11 @@ public class TC004_TransferFundsTestCase extends BaseClass {
 		Thread.sleep(2000);
 		tf.clickOnTransferSubmitBtn();
 		Thread.sleep(2000);
+		
 		 String actualMessage = tf.isTransferComplete();
-	        String expectedMessage = "Transfer Complete!";
-	        Thread.sleep(2000);
-	        Assert.assertTrue(actualMessage.contains(expectedMessage),
+	     String expectedMessage = "Transfer Complete!";
+	     Thread.sleep(2000);
+	     Assert.assertTrue(actualMessage.contains(expectedMessage),
 	                "Transfer failed or confirmation message not found. Actual message: " + actualMessage);
 		
 	}
