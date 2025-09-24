@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +103,7 @@
                     <div class="method-list-content passed suite-ParaBankingSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParaBankingSuite" title="testCases.TC001_RegisterTestCase" class="method navigator-link" hash-for-method="RegisterTest">RegisterTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParaBankingSuite" title="testCases.TC002_LoginTestCase" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-ParaBankingSuite" title="testCases.TC003_OpenNewAccountTestCase" class="method navigator-link" hash-for-method="OpenNewAccountTest">OpenNewAccountTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-ParaBankingSuite -->
@@ -126,29 +121,14 @@
           <div class="suite-ParaBankingSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.TC001_RegisterTestCase</span>
+              <span class="class-name">testCases.TC003_OpenNewAccountTestCase</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="RegisterTest">
-                  </a> <!-- RegisterTest -->
-                  <span class="method-name">RegisterTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-ParaBankingSuite-class-passed -->
-          <div class="suite-ParaBankingSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC002_LoginTestCase</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginTest">
-                  </a> <!-- loginTest -->
-                  <span class="method-name">loginTest</span>
+                  <a name="OpenNewAccountTest">
+                  </a> <!-- OpenNewAccountTest -->
+                  <span class="method-name">OpenNewAccountTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -170,8 +150,7 @@
     &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.TC001_RegisterTestCase&quot;/&gt;
-      &lt;class name=&quot;testCases.TC002_LoginTestCase&quot;/&gt;
+      &lt;class name=&quot;testCases.TC003_OpenNewAccountTestCase&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ParaBanking Test --&gt;
 &lt;/suite&gt; &lt;!-- ParaBankingSuite --&gt;
@@ -185,7 +164,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">ParaBanking Test (2 classes)</span>
+                <span class="test-name">ParaBanking Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -211,15 +190,11 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginTest')
-data.setCell(0, 2, 'testCases.TC002_LoginTestCase')
-data.setCell(0, 3, 4550);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'RegisterTest')
-data.setCell(1, 2, 'testCases.TC001_RegisterTestCase')
-data.setCell(1, 3, 1822);
+data.setCell(0, 1, 'OpenNewAccountTest')
+data.setCell(0, 2, 'testCases.TC003_OpenNewAccountTestCase')
+data.setCell(0, 3, 6247);
 window.suiteTableData['ParaBankingSuite']= { tableData: data, tableDiv: 'times-div-ParaBankingSuite'}
 return data;
 }
@@ -250,33 +225,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC001_RegisterTestCase</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.TC003_OpenNewAccountTestCase</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows, chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">RegisterTest</span>
-                <span class="method-start">8972 ms</span>
+                <span class="method-name">OpenNewAccountTest</span>
+                <span class="method-start">6448 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">10813 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC002_LoginTestCase</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup(Windows, chrome)</span>
-                <span class="method-start">11092 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">loginTest</span>
-                <span class="method-start">12972 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">17527 ms</span>
+                <span class="method-start">12725 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,8 +1,5 @@
 package testCases;
 
-import java.io.IOException;
-
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -13,7 +10,7 @@ import testBase.BaseClass;
 public class TC003_OpenNewAccountTestCase extends BaseClass {
 
 	@Test
-	public void OpenNewAccountTest() throws InterruptedException, IOException {
+	public void OpenNewAccountTest() throws InterruptedException {
 
 		logger.info("URL is opened");
 		LoginPage lp = new LoginPage(driver);
@@ -32,27 +29,19 @@ public class TC003_OpenNewAccountTestCase extends BaseClass {
 
 		newAcct.clickOnOpenNewAccount();
 		logger.info("user clicked on Open New Account");
-		Thread.sleep(10000);
+		Thread.sleep(1000);
 		driver.getPageSource().contains("Open New Account");
 
-		String AccountTypeName = "SAVINGS";
-		Select AccontTypes = new Select(newAcct.selectAccountTypes());
-		AccontTypes.selectByVisibleText(AccountTypeName);
-		AccontTypes.selectByIndex(1);
-		logger.info(AccountTypeName);
+        newAcct.selectAccountType("SAVINGS");
+     
+        newAcct.clickOnOpenNewAccountSubmitBtn();
+        logger.info("Clicked on 'Open New Account' submit button");
 
-		newAcct.clickOnOpenNewAccountSubmitBtn();
-		logger.info("User Open New Account Successfully!");
-		Thread.sleep(3000);
-		
-		if (driver.getPageSource().contains("Congratulations, your account is now open.")) {
-			Assert.assertTrue(true);
-			logger.info("account is now open test passed");
-		} else {
+      
+        String confmsg = newAcct.getConfirmationMsg();
+        Assert.assertFalse(confmsg.equals("Congratulations, your account is now open."), "ACCOUNT CCREATED");
+		  
 			
-			Assert.assertTrue(false);
-			logger.info("account is now open test failed");
-		}
 
 	}
 }

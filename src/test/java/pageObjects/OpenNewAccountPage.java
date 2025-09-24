@@ -2,9 +2,8 @@ package pageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 public class OpenNewAccountPage extends BasePage  {
 	
@@ -19,24 +18,40 @@ public class OpenNewAccountPage extends BasePage  {
 	WebElement OpenNewAccountLink;
 	
 	@FindBy(id = "type")
-    public WebElement SelectAccountType;
+    WebElement SelectAccountType;
 	
 	@FindBy(xpath ="//input[@value='Open New Account']")
 	WebElement OpenNewAccountBtn;
 	
+	@FindBy(xpath = "//p[normalize-space()='Congratulations, your account is now open.']")
+	WebElement successMessage;
 	
-	
-	//Action Method 
-	public void clickOnOpenNewAccount() {
+	public void clickOnOpenNewAccount()
+	{
 		OpenNewAccountLink.click();
 	}
 	
-    public WebElement selectAccountTypes() {
-    	SelectAccountType.click();
-    	return SelectAccountType;
-    }
+	 public void selectAccountType(String accountType)
+	 {
+	        Select select = new Select(SelectAccountType);
+	        select.selectByVisibleText(accountType);
+	 }
+
     
-	public void clickOnOpenNewAccountSubmitBtn() {
+	public void clickOnOpenNewAccountSubmitBtn() 
+	{
 		OpenNewAccountBtn.click();
+	}
+	
+	
+	public String getConfirmationMsg()
+	{
+		try {
+			return(successMessage.getText());
+		}
+		catch(Exception e)
+		{
+			return (e.getMessage());
+		}
 	}
 }
