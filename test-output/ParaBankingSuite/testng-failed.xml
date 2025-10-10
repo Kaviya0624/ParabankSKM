@@ -8,13 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC009_FooterTest">
+      <class name="testCases.TC010_AccountOverview">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="VerifyFooterSection"/>
+          <include name="VerifyAccountOverview"/>
         </methods>
-      </class> <!-- testCases.TC009_FooterTest -->
+      </class> <!-- testCases.TC010_AccountOverview -->
     </classes>
   </test> <!-- ParaBanking Test(failed) -->
 </suite> <!-- Failed suite [ParaBankingSuite] -->
