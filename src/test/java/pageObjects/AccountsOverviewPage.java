@@ -35,6 +35,9 @@ public class AccountsOverviewPage extends BasePage {
 	@FindBy(xpath = "//h1[normalize-space()='Transaction Details']")
 	WebElement headingTransactionDetails;
 	
+	@FindBy(xpath = "//b[normalize-space()='No transactions found.']")
+	WebElement noTransactionsMessage;
+	
 	 public void clickFirstAccount() 
 	 {
 	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
@@ -125,6 +128,14 @@ public class AccountsOverviewPage extends BasePage {
 	            By.xpath("//table[@id='transactionTable']/tbody/tr[" + rowIndex + "]/td[2]/a")
 	        ));
 	        txn.click();
+	    }
+	    
+	    public boolean hasTransactions() {
+	        try {
+	            return !noTransactionsMessage.isDisplayed();
+	        } catch (Exception e) {
+	            return true; // If element not found, assume transactions exist
+	        }
 	    }
 
 

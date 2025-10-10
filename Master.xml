@@ -19,7 +19,9 @@
        <class name="testCases.TC006_ApplyLoanTest"/>
        <class name="testCases.TC007_LoginDDT"/>  
        <class name="testCases.TC008_HomePageTest"/> 
-       <class name="testCases.TC009_FooterTest"/> -->
+       <class name="testCases.TC009_FooterTest"/> 
+       <class name="testCases.TC010_AccountOverview"/> -->
+
        
       <class name="testCases.TC010_AccountOverview"/>
          
