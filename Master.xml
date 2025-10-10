@@ -20,7 +20,7 @@
        <class name="testCases.TC007_LoginDDT"/>  
        <class name="testCases.TC008_HomePageTest"/> -->
        
-      
+      <class name="testCases.TC009_FooterTest"/>
          
     
     </classes>

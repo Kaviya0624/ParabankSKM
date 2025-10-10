@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-10T18:12:24 IST" name="ParaBankingSuite" finished-at="2025-10-10T18:12:47 IST" duration-ms="22671">
+  <suite started-at="2025-10-10T20:49:46 IST" name="ParaBankingSuite" finished-at="2025-10-10T20:50:05 IST" duration-ms="18935">
     <groups>
     </groups>
-    <test started-at="2025-10-10T18:12:24 IST" name="ParaBanking Test" finished-at="2025-10-10T18:12:47 IST" duration-ms="22671">
-      <class name="testCases.TC008_HomePageTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_HomePageTest@72cc7e6f]" started-at="2025-10-10T18:12:25 IST" name="setup" finished-at="2025-10-10T18:12:31 IST" duration-ms="5672" status="PASS">
+    <test started-at="2025-10-10T20:49:46 IST" name="ParaBanking Test" finished-at="2025-10-10T20:50:05 IST" duration-ms="18935">
+      <class name="testCases.TC009_FooterTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC009_FooterTest@72cc7e6f]" started-at="2025-10-10T20:49:47 IST" name="setup" finished-at="2025-10-10T20:49:50 IST" duration-ms="3552" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyHomePage()[pri:0, instance:testCases.TC008_HomePageTest@72cc7e6f]" started-at="2025-10-10T18:12:31 IST" name="VerifyHomePage" finished-at="2025-10-10T18:12:47 IST" duration-ms="16009" status="PASS">
+        <test-method signature="VerifyFooterSection()[pri:0, instance:testCases.TC009_FooterTest@72cc7e6f]" started-at="2025-10-10T20:49:50 IST" name="VerifyFooterSection" finished-at="2025-10-10T20:50:05 IST" duration-ms="14528" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyHomePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC008_HomePageTest@72cc7e6f]" started-at="2025-10-10T18:12:47 IST" name="tearDown" finished-at="2025-10-10T18:12:47 IST" duration-ms="478" status="PASS">
+        </test-method> <!-- VerifyFooterSection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC009_FooterTest@72cc7e6f]" started-at="2025-10-10T20:50:05 IST" name="tearDown" finished-at="2025-10-10T20:50:05 IST" duration-ms="427" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC008_HomePageTest -->
+      </class> <!-- testCases.TC009_FooterTest -->
     </test> <!-- ParaBanking Test -->
   </suite> <!-- ParaBankingSuite -->
 </testng-results>

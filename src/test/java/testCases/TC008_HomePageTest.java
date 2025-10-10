@@ -49,7 +49,9 @@ public class TC008_HomePageTest extends BaseClass {
 	        hp.clickProducts();
 	        logger.info("Clicked Products link");
 	        autoHandleCookies();
+	        Thread.sleep(1000);
 	        scrollToBottom();
+	        Thread.sleep(1000);
 	        scrollToTop(); 
 	        Thread.sleep(1000);
 	        hp.clickProductsSec();

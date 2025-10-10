@@ -11,46 +11,71 @@ public class FooterSection extends BasePage {
 		super(driver);
 	}
 
-	  @FindBy(xpath = "//a[normalize-space()='Home']")
-	    WebElement footerHome;
-
-	    @FindBy(xpath = "//a[normalize-space()='Forum']")
-	    WebElement footerForum;
-
-	    @FindBy(xpath = "//a[normalize-space()='Site Map']")
-	    WebElement footerSiteMap;
-
-	    @FindBy(xpath = "//a[normalize-space()='Contact Us']")
-	    WebElement footerContactUs;
-
-	    @FindBy(xpath = "//p[@class='copyright']")
-	    WebElement footerCopyright;
-
-	    @FindBy(xpath = "//a[normalize-space()='www.parasoft.com']")
-	    WebElement footerParasoftLink;
-
-	    // Action Methods
-	    public void clickFooterHome() {
-	        footerHome.click();
-	    }
-
-	    public void clickFooterForum() {
-	        footerForum.click();
-	    }
-
-	    public void clickFooterSiteMap() {
-	        footerSiteMap.click();
-	    }
-
-	    public void clickFooterContactUs() {
-	        footerContactUs.click();
-	    }
-
-	    public String getCopyrightText() {
-	        return footerCopyright.getText();
-	    }
-
-	    public void clickParasoftLink() {
-	        footerParasoftLink.click();
-	    }
+	@FindBy(xpath="//a[normalize-space()='Forum']")
+	WebElement lnkForum;
+	
+	@FindBy(xpath="//a[normalize-space()='Site Map']")
+	WebElement lnkSiteMap;
+	
+	@FindBy(xpath="//div[normalize-space()='Posts']")
+	WebElement divPosts;
+	
+	@FindBy(xpath="//div[normalize-space()='Categories']")
+	WebElement divCategories;
+	
+	@FindBy(xpath="//p[@class='copyright']")
+	WebElement txtCopyright;
+	
+	@FindBy(xpath="//div[@id='footermainPanel']//ul[1]//li[2]//a[1]")
+	WebElement lnkFooterLink2;
+	
+	@FindBy(xpath="//div[@id='footermainPanel']//li[3]//a[1]")
+	WebElement lnkFooterLink3;
+	
+	@FindBy(xpath="//div[@id='footermainPanel']//li[4]//a[1]")
+	WebElement lnkFooterLink4;
+	
+	@FindBy(xpath="//div[@id='footermainPanel']//li[5]//a[1]")
+	WebElement lnkFooterLink5;
+	
+	
+	public void clickForum()
+	{
+		lnkForum.click();
+	}
+	public void clickSiteMap()
+	{
+		lnkSiteMap.click();
+	}
+	
+	public void clickPosts()
+	{
+		divPosts.click();
+	}
+	public void clickCategories()
+	{
+		divCategories.click();
+	}
+	
+	public String getCopyrightText()
+	{
+		return txtCopyright.getText();
+	}
+	
+	public void clickFTAboutUs()
+	{
+		lnkFooterLink2.click();
+	}
+	public void clickFTServices()
+	{
+		lnkFooterLink3.click();
+	}
+	public void clickFTProducts()
+	{
+		lnkFooterLink4.click();
+	}
+	public void clickFTLocations()
+	{
+		lnkFooterLink5.click();
+	}
 }

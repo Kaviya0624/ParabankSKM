@@ -181,3 +181,39 @@
 2025-10-10 18:12:46 INFO  TC008_HomePageTest:84 - Clicked About link
 2025-10-10 18:12:46 INFO  TC008_HomePageTest:87 - Clicked Contact link
 2025-10-10 18:12:47 INFO  TC008_HomePageTest:96 - All homepage verifications completed successfully!
+2025-10-10 18:19:32 INFO  TC008_HomePageTest:21 - User entered the User Name:
+2025-10-10 18:19:32 INFO  TC008_HomePageTest:23 - User entered the password:
+2025-10-10 18:19:35 INFO  TC008_HomePageTest:28 - Clicked About Us link
+2025-10-10 18:19:35 INFO  TC008_HomePageTest:39 - Clicked Services link
+2025-10-10 18:19:38 INFO  TC008_HomePageTest:50 - Clicked Products link
+2025-10-10 18:19:46 INFO  TC008_HomePageTest:69 - Clicked Locations link
+2025-10-10 18:19:46 INFO  TC008_HomePageTest:73 - Clicked Admin Page link
+2025-10-10 18:19:47 INFO  TC008_HomePageTest:80 - Clicked Home link
+2025-10-10 18:19:47 INFO  TC008_HomePageTest:83 - Clicked About link
+2025-10-10 18:19:47 INFO  TC008_HomePageTest:86 - Clicked Contact link
+2025-10-10 18:19:48 INFO  TC008_HomePageTest:95 - All homepage verifications completed successfully!
+2025-10-10 18:20:21 INFO  TC008_HomePageTest:21 - User entered the User Name:
+2025-10-10 18:20:21 INFO  TC008_HomePageTest:23 - User entered the password:
+2025-10-10 18:20:24 INFO  TC008_HomePageTest:28 - Clicked About Us link
+2025-10-10 18:20:24 INFO  TC008_HomePageTest:39 - Clicked Services link
+2025-10-10 18:20:29 INFO  TC008_HomePageTest:50 - Clicked Products link
+2025-10-10 18:20:39 INFO  TC008_HomePageTest:71 - Clicked Locations link
+2025-10-10 18:20:39 INFO  TC008_HomePageTest:75 - Clicked Admin Page link
+2025-10-10 18:20:39 INFO  TC008_HomePageTest:82 - Clicked Home link
+2025-10-10 18:20:40 INFO  TC008_HomePageTest:85 - Clicked About link
+2025-10-10 18:20:40 INFO  TC008_HomePageTest:88 - Clicked Contact link
+2025-10-10 18:20:40 INFO  TC008_HomePageTest:97 - All homepage verifications completed successfully!
+2025-10-10 20:34:32 INFO  TC009_FooterTest:22 - User entered the User Name:
+2025-10-10 20:34:32 INFO  TC009_FooterTest:24 - User entered the password:
+2025-10-10 20:36:18 INFO  TC009_FooterTest:22 - User entered the User Name:
+2025-10-10 20:36:18 INFO  TC009_FooterTest:24 - User entered the password:
+2025-10-10 20:44:58 INFO  TC009_FooterTest:22 - User entered the User Name:
+2025-10-10 20:44:58 INFO  TC009_FooterTest:24 - User entered the password:
+2025-10-10 20:46:09 INFO  TC009_FooterTest:58 - Clicked Contact link
+2025-10-10 20:47:21 INFO  TC009_FooterTest:22 - User entered the User Name:
+2025-10-10 20:47:21 INFO  TC009_FooterTest:24 - User entered the password:
+2025-10-10 20:48:29 INFO  TC009_FooterTest:22 - User entered the User Name:
+2025-10-10 20:48:29 INFO  TC009_FooterTest:24 - User entered the password:
+2025-10-10 20:49:51 INFO  TC009_FooterTest:22 - User entered the User Name:
+2025-10-10 20:49:51 INFO  TC009_FooterTest:24 - User entered the password:
+2025-10-10 20:50:04 INFO  TC009_FooterTest:57 - Clicked Contact link
