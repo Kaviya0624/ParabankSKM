@@ -8,17 +8,20 @@ import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;  //Log4j
 import org.apache.logging.log4j.Logger;  //Log4j
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -167,5 +170,45 @@ public Properties p;
 	  {
 	        JavascriptExecutor js = (JavascriptExecutor) driver;
 	        js.executeScript("window.scrollTo(0, 0);");
-	   }
+	  }
+	  
+	  public void autoHandleCookies() {
+		    try {
+		        // 1️⃣ Check for cookie banner in main page
+		        List<WebElement> buttons = driver.findElements(
+		            By.xpath("//button[contains(text(),'Accept') or contains(text(),'I Agree') or contains(text(),'Accept All')]")
+		        );
+		        if (!buttons.isEmpty()) {
+		            buttons.get(0).click();
+		            System.out.println("Cookies accepted on main page.");
+		            return;
+		        }
+
+		        // 2️⃣ Check for cookie banner inside common iframes
+//		        String[] possibleFrames = {"cookieFrame", "gdpr-consent-notice", "iframeCookie"};
+//		        for (String frameName : possibleFrames) {
+//		            try {
+//		                driver.switchTo().frame(frameName);
+//		                buttons = driver.findElements(
+//		                    By.xpath("//button[contains(text(),'Accept All') or contains(text(),'I Agree') or contains(text(),'Accept All')]")
+//		                );
+//		                if (!buttons.isEmpty()) {
+//		                    buttons.get(0).click();
+//		                    System.out.println("Cookies accepted inside iframe: " + frameName);
+//		                }
+//		                driver.switchTo().defaultContent();
+//		                break;  // stop after finding one banner
+//		            } catch (NoSuchFrameException e) {
+//		                // frame not found, continue
+//		            }
+//		        }
+
+		    } 
+		    catch (Exception e) 
+		    {
+		        System.out.println("No cookies banner found or already handled.");
+		    }
+		}
+
+
 }

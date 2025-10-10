@@ -8,13 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC007_LoginDDT">
+      <class name="testCases.TC008_HomePageTest">
         <methods>
+          <include name="VerifyHomePage"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="verify_Loginddt" invocation-numbers="1 2 4"/>
         </methods>
-      </class> <!-- testCases.TC007_LoginDDT -->
+      </class> <!-- testCases.TC008_HomePageTest -->
     </classes>
   </test> <!-- ParaBanking Test(failed) -->
 </suite> <!-- Failed suite [ParaBankingSuite] -->

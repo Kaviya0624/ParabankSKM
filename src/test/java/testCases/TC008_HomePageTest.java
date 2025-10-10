@@ -1,6 +1,5 @@
 package testCases;
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -46,28 +45,37 @@ public class TC008_HomePageTest extends BaseClass {
 	        	    "RESTful services text does not match!");
 	        System.out.println("RESTful services text verified.");
 	        scrollToTop(); 
-	        Thread.sleep(2000);
-	        
+	  
 	        hp.clickProducts();
 	        logger.info("Clicked Products link");
+	        autoHandleCookies();
 	        scrollToBottom();
-	        Thread.sleep(2000);
 	        scrollToTop(); 
-	        hp.clickClose();
-	        hp.clickProducts();
+	        Thread.sleep(1000);
+	        hp.clickProductsSec();
+	        Thread.sleep(1000);
 	        hp.clickSolutions();
+	        Thread.sleep(1000);
 	        hp.clickIndustries();
+	        Thread.sleep(1000);
 	        hp.clickCustomerSuccess();
+	        Thread.sleep(1000);
 	        hp.clickResources();
+	        Thread.sleep(1000);
+
 	        
 	        driver.navigate().back();
 	        hp.clickLocations();
 	        logger.info("Clicked Locations link");
-
+	        driver.navigate().back();
+	        
 	        hp.clickAdminPage();
 	        logger.info("Clicked Admin Page link");
+	        
+	        String actualHeading2 = hp.getAdministrationHeading();
+	    	Assert.assertEquals(actualHeading2, "Administration");
+	        
 
-	        // 3️⃣ Click and verify quick links
 	        hp.clickHome();
 	        logger.info("Clicked Home link");
 
@@ -77,8 +85,15 @@ public class TC008_HomePageTest extends BaseClass {
 	        hp.clickContact();
 	        logger.info("Clicked Contact link");
 
+	        hp.enterName(randomeString().toUpperCase());
+	        hp.enterEmail(randomeString()+"@gmail.com");
+	        hp.enterPhone(randomeNumber());
+	        hp.enterMessage("good");
+	        hp.clickSendToCustomerCare();
+	        
+	       
 	        logger.info("All homepage verifications completed successfully!");
-	        System.out.println("Homepage heading and all links clicked successfully.");
+	        
 	    }
 		
 	}
