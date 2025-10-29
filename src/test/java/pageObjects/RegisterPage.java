@@ -1,8 +1,13 @@
 package pageObjects;
 
+import java.time.Duration;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class RegisterPage extends BasePage {
 	
@@ -54,6 +59,9 @@ public class RegisterPage extends BasePage {
 	@FindBy(xpath="//p[contains(text(),'Your account was created successfully. You are now')]")
 	WebElement msg;
 	
+	@FindBy(xpath = "//span[@id='customer.firstName.errors']")
+	WebElement errFirstName;
+
 
 	public void clickOnRegister() {
 		registerLink.click();
@@ -109,5 +117,25 @@ public class RegisterPage extends BasePage {
 	
 	public String getSuccessMessage() {
 	    return msg.getText();
+	}
+	
+	public String getFirstNameErrorMessage() {
+	    return errFirstName.getText();
+	}
+	
+	
+	public String getFieldError(String fieldId) {
+	    String xpath = String.format("//span[@id='%s.errors']", fieldId);
+	    try {
+	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
+	        WebElement errorElement = wait.until(
+	            ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath))
+	        );
+	        return errorElement.getText().trim();
+	    } catch (Exception e) {
+	        System.out.println("Error message not found for: " + fieldId);
+	        return "";
+	    }
+	    
 	}
 }

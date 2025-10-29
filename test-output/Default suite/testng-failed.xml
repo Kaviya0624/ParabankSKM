@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC008_HomePageTest">
+      <class name="testCases.TC001_RegisterTest">
         <methods>
-          <include name="VerifyHomePage"/>
           <include name="tearDown"/>
+          <include name="RegisterWithEmptyFormSubmission"/>
+          <include name="RegisterWithWhitespaceOnlyFields_Short"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC008_HomePageTest -->
+      </class> <!-- testCases.TC001_RegisterTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

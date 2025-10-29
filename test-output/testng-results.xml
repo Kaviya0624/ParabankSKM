@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-10T22:53:45 IST" name="ParaBankingSuite" finished-at="2025-10-10T22:53:59 IST" duration-ms="14181">
+  <suite started-at="2025-10-29T22:23:28 IST" name="ParaBankingSuite" finished-at="2025-10-29T22:23:47 IST" duration-ms="18680">
     <groups>
+      <group name="Master">
+        <method signature="TC001_RegisterTest.RegisterTest()[pri:1, instance:testCases.TC001_RegisterTest@5b218417]" name="RegisterTest" class="testCases.TC001_RegisterTest"/>
+      </group> <!-- Master -->
+      <group name="Negative">
+        <method signature="TC001_RegisterTest.RegisterWithMissingFirstName()[pri:2, instance:testCases.TC001_RegisterTest@5b218417]" name="RegisterWithMissingFirstName" class="testCases.TC001_RegisterTest"/>
+        <method signature="TC001_RegisterTest.RegisterWithMissingLastName()[pri:3, instance:testCases.TC001_RegisterTest@5b218417]" name="RegisterWithMissingLastName" class="testCases.TC001_RegisterTest"/>
+        <method signature="TC001_RegisterTest.RegisterWithMissingAddress()[pri:4, instance:testCases.TC001_RegisterTest@5b218417]" name="RegisterWithMissingAddress" class="testCases.TC001_RegisterTest"/>
+        <method signature="TC001_RegisterTest.RegisterWithMissingCity()[pri:5, instance:testCases.TC001_RegisterTest@5b218417]" name="RegisterWithMissingCity" class="testCases.TC001_RegisterTest"/>
+        <method signature="TC001_RegisterTest.RegisterWithMissingState()[pri:6, instance:testCases.TC001_RegisterTest@5b218417]" name="RegisterWithMissingState" class="testCases.TC001_RegisterTest"/>
+        <method signature="TC001_RegisterTest.RegisterWithMissingZipCode()[pri:7, instance:testCases.TC001_RegisterTest@5b218417]" name="RegisterWithMissingZipCode" class="testCases.TC001_RegisterTest"/>
+        <method signature="TC001_RegisterTest.RegisterWithMissingSSN()[pri:8, instance:testCases.TC001_RegisterTest@5b218417]" name="RegisterWithMissingSSN" class="testCases.TC001_RegisterTest"/>
+        <method signature="TC001_RegisterTest.RegisterWithMissingUsername()[pri:9, instance:testCases.TC001_RegisterTest@5b218417]" name="RegisterWithMissingUsername" class="testCases.TC001_RegisterTest"/>
+        <method signature="TC001_RegisterTest.RegisterWithMissingPassword()[pri:10, instance:testCases.TC001_RegisterTest@5b218417]" name="RegisterWithMissingPassword" class="testCases.TC001_RegisterTest"/>
+        <method signature="TC001_RegisterTest.RegisterWithMismatchedPasswords()[pri:11, instance:testCases.TC001_RegisterTest@5b218417]" name="RegisterWithMismatchedPasswords" class="testCases.TC001_RegisterTest"/>
+        <method signature="TC001_RegisterTest.RegisterWithExistingUsername()[pri:12, instance:testCases.TC001_RegisterTest@5b218417]" name="RegisterWithExistingUsername" class="testCases.TC001_RegisterTest"/>
+      </group> <!-- Negative -->
+      <group name="Regression">
+        <method signature="TC001_RegisterTest.RegisterTest()[pri:1, instance:testCases.TC001_RegisterTest@5b218417]" name="RegisterTest" class="testCases.TC001_RegisterTest"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-10-10T22:53:45 IST" name="ParaBanking Test" finished-at="2025-10-10T22:53:59 IST" duration-ms="14181">
-      <class name="testCases.TC010_AccountOverview">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC010_AccountOverview@72cc7e6f]" started-at="2025-10-10T22:53:46 IST" name="setup" finished-at="2025-10-10T22:53:50 IST" duration-ms="4050" status="PASS">
+    <test started-at="2025-10-29T22:23:28 IST" name="ParaBanking Test" finished-at="2025-10-29T22:23:47 IST" duration-ms="18680">
+      <class name="testCases.TC001_RegisterTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_RegisterTest@5b218417]" started-at="2025-10-29T22:23:28 IST" name="setup" finished-at="2025-10-29T22:23:31 IST" duration-ms="2798" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +42,59 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyAccountOverview()[pri:0, instance:testCases.TC010_AccountOverview@72cc7e6f]" started-at="2025-10-10T22:53:50 IST" name="verifyAccountOverview" finished-at="2025-10-10T22:53:59 IST" duration-ms="9322" status="PASS">
+        <test-method signature="RegisterTest()[pri:1, instance:testCases.TC001_RegisterTest@5b218417]" started-at="2025-10-29T22:23:31 IST" name="RegisterTest" finished-at="2025-10-29T22:23:33 IST" duration-ms="1503" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAccountOverview -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC010_AccountOverview@72cc7e6f]" started-at="2025-10-10T22:53:59 IST" name="tearDown" finished-at="2025-10-10T22:53:59 IST" duration-ms="355" status="PASS">
+        </test-method> <!-- RegisterTest -->
+        <test-method signature="RegisterWithMissingFirstName()[pri:2, instance:testCases.TC001_RegisterTest@5b218417]" started-at="2025-10-29T22:23:33 IST" name="RegisterWithMissingFirstName" finished-at="2025-10-29T22:23:34 IST" duration-ms="1270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithMissingFirstName -->
+        <test-method signature="RegisterWithMissingLastName()[pri:3, instance:testCases.TC001_RegisterTest@5b218417]" started-at="2025-10-29T22:23:34 IST" name="RegisterWithMissingLastName" finished-at="2025-10-29T22:23:35 IST" duration-ms="1262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithMissingLastName -->
+        <test-method signature="RegisterWithMissingAddress()[pri:4, instance:testCases.TC001_RegisterTest@5b218417]" started-at="2025-10-29T22:23:35 IST" name="RegisterWithMissingAddress" finished-at="2025-10-29T22:23:37 IST" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithMissingAddress -->
+        <test-method signature="RegisterWithMissingCity()[pri:5, instance:testCases.TC001_RegisterTest@5b218417]" started-at="2025-10-29T22:23:37 IST" name="RegisterWithMissingCity" finished-at="2025-10-29T22:23:38 IST" duration-ms="1103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithMissingCity -->
+        <test-method signature="RegisterWithMissingState()[pri:6, instance:testCases.TC001_RegisterTest@5b218417]" started-at="2025-10-29T22:23:38 IST" name="RegisterWithMissingState" finished-at="2025-10-29T22:23:39 IST" duration-ms="1075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithMissingState -->
+        <test-method signature="RegisterWithMissingZipCode()[pri:7, instance:testCases.TC001_RegisterTest@5b218417]" started-at="2025-10-29T22:23:39 IST" name="RegisterWithMissingZipCode" finished-at="2025-10-29T22:23:40 IST" duration-ms="1129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithMissingZipCode -->
+        <test-method signature="RegisterWithMissingSSN()[pri:8, instance:testCases.TC001_RegisterTest@5b218417]" started-at="2025-10-29T22:23:40 IST" name="RegisterWithMissingSSN" finished-at="2025-10-29T22:23:42 IST" duration-ms="2107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithMissingSSN -->
+        <test-method signature="RegisterWithMissingUsername()[pri:9, instance:testCases.TC001_RegisterTest@5b218417]" started-at="2025-10-29T22:23:42 IST" name="RegisterWithMissingUsername" finished-at="2025-10-29T22:23:43 IST" duration-ms="1136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithMissingUsername -->
+        <test-method signature="RegisterWithMissingPassword()[pri:10, instance:testCases.TC001_RegisterTest@5b218417]" started-at="2025-10-29T22:23:43 IST" name="RegisterWithMissingPassword" finished-at="2025-10-29T22:23:44 IST" duration-ms="1192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithMissingPassword -->
+        <test-method signature="RegisterWithMismatchedPasswords()[pri:11, instance:testCases.TC001_RegisterTest@5b218417]" started-at="2025-10-29T22:23:44 IST" name="RegisterWithMismatchedPasswords" finished-at="2025-10-29T22:23:45 IST" duration-ms="1148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithMismatchedPasswords -->
+        <test-method signature="RegisterWithExistingUsername()[pri:12, instance:testCases.TC001_RegisterTest@5b218417]" started-at="2025-10-29T22:23:45 IST" name="RegisterWithExistingUsername" finished-at="2025-10-29T22:23:47 IST" duration-ms="1102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithExistingUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_RegisterTest@5b218417]" started-at="2025-10-29T22:23:47 IST" name="tearDown" finished-at="2025-10-29T22:23:47 IST" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC010_AccountOverview -->
+      </class> <!-- testCases.TC001_RegisterTest -->
     </test> <!-- ParaBanking Test -->
   </suite> <!-- ParaBankingSuite -->
 </testng-results>

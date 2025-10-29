@@ -1,258 +1,406 @@
-2025-10-10 16:40:56 INFO  TC002_LoginTest:14 - URL is opened
-2025-10-10 16:40:56 INFO  TC002_LoginTest:19 - User entered the User Name:
-2025-10-10 16:40:56 INFO  TC002_LoginTest:21 - User entered the password:
-2025-10-10 16:40:59 INFO  TC002_LoginTest:24 - User clicked on Login Button
-2025-10-10 16:41:01 INFO  TC002_LoginTest:36 - User not able to logout!
-2025-10-10 16:41:44 INFO  TC001_RegisterTest:15 - URL is opened
-2025-10-10 16:41:44 INFO  TC001_RegisterTest:19 - User clicked on register Link
-2025-10-10 16:41:44 INFO  TC001_RegisterTest:22 - User Entered the First Name.
-2025-10-10 16:41:44 INFO  TC001_RegisterTest:25 - User Entered the Last Name.
-2025-10-10 16:41:44 INFO  TC001_RegisterTest:28 - User Entered the Address.
-2025-10-10 16:41:44 INFO  TC001_RegisterTest:31 - User Entered the City.
-2025-10-10 16:41:45 INFO  TC001_RegisterTest:34 - User Entered the State.
-2025-10-10 16:41:45 INFO  TC001_RegisterTest:37 - User Entered the ZipCode.
-2025-10-10 16:41:45 INFO  TC001_RegisterTest:40 - User Entered the PhoneNumber.
-2025-10-10 16:41:45 INFO  TC001_RegisterTest:43 - User Entered the Ssn.
-2025-10-10 16:41:45 INFO  TC001_RegisterTest:46 - User Entered the Username.
-2025-10-10 16:41:45 INFO  TC001_RegisterTest:51 - User Entered the Password.
-2025-10-10 16:41:45 INFO  TC001_RegisterTest:54 - User Entered the RepeatedPassword.
-2025-10-10 16:41:45 INFO  TC001_RegisterTest:63 - Account created successfully! Message displayed: Your account was created successfully. You are now logged in.
-2025-10-10 16:41:47 INFO  TC002_LoginTest:14 - URL is opened
-2025-10-10 16:41:47 INFO  TC002_LoginTest:19 - User entered the User Name:
-2025-10-10 16:41:47 INFO  TC002_LoginTest:21 - User entered the password:
-2025-10-10 16:41:49 INFO  TC002_LoginTest:24 - User clicked on Login Button
-2025-10-10 16:41:52 INFO  TC002_LoginTest:36 - User not able to logout!
-2025-10-10 16:41:53 INFO  TC003_OpenNewAccountTest:15 - URL is opened
-2025-10-10 16:41:53 INFO  TC003_OpenNewAccountTest:20 - User entered the User Name:
-2025-10-10 16:41:53 INFO  TC003_OpenNewAccountTest:23 - User entered the password:
-2025-10-10 16:41:56 INFO  TC003_OpenNewAccountTest:27 - User clicked on Login Button
-2025-10-10 16:41:59 INFO  TC003_OpenNewAccountTest:31 - user clicked on Open New Account
-2025-10-10 16:42:00 INFO  TC003_OpenNewAccountTest:38 - Clicked on 'Open New Account' submit button
-2025-10-10 16:42:02 INFO  TC004_TransferFundsTest:15 - URL is opened
-2025-10-10 16:42:02 INFO  TC004_TransferFundsTest:20 - User entered the User Name:
-2025-10-10 16:42:02 INFO  TC004_TransferFundsTest:23 - User entered the password:
-2025-10-10 16:42:18 INFO  TC005_BillPayTest:16 - URL is opened
-2025-10-10 16:42:18 INFO  TC005_BillPayTest:22 - User entered the User Name:
-2025-10-10 16:42:18 INFO  TC005_BillPayTest:25 - User entered the password:
-2025-10-10 16:42:20 INFO  TC005_BillPayTest:29 - User clicked on Login Button
-2025-10-10 16:42:22 INFO  TC005_BillPayTest:33 - user clicked on Bill Payament Menu! 
-2025-10-10 16:42:23 INFO  TC005_BillPayTest:37 - User entered the name.
-2025-10-10 16:42:23 INFO  TC005_BillPayTest:39 - User entered the Address.
-2025-10-10 16:42:23 INFO  TC005_BillPayTest:41 - User entered the City.
-2025-10-10 16:42:24 INFO  TC005_BillPayTest:43 - User entered the State.
-2025-10-10 16:42:24 INFO  TC005_BillPayTest:45 - User entered the zipCode.
-2025-10-10 16:42:25 INFO  TC005_BillPayTest:48 - User entered the Phone Number.
-2025-10-10 16:42:25 INFO  TC005_BillPayTest:50 - User entered the AccountNumber.
-2025-10-10 16:42:25 INFO  TC005_BillPayTest:52 - User Verified the Account.
-2025-10-10 16:42:26 INFO  TC005_BillPayTest:58 - User choose to account from #
-2025-10-10 16:42:26 INFO  TC005_BillPayTest:61 - User Send Payment!
-2025-10-10 16:42:37 INFO  TC006_ApplyLoanTest:37 - Loan approval message verified
-2025-10-10 16:42:37 INFO  TC006_ApplyLoanTest:42 - Loan status is Approved. Test Passed!
-2025-10-10 16:42:40 INFO  TC007_LoginDDT:26 - ***login started******
-2025-10-10 16:42:43 INFO  TC007_LoginDDT:26 - ***login started******
-2025-10-10 16:42:56 INFO  TC007_LoginDDT:26 - ***login started******
-2025-10-10 16:43:08 INFO  TC007_LoginDDT:26 - ***login started******
-2025-10-10 16:43:10 INFO  TC007_LoginDDT:26 - ***login started******
-2025-10-10 16:50:50 INFO  TC008_HomePageTest:22 - User entered the User Name:
-2025-10-10 16:50:50 INFO  TC008_HomePageTest:24 - User entered the password:
-2025-10-10 16:50:53 INFO  TC008_HomePageTest:29 - Clicked About Us link
-2025-10-10 16:50:53 INFO  TC008_HomePageTest:40 - Clicked Services link
-2025-10-10 16:51:00 INFO  TC008_HomePageTest:52 - Clicked Products link
-2025-10-10 17:12:01 INFO  TC008_HomePageTest:22 - User entered the User Name:
-2025-10-10 17:12:01 INFO  TC008_HomePageTest:24 - User entered the password:
-2025-10-10 17:12:03 INFO  TC008_HomePageTest:29 - Clicked About Us link
-2025-10-10 17:12:04 INFO  TC008_HomePageTest:40 - Clicked Services link
-2025-10-10 17:12:10 INFO  TC008_HomePageTest:52 - Clicked Products link
-2025-10-10 17:13:45 INFO  TC008_HomePageTest:22 - User entered the User Name:
-2025-10-10 17:13:45 INFO  TC008_HomePageTest:24 - User entered the password:
-2025-10-10 17:13:47 INFO  TC008_HomePageTest:29 - Clicked About Us link
-2025-10-10 17:13:47 INFO  TC008_HomePageTest:40 - Clicked Services link
-2025-10-10 17:13:53 INFO  TC008_HomePageTest:52 - Clicked Products link
-2025-10-10 17:14:45 INFO  TC008_HomePageTest:22 - User entered the User Name:
-2025-10-10 17:14:45 INFO  TC008_HomePageTest:24 - User entered the password:
-2025-10-10 17:14:47 INFO  TC008_HomePageTest:29 - Clicked About Us link
-2025-10-10 17:14:47 INFO  TC008_HomePageTest:40 - Clicked Services link
-2025-10-10 17:14:52 INFO  TC008_HomePageTest:52 - Clicked Products link
-2025-10-10 17:27:44 INFO  TC008_HomePageTest:22 - User entered the User Name:
-2025-10-10 17:27:44 INFO  TC008_HomePageTest:24 - User entered the password:
-2025-10-10 17:27:47 INFO  TC008_HomePageTest:29 - Clicked About Us link
-2025-10-10 17:27:47 INFO  TC008_HomePageTest:40 - Clicked Services link
-2025-10-10 17:27:52 INFO  TC008_HomePageTest:52 - Clicked Products link
-2025-10-10 17:31:24 INFO  TC008_HomePageTest:22 - User entered the User Name:
-2025-10-10 17:31:24 INFO  TC008_HomePageTest:24 - User entered the password:
-2025-10-10 17:31:26 INFO  TC008_HomePageTest:29 - Clicked About Us link
-2025-10-10 17:31:26 INFO  TC008_HomePageTest:40 - Clicked Services link
-2025-10-10 17:31:32 INFO  TC008_HomePageTest:52 - Clicked Products link
-2025-10-10 17:34:33 INFO  TC008_HomePageTest:22 - User entered the User Name:
-2025-10-10 17:34:33 INFO  TC008_HomePageTest:24 - User entered the password:
-2025-10-10 17:34:35 INFO  TC008_HomePageTest:29 - Clicked About Us link
-2025-10-10 17:34:36 INFO  TC008_HomePageTest:40 - Clicked Services link
-2025-10-10 17:34:39 INFO  TC008_HomePageTest:51 - Clicked Products link
-2025-10-10 17:41:44 INFO  TC008_HomePageTest:22 - User entered the User Name:
-2025-10-10 17:41:44 INFO  TC008_HomePageTest:24 - User entered the password:
-2025-10-10 17:41:46 INFO  TC008_HomePageTest:29 - Clicked About Us link
-2025-10-10 17:41:47 INFO  TC008_HomePageTest:40 - Clicked Services link
-2025-10-10 17:41:50 INFO  TC008_HomePageTest:51 - Clicked Products link
-2025-10-10 17:42:36 INFO  TC008_HomePageTest:22 - User entered the User Name:
-2025-10-10 17:42:36 INFO  TC008_HomePageTest:24 - User entered the password:
-2025-10-10 17:42:38 INFO  TC008_HomePageTest:29 - Clicked About Us link
-2025-10-10 17:42:39 INFO  TC008_HomePageTest:40 - Clicked Services link
-2025-10-10 17:42:42 INFO  TC008_HomePageTest:51 - Clicked Products link
-2025-10-10 17:43:51 INFO  TC008_HomePageTest:64 - Clicked Locations link
-2025-10-10 17:43:52 INFO  TC008_HomePageTest:68 - Clicked Admin Page link
-2025-10-10 17:43:52 INFO  TC008_HomePageTest:75 - Clicked Home link
-2025-10-10 17:43:52 INFO  TC008_HomePageTest:78 - Clicked About link
-2025-10-10 17:43:52 INFO  TC008_HomePageTest:81 - Clicked Contact link
-2025-10-10 17:43:55 INFO  TC008_HomePageTest:90 - All homepage verifications completed successfully!
-2025-10-10 17:45:47 INFO  TC008_HomePageTest:22 - User entered the User Name:
-2025-10-10 17:45:47 INFO  TC008_HomePageTest:24 - User entered the password:
-2025-10-10 17:45:50 INFO  TC008_HomePageTest:29 - Clicked About Us link
-2025-10-10 17:45:50 INFO  TC008_HomePageTest:40 - Clicked Services link
-2025-10-10 17:45:54 INFO  TC008_HomePageTest:51 - Clicked Products link
-2025-10-10 17:46:58 INFO  TC008_HomePageTest:64 - Clicked Locations link
-2025-10-10 17:46:58 INFO  TC008_HomePageTest:68 - Clicked Admin Page link
-2025-10-10 17:46:59 INFO  TC008_HomePageTest:75 - Clicked Home link
-2025-10-10 17:46:59 INFO  TC008_HomePageTest:78 - Clicked About link
-2025-10-10 17:46:59 INFO  TC008_HomePageTest:81 - Clicked Contact link
-2025-10-10 17:47:00 INFO  TC008_HomePageTest:90 - All homepage verifications completed successfully!
-2025-10-10 17:47:33 INFO  TC008_HomePageTest:22 - User entered the User Name:
-2025-10-10 17:47:33 INFO  TC008_HomePageTest:24 - User entered the password:
-2025-10-10 17:47:35 INFO  TC008_HomePageTest:29 - Clicked About Us link
-2025-10-10 17:47:36 INFO  TC008_HomePageTest:40 - Clicked Services link
-2025-10-10 17:47:39 INFO  TC008_HomePageTest:51 - Clicked Products link
-2025-10-10 17:47:43 INFO  TC008_HomePageTest:64 - Clicked Locations link
-2025-10-10 17:47:43 INFO  TC008_HomePageTest:68 - Clicked Admin Page link
-2025-10-10 17:47:43 INFO  TC008_HomePageTest:75 - Clicked Home link
-2025-10-10 17:47:43 INFO  TC008_HomePageTest:78 - Clicked About link
-2025-10-10 17:47:43 INFO  TC008_HomePageTest:81 - Clicked Contact link
-2025-10-10 17:47:44 INFO  TC008_HomePageTest:90 - All homepage verifications completed successfully!
-2025-10-10 17:48:10 INFO  TC008_HomePageTest:22 - User entered the User Name:
-2025-10-10 17:48:10 INFO  TC008_HomePageTest:24 - User entered the password:
-2025-10-10 17:48:12 INFO  TC008_HomePageTest:29 - Clicked About Us link
-2025-10-10 17:48:13 INFO  TC008_HomePageTest:40 - Clicked Services link
-2025-10-10 17:48:16 INFO  TC008_HomePageTest:51 - Clicked Products link
-2025-10-10 17:48:19 INFO  TC008_HomePageTest:64 - Clicked Locations link
-2025-10-10 17:48:20 INFO  TC008_HomePageTest:68 - Clicked Admin Page link
-2025-10-10 17:48:20 INFO  TC008_HomePageTest:75 - Clicked Home link
-2025-10-10 17:48:20 INFO  TC008_HomePageTest:78 - Clicked About link
-2025-10-10 17:48:20 INFO  TC008_HomePageTest:81 - Clicked Contact link
-2025-10-10 17:48:21 INFO  TC008_HomePageTest:90 - All homepage verifications completed successfully!
-2025-10-10 17:50:06 INFO  TC008_HomePageTest:22 - User entered the User Name:
-2025-10-10 17:50:06 INFO  TC008_HomePageTest:24 - User entered the password:
-2025-10-10 17:50:08 INFO  TC008_HomePageTest:29 - Clicked About Us link
-2025-10-10 17:50:09 INFO  TC008_HomePageTest:40 - Clicked Services link
-2025-10-10 17:50:12 INFO  TC008_HomePageTest:51 - Clicked Products link
-2025-10-10 17:51:26 INFO  TC008_HomePageTest:69 - Clicked Locations link
-2025-10-10 17:51:26 INFO  TC008_HomePageTest:73 - Clicked Admin Page link
-2025-10-10 17:51:26 INFO  TC008_HomePageTest:80 - Clicked Home link
-2025-10-10 17:51:26 INFO  TC008_HomePageTest:83 - Clicked About link
-2025-10-10 17:51:26 INFO  TC008_HomePageTest:86 - Clicked Contact link
-2025-10-10 17:51:27 INFO  TC008_HomePageTest:95 - All homepage verifications completed successfully!
-2025-10-10 17:52:08 INFO  TC008_HomePageTest:22 - User entered the User Name:
-2025-10-10 17:52:09 INFO  TC008_HomePageTest:24 - User entered the password:
-2025-10-10 17:52:11 INFO  TC008_HomePageTest:29 - Clicked About Us link
-2025-10-10 17:52:11 INFO  TC008_HomePageTest:40 - Clicked Services link
-2025-10-10 17:52:15 INFO  TC008_HomePageTest:51 - Clicked Products link
-2025-10-10 17:53:29 INFO  TC008_HomePageTest:69 - Clicked Locations link
-2025-10-10 17:53:29 INFO  TC008_HomePageTest:73 - Clicked Admin Page link
-2025-10-10 17:53:29 INFO  TC008_HomePageTest:80 - Clicked Home link
-2025-10-10 17:53:29 INFO  TC008_HomePageTest:83 - Clicked About link
-2025-10-10 17:53:29 INFO  TC008_HomePageTest:86 - Clicked Contact link
-2025-10-10 17:53:30 INFO  TC008_HomePageTest:95 - All homepage verifications completed successfully!
-2025-10-10 17:56:58 INFO  TC008_HomePageTest:22 - User entered the User Name:
-2025-10-10 17:56:58 INFO  TC008_HomePageTest:24 - User entered the password:
-2025-10-10 17:57:00 INFO  TC008_HomePageTest:29 - Clicked About Us link
-2025-10-10 17:57:01 INFO  TC008_HomePageTest:40 - Clicked Services link
-2025-10-10 17:57:04 INFO  TC008_HomePageTest:51 - Clicked Products link
-2025-10-10 17:57:12 INFO  TC008_HomePageTest:70 - Clicked Locations link
-2025-10-10 17:57:12 INFO  TC008_HomePageTest:74 - Clicked Admin Page link
-2025-10-10 17:57:12 INFO  TC008_HomePageTest:81 - Clicked Home link
-2025-10-10 17:57:12 INFO  TC008_HomePageTest:84 - Clicked About link
-2025-10-10 17:57:13 INFO  TC008_HomePageTest:87 - Clicked Contact link
-2025-10-10 17:57:13 INFO  TC008_HomePageTest:96 - All homepage verifications completed successfully!
-2025-10-10 18:12:31 INFO  TC008_HomePageTest:22 - User entered the User Name:
-2025-10-10 18:12:31 INFO  TC008_HomePageTest:24 - User entered the password:
-2025-10-10 18:12:33 INFO  TC008_HomePageTest:29 - Clicked About Us link
-2025-10-10 18:12:34 INFO  TC008_HomePageTest:40 - Clicked Services link
-2025-10-10 18:12:37 INFO  TC008_HomePageTest:51 - Clicked Products link
-2025-10-10 18:12:45 INFO  TC008_HomePageTest:70 - Clicked Locations link
-2025-10-10 18:12:45 INFO  TC008_HomePageTest:74 - Clicked Admin Page link
-2025-10-10 18:12:46 INFO  TC008_HomePageTest:81 - Clicked Home link
-2025-10-10 18:12:46 INFO  TC008_HomePageTest:84 - Clicked About link
-2025-10-10 18:12:46 INFO  TC008_HomePageTest:87 - Clicked Contact link
-2025-10-10 18:12:47 INFO  TC008_HomePageTest:96 - All homepage verifications completed successfully!
-2025-10-10 18:19:32 INFO  TC008_HomePageTest:21 - User entered the User Name:
-2025-10-10 18:19:32 INFO  TC008_HomePageTest:23 - User entered the password:
-2025-10-10 18:19:35 INFO  TC008_HomePageTest:28 - Clicked About Us link
-2025-10-10 18:19:35 INFO  TC008_HomePageTest:39 - Clicked Services link
-2025-10-10 18:19:38 INFO  TC008_HomePageTest:50 - Clicked Products link
-2025-10-10 18:19:46 INFO  TC008_HomePageTest:69 - Clicked Locations link
-2025-10-10 18:19:46 INFO  TC008_HomePageTest:73 - Clicked Admin Page link
-2025-10-10 18:19:47 INFO  TC008_HomePageTest:80 - Clicked Home link
-2025-10-10 18:19:47 INFO  TC008_HomePageTest:83 - Clicked About link
-2025-10-10 18:19:47 INFO  TC008_HomePageTest:86 - Clicked Contact link
-2025-10-10 18:19:48 INFO  TC008_HomePageTest:95 - All homepage verifications completed successfully!
-2025-10-10 18:20:21 INFO  TC008_HomePageTest:21 - User entered the User Name:
-2025-10-10 18:20:21 INFO  TC008_HomePageTest:23 - User entered the password:
-2025-10-10 18:20:24 INFO  TC008_HomePageTest:28 - Clicked About Us link
-2025-10-10 18:20:24 INFO  TC008_HomePageTest:39 - Clicked Services link
-2025-10-10 18:20:29 INFO  TC008_HomePageTest:50 - Clicked Products link
-2025-10-10 18:20:39 INFO  TC008_HomePageTest:71 - Clicked Locations link
-2025-10-10 18:20:39 INFO  TC008_HomePageTest:75 - Clicked Admin Page link
-2025-10-10 18:20:39 INFO  TC008_HomePageTest:82 - Clicked Home link
-2025-10-10 18:20:40 INFO  TC008_HomePageTest:85 - Clicked About link
-2025-10-10 18:20:40 INFO  TC008_HomePageTest:88 - Clicked Contact link
-2025-10-10 18:20:40 INFO  TC008_HomePageTest:97 - All homepage verifications completed successfully!
-2025-10-10 20:34:32 INFO  TC009_FooterTest:22 - User entered the User Name:
-2025-10-10 20:34:32 INFO  TC009_FooterTest:24 - User entered the password:
-2025-10-10 20:36:18 INFO  TC009_FooterTest:22 - User entered the User Name:
-2025-10-10 20:36:18 INFO  TC009_FooterTest:24 - User entered the password:
-2025-10-10 20:44:58 INFO  TC009_FooterTest:22 - User entered the User Name:
-2025-10-10 20:44:58 INFO  TC009_FooterTest:24 - User entered the password:
-2025-10-10 20:46:09 INFO  TC009_FooterTest:58 - Clicked Contact link
-2025-10-10 20:47:21 INFO  TC009_FooterTest:22 - User entered the User Name:
-2025-10-10 20:47:21 INFO  TC009_FooterTest:24 - User entered the password:
-2025-10-10 20:48:29 INFO  TC009_FooterTest:22 - User entered the User Name:
-2025-10-10 20:48:29 INFO  TC009_FooterTest:24 - User entered the password:
-2025-10-10 20:49:51 INFO  TC009_FooterTest:22 - User entered the User Name:
-2025-10-10 20:49:51 INFO  TC009_FooterTest:24 - User entered the password:
-2025-10-10 20:50:04 INFO  TC009_FooterTest:57 - Clicked Contact link
-2025-10-10 21:08:16 INFO  TC010_AccountOverview:21 - Logged in successfully
-2025-10-10 21:08:16 INFO  TC010_AccountOverview:25 - First account found: 13566
-2025-10-10 21:08:17 INFO  TC010_AccountOverview:28 - Clicked on first account successfully
-2025-10-10 21:23:13 INFO  TC010_AccountOverview:21 - Logged in successfully
-2025-10-10 21:23:13 INFO  TC010_AccountOverview:25 - First account found: 13566
-2025-10-10 21:23:13 INFO  TC010_AccountOverview:28 - Clicked on first account successfully
-2025-10-10 21:26:22 INFO  TC010_AccountOverview:21 - Logged in successfully
-2025-10-10 21:26:22 INFO  TC010_AccountOverview:25 - First account found: 13566
-2025-10-10 21:26:22 INFO  TC010_AccountOverview:28 - Clicked on first account successfully
-2025-10-10 21:27:34 INFO  TC010_AccountOverview:21 - Logged in successfully
-2025-10-10 21:27:34 INFO  TC010_AccountOverview:25 - First account found: 13566
-2025-10-10 21:27:35 INFO  TC010_AccountOverview:28 - Clicked on first account successfully
-2025-10-10 21:29:43 INFO  TC010_AccountOverview:21 - Logged in successfully
-2025-10-10 21:29:43 INFO  TC010_AccountOverview:25 - First account found: 13566
-2025-10-10 21:29:43 INFO  TC010_AccountOverview:28 - Clicked on first account successfully
-2025-10-10 21:55:15 INFO  TC010_AccountOverview:21 - Logged in successfully
-2025-10-10 21:55:15 INFO  TC010_AccountOverview:25 - First account found: 13566
-2025-10-10 21:55:15 INFO  TC010_AccountOverview:28 - Clicked on first account successfully
-2025-10-10 21:57:19 INFO  TC010_AccountOverview:21 - Logged in successfully
-2025-10-10 21:57:19 INFO  TC010_AccountOverview:25 - First account found: 13566
-2025-10-10 21:57:19 INFO  TC010_AccountOverview:28 - Clicked on first account successfully
-2025-10-10 21:59:57 INFO  TC010_AccountOverview:21 - Logged in successfully
-2025-10-10 21:59:57 INFO  TC010_AccountOverview:25 - First account found: 13566
-2025-10-10 21:59:57 INFO  TC010_AccountOverview:28 - Clicked on first account successfully
-2025-10-10 22:11:38 INFO  TC010_AccountOverview:21 - Logged in successfully
-2025-10-10 22:11:38 INFO  TC010_AccountOverview:25 - First account found: 13566
-2025-10-10 22:11:38 INFO  TC010_AccountOverview:28 - Clicked on first account successfully
-2025-10-10 22:12:32 INFO  TC010_AccountOverview:21 - Logged in successfully
-2025-10-10 22:12:32 INFO  TC010_AccountOverview:25 - First account found: 13566
-2025-10-10 22:12:33 INFO  TC010_AccountOverview:28 - Clicked on first account successfully
-2025-10-10 22:46:09 INFO  TC010_AccountOverview:21 - Logged in successfully
-2025-10-10 22:46:09 INFO  TC010_AccountOverview:25 - First account found: 13566
-2025-10-10 22:46:10 INFO  TC010_AccountOverview:28 - Clicked on first account successfully
-2025-10-10 22:46:44 INFO  TC010_AccountOverview:21 - Logged in successfully
-2025-10-10 22:46:44 INFO  TC010_AccountOverview:25 - First account found: 13566
-2025-10-10 22:46:44 INFO  TC010_AccountOverview:28 - Clicked on first account successfully
-2025-10-10 22:53:50 INFO  TC010_AccountOverview:21 - Logged in successfully
-2025-10-10 22:53:51 INFO  TC010_AccountOverview:25 - First account found: 13566
-2025-10-10 22:53:51 INFO  TC010_AccountOverview:27 - Clicked on first account successfully
+2025-10-29 19:34:45 INFO  TC001_RegisterTest:15 - URL is opened
+2025-10-29 19:34:46 INFO  TC001_RegisterTest:19 - User clicked on register Link
+2025-10-29 19:34:46 INFO  TC001_RegisterTest:22 - User Entered the First Name.
+2025-10-29 19:34:46 INFO  TC001_RegisterTest:25 - User Entered the Last Name.
+2025-10-29 19:34:46 INFO  TC001_RegisterTest:28 - User Entered the Address.
+2025-10-29 19:34:46 INFO  TC001_RegisterTest:31 - User Entered the City.
+2025-10-29 19:34:46 INFO  TC001_RegisterTest:34 - User Entered the State.
+2025-10-29 19:34:47 INFO  TC001_RegisterTest:37 - User Entered the ZipCode.
+2025-10-29 19:34:47 INFO  TC001_RegisterTest:40 - User Entered the PhoneNumber.
+2025-10-29 19:34:47 INFO  TC001_RegisterTest:43 - User Entered the Ssn.
+2025-10-29 19:34:47 INFO  TC001_RegisterTest:46 - User Entered the Username.
+2025-10-29 19:34:47 INFO  TC001_RegisterTest:51 - User Entered the Password.
+2025-10-29 19:34:47 INFO  TC001_RegisterTest:54 - User Entered the RepeatedPassword.
+2025-10-29 19:34:48 INFO  TC001_RegisterTest:63 - Account created successfully! Message displayed: Your account was created successfully. You are now logged in.
+2025-10-29 19:34:51 INFO  TC002_LoginTest:14 - URL is opened
+2025-10-29 19:34:51 INFO  TC002_LoginTest:19 - User entered the User Name:
+2025-10-29 19:34:52 INFO  TC002_LoginTest:21 - User entered the password:
+2025-10-29 19:34:54 INFO  TC002_LoginTest:24 - User clicked on Login Button
+2025-10-29 19:34:56 INFO  TC002_LoginTest:36 - User not able to logout!
+2025-10-29 19:34:59 INFO  TC003_OpenNewAccountTest:15 - URL is opened
+2025-10-29 19:34:59 INFO  TC003_OpenNewAccountTest:20 - User entered the User Name:
+2025-10-29 19:34:59 INFO  TC003_OpenNewAccountTest:23 - User entered the password:
+2025-10-29 19:35:02 INFO  TC003_OpenNewAccountTest:27 - User clicked on Login Button
+2025-10-29 19:35:04 INFO  TC003_OpenNewAccountTest:31 - user clicked on Open New Account
+2025-10-29 19:35:05 INFO  TC003_OpenNewAccountTest:38 - Clicked on 'Open New Account' submit button
+2025-10-29 19:35:08 INFO  TC004_TransferFundsTest:15 - URL is opened
+2025-10-29 19:35:08 INFO  TC004_TransferFundsTest:20 - User entered the User Name:
+2025-10-29 19:35:08 INFO  TC004_TransferFundsTest:23 - User entered the password:
+2025-10-29 19:35:24 INFO  TC005_BillPayTest:16 - URL is opened
+2025-10-29 19:35:24 INFO  TC005_BillPayTest:22 - User entered the User Name:
+2025-10-29 19:35:25 INFO  TC005_BillPayTest:25 - User entered the password:
+2025-10-29 19:35:27 INFO  TC005_BillPayTest:29 - User clicked on Login Button
+2025-10-29 19:35:29 INFO  TC005_BillPayTest:33 - user clicked on Bill Payament Menu! 
+2025-10-29 19:35:30 INFO  TC005_BillPayTest:37 - User entered the name.
+2025-10-29 19:35:30 INFO  TC005_BillPayTest:39 - User entered the Address.
+2025-10-29 19:35:31 INFO  TC005_BillPayTest:41 - User entered the City.
+2025-10-29 19:35:31 INFO  TC005_BillPayTest:43 - User entered the State.
+2025-10-29 19:35:31 INFO  TC005_BillPayTest:45 - User entered the zipCode.
+2025-10-29 19:35:32 INFO  TC005_BillPayTest:48 - User entered the Phone Number.
+2025-10-29 19:35:32 INFO  TC005_BillPayTest:50 - User entered the AccountNumber.
+2025-10-29 19:35:32 INFO  TC005_BillPayTest:52 - User Verified the Account.
+2025-10-29 19:35:33 INFO  TC005_BillPayTest:58 - User choose to account from #
+2025-10-29 19:35:33 INFO  TC005_BillPayTest:61 - User Send Payment!
+2025-10-29 19:35:47 INFO  TC006_ApplyLoanTest:37 - Loan approval message verified
+2025-10-29 19:35:47 INFO  TC006_ApplyLoanTest:42 - Loan status is Approved. Test Passed!
+2025-10-29 19:35:53 INFO  TC007_LoginDDT:26 - ***login started******
+2025-10-29 19:35:56 INFO  TC007_LoginDDT:26 - ***login started******
+2025-10-29 19:36:08 INFO  TC007_LoginDDT:26 - ***login started******
+2025-10-29 19:36:21 INFO  TC007_LoginDDT:26 - ***login started******
+2025-10-29 19:36:24 INFO  TC007_LoginDDT:26 - ***login started******
+2025-10-29 19:36:39 INFO  TC008_HomePageTest:21 - User entered the User Name:
+2025-10-29 19:36:39 INFO  TC008_HomePageTest:23 - User entered the password:
+2025-10-29 19:36:42 INFO  TC008_HomePageTest:28 - Clicked About Us link
+2025-10-29 19:36:42 INFO  TC008_HomePageTest:39 - Clicked Services link
+2025-10-29 19:36:47 INFO  TC008_HomePageTest:50 - Clicked Products link
+2025-10-29 19:36:59 INFO  TC008_HomePageTest:71 - Clicked Locations link
+2025-10-29 19:36:59 INFO  TC008_HomePageTest:75 - Clicked Admin Page link
+2025-10-29 19:37:00 INFO  TC008_HomePageTest:82 - Clicked Home link
+2025-10-29 19:37:00 INFO  TC008_HomePageTest:85 - Clicked About link
+2025-10-29 19:37:00 INFO  TC008_HomePageTest:88 - Clicked Contact link
+2025-10-29 19:37:01 INFO  TC008_HomePageTest:97 - All homepage verifications completed successfully!
+2025-10-29 19:37:04 INFO  TC009_FooterTest:22 - User entered the User Name:
+2025-10-29 19:37:04 INFO  TC009_FooterTest:24 - User entered the password:
+2025-10-29 19:37:20 INFO  TC009_FooterTest:57 - Clicked Contact link
+2025-10-29 19:37:23 INFO  TC010_AccountOverview:21 - Logged in successfully
+2025-10-29 19:37:24 INFO  TC010_AccountOverview:25 - First account found: 13566
+2025-10-29 19:37:24 INFO  TC010_AccountOverview:27 - Clicked on first account successfully
+2025-10-29 19:53:49 INFO  TC001_RegisterTest:17 - URL is opened
+2025-10-29 19:53:49 INFO  TC001_RegisterTest:21 - User clicked on register Link
+2025-10-29 19:53:49 INFO  TC001_RegisterTest:24 - User Entered the First Name.
+2025-10-29 19:53:49 INFO  TC001_RegisterTest:27 - User Entered the Last Name.
+2025-10-29 19:53:50 INFO  TC001_RegisterTest:30 - User Entered the Address.
+2025-10-29 19:53:50 INFO  TC001_RegisterTest:33 - User Entered the City.
+2025-10-29 19:53:50 INFO  TC001_RegisterTest:36 - User Entered the State.
+2025-10-29 19:53:50 INFO  TC001_RegisterTest:39 - User Entered the ZipCode.
+2025-10-29 19:53:50 INFO  TC001_RegisterTest:42 - User Entered the PhoneNumber.
+2025-10-29 19:53:50 INFO  TC001_RegisterTest:45 - User Entered the Ssn.
+2025-10-29 19:53:50 INFO  TC001_RegisterTest:48 - User Entered the Username.
+2025-10-29 19:53:50 INFO  TC001_RegisterTest:53 - User Entered the Password.
+2025-10-29 19:53:50 INFO  TC001_RegisterTest:56 - User Entered the RepeatedPassword.
+2025-10-29 19:53:51 INFO  TC001_RegisterTest:65 - Account created successfully! Message displayed: Your account was created successfully. You are now logged in.
+2025-10-29 19:53:51 INFO  TC001_RegisterTest:77 - ****test executed*****
+2025-10-29 19:53:51 INFO  TC001_RegisterTest:84 - URL is opened
+2025-10-29 19:53:51 INFO  TC001_RegisterTest:88 - User clicked on Register link
+2025-10-29 19:53:51 INFO  TC001_RegisterTest:92 - Left First Name blank
+2025-10-29 19:53:52 INFO  TC001_RegisterTest:108 - Clicked on Register button
+2025-10-29 19:53:52 INFO  TC001_RegisterTest:115 - Validation message displayed correctly: First name is required.
+2025-10-29 19:53:52 INFO  TC001_RegisterTest:121 - **** Negative Test Executed: Missing First Name ****
+2025-10-29 20:12:10 INFO  TC001_RegisterTest:84 - URL is opened
+2025-10-29 20:12:10 INFO  TC001_RegisterTest:88 - User clicked on Register link
+2025-10-29 20:12:10 INFO  TC001_RegisterTest:92 - Left First Name blank
+2025-10-29 20:12:11 INFO  TC001_RegisterTest:108 - Clicked on Register button
+2025-10-29 20:12:11 INFO  TC001_RegisterTest:115 - Validation message displayed correctly: First name is required.
+2025-10-29 20:12:11 INFO  TC001_RegisterTest:121 - **** Negative Test Executed: Missing First Name ****
+2025-10-29 20:20:26 INFO  TC001_RegisterTest:84 - URL is opened
+2025-10-29 20:20:26 INFO  TC001_RegisterTest:88 - User clicked on Register link
+2025-10-29 20:20:26 INFO  TC001_RegisterTest:92 - Left First Name blank
+2025-10-29 20:20:27 INFO  TC001_RegisterTest:108 - Clicked on Register button
+2025-10-29 20:20:27 INFO  TC001_RegisterTest:115 - Validation message displayed correctly: First name is required.
+2025-10-29 20:20:27 INFO  TC001_RegisterTest:121 - **** Negative Test Executed: Missing First Name ****
+2025-10-29 20:28:47 INFO  TC001_RegisterTest:84 - URL is opened
+2025-10-29 20:28:48 INFO  TC001_RegisterTest:88 - User clicked on Register link
+2025-10-29 20:28:48 INFO  TC001_RegisterTest:92 - Left First Name blank
+2025-10-29 20:28:49 INFO  TC001_RegisterTest:108 - Clicked on Register button
+2025-10-29 20:28:49 INFO  TC001_RegisterTest:115 - Validation message displayed correctly: First name is required.
+2025-10-29 20:28:49 INFO  TC001_RegisterTest:121 - **** Negative Test Executed: Missing First Name ****
+2025-10-29 20:28:49 INFO  TC001_RegisterTest:127 - URL is opened
+2025-10-29 20:28:49 INFO  TC001_RegisterTest:131 - User clicked on Register link
+2025-10-29 20:28:50 INFO  TC001_RegisterTest:149 - Clicked on Register button
+2025-10-29 20:28:50 INFO  TC001_RegisterTest:158 - Validation message displayed correctly: Last name is required.
+2025-10-29 20:28:50 INFO  TC001_RegisterTest:163 - **** Negative Test Executed: Missing Last Name ****
+2025-10-29 20:43:28 INFO  TC001_RegisterTest:84 - URL is opened
+2025-10-29 20:43:28 INFO  TC001_RegisterTest:88 - User clicked on Register link
+2025-10-29 20:43:28 INFO  TC001_RegisterTest:92 - Left First Name blank
+2025-10-29 20:43:29 INFO  TC001_RegisterTest:108 - Clicked on Register button
+2025-10-29 20:43:29 INFO  TC001_RegisterTest:115 - Validation message displayed correctly: First name is required.
+2025-10-29 20:43:29 INFO  TC001_RegisterTest:121 - **** Negative Test Executed: Missing First Name ****
+2025-10-29 20:43:29 INFO  TC001_RegisterTest:127 - URL is opened
+2025-10-29 20:43:30 INFO  TC001_RegisterTest:131 - User clicked on Register link
+2025-10-29 20:43:31 INFO  TC001_RegisterTest:149 - Clicked on Register button
+2025-10-29 20:43:31 INFO  TC001_RegisterTest:158 - Validation message displayed correctly: Last name is required.
+2025-10-29 20:43:31 INFO  TC001_RegisterTest:163 - **** Negative Test Executed: Missing Last Name ****
+2025-10-29 20:43:34 INFO  TC001_RegisterTest:261 - Validation message displayed correctly: State is required.
+2025-10-29 20:43:36 INFO  TC001_RegisterTest:294 - Validation message displayed correctly: Zip Code is required.
+2025-10-29 20:43:38 INFO  TC001_RegisterTest:360 - Validation message displayed correctly: Username is required.
+2025-10-29 20:43:40 INFO  TC001_RegisterTest:394 - Validation message displayed correctly: Password is required.
+2025-10-29 20:43:41 INFO  TC001_RegisterTest:427 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
+2025-10-29 20:43:43 INFO  TC001_RegisterTest:463 - Validation message displayed correctly for existing username: This username already exists.
+2025-10-29 20:47:55 INFO  TC001_RegisterTest:84 - URL is opened
+2025-10-29 20:47:55 INFO  TC001_RegisterTest:88 - User clicked on Register link
+2025-10-29 20:47:55 INFO  TC001_RegisterTest:92 - Left First Name blank
+2025-10-29 20:47:56 INFO  TC001_RegisterTest:108 - Clicked on Register button
+2025-10-29 20:47:56 INFO  TC001_RegisterTest:115 - Validation message displayed correctly: First name is required.
+2025-10-29 20:47:56 INFO  TC001_RegisterTest:121 - **** Negative Test Executed: Missing First Name ****
+2025-10-29 20:47:56 INFO  TC001_RegisterTest:127 - URL is opened
+2025-10-29 20:47:56 INFO  TC001_RegisterTest:131 - User clicked on Register link
+2025-10-29 20:47:57 INFO  TC001_RegisterTest:149 - Clicked on Register button
+2025-10-29 20:47:57 INFO  TC001_RegisterTest:158 - Validation message displayed correctly: Last name is required.
+2025-10-29 20:47:57 INFO  TC001_RegisterTest:163 - **** Negative Test Executed: Missing Last Name ****
+2025-10-29 20:48:01 INFO  TC001_RegisterTest:261 - Validation message displayed correctly: State is required.
+2025-10-29 20:48:02 INFO  TC001_RegisterTest:294 - Validation message displayed correctly: Zip Code is required.
+2025-10-29 20:48:04 INFO  TC001_RegisterTest:360 - Validation message displayed correctly: Username is required.
+2025-10-29 20:48:06 INFO  TC001_RegisterTest:394 - Validation message displayed correctly: Password is required.
+2025-10-29 20:48:07 INFO  TC001_RegisterTest:427 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
+2025-10-29 20:48:08 INFO  TC001_RegisterTest:463 - Validation message displayed correctly for existing username: This username already exists.
+2025-10-29 20:50:38 INFO  TC001_RegisterTest:84 - URL is opened
+2025-10-29 20:50:38 INFO  TC001_RegisterTest:88 - User clicked on Register link
+2025-10-29 20:50:38 INFO  TC001_RegisterTest:92 - Left First Name blank
+2025-10-29 20:50:39 INFO  TC001_RegisterTest:108 - Clicked on Register button
+2025-10-29 20:50:39 INFO  TC001_RegisterTest:115 - Validation message displayed correctly: First name is required.
+2025-10-29 20:50:39 INFO  TC001_RegisterTest:121 - **** Negative Test Executed: Missing First Name ****
+2025-10-29 20:50:39 INFO  TC001_RegisterTest:127 - URL is opened
+2025-10-29 20:50:39 INFO  TC001_RegisterTest:131 - User clicked on Register link
+2025-10-29 20:50:40 INFO  TC001_RegisterTest:149 - Clicked on Register button
+2025-10-29 20:50:40 INFO  TC001_RegisterTest:158 - Validation message displayed correctly: Last name is required.
+2025-10-29 20:50:40 INFO  TC001_RegisterTest:163 - **** Negative Test Executed: Missing Last Name ****
+2025-10-29 20:50:44 INFO  TC001_RegisterTest:261 - Validation message displayed correctly: State is required.
+2025-10-29 20:50:45 INFO  TC001_RegisterTest:294 - Validation message displayed correctly: Zip Code is required.
+2025-10-29 20:50:47 INFO  TC001_RegisterTest:360 - Validation message displayed correctly: Username is required.
+2025-10-29 20:50:49 INFO  TC001_RegisterTest:394 - Validation message displayed correctly: Password is required.
+2025-10-29 20:50:50 INFO  TC001_RegisterTest:427 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
+2025-10-29 20:50:51 INFO  TC001_RegisterTest:463 - Validation message displayed correctly for existing username: This username already exists.
+2025-10-29 20:51:02 INFO  TC001_RegisterTest:503 - Testing duplicate SSN validation
+2025-10-29 20:58:45 INFO  TC001_RegisterTest:84 - URL is opened
+2025-10-29 20:58:46 INFO  TC001_RegisterTest:88 - User clicked on Register link
+2025-10-29 20:58:46 INFO  TC001_RegisterTest:92 - Left First Name blank
+2025-10-29 20:58:47 INFO  TC001_RegisterTest:108 - Clicked on Register button
+2025-10-29 20:58:47 INFO  TC001_RegisterTest:115 - Validation message displayed correctly: First name is required.
+2025-10-29 20:58:47 INFO  TC001_RegisterTest:121 - **** Negative Test Executed: Missing First Name ****
+2025-10-29 20:58:47 INFO  TC001_RegisterTest:127 - URL is opened
+2025-10-29 20:58:47 INFO  TC001_RegisterTest:131 - User clicked on Register link
+2025-10-29 20:58:48 INFO  TC001_RegisterTest:149 - Clicked on Register button
+2025-10-29 20:58:48 INFO  TC001_RegisterTest:158 - Validation message displayed correctly: Last name is required.
+2025-10-29 20:58:48 INFO  TC001_RegisterTest:163 - **** Negative Test Executed: Missing Last Name ****
+2025-10-29 20:58:52 INFO  TC001_RegisterTest:261 - Validation message displayed correctly: State is required.
+2025-10-29 20:58:53 INFO  TC001_RegisterTest:294 - Validation message displayed correctly: Zip Code is required.
+2025-10-29 20:59:05 INFO  TC001_RegisterTest:360 - Validation message displayed correctly: Username is required.
+2025-10-29 20:59:06 INFO  TC001_RegisterTest:394 - Validation message displayed correctly: Password is required.
+2025-10-29 20:59:08 INFO  TC001_RegisterTest:427 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
+2025-10-29 20:59:09 INFO  TC001_RegisterTest:463 - Validation message displayed correctly for existing username: This username already exists.
+2025-10-29 20:59:09 INFO  TC001_RegisterTest:477 - Testing for script injection
+2025-10-29 20:59:10 INFO  TC001_RegisterTest:507 - Testing with whitespace-only inputs
+2025-10-29 21:02:39 INFO  TC001_RegisterTest:84 - URL is opened
+2025-10-29 21:02:40 INFO  TC001_RegisterTest:88 - User clicked on Register link
+2025-10-29 21:02:40 INFO  TC001_RegisterTest:92 - Left First Name blank
+2025-10-29 21:02:41 INFO  TC001_RegisterTest:108 - Clicked on Register button
+2025-10-29 21:02:41 INFO  TC001_RegisterTest:115 - Validation message displayed correctly: First name is required.
+2025-10-29 21:02:41 INFO  TC001_RegisterTest:121 - **** Negative Test Executed: Missing First Name ****
+2025-10-29 21:02:41 INFO  TC001_RegisterTest:127 - URL is opened
+2025-10-29 21:02:41 INFO  TC001_RegisterTest:131 - User clicked on Register link
+2025-10-29 21:02:42 INFO  TC001_RegisterTest:149 - Clicked on Register button
+2025-10-29 21:02:42 INFO  TC001_RegisterTest:158 - Validation message displayed correctly: Last name is required.
+2025-10-29 21:02:42 INFO  TC001_RegisterTest:163 - **** Negative Test Executed: Missing Last Name ****
+2025-10-29 21:02:46 INFO  TC001_RegisterTest:261 - Validation message displayed correctly: State is required.
+2025-10-29 21:02:47 INFO  TC001_RegisterTest:294 - Validation message displayed correctly: Zip Code is required.
+2025-10-29 21:02:59 INFO  TC001_RegisterTest:364 - Validation message displayed correctly: Username is required.
+2025-10-29 21:03:01 INFO  TC001_RegisterTest:398 - Validation message displayed correctly: Password is required.
+2025-10-29 21:03:02 INFO  TC001_RegisterTest:431 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
+2025-10-29 21:03:03 INFO  TC001_RegisterTest:467 - Validation message displayed correctly for existing username: This username already exists.
+2025-10-29 21:03:03 INFO  TC001_RegisterTest:479 - Testing for script injection
+2025-10-29 21:03:04 INFO  TC001_RegisterTest:500 - Security script injection test executed safely.
+2025-10-29 21:03:04 INFO  TC001_RegisterTest:509 - Testing with whitespace-only inputs
+2025-10-29 21:03:04 INFO  TC001_RegisterTest:539 - Testing duplicate SSN validation
+2025-10-29 21:06:42 INFO  TC001_RegisterTest:84 - URL is opened
+2025-10-29 21:06:43 INFO  TC001_RegisterTest:88 - User clicked on Register link
+2025-10-29 21:06:43 INFO  TC001_RegisterTest:92 - Left First Name blank
+2025-10-29 21:06:43 INFO  TC001_RegisterTest:108 - Clicked on Register button
+2025-10-29 21:06:44 INFO  TC001_RegisterTest:115 - Validation message displayed correctly: First name is required.
+2025-10-29 21:06:44 INFO  TC001_RegisterTest:121 - **** Negative Test Executed: Missing First Name ****
+2025-10-29 21:06:44 INFO  TC001_RegisterTest:127 - URL is opened
+2025-10-29 21:06:44 INFO  TC001_RegisterTest:131 - User clicked on Register link
+2025-10-29 21:06:45 INFO  TC001_RegisterTest:149 - Clicked on Register button
+2025-10-29 21:06:45 INFO  TC001_RegisterTest:158 - Validation message displayed correctly: Last name is required.
+2025-10-29 21:06:45 INFO  TC001_RegisterTest:163 - **** Negative Test Executed: Missing Last Name ****
+2025-10-29 21:06:48 INFO  TC001_RegisterTest:261 - Validation message displayed correctly: State is required.
+2025-10-29 21:06:49 INFO  TC001_RegisterTest:294 - Validation message displayed correctly: Zip Code is required.
+2025-10-29 21:07:02 INFO  TC001_RegisterTest:364 - Validation message displayed correctly: Username is required.
+2025-10-29 21:07:03 INFO  TC001_RegisterTest:398 - Validation message displayed correctly: Password is required.
+2025-10-29 21:07:04 INFO  TC001_RegisterTest:431 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
+2025-10-29 21:07:05 INFO  TC001_RegisterTest:467 - Validation message displayed correctly for existing username: This username already exists.
+2025-10-29 21:07:05 INFO  TC001_RegisterTest:479 - Testing for script injection
+2025-10-29 21:07:07 INFO  TC001_RegisterTest:509 - Testing with whitespace-only inputs
+2025-10-29 21:07:17 INFO  TC001_RegisterTest:539 - Testing duplicate SSN validation
+2025-10-29 21:24:19 INFO  TC001_RegisterTest:85 - URL is opened
+2025-10-29 21:24:19 INFO  TC001_RegisterTest:89 - User clicked on Register link
+2025-10-29 21:24:20 INFO  TC001_RegisterTest:93 - Left First Name blank
+2025-10-29 21:24:20 INFO  TC001_RegisterTest:109 - Clicked on Register button
+2025-10-29 21:24:21 INFO  TC001_RegisterTest:116 - Validation message displayed correctly: First name is required.
+2025-10-29 21:24:21 INFO  TC001_RegisterTest:122 - **** Negative Test Executed: Missing First Name ****
+2025-10-29 21:24:21 INFO  TC001_RegisterTest:128 - URL is opened
+2025-10-29 21:24:21 INFO  TC001_RegisterTest:132 - User clicked on Register link
+2025-10-29 21:24:22 INFO  TC001_RegisterTest:150 - Clicked on Register button
+2025-10-29 21:24:22 INFO  TC001_RegisterTest:159 - Validation message displayed correctly: Last name is required.
+2025-10-29 21:24:22 INFO  TC001_RegisterTest:164 - **** Negative Test Executed: Missing Last Name ****
+2025-10-29 21:24:25 INFO  TC001_RegisterTest:262 - Validation message displayed correctly: State is required.
+2025-10-29 21:24:27 INFO  TC001_RegisterTest:295 - Validation message displayed correctly: Zip Code is required.
+2025-10-29 21:24:39 INFO  TC001_RegisterTest:362 - Validation message displayed correctly: Username is required.
+2025-10-29 21:24:40 INFO  TC001_RegisterTest:396 - Validation message displayed correctly: Password is required.
+2025-10-29 21:24:41 INFO  TC001_RegisterTest:429 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
+2025-10-29 21:24:43 INFO  TC001_RegisterTest:465 - Validation message displayed correctly for existing username: This username already exists.
+2025-10-29 21:24:43 INFO  TC001_RegisterTest:530 - Testing with whitespace-only inputs
+2025-10-29 21:24:44 INFO  TC001_RegisterTest:560 - Testing duplicate SSN validation
+2025-10-29 21:24:54 INFO  TC001_RegisterTest:477 - Testing for script injection
+2025-10-29 21:26:32 INFO  TC001_RegisterTest:85 - URL is opened
+2025-10-29 21:26:33 INFO  TC001_RegisterTest:89 - User clicked on Register link
+2025-10-29 21:26:33 INFO  TC001_RegisterTest:93 - Left First Name blank
+2025-10-29 21:26:34 INFO  TC001_RegisterTest:109 - Clicked on Register button
+2025-10-29 21:26:34 INFO  TC001_RegisterTest:116 - Validation message displayed correctly: First name is required.
+2025-10-29 21:26:34 INFO  TC001_RegisterTest:122 - **** Negative Test Executed: Missing First Name ****
+2025-10-29 21:26:34 INFO  TC001_RegisterTest:128 - URL is opened
+2025-10-29 21:26:34 INFO  TC001_RegisterTest:132 - User clicked on Register link
+2025-10-29 21:26:35 INFO  TC001_RegisterTest:150 - Clicked on Register button
+2025-10-29 21:26:35 INFO  TC001_RegisterTest:159 - Validation message displayed correctly: Last name is required.
+2025-10-29 21:26:35 INFO  TC001_RegisterTest:164 - **** Negative Test Executed: Missing Last Name ****
+2025-10-29 21:26:38 INFO  TC001_RegisterTest:262 - Validation message displayed correctly: State is required.
+2025-10-29 21:26:39 INFO  TC001_RegisterTest:295 - Validation message displayed correctly: Zip Code is required.
+2025-10-29 21:26:52 INFO  TC001_RegisterTest:362 - Validation message displayed correctly: Username is required.
+2025-10-29 21:26:53 INFO  TC001_RegisterTest:396 - Validation message displayed correctly: Password is required.
+2025-10-29 21:26:54 INFO  TC001_RegisterTest:429 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
+2025-10-29 21:26:56 INFO  TC001_RegisterTest:465 - Validation message displayed correctly for existing username: This username already exists.
+2025-10-29 21:26:56 INFO  TC001_RegisterTest:476 - Testing with whitespace-only inputs
+2025-10-29 21:39:34 INFO  TC001_RegisterTest:85 - URL is opened
+2025-10-29 21:39:35 INFO  TC001_RegisterTest:89 - User clicked on Register link
+2025-10-29 21:39:35 INFO  TC001_RegisterTest:93 - Left First Name blank
+2025-10-29 21:39:36 INFO  TC001_RegisterTest:109 - Clicked on Register button
+2025-10-29 21:39:36 INFO  TC001_RegisterTest:116 - Validation message displayed correctly: First name is required.
+2025-10-29 21:39:36 INFO  TC001_RegisterTest:122 - **** Negative Test Executed: Missing First Name ****
+2025-10-29 21:39:36 INFO  TC001_RegisterTest:128 - URL is opened
+2025-10-29 21:39:36 INFO  TC001_RegisterTest:132 - User clicked on Register link
+2025-10-29 21:39:38 INFO  TC001_RegisterTest:150 - Clicked on Register button
+2025-10-29 21:39:38 INFO  TC001_RegisterTest:159 - Validation message displayed correctly: Last name is required.
+2025-10-29 21:39:38 INFO  TC001_RegisterTest:164 - **** Negative Test Executed: Missing Last Name ****
+2025-10-29 21:39:41 INFO  TC001_RegisterTest:262 - Validation message displayed correctly: State is required.
+2025-10-29 21:39:43 INFO  TC001_RegisterTest:296 - Validation message displayed correctly: Zip Code is required.
+2025-10-29 21:39:55 INFO  TC001_RegisterTest:363 - Validation message displayed correctly: Username is required.
+2025-10-29 21:39:57 INFO  TC001_RegisterTest:397 - Validation message displayed correctly: Password is required.
+2025-10-29 21:39:58 INFO  TC001_RegisterTest:430 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
+2025-10-29 21:39:59 INFO  TC001_RegisterTest:466 - Validation message displayed correctly for existing username: This username already exists.
+2025-10-29 21:39:59 INFO  TC001_RegisterTest:477 - Testing with whitespace-only inputs
+2025-10-29 21:44:02 INFO  TC001_RegisterTest:85 - URL is opened
+2025-10-29 21:44:02 INFO  TC001_RegisterTest:89 - User clicked on Register link
+2025-10-29 21:44:02 INFO  TC001_RegisterTest:93 - Left First Name blank
+2025-10-29 21:44:03 INFO  TC001_RegisterTest:109 - Clicked on Register button
+2025-10-29 21:44:03 INFO  TC001_RegisterTest:116 - Validation message displayed correctly: First name is required.
+2025-10-29 21:44:03 INFO  TC001_RegisterTest:122 - **** Negative Test Executed: Missing First Name ****
+2025-10-29 21:44:03 INFO  TC001_RegisterTest:128 - URL is opened
+2025-10-29 21:44:04 INFO  TC001_RegisterTest:132 - User clicked on Register link
+2025-10-29 21:44:05 INFO  TC001_RegisterTest:150 - Clicked on Register button
+2025-10-29 21:44:05 INFO  TC001_RegisterTest:159 - Validation message displayed correctly: Last name is required.
+2025-10-29 21:44:05 INFO  TC001_RegisterTest:164 - **** Negative Test Executed: Missing Last Name ****
+2025-10-29 21:44:08 INFO  TC001_RegisterTest:262 - Validation message displayed correctly: State is required.
+2025-10-29 21:44:09 INFO  TC001_RegisterTest:296 - Validation message displayed correctly: Zip Code is required.
+2025-10-29 21:44:22 INFO  TC001_RegisterTest:363 - Validation message displayed correctly: Username is required.
+2025-10-29 21:44:23 INFO  TC001_RegisterTest:397 - Validation message displayed correctly: Password is required.
+2025-10-29 21:44:24 INFO  TC001_RegisterTest:430 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
+2025-10-29 21:44:25 INFO  TC001_RegisterTest:466 - Validation message displayed correctly for existing username: This username already exists.
+2025-10-29 21:45:03 INFO  TC001_RegisterTest:85 - URL is opened
+2025-10-29 21:45:03 INFO  TC001_RegisterTest:89 - User clicked on Register link
+2025-10-29 21:45:03 INFO  TC001_RegisterTest:93 - Left First Name blank
+2025-10-29 21:45:04 INFO  TC001_RegisterTest:109 - Clicked on Register button
+2025-10-29 21:45:04 INFO  TC001_RegisterTest:116 - Validation message displayed correctly: First name is required.
+2025-10-29 21:45:04 INFO  TC001_RegisterTest:122 - **** Negative Test Executed: Missing First Name ****
+2025-10-29 21:45:04 INFO  TC001_RegisterTest:128 - URL is opened
+2025-10-29 21:45:04 INFO  TC001_RegisterTest:132 - User clicked on Register link
+2025-10-29 21:45:05 INFO  TC001_RegisterTest:150 - Clicked on Register button
+2025-10-29 21:45:05 INFO  TC001_RegisterTest:159 - Validation message displayed correctly: Last name is required.
+2025-10-29 21:45:05 INFO  TC001_RegisterTest:164 - **** Negative Test Executed: Missing Last Name ****
+2025-10-29 21:45:08 INFO  TC001_RegisterTest:262 - Validation message displayed correctly: State is required.
+2025-10-29 21:45:09 INFO  TC001_RegisterTest:296 - Validation message displayed correctly: Zip Code is required.
+2025-10-29 21:45:22 INFO  TC001_RegisterTest:363 - Validation message displayed correctly: Username is required.
+2025-10-29 21:45:23 INFO  TC001_RegisterTest:397 - Validation message displayed correctly: Password is required.
+2025-10-29 21:45:25 INFO  TC001_RegisterTest:430 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
+2025-10-29 21:45:26 INFO  TC001_RegisterTest:466 - Validation message displayed correctly for existing username: This username already exists.
+2025-10-29 21:45:26 INFO  TC001_RegisterTest:477 - Testing with whitespace-only inputs
+2025-10-29 21:47:19 INFO  TC001_RegisterTest:85 - URL is opened
+2025-10-29 21:47:19 INFO  TC001_RegisterTest:89 - User clicked on Register link
+2025-10-29 21:47:19 INFO  TC001_RegisterTest:93 - Left First Name blank
+2025-10-29 21:47:20 INFO  TC001_RegisterTest:109 - Clicked on Register button
+2025-10-29 21:47:20 INFO  TC001_RegisterTest:116 - Validation message displayed correctly: First name is required.
+2025-10-29 21:47:20 INFO  TC001_RegisterTest:122 - **** Negative Test Executed: Missing First Name ****
+2025-10-29 21:47:20 INFO  TC001_RegisterTest:128 - URL is opened
+2025-10-29 21:47:21 INFO  TC001_RegisterTest:132 - User clicked on Register link
+2025-10-29 21:47:21 INFO  TC001_RegisterTest:150 - Clicked on Register button
+2025-10-29 21:47:22 INFO  TC001_RegisterTest:159 - Validation message displayed correctly: Last name is required.
+2025-10-29 21:47:22 INFO  TC001_RegisterTest:164 - **** Negative Test Executed: Missing Last Name ****
+2025-10-29 21:47:25 INFO  TC001_RegisterTest:262 - Validation message displayed correctly: State is required.
+2025-10-29 21:47:26 INFO  TC001_RegisterTest:296 - Validation message displayed correctly: Zip Code is required.
+2025-10-29 21:47:28 INFO  TC001_RegisterTest:328 - Fetched SSN error message: Social Security Number is required.
+2025-10-29 21:47:28 INFO  TC001_RegisterTest:336 - Validation message displayed correctly: Social Security Number is required.
+2025-10-29 21:47:29 INFO  TC001_RegisterTest:370 - Validation message displayed correctly: Username is required.
+2025-10-29 21:47:30 INFO  TC001_RegisterTest:404 - Validation message displayed correctly: Password is required.
+2025-10-29 21:47:32 INFO  TC001_RegisterTest:437 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
+2025-10-29 21:47:33 INFO  TC001_RegisterTest:473 - Validation message displayed correctly for existing username: This username already exists.
+2025-10-29 21:48:34 INFO  TC001_RegisterTest:18 - URL is opened
+2025-10-29 21:48:35 INFO  TC001_RegisterTest:22 - User clicked on register Link
+2025-10-29 21:48:35 INFO  TC001_RegisterTest:25 - User Entered the First Name.
+2025-10-29 21:48:35 INFO  TC001_RegisterTest:28 - User Entered the Last Name.
+2025-10-29 21:48:35 INFO  TC001_RegisterTest:31 - User Entered the Address.
+2025-10-29 21:48:35 INFO  TC001_RegisterTest:34 - User Entered the City.
+2025-10-29 21:48:35 INFO  TC001_RegisterTest:37 - User Entered the State.
+2025-10-29 21:48:35 INFO  TC001_RegisterTest:40 - User Entered the ZipCode.
+2025-10-29 21:48:35 INFO  TC001_RegisterTest:43 - User Entered the PhoneNumber.
+2025-10-29 21:48:35 INFO  TC001_RegisterTest:46 - User Entered the Ssn.
+2025-10-29 21:48:35 INFO  TC001_RegisterTest:49 - User Entered the Username.
+2025-10-29 21:48:35 INFO  TC001_RegisterTest:54 - User Entered the Password.
+2025-10-29 21:48:35 INFO  TC001_RegisterTest:57 - User Entered the RepeatedPassword.
+2025-10-29 21:48:36 INFO  TC001_RegisterTest:66 - Account created successfully! Message displayed: Your account was created successfully. You are now logged in.
+2025-10-29 21:48:36 INFO  TC001_RegisterTest:78 - ****test executed*****
+2025-10-29 21:48:36 INFO  TC001_RegisterTest:85 - URL is opened
+2025-10-29 21:48:36 INFO  TC001_RegisterTest:89 - User clicked on Register link
+2025-10-29 21:48:36 INFO  TC001_RegisterTest:93 - Left First Name blank
+2025-10-29 21:48:37 INFO  TC001_RegisterTest:109 - Clicked on Register button
+2025-10-29 21:48:37 INFO  TC001_RegisterTest:116 - Validation message displayed correctly: First name is required.
+2025-10-29 21:48:37 INFO  TC001_RegisterTest:122 - **** Negative Test Executed: Missing First Name ****
+2025-10-29 21:48:37 INFO  TC001_RegisterTest:128 - URL is opened
+2025-10-29 21:48:37 INFO  TC001_RegisterTest:132 - User clicked on Register link
+2025-10-29 21:48:38 INFO  TC001_RegisterTest:150 - Clicked on Register button
+2025-10-29 21:48:38 INFO  TC001_RegisterTest:159 - Validation message displayed correctly: Last name is required.
+2025-10-29 21:48:38 INFO  TC001_RegisterTest:164 - **** Negative Test Executed: Missing Last Name ****
+2025-10-29 21:48:42 INFO  TC001_RegisterTest:262 - Validation message displayed correctly: State is required.
+2025-10-29 21:48:43 INFO  TC001_RegisterTest:296 - Validation message displayed correctly: Zip Code is required.
+2025-10-29 21:48:45 INFO  TC001_RegisterTest:328 - Fetched SSN error message: Social Security Number is required.
+2025-10-29 21:48:45 INFO  TC001_RegisterTest:336 - Validation message displayed correctly: Social Security Number is required.
+2025-10-29 21:48:46 INFO  TC001_RegisterTest:370 - Validation message displayed correctly: Username is required.
+2025-10-29 21:48:47 INFO  TC001_RegisterTest:404 - Validation message displayed correctly: Password is required.
+2025-10-29 21:48:48 INFO  TC001_RegisterTest:437 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
+2025-10-29 21:48:50 INFO  TC001_RegisterTest:473 - Validation message displayed correctly for existing username: This username already exists.
+2025-10-29 21:54:51 INFO  TC001_RegisterTest:485 - Testing SQL injection attempt in username & SSN
+2025-10-29 21:54:54 INFO  TC001_RegisterTest:543 - Testing empty form submission (no fields filled)
+2025-10-29 21:55:04 INFO  TC001_RegisterTest:585 - Testing registration with whitespace-only inputs (compact)
+2025-10-29 22:22:16 INFO  TC001_RegisterTest:485 - Testing empty form submission (no fields filled)
+2025-10-29 22:22:28 INFO  TC001_RegisterTest:527 - Testing registration with whitespace-only inputs (compact)
+2025-10-29 22:23:31 INFO  TC001_RegisterTest:18 - URL is opened
+2025-10-29 22:23:32 INFO  TC001_RegisterTest:22 - User clicked on register Link
+2025-10-29 22:23:32 INFO  TC001_RegisterTest:25 - User Entered the First Name.
+2025-10-29 22:23:32 INFO  TC001_RegisterTest:28 - User Entered the Last Name.
+2025-10-29 22:23:32 INFO  TC001_RegisterTest:31 - User Entered the Address.
+2025-10-29 22:23:32 INFO  TC001_RegisterTest:34 - User Entered the City.
+2025-10-29 22:23:32 INFO  TC001_RegisterTest:37 - User Entered the State.
+2025-10-29 22:23:32 INFO  TC001_RegisterTest:40 - User Entered the ZipCode.
+2025-10-29 22:23:32 INFO  TC001_RegisterTest:43 - User Entered the PhoneNumber.
+2025-10-29 22:23:32 INFO  TC001_RegisterTest:46 - User Entered the Ssn.
+2025-10-29 22:23:32 INFO  TC001_RegisterTest:49 - User Entered the Username.
+2025-10-29 22:23:32 INFO  TC001_RegisterTest:54 - User Entered the Password.
+2025-10-29 22:23:32 INFO  TC001_RegisterTest:57 - User Entered the RepeatedPassword.
+2025-10-29 22:23:33 INFO  TC001_RegisterTest:66 - Account created successfully! Message displayed: Your account was created successfully. You are now logged in.
+2025-10-29 22:23:33 INFO  TC001_RegisterTest:78 - ****test executed*****
+2025-10-29 22:23:33 INFO  TC001_RegisterTest:85 - URL is opened
+2025-10-29 22:23:33 INFO  TC001_RegisterTest:89 - User clicked on Register link
+2025-10-29 22:23:33 INFO  TC001_RegisterTest:93 - Left First Name blank
+2025-10-29 22:23:34 INFO  TC001_RegisterTest:109 - Clicked on Register button
+2025-10-29 22:23:34 INFO  TC001_RegisterTest:116 - Validation message displayed correctly: First name is required.
+2025-10-29 22:23:34 INFO  TC001_RegisterTest:122 - **** Negative Test Executed: Missing First Name ****
+2025-10-29 22:23:34 INFO  TC001_RegisterTest:128 - URL is opened
+2025-10-29 22:23:34 INFO  TC001_RegisterTest:132 - User clicked on Register link
+2025-10-29 22:23:35 INFO  TC001_RegisterTest:150 - Clicked on Register button
+2025-10-29 22:23:35 INFO  TC001_RegisterTest:159 - Validation message displayed correctly: Last name is required.
+2025-10-29 22:23:35 INFO  TC001_RegisterTest:164 - **** Negative Test Executed: Missing Last Name ****
+2025-10-29 22:23:39 INFO  TC001_RegisterTest:262 - Validation message displayed correctly: State is required.
+2025-10-29 22:23:40 INFO  TC001_RegisterTest:296 - Validation message displayed correctly: Zip Code is required.
+2025-10-29 22:23:42 INFO  TC001_RegisterTest:328 - Fetched SSN error message: Social Security Number is required.
+2025-10-29 22:23:42 INFO  TC001_RegisterTest:336 - Validation message displayed correctly: Social Security Number is required.
+2025-10-29 22:23:43 INFO  TC001_RegisterTest:370 - Validation message displayed correctly: Username is required.
+2025-10-29 22:23:44 INFO  TC001_RegisterTest:404 - Validation message displayed correctly: Password is required.
+2025-10-29 22:23:45 INFO  TC001_RegisterTest:437 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
+2025-10-29 22:23:47 INFO  TC001_RegisterTest:473 - Validation message displayed correctly for existing username: This username already exists.

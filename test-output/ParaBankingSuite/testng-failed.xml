@@ -8,13 +8,14 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC010_AccountOverview">
+      <class name="testCases.TC001_RegisterTest">
         <methods>
           <include name="tearDown"/>
+          <include name="RegisterWithWhitespaceOnlyFields"/>
           <include name="setup"/>
-          <include name="VerifyAccountOverview"/>
+          <include name="RegisterWithMissingSSN"/>
         </methods>
-      </class> <!-- testCases.TC010_AccountOverview -->
+      </class> <!-- testCases.TC001_RegisterTest -->
     </classes>
   </test> <!-- ParaBanking Test(failed) -->
 </suite> <!-- Failed suite [ParaBankingSuite] -->
