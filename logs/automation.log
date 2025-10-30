@@ -1,406 +1,849 @@
-2025-10-29 19:34:45 INFO  TC001_RegisterTest:15 - URL is opened
-2025-10-29 19:34:46 INFO  TC001_RegisterTest:19 - User clicked on register Link
-2025-10-29 19:34:46 INFO  TC001_RegisterTest:22 - User Entered the First Name.
-2025-10-29 19:34:46 INFO  TC001_RegisterTest:25 - User Entered the Last Name.
-2025-10-29 19:34:46 INFO  TC001_RegisterTest:28 - User Entered the Address.
-2025-10-29 19:34:46 INFO  TC001_RegisterTest:31 - User Entered the City.
-2025-10-29 19:34:46 INFO  TC001_RegisterTest:34 - User Entered the State.
-2025-10-29 19:34:47 INFO  TC001_RegisterTest:37 - User Entered the ZipCode.
-2025-10-29 19:34:47 INFO  TC001_RegisterTest:40 - User Entered the PhoneNumber.
-2025-10-29 19:34:47 INFO  TC001_RegisterTest:43 - User Entered the Ssn.
-2025-10-29 19:34:47 INFO  TC001_RegisterTest:46 - User Entered the Username.
-2025-10-29 19:34:47 INFO  TC001_RegisterTest:51 - User Entered the Password.
-2025-10-29 19:34:47 INFO  TC001_RegisterTest:54 - User Entered the RepeatedPassword.
-2025-10-29 19:34:48 INFO  TC001_RegisterTest:63 - Account created successfully! Message displayed: Your account was created successfully. You are now logged in.
-2025-10-29 19:34:51 INFO  TC002_LoginTest:14 - URL is opened
-2025-10-29 19:34:51 INFO  TC002_LoginTest:19 - User entered the User Name:
-2025-10-29 19:34:52 INFO  TC002_LoginTest:21 - User entered the password:
-2025-10-29 19:34:54 INFO  TC002_LoginTest:24 - User clicked on Login Button
-2025-10-29 19:34:56 INFO  TC002_LoginTest:36 - User not able to logout!
-2025-10-29 19:34:59 INFO  TC003_OpenNewAccountTest:15 - URL is opened
-2025-10-29 19:34:59 INFO  TC003_OpenNewAccountTest:20 - User entered the User Name:
-2025-10-29 19:34:59 INFO  TC003_OpenNewAccountTest:23 - User entered the password:
-2025-10-29 19:35:02 INFO  TC003_OpenNewAccountTest:27 - User clicked on Login Button
-2025-10-29 19:35:04 INFO  TC003_OpenNewAccountTest:31 - user clicked on Open New Account
-2025-10-29 19:35:05 INFO  TC003_OpenNewAccountTest:38 - Clicked on 'Open New Account' submit button
-2025-10-29 19:35:08 INFO  TC004_TransferFundsTest:15 - URL is opened
-2025-10-29 19:35:08 INFO  TC004_TransferFundsTest:20 - User entered the User Name:
-2025-10-29 19:35:08 INFO  TC004_TransferFundsTest:23 - User entered the password:
-2025-10-29 19:35:24 INFO  TC005_BillPayTest:16 - URL is opened
-2025-10-29 19:35:24 INFO  TC005_BillPayTest:22 - User entered the User Name:
-2025-10-29 19:35:25 INFO  TC005_BillPayTest:25 - User entered the password:
-2025-10-29 19:35:27 INFO  TC005_BillPayTest:29 - User clicked on Login Button
-2025-10-29 19:35:29 INFO  TC005_BillPayTest:33 - user clicked on Bill Payament Menu! 
-2025-10-29 19:35:30 INFO  TC005_BillPayTest:37 - User entered the name.
-2025-10-29 19:35:30 INFO  TC005_BillPayTest:39 - User entered the Address.
-2025-10-29 19:35:31 INFO  TC005_BillPayTest:41 - User entered the City.
-2025-10-29 19:35:31 INFO  TC005_BillPayTest:43 - User entered the State.
-2025-10-29 19:35:31 INFO  TC005_BillPayTest:45 - User entered the zipCode.
-2025-10-29 19:35:32 INFO  TC005_BillPayTest:48 - User entered the Phone Number.
-2025-10-29 19:35:32 INFO  TC005_BillPayTest:50 - User entered the AccountNumber.
-2025-10-29 19:35:32 INFO  TC005_BillPayTest:52 - User Verified the Account.
-2025-10-29 19:35:33 INFO  TC005_BillPayTest:58 - User choose to account from #
-2025-10-29 19:35:33 INFO  TC005_BillPayTest:61 - User Send Payment!
-2025-10-29 19:35:47 INFO  TC006_ApplyLoanTest:37 - Loan approval message verified
-2025-10-29 19:35:47 INFO  TC006_ApplyLoanTest:42 - Loan status is Approved. Test Passed!
-2025-10-29 19:35:53 INFO  TC007_LoginDDT:26 - ***login started******
-2025-10-29 19:35:56 INFO  TC007_LoginDDT:26 - ***login started******
-2025-10-29 19:36:08 INFO  TC007_LoginDDT:26 - ***login started******
-2025-10-29 19:36:21 INFO  TC007_LoginDDT:26 - ***login started******
-2025-10-29 19:36:24 INFO  TC007_LoginDDT:26 - ***login started******
-2025-10-29 19:36:39 INFO  TC008_HomePageTest:21 - User entered the User Name:
-2025-10-29 19:36:39 INFO  TC008_HomePageTest:23 - User entered the password:
-2025-10-29 19:36:42 INFO  TC008_HomePageTest:28 - Clicked About Us link
-2025-10-29 19:36:42 INFO  TC008_HomePageTest:39 - Clicked Services link
-2025-10-29 19:36:47 INFO  TC008_HomePageTest:50 - Clicked Products link
-2025-10-29 19:36:59 INFO  TC008_HomePageTest:71 - Clicked Locations link
-2025-10-29 19:36:59 INFO  TC008_HomePageTest:75 - Clicked Admin Page link
-2025-10-29 19:37:00 INFO  TC008_HomePageTest:82 - Clicked Home link
-2025-10-29 19:37:00 INFO  TC008_HomePageTest:85 - Clicked About link
-2025-10-29 19:37:00 INFO  TC008_HomePageTest:88 - Clicked Contact link
-2025-10-29 19:37:01 INFO  TC008_HomePageTest:97 - All homepage verifications completed successfully!
-2025-10-29 19:37:04 INFO  TC009_FooterTest:22 - User entered the User Name:
-2025-10-29 19:37:04 INFO  TC009_FooterTest:24 - User entered the password:
-2025-10-29 19:37:20 INFO  TC009_FooterTest:57 - Clicked Contact link
-2025-10-29 19:37:23 INFO  TC010_AccountOverview:21 - Logged in successfully
-2025-10-29 19:37:24 INFO  TC010_AccountOverview:25 - First account found: 13566
-2025-10-29 19:37:24 INFO  TC010_AccountOverview:27 - Clicked on first account successfully
-2025-10-29 19:53:49 INFO  TC001_RegisterTest:17 - URL is opened
-2025-10-29 19:53:49 INFO  TC001_RegisterTest:21 - User clicked on register Link
-2025-10-29 19:53:49 INFO  TC001_RegisterTest:24 - User Entered the First Name.
-2025-10-29 19:53:49 INFO  TC001_RegisterTest:27 - User Entered the Last Name.
-2025-10-29 19:53:50 INFO  TC001_RegisterTest:30 - User Entered the Address.
-2025-10-29 19:53:50 INFO  TC001_RegisterTest:33 - User Entered the City.
-2025-10-29 19:53:50 INFO  TC001_RegisterTest:36 - User Entered the State.
-2025-10-29 19:53:50 INFO  TC001_RegisterTest:39 - User Entered the ZipCode.
-2025-10-29 19:53:50 INFO  TC001_RegisterTest:42 - User Entered the PhoneNumber.
-2025-10-29 19:53:50 INFO  TC001_RegisterTest:45 - User Entered the Ssn.
-2025-10-29 19:53:50 INFO  TC001_RegisterTest:48 - User Entered the Username.
-2025-10-29 19:53:50 INFO  TC001_RegisterTest:53 - User Entered the Password.
-2025-10-29 19:53:50 INFO  TC001_RegisterTest:56 - User Entered the RepeatedPassword.
-2025-10-29 19:53:51 INFO  TC001_RegisterTest:65 - Account created successfully! Message displayed: Your account was created successfully. You are now logged in.
-2025-10-29 19:53:51 INFO  TC001_RegisterTest:77 - ****test executed*****
-2025-10-29 19:53:51 INFO  TC001_RegisterTest:84 - URL is opened
-2025-10-29 19:53:51 INFO  TC001_RegisterTest:88 - User clicked on Register link
-2025-10-29 19:53:51 INFO  TC001_RegisterTest:92 - Left First Name blank
-2025-10-29 19:53:52 INFO  TC001_RegisterTest:108 - Clicked on Register button
-2025-10-29 19:53:52 INFO  TC001_RegisterTest:115 - Validation message displayed correctly: First name is required.
-2025-10-29 19:53:52 INFO  TC001_RegisterTest:121 - **** Negative Test Executed: Missing First Name ****
-2025-10-29 20:12:10 INFO  TC001_RegisterTest:84 - URL is opened
-2025-10-29 20:12:10 INFO  TC001_RegisterTest:88 - User clicked on Register link
-2025-10-29 20:12:10 INFO  TC001_RegisterTest:92 - Left First Name blank
-2025-10-29 20:12:11 INFO  TC001_RegisterTest:108 - Clicked on Register button
-2025-10-29 20:12:11 INFO  TC001_RegisterTest:115 - Validation message displayed correctly: First name is required.
-2025-10-29 20:12:11 INFO  TC001_RegisterTest:121 - **** Negative Test Executed: Missing First Name ****
-2025-10-29 20:20:26 INFO  TC001_RegisterTest:84 - URL is opened
-2025-10-29 20:20:26 INFO  TC001_RegisterTest:88 - User clicked on Register link
-2025-10-29 20:20:26 INFO  TC001_RegisterTest:92 - Left First Name blank
-2025-10-29 20:20:27 INFO  TC001_RegisterTest:108 - Clicked on Register button
-2025-10-29 20:20:27 INFO  TC001_RegisterTest:115 - Validation message displayed correctly: First name is required.
-2025-10-29 20:20:27 INFO  TC001_RegisterTest:121 - **** Negative Test Executed: Missing First Name ****
-2025-10-29 20:28:47 INFO  TC001_RegisterTest:84 - URL is opened
-2025-10-29 20:28:48 INFO  TC001_RegisterTest:88 - User clicked on Register link
-2025-10-29 20:28:48 INFO  TC001_RegisterTest:92 - Left First Name blank
-2025-10-29 20:28:49 INFO  TC001_RegisterTest:108 - Clicked on Register button
-2025-10-29 20:28:49 INFO  TC001_RegisterTest:115 - Validation message displayed correctly: First name is required.
-2025-10-29 20:28:49 INFO  TC001_RegisterTest:121 - **** Negative Test Executed: Missing First Name ****
-2025-10-29 20:28:49 INFO  TC001_RegisterTest:127 - URL is opened
-2025-10-29 20:28:49 INFO  TC001_RegisterTest:131 - User clicked on Register link
-2025-10-29 20:28:50 INFO  TC001_RegisterTest:149 - Clicked on Register button
-2025-10-29 20:28:50 INFO  TC001_RegisterTest:158 - Validation message displayed correctly: Last name is required.
-2025-10-29 20:28:50 INFO  TC001_RegisterTest:163 - **** Negative Test Executed: Missing Last Name ****
-2025-10-29 20:43:28 INFO  TC001_RegisterTest:84 - URL is opened
-2025-10-29 20:43:28 INFO  TC001_RegisterTest:88 - User clicked on Register link
-2025-10-29 20:43:28 INFO  TC001_RegisterTest:92 - Left First Name blank
-2025-10-29 20:43:29 INFO  TC001_RegisterTest:108 - Clicked on Register button
-2025-10-29 20:43:29 INFO  TC001_RegisterTest:115 - Validation message displayed correctly: First name is required.
-2025-10-29 20:43:29 INFO  TC001_RegisterTest:121 - **** Negative Test Executed: Missing First Name ****
-2025-10-29 20:43:29 INFO  TC001_RegisterTest:127 - URL is opened
-2025-10-29 20:43:30 INFO  TC001_RegisterTest:131 - User clicked on Register link
-2025-10-29 20:43:31 INFO  TC001_RegisterTest:149 - Clicked on Register button
-2025-10-29 20:43:31 INFO  TC001_RegisterTest:158 - Validation message displayed correctly: Last name is required.
-2025-10-29 20:43:31 INFO  TC001_RegisterTest:163 - **** Negative Test Executed: Missing Last Name ****
-2025-10-29 20:43:34 INFO  TC001_RegisterTest:261 - Validation message displayed correctly: State is required.
-2025-10-29 20:43:36 INFO  TC001_RegisterTest:294 - Validation message displayed correctly: Zip Code is required.
-2025-10-29 20:43:38 INFO  TC001_RegisterTest:360 - Validation message displayed correctly: Username is required.
-2025-10-29 20:43:40 INFO  TC001_RegisterTest:394 - Validation message displayed correctly: Password is required.
-2025-10-29 20:43:41 INFO  TC001_RegisterTest:427 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
-2025-10-29 20:43:43 INFO  TC001_RegisterTest:463 - Validation message displayed correctly for existing username: This username already exists.
-2025-10-29 20:47:55 INFO  TC001_RegisterTest:84 - URL is opened
-2025-10-29 20:47:55 INFO  TC001_RegisterTest:88 - User clicked on Register link
-2025-10-29 20:47:55 INFO  TC001_RegisterTest:92 - Left First Name blank
-2025-10-29 20:47:56 INFO  TC001_RegisterTest:108 - Clicked on Register button
-2025-10-29 20:47:56 INFO  TC001_RegisterTest:115 - Validation message displayed correctly: First name is required.
-2025-10-29 20:47:56 INFO  TC001_RegisterTest:121 - **** Negative Test Executed: Missing First Name ****
-2025-10-29 20:47:56 INFO  TC001_RegisterTest:127 - URL is opened
-2025-10-29 20:47:56 INFO  TC001_RegisterTest:131 - User clicked on Register link
-2025-10-29 20:47:57 INFO  TC001_RegisterTest:149 - Clicked on Register button
-2025-10-29 20:47:57 INFO  TC001_RegisterTest:158 - Validation message displayed correctly: Last name is required.
-2025-10-29 20:47:57 INFO  TC001_RegisterTest:163 - **** Negative Test Executed: Missing Last Name ****
-2025-10-29 20:48:01 INFO  TC001_RegisterTest:261 - Validation message displayed correctly: State is required.
-2025-10-29 20:48:02 INFO  TC001_RegisterTest:294 - Validation message displayed correctly: Zip Code is required.
-2025-10-29 20:48:04 INFO  TC001_RegisterTest:360 - Validation message displayed correctly: Username is required.
-2025-10-29 20:48:06 INFO  TC001_RegisterTest:394 - Validation message displayed correctly: Password is required.
-2025-10-29 20:48:07 INFO  TC001_RegisterTest:427 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
-2025-10-29 20:48:08 INFO  TC001_RegisterTest:463 - Validation message displayed correctly for existing username: This username already exists.
-2025-10-29 20:50:38 INFO  TC001_RegisterTest:84 - URL is opened
-2025-10-29 20:50:38 INFO  TC001_RegisterTest:88 - User clicked on Register link
-2025-10-29 20:50:38 INFO  TC001_RegisterTest:92 - Left First Name blank
-2025-10-29 20:50:39 INFO  TC001_RegisterTest:108 - Clicked on Register button
-2025-10-29 20:50:39 INFO  TC001_RegisterTest:115 - Validation message displayed correctly: First name is required.
-2025-10-29 20:50:39 INFO  TC001_RegisterTest:121 - **** Negative Test Executed: Missing First Name ****
-2025-10-29 20:50:39 INFO  TC001_RegisterTest:127 - URL is opened
-2025-10-29 20:50:39 INFO  TC001_RegisterTest:131 - User clicked on Register link
-2025-10-29 20:50:40 INFO  TC001_RegisterTest:149 - Clicked on Register button
-2025-10-29 20:50:40 INFO  TC001_RegisterTest:158 - Validation message displayed correctly: Last name is required.
-2025-10-29 20:50:40 INFO  TC001_RegisterTest:163 - **** Negative Test Executed: Missing Last Name ****
-2025-10-29 20:50:44 INFO  TC001_RegisterTest:261 - Validation message displayed correctly: State is required.
-2025-10-29 20:50:45 INFO  TC001_RegisterTest:294 - Validation message displayed correctly: Zip Code is required.
-2025-10-29 20:50:47 INFO  TC001_RegisterTest:360 - Validation message displayed correctly: Username is required.
-2025-10-29 20:50:49 INFO  TC001_RegisterTest:394 - Validation message displayed correctly: Password is required.
-2025-10-29 20:50:50 INFO  TC001_RegisterTest:427 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
-2025-10-29 20:50:51 INFO  TC001_RegisterTest:463 - Validation message displayed correctly for existing username: This username already exists.
-2025-10-29 20:51:02 INFO  TC001_RegisterTest:503 - Testing duplicate SSN validation
-2025-10-29 20:58:45 INFO  TC001_RegisterTest:84 - URL is opened
-2025-10-29 20:58:46 INFO  TC001_RegisterTest:88 - User clicked on Register link
-2025-10-29 20:58:46 INFO  TC001_RegisterTest:92 - Left First Name blank
-2025-10-29 20:58:47 INFO  TC001_RegisterTest:108 - Clicked on Register button
-2025-10-29 20:58:47 INFO  TC001_RegisterTest:115 - Validation message displayed correctly: First name is required.
-2025-10-29 20:58:47 INFO  TC001_RegisterTest:121 - **** Negative Test Executed: Missing First Name ****
-2025-10-29 20:58:47 INFO  TC001_RegisterTest:127 - URL is opened
-2025-10-29 20:58:47 INFO  TC001_RegisterTest:131 - User clicked on Register link
-2025-10-29 20:58:48 INFO  TC001_RegisterTest:149 - Clicked on Register button
-2025-10-29 20:58:48 INFO  TC001_RegisterTest:158 - Validation message displayed correctly: Last name is required.
-2025-10-29 20:58:48 INFO  TC001_RegisterTest:163 - **** Negative Test Executed: Missing Last Name ****
-2025-10-29 20:58:52 INFO  TC001_RegisterTest:261 - Validation message displayed correctly: State is required.
-2025-10-29 20:58:53 INFO  TC001_RegisterTest:294 - Validation message displayed correctly: Zip Code is required.
-2025-10-29 20:59:05 INFO  TC001_RegisterTest:360 - Validation message displayed correctly: Username is required.
-2025-10-29 20:59:06 INFO  TC001_RegisterTest:394 - Validation message displayed correctly: Password is required.
-2025-10-29 20:59:08 INFO  TC001_RegisterTest:427 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
-2025-10-29 20:59:09 INFO  TC001_RegisterTest:463 - Validation message displayed correctly for existing username: This username already exists.
-2025-10-29 20:59:09 INFO  TC001_RegisterTest:477 - Testing for script injection
-2025-10-29 20:59:10 INFO  TC001_RegisterTest:507 - Testing with whitespace-only inputs
-2025-10-29 21:02:39 INFO  TC001_RegisterTest:84 - URL is opened
-2025-10-29 21:02:40 INFO  TC001_RegisterTest:88 - User clicked on Register link
-2025-10-29 21:02:40 INFO  TC001_RegisterTest:92 - Left First Name blank
-2025-10-29 21:02:41 INFO  TC001_RegisterTest:108 - Clicked on Register button
-2025-10-29 21:02:41 INFO  TC001_RegisterTest:115 - Validation message displayed correctly: First name is required.
-2025-10-29 21:02:41 INFO  TC001_RegisterTest:121 - **** Negative Test Executed: Missing First Name ****
-2025-10-29 21:02:41 INFO  TC001_RegisterTest:127 - URL is opened
-2025-10-29 21:02:41 INFO  TC001_RegisterTest:131 - User clicked on Register link
-2025-10-29 21:02:42 INFO  TC001_RegisterTest:149 - Clicked on Register button
-2025-10-29 21:02:42 INFO  TC001_RegisterTest:158 - Validation message displayed correctly: Last name is required.
-2025-10-29 21:02:42 INFO  TC001_RegisterTest:163 - **** Negative Test Executed: Missing Last Name ****
-2025-10-29 21:02:46 INFO  TC001_RegisterTest:261 - Validation message displayed correctly: State is required.
-2025-10-29 21:02:47 INFO  TC001_RegisterTest:294 - Validation message displayed correctly: Zip Code is required.
-2025-10-29 21:02:59 INFO  TC001_RegisterTest:364 - Validation message displayed correctly: Username is required.
-2025-10-29 21:03:01 INFO  TC001_RegisterTest:398 - Validation message displayed correctly: Password is required.
-2025-10-29 21:03:02 INFO  TC001_RegisterTest:431 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
-2025-10-29 21:03:03 INFO  TC001_RegisterTest:467 - Validation message displayed correctly for existing username: This username already exists.
-2025-10-29 21:03:03 INFO  TC001_RegisterTest:479 - Testing for script injection
-2025-10-29 21:03:04 INFO  TC001_RegisterTest:500 - Security script injection test executed safely.
-2025-10-29 21:03:04 INFO  TC001_RegisterTest:509 - Testing with whitespace-only inputs
-2025-10-29 21:03:04 INFO  TC001_RegisterTest:539 - Testing duplicate SSN validation
-2025-10-29 21:06:42 INFO  TC001_RegisterTest:84 - URL is opened
-2025-10-29 21:06:43 INFO  TC001_RegisterTest:88 - User clicked on Register link
-2025-10-29 21:06:43 INFO  TC001_RegisterTest:92 - Left First Name blank
-2025-10-29 21:06:43 INFO  TC001_RegisterTest:108 - Clicked on Register button
-2025-10-29 21:06:44 INFO  TC001_RegisterTest:115 - Validation message displayed correctly: First name is required.
-2025-10-29 21:06:44 INFO  TC001_RegisterTest:121 - **** Negative Test Executed: Missing First Name ****
-2025-10-29 21:06:44 INFO  TC001_RegisterTest:127 - URL is opened
-2025-10-29 21:06:44 INFO  TC001_RegisterTest:131 - User clicked on Register link
-2025-10-29 21:06:45 INFO  TC001_RegisterTest:149 - Clicked on Register button
-2025-10-29 21:06:45 INFO  TC001_RegisterTest:158 - Validation message displayed correctly: Last name is required.
-2025-10-29 21:06:45 INFO  TC001_RegisterTest:163 - **** Negative Test Executed: Missing Last Name ****
-2025-10-29 21:06:48 INFO  TC001_RegisterTest:261 - Validation message displayed correctly: State is required.
-2025-10-29 21:06:49 INFO  TC001_RegisterTest:294 - Validation message displayed correctly: Zip Code is required.
-2025-10-29 21:07:02 INFO  TC001_RegisterTest:364 - Validation message displayed correctly: Username is required.
-2025-10-29 21:07:03 INFO  TC001_RegisterTest:398 - Validation message displayed correctly: Password is required.
-2025-10-29 21:07:04 INFO  TC001_RegisterTest:431 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
-2025-10-29 21:07:05 INFO  TC001_RegisterTest:467 - Validation message displayed correctly for existing username: This username already exists.
-2025-10-29 21:07:05 INFO  TC001_RegisterTest:479 - Testing for script injection
-2025-10-29 21:07:07 INFO  TC001_RegisterTest:509 - Testing with whitespace-only inputs
-2025-10-29 21:07:17 INFO  TC001_RegisterTest:539 - Testing duplicate SSN validation
-2025-10-29 21:24:19 INFO  TC001_RegisterTest:85 - URL is opened
-2025-10-29 21:24:19 INFO  TC001_RegisterTest:89 - User clicked on Register link
-2025-10-29 21:24:20 INFO  TC001_RegisterTest:93 - Left First Name blank
-2025-10-29 21:24:20 INFO  TC001_RegisterTest:109 - Clicked on Register button
-2025-10-29 21:24:21 INFO  TC001_RegisterTest:116 - Validation message displayed correctly: First name is required.
-2025-10-29 21:24:21 INFO  TC001_RegisterTest:122 - **** Negative Test Executed: Missing First Name ****
-2025-10-29 21:24:21 INFO  TC001_RegisterTest:128 - URL is opened
-2025-10-29 21:24:21 INFO  TC001_RegisterTest:132 - User clicked on Register link
-2025-10-29 21:24:22 INFO  TC001_RegisterTest:150 - Clicked on Register button
-2025-10-29 21:24:22 INFO  TC001_RegisterTest:159 - Validation message displayed correctly: Last name is required.
-2025-10-29 21:24:22 INFO  TC001_RegisterTest:164 - **** Negative Test Executed: Missing Last Name ****
-2025-10-29 21:24:25 INFO  TC001_RegisterTest:262 - Validation message displayed correctly: State is required.
-2025-10-29 21:24:27 INFO  TC001_RegisterTest:295 - Validation message displayed correctly: Zip Code is required.
-2025-10-29 21:24:39 INFO  TC001_RegisterTest:362 - Validation message displayed correctly: Username is required.
-2025-10-29 21:24:40 INFO  TC001_RegisterTest:396 - Validation message displayed correctly: Password is required.
-2025-10-29 21:24:41 INFO  TC001_RegisterTest:429 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
-2025-10-29 21:24:43 INFO  TC001_RegisterTest:465 - Validation message displayed correctly for existing username: This username already exists.
-2025-10-29 21:24:43 INFO  TC001_RegisterTest:530 - Testing with whitespace-only inputs
-2025-10-29 21:24:44 INFO  TC001_RegisterTest:560 - Testing duplicate SSN validation
-2025-10-29 21:24:54 INFO  TC001_RegisterTest:477 - Testing for script injection
-2025-10-29 21:26:32 INFO  TC001_RegisterTest:85 - URL is opened
-2025-10-29 21:26:33 INFO  TC001_RegisterTest:89 - User clicked on Register link
-2025-10-29 21:26:33 INFO  TC001_RegisterTest:93 - Left First Name blank
-2025-10-29 21:26:34 INFO  TC001_RegisterTest:109 - Clicked on Register button
-2025-10-29 21:26:34 INFO  TC001_RegisterTest:116 - Validation message displayed correctly: First name is required.
-2025-10-29 21:26:34 INFO  TC001_RegisterTest:122 - **** Negative Test Executed: Missing First Name ****
-2025-10-29 21:26:34 INFO  TC001_RegisterTest:128 - URL is opened
-2025-10-29 21:26:34 INFO  TC001_RegisterTest:132 - User clicked on Register link
-2025-10-29 21:26:35 INFO  TC001_RegisterTest:150 - Clicked on Register button
-2025-10-29 21:26:35 INFO  TC001_RegisterTest:159 - Validation message displayed correctly: Last name is required.
-2025-10-29 21:26:35 INFO  TC001_RegisterTest:164 - **** Negative Test Executed: Missing Last Name ****
-2025-10-29 21:26:38 INFO  TC001_RegisterTest:262 - Validation message displayed correctly: State is required.
-2025-10-29 21:26:39 INFO  TC001_RegisterTest:295 - Validation message displayed correctly: Zip Code is required.
-2025-10-29 21:26:52 INFO  TC001_RegisterTest:362 - Validation message displayed correctly: Username is required.
-2025-10-29 21:26:53 INFO  TC001_RegisterTest:396 - Validation message displayed correctly: Password is required.
-2025-10-29 21:26:54 INFO  TC001_RegisterTest:429 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
-2025-10-29 21:26:56 INFO  TC001_RegisterTest:465 - Validation message displayed correctly for existing username: This username already exists.
-2025-10-29 21:26:56 INFO  TC001_RegisterTest:476 - Testing with whitespace-only inputs
-2025-10-29 21:39:34 INFO  TC001_RegisterTest:85 - URL is opened
-2025-10-29 21:39:35 INFO  TC001_RegisterTest:89 - User clicked on Register link
-2025-10-29 21:39:35 INFO  TC001_RegisterTest:93 - Left First Name blank
-2025-10-29 21:39:36 INFO  TC001_RegisterTest:109 - Clicked on Register button
-2025-10-29 21:39:36 INFO  TC001_RegisterTest:116 - Validation message displayed correctly: First name is required.
-2025-10-29 21:39:36 INFO  TC001_RegisterTest:122 - **** Negative Test Executed: Missing First Name ****
-2025-10-29 21:39:36 INFO  TC001_RegisterTest:128 - URL is opened
-2025-10-29 21:39:36 INFO  TC001_RegisterTest:132 - User clicked on Register link
-2025-10-29 21:39:38 INFO  TC001_RegisterTest:150 - Clicked on Register button
-2025-10-29 21:39:38 INFO  TC001_RegisterTest:159 - Validation message displayed correctly: Last name is required.
-2025-10-29 21:39:38 INFO  TC001_RegisterTest:164 - **** Negative Test Executed: Missing Last Name ****
-2025-10-29 21:39:41 INFO  TC001_RegisterTest:262 - Validation message displayed correctly: State is required.
-2025-10-29 21:39:43 INFO  TC001_RegisterTest:296 - Validation message displayed correctly: Zip Code is required.
-2025-10-29 21:39:55 INFO  TC001_RegisterTest:363 - Validation message displayed correctly: Username is required.
-2025-10-29 21:39:57 INFO  TC001_RegisterTest:397 - Validation message displayed correctly: Password is required.
-2025-10-29 21:39:58 INFO  TC001_RegisterTest:430 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
-2025-10-29 21:39:59 INFO  TC001_RegisterTest:466 - Validation message displayed correctly for existing username: This username already exists.
-2025-10-29 21:39:59 INFO  TC001_RegisterTest:477 - Testing with whitespace-only inputs
-2025-10-29 21:44:02 INFO  TC001_RegisterTest:85 - URL is opened
-2025-10-29 21:44:02 INFO  TC001_RegisterTest:89 - User clicked on Register link
-2025-10-29 21:44:02 INFO  TC001_RegisterTest:93 - Left First Name blank
-2025-10-29 21:44:03 INFO  TC001_RegisterTest:109 - Clicked on Register button
-2025-10-29 21:44:03 INFO  TC001_RegisterTest:116 - Validation message displayed correctly: First name is required.
-2025-10-29 21:44:03 INFO  TC001_RegisterTest:122 - **** Negative Test Executed: Missing First Name ****
-2025-10-29 21:44:03 INFO  TC001_RegisterTest:128 - URL is opened
-2025-10-29 21:44:04 INFO  TC001_RegisterTest:132 - User clicked on Register link
-2025-10-29 21:44:05 INFO  TC001_RegisterTest:150 - Clicked on Register button
-2025-10-29 21:44:05 INFO  TC001_RegisterTest:159 - Validation message displayed correctly: Last name is required.
-2025-10-29 21:44:05 INFO  TC001_RegisterTest:164 - **** Negative Test Executed: Missing Last Name ****
-2025-10-29 21:44:08 INFO  TC001_RegisterTest:262 - Validation message displayed correctly: State is required.
-2025-10-29 21:44:09 INFO  TC001_RegisterTest:296 - Validation message displayed correctly: Zip Code is required.
-2025-10-29 21:44:22 INFO  TC001_RegisterTest:363 - Validation message displayed correctly: Username is required.
-2025-10-29 21:44:23 INFO  TC001_RegisterTest:397 - Validation message displayed correctly: Password is required.
-2025-10-29 21:44:24 INFO  TC001_RegisterTest:430 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
-2025-10-29 21:44:25 INFO  TC001_RegisterTest:466 - Validation message displayed correctly for existing username: This username already exists.
-2025-10-29 21:45:03 INFO  TC001_RegisterTest:85 - URL is opened
-2025-10-29 21:45:03 INFO  TC001_RegisterTest:89 - User clicked on Register link
-2025-10-29 21:45:03 INFO  TC001_RegisterTest:93 - Left First Name blank
-2025-10-29 21:45:04 INFO  TC001_RegisterTest:109 - Clicked on Register button
-2025-10-29 21:45:04 INFO  TC001_RegisterTest:116 - Validation message displayed correctly: First name is required.
-2025-10-29 21:45:04 INFO  TC001_RegisterTest:122 - **** Negative Test Executed: Missing First Name ****
-2025-10-29 21:45:04 INFO  TC001_RegisterTest:128 - URL is opened
-2025-10-29 21:45:04 INFO  TC001_RegisterTest:132 - User clicked on Register link
-2025-10-29 21:45:05 INFO  TC001_RegisterTest:150 - Clicked on Register button
-2025-10-29 21:45:05 INFO  TC001_RegisterTest:159 - Validation message displayed correctly: Last name is required.
-2025-10-29 21:45:05 INFO  TC001_RegisterTest:164 - **** Negative Test Executed: Missing Last Name ****
-2025-10-29 21:45:08 INFO  TC001_RegisterTest:262 - Validation message displayed correctly: State is required.
-2025-10-29 21:45:09 INFO  TC001_RegisterTest:296 - Validation message displayed correctly: Zip Code is required.
-2025-10-29 21:45:22 INFO  TC001_RegisterTest:363 - Validation message displayed correctly: Username is required.
-2025-10-29 21:45:23 INFO  TC001_RegisterTest:397 - Validation message displayed correctly: Password is required.
-2025-10-29 21:45:25 INFO  TC001_RegisterTest:430 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
-2025-10-29 21:45:26 INFO  TC001_RegisterTest:466 - Validation message displayed correctly for existing username: This username already exists.
-2025-10-29 21:45:26 INFO  TC001_RegisterTest:477 - Testing with whitespace-only inputs
-2025-10-29 21:47:19 INFO  TC001_RegisterTest:85 - URL is opened
-2025-10-29 21:47:19 INFO  TC001_RegisterTest:89 - User clicked on Register link
-2025-10-29 21:47:19 INFO  TC001_RegisterTest:93 - Left First Name blank
-2025-10-29 21:47:20 INFO  TC001_RegisterTest:109 - Clicked on Register button
-2025-10-29 21:47:20 INFO  TC001_RegisterTest:116 - Validation message displayed correctly: First name is required.
-2025-10-29 21:47:20 INFO  TC001_RegisterTest:122 - **** Negative Test Executed: Missing First Name ****
-2025-10-29 21:47:20 INFO  TC001_RegisterTest:128 - URL is opened
-2025-10-29 21:47:21 INFO  TC001_RegisterTest:132 - User clicked on Register link
-2025-10-29 21:47:21 INFO  TC001_RegisterTest:150 - Clicked on Register button
-2025-10-29 21:47:22 INFO  TC001_RegisterTest:159 - Validation message displayed correctly: Last name is required.
-2025-10-29 21:47:22 INFO  TC001_RegisterTest:164 - **** Negative Test Executed: Missing Last Name ****
-2025-10-29 21:47:25 INFO  TC001_RegisterTest:262 - Validation message displayed correctly: State is required.
-2025-10-29 21:47:26 INFO  TC001_RegisterTest:296 - Validation message displayed correctly: Zip Code is required.
-2025-10-29 21:47:28 INFO  TC001_RegisterTest:328 - Fetched SSN error message: Social Security Number is required.
-2025-10-29 21:47:28 INFO  TC001_RegisterTest:336 - Validation message displayed correctly: Social Security Number is required.
-2025-10-29 21:47:29 INFO  TC001_RegisterTest:370 - Validation message displayed correctly: Username is required.
-2025-10-29 21:47:30 INFO  TC001_RegisterTest:404 - Validation message displayed correctly: Password is required.
-2025-10-29 21:47:32 INFO  TC001_RegisterTest:437 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
-2025-10-29 21:47:33 INFO  TC001_RegisterTest:473 - Validation message displayed correctly for existing username: This username already exists.
-2025-10-29 21:48:34 INFO  TC001_RegisterTest:18 - URL is opened
-2025-10-29 21:48:35 INFO  TC001_RegisterTest:22 - User clicked on register Link
-2025-10-29 21:48:35 INFO  TC001_RegisterTest:25 - User Entered the First Name.
-2025-10-29 21:48:35 INFO  TC001_RegisterTest:28 - User Entered the Last Name.
-2025-10-29 21:48:35 INFO  TC001_RegisterTest:31 - User Entered the Address.
-2025-10-29 21:48:35 INFO  TC001_RegisterTest:34 - User Entered the City.
-2025-10-29 21:48:35 INFO  TC001_RegisterTest:37 - User Entered the State.
-2025-10-29 21:48:35 INFO  TC001_RegisterTest:40 - User Entered the ZipCode.
-2025-10-29 21:48:35 INFO  TC001_RegisterTest:43 - User Entered the PhoneNumber.
-2025-10-29 21:48:35 INFO  TC001_RegisterTest:46 - User Entered the Ssn.
-2025-10-29 21:48:35 INFO  TC001_RegisterTest:49 - User Entered the Username.
-2025-10-29 21:48:35 INFO  TC001_RegisterTest:54 - User Entered the Password.
-2025-10-29 21:48:35 INFO  TC001_RegisterTest:57 - User Entered the RepeatedPassword.
-2025-10-29 21:48:36 INFO  TC001_RegisterTest:66 - Account created successfully! Message displayed: Your account was created successfully. You are now logged in.
-2025-10-29 21:48:36 INFO  TC001_RegisterTest:78 - ****test executed*****
-2025-10-29 21:48:36 INFO  TC001_RegisterTest:85 - URL is opened
-2025-10-29 21:48:36 INFO  TC001_RegisterTest:89 - User clicked on Register link
-2025-10-29 21:48:36 INFO  TC001_RegisterTest:93 - Left First Name blank
-2025-10-29 21:48:37 INFO  TC001_RegisterTest:109 - Clicked on Register button
-2025-10-29 21:48:37 INFO  TC001_RegisterTest:116 - Validation message displayed correctly: First name is required.
-2025-10-29 21:48:37 INFO  TC001_RegisterTest:122 - **** Negative Test Executed: Missing First Name ****
-2025-10-29 21:48:37 INFO  TC001_RegisterTest:128 - URL is opened
-2025-10-29 21:48:37 INFO  TC001_RegisterTest:132 - User clicked on Register link
-2025-10-29 21:48:38 INFO  TC001_RegisterTest:150 - Clicked on Register button
-2025-10-29 21:48:38 INFO  TC001_RegisterTest:159 - Validation message displayed correctly: Last name is required.
-2025-10-29 21:48:38 INFO  TC001_RegisterTest:164 - **** Negative Test Executed: Missing Last Name ****
-2025-10-29 21:48:42 INFO  TC001_RegisterTest:262 - Validation message displayed correctly: State is required.
-2025-10-29 21:48:43 INFO  TC001_RegisterTest:296 - Validation message displayed correctly: Zip Code is required.
-2025-10-29 21:48:45 INFO  TC001_RegisterTest:328 - Fetched SSN error message: Social Security Number is required.
-2025-10-29 21:48:45 INFO  TC001_RegisterTest:336 - Validation message displayed correctly: Social Security Number is required.
-2025-10-29 21:48:46 INFO  TC001_RegisterTest:370 - Validation message displayed correctly: Username is required.
-2025-10-29 21:48:47 INFO  TC001_RegisterTest:404 - Validation message displayed correctly: Password is required.
-2025-10-29 21:48:48 INFO  TC001_RegisterTest:437 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
-2025-10-29 21:48:50 INFO  TC001_RegisterTest:473 - Validation message displayed correctly for existing username: This username already exists.
-2025-10-29 21:54:51 INFO  TC001_RegisterTest:485 - Testing SQL injection attempt in username & SSN
-2025-10-29 21:54:54 INFO  TC001_RegisterTest:543 - Testing empty form submission (no fields filled)
-2025-10-29 21:55:04 INFO  TC001_RegisterTest:585 - Testing registration with whitespace-only inputs (compact)
-2025-10-29 22:22:16 INFO  TC001_RegisterTest:485 - Testing empty form submission (no fields filled)
-2025-10-29 22:22:28 INFO  TC001_RegisterTest:527 - Testing registration with whitespace-only inputs (compact)
-2025-10-29 22:23:31 INFO  TC001_RegisterTest:18 - URL is opened
-2025-10-29 22:23:32 INFO  TC001_RegisterTest:22 - User clicked on register Link
-2025-10-29 22:23:32 INFO  TC001_RegisterTest:25 - User Entered the First Name.
-2025-10-29 22:23:32 INFO  TC001_RegisterTest:28 - User Entered the Last Name.
-2025-10-29 22:23:32 INFO  TC001_RegisterTest:31 - User Entered the Address.
-2025-10-29 22:23:32 INFO  TC001_RegisterTest:34 - User Entered the City.
-2025-10-29 22:23:32 INFO  TC001_RegisterTest:37 - User Entered the State.
-2025-10-29 22:23:32 INFO  TC001_RegisterTest:40 - User Entered the ZipCode.
-2025-10-29 22:23:32 INFO  TC001_RegisterTest:43 - User Entered the PhoneNumber.
-2025-10-29 22:23:32 INFO  TC001_RegisterTest:46 - User Entered the Ssn.
-2025-10-29 22:23:32 INFO  TC001_RegisterTest:49 - User Entered the Username.
-2025-10-29 22:23:32 INFO  TC001_RegisterTest:54 - User Entered the Password.
-2025-10-29 22:23:32 INFO  TC001_RegisterTest:57 - User Entered the RepeatedPassword.
-2025-10-29 22:23:33 INFO  TC001_RegisterTest:66 - Account created successfully! Message displayed: Your account was created successfully. You are now logged in.
-2025-10-29 22:23:33 INFO  TC001_RegisterTest:78 - ****test executed*****
-2025-10-29 22:23:33 INFO  TC001_RegisterTest:85 - URL is opened
-2025-10-29 22:23:33 INFO  TC001_RegisterTest:89 - User clicked on Register link
-2025-10-29 22:23:33 INFO  TC001_RegisterTest:93 - Left First Name blank
-2025-10-29 22:23:34 INFO  TC001_RegisterTest:109 - Clicked on Register button
-2025-10-29 22:23:34 INFO  TC001_RegisterTest:116 - Validation message displayed correctly: First name is required.
-2025-10-29 22:23:34 INFO  TC001_RegisterTest:122 - **** Negative Test Executed: Missing First Name ****
-2025-10-29 22:23:34 INFO  TC001_RegisterTest:128 - URL is opened
-2025-10-29 22:23:34 INFO  TC001_RegisterTest:132 - User clicked on Register link
-2025-10-29 22:23:35 INFO  TC001_RegisterTest:150 - Clicked on Register button
-2025-10-29 22:23:35 INFO  TC001_RegisterTest:159 - Validation message displayed correctly: Last name is required.
-2025-10-29 22:23:35 INFO  TC001_RegisterTest:164 - **** Negative Test Executed: Missing Last Name ****
-2025-10-29 22:23:39 INFO  TC001_RegisterTest:262 - Validation message displayed correctly: State is required.
-2025-10-29 22:23:40 INFO  TC001_RegisterTest:296 - Validation message displayed correctly: Zip Code is required.
-2025-10-29 22:23:42 INFO  TC001_RegisterTest:328 - Fetched SSN error message: Social Security Number is required.
-2025-10-29 22:23:42 INFO  TC001_RegisterTest:336 - Validation message displayed correctly: Social Security Number is required.
-2025-10-29 22:23:43 INFO  TC001_RegisterTest:370 - Validation message displayed correctly: Username is required.
-2025-10-29 22:23:44 INFO  TC001_RegisterTest:404 - Validation message displayed correctly: Password is required.
-2025-10-29 22:23:45 INFO  TC001_RegisterTest:437 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
-2025-10-29 22:23:47 INFO  TC001_RegisterTest:473 - Validation message displayed correctly for existing username: This username already exists.
+2025-10-30 15:32:33 INFO  TC001_RegisterTest:18 - URL is opened
+2025-10-30 15:32:33 INFO  TC001_RegisterTest:22 - User clicked on register Link
+2025-10-30 15:32:34 INFO  TC001_RegisterTest:25 - User Entered the First Name.
+2025-10-30 15:32:34 INFO  TC001_RegisterTest:28 - User Entered the Last Name.
+2025-10-30 15:32:34 INFO  TC001_RegisterTest:31 - User Entered the Address.
+2025-10-30 15:32:34 INFO  TC001_RegisterTest:34 - User Entered the City.
+2025-10-30 15:32:34 INFO  TC001_RegisterTest:37 - User Entered the State.
+2025-10-30 15:32:34 INFO  TC001_RegisterTest:40 - User Entered the ZipCode.
+2025-10-30 15:32:34 INFO  TC001_RegisterTest:43 - User Entered the PhoneNumber.
+2025-10-30 15:32:34 INFO  TC001_RegisterTest:46 - User Entered the Ssn.
+2025-10-30 15:32:34 INFO  TC001_RegisterTest:49 - User Entered the Username.
+2025-10-30 15:32:34 INFO  TC001_RegisterTest:54 - User Entered the Password.
+2025-10-30 15:32:34 INFO  TC001_RegisterTest:57 - User Entered the RepeatedPassword.
+2025-10-30 15:32:35 INFO  TC001_RegisterTest:66 - Account created successfully! Message displayed: Your account was created successfully. You are now logged in.
+2025-10-30 15:32:35 INFO  TC001_RegisterTest:78 - ****test executed*****
+2025-10-30 15:32:35 INFO  TC001_RegisterTest:85 - URL is opened
+2025-10-30 15:32:35 INFO  TC001_RegisterTest:89 - User clicked on Register link
+2025-10-30 15:32:35 INFO  TC001_RegisterTest:93 - Left First Name blank
+2025-10-30 15:32:36 INFO  TC001_RegisterTest:109 - Clicked on Register button
+2025-10-30 15:32:36 INFO  TC001_RegisterTest:116 - Validation message displayed correctly: First name is required.
+2025-10-30 15:32:36 INFO  TC001_RegisterTest:122 - **** Negative Test Executed: Missing First Name ****
+2025-10-30 15:32:36 INFO  TC001_RegisterTest:128 - URL is opened
+2025-10-30 15:32:37 INFO  TC001_RegisterTest:132 - User clicked on Register link
+2025-10-30 15:32:38 INFO  TC001_RegisterTest:150 - Clicked on Register button
+2025-10-30 15:32:38 INFO  TC001_RegisterTest:159 - Validation message displayed correctly: Last name is required.
+2025-10-30 15:32:38 INFO  TC001_RegisterTest:164 - **** Negative Test Executed: Missing Last Name ****
+2025-10-30 15:32:41 INFO  TC001_RegisterTest:262 - Validation message displayed correctly: State is required.
+2025-10-30 15:32:42 INFO  TC001_RegisterTest:296 - Validation message displayed correctly: Zip Code is required.
+2025-10-30 15:32:44 INFO  TC001_RegisterTest:328 - Fetched SSN error message: Social Security Number is required.
+2025-10-30 15:32:44 INFO  TC001_RegisterTest:336 - Validation message displayed correctly: Social Security Number is required.
+2025-10-30 15:32:45 INFO  TC001_RegisterTest:370 - Validation message displayed correctly: Username is required.
+2025-10-30 15:32:46 INFO  TC001_RegisterTest:404 - Validation message displayed correctly: Password is required.
+2025-10-30 15:32:48 INFO  TC001_RegisterTest:437 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
+2025-10-30 15:32:49 INFO  TC001_RegisterTest:473 - Validation message displayed correctly for existing username: This username already exists.
+2025-10-30 15:56:52 INFO  TC002_LoginTest:17 - URL is opened
+2025-10-30 15:56:53 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-10-30 15:56:53 INFO  TC002_LoginTest:24 - User entered the password:
+2025-10-30 15:56:55 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-10-30 15:56:58 INFO  TC002_LoginTest:37 - User not able to logout!
+2025-10-30 15:56:58 INFO  TC002_LoginTest:46 - ****test executed*****
+2025-10-30 15:56:58 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-10-30 15:57:00 INFO  TC002_LoginTest:58 - Clicked submit with invalid password
+2025-10-30 15:57:12 ERROR TC002_LoginTest:66 - Test failed: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(), 'Please enter a username and password.')]"}
+  (Session info: chrome=141.0.7390.125)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fb21362033ad64dc8e07152afc27609a, findElement {using=xpath, value=//p[contains(text(), 'Please enter a username and password.')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.125, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56672}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56672/devtoo..., se:cdpVersion: 141.0.7390.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fb21362033ad64dc8e07152afc27609a
+2025-10-30 15:57:12 INFO  TC002_LoginTest:74 - Starting test: Login with both invalid credentials
+2025-10-30 15:57:14 INFO  TC002_LoginTest:80 - Clicked submit with invalid credentials
+2025-10-30 15:57:16 ERROR TC002_LoginTest:88 - Test failed: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.125)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fb21362033ad64dc8e07152afc27609a, findElement {using=xpath, value=//p[contains(text(), 'Please enter a username and password.')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.125, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56672}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56672/devtoo..., se:cdpVersion: 141.0.7390.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fb21362033ad64dc8e07152afc27609a
+2025-10-30 16:08:06 INFO  TC002_LoginTest:17 - URL is opened
+2025-10-30 16:08:06 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-10-30 16:08:07 INFO  TC002_LoginTest:24 - User entered the password:
+2025-10-30 16:08:09 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-10-30 16:08:12 INFO  TC002_LoginTest:37 - User not able to logout!
+2025-10-30 16:08:12 INFO  TC002_LoginTest:46 - ****test executed*****
+2025-10-30 16:08:12 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-10-30 16:08:12 INFO  TC002_LoginTest:56 - Entered username: mikasa@06
+2025-10-30 16:08:12 INFO  TC002_LoginTest:59 - Entered invalid password
+2025-10-30 16:08:12 INFO  TC002_LoginTest:62 - Clicked submit button with invalid password
+2025-10-30 16:10:04 INFO  TC002_LoginTest:17 - URL is opened
+2025-10-30 16:10:04 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-10-30 16:10:05 INFO  TC002_LoginTest:24 - User entered the password:
+2025-10-30 16:10:07 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-10-30 16:10:09 INFO  TC002_LoginTest:37 - User not able to logout!
+2025-10-30 16:10:09 INFO  TC002_LoginTest:46 - ****test executed*****
+2025-10-30 16:10:09 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-10-30 16:10:09 INFO  TC002_LoginTest:56 - Entered username: mikasa@06
+2025-10-30 16:10:09 INFO  TC002_LoginTest:59 - Entered invalid password
+2025-10-30 16:10:09 INFO  TC002_LoginTest:62 - Clicked submit button with invalid password
+2025-10-30 16:10:09 INFO  TC002_LoginTest:74 - Test passed: Invalid password correctly rejected. Message: The username and password could not be verified.
+2025-10-30 16:14:56 INFO  TC002_LoginTest:17 - URL is opened
+2025-10-30 16:14:56 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-10-30 16:14:56 INFO  TC002_LoginTest:24 - User entered the password:
+2025-10-30 16:14:58 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-10-30 16:15:01 INFO  TC002_LoginTest:37 - User not able to logout!
+2025-10-30 16:15:01 INFO  TC002_LoginTest:46 - ****test executed*****
+2025-10-30 16:15:01 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-10-30 16:15:01 INFO  TC002_LoginTest:56 - Entered username: mikasa@06
+2025-10-30 16:15:01 INFO  TC002_LoginTest:59 - Entered invalid password
+2025-10-30 16:15:01 INFO  TC002_LoginTest:62 - Clicked submit button with invalid password
+2025-10-30 16:15:01 INFO  TC002_LoginTest:74 - Test passed: Invalid password correctly rejected. Message: The username and password could not be verified.
+2025-10-30 16:15:01 INFO  TC002_LoginTest:86 - Starting test: Login with both invalid credentials
+2025-10-30 16:15:01 INFO  TC002_LoginTest:90 - Entered invalid username
+2025-10-30 16:15:01 INFO  TC002_LoginTest:93 - Entered invalid password
+2025-10-30 16:15:01 INFO  TC002_LoginTest:96 - Clicked submit with invalid credentials
+2025-10-30 16:15:02 INFO  TC002_LoginTest:109 - Test passed: Invalid credentials correctly rejected. Message: The username and password could not be verified.
+2025-10-30 16:15:02 INFO  TC002_LoginTest:120 - Starting test: Login with empty username
+2025-10-30 16:15:02 INFO  TC002_LoginTest:124 - Left username field empty
+2025-10-30 16:15:02 INFO  TC002_LoginTest:127 - Entered valid password
+2025-10-30 16:15:02 INFO  TC002_LoginTest:130 - Clicked submit with empty username
+2025-10-30 16:15:02 INFO  TC002_LoginTest:143 - Test passed: Empty username correctly rejected. Message: Please enter a username and password.
+2025-10-30 16:15:02 INFO  TC002_LoginTest:154 - Starting test: Login with empty password
+2025-10-30 16:15:02 INFO  TC002_LoginTest:158 - Entered valid username
+2025-10-30 16:15:02 INFO  TC002_LoginTest:161 - Left password field empty
+2025-10-30 16:15:02 INFO  TC002_LoginTest:164 - Clicked submit with empty password
+2025-10-30 16:15:02 INFO  TC002_LoginTest:177 - Test passed: Empty password correctly rejected. Message: Please enter a username and password.
+2025-10-30 16:15:02 INFO  TC002_LoginTest:188 - Starting test: Login with both fields empty
+2025-10-30 16:15:02 INFO  TC002_LoginTest:192 - Left username field empty
+2025-10-30 16:15:02 INFO  TC002_LoginTest:195 - Left password field empty
+2025-10-30 16:15:02 INFO  TC002_LoginTest:198 - Clicked submit with empty fields
+2025-10-30 16:15:02 INFO  TC002_LoginTest:211 - Test passed: Empty fields correctly rejected. Message: Please enter a username and password.
+2025-10-30 16:15:02 INFO  TC002_LoginTest:222 - Starting test: Login with SQL injection attempt
+2025-10-30 16:15:02 INFO  TC002_LoginTest:226 - Entered SQL injection in username
+2025-10-30 16:15:02 INFO  TC002_LoginTest:229 - Entered SQL injection in password
+2025-10-30 16:15:03 INFO  TC002_LoginTest:232 - Clicked submit with SQL injection
+2025-10-30 16:15:03 INFO  TC002_LoginTest:244 - Test passed: SQL injection prevented. Message: The username and password could not be verified.
+2025-10-30 16:15:03 INFO  TC002_LoginTest:255 - Starting test: Login with special characters
+2025-10-30 16:15:03 INFO  TC002_LoginTest:259 - Entered special characters in username
+2025-10-30 16:15:03 INFO  TC002_LoginTest:262 - Entered special characters in password
+2025-10-30 16:15:03 INFO  TC002_LoginTest:265 - Clicked submit with special characters
+2025-10-30 16:15:03 INFO  TC002_LoginTest:277 - Test passed: Special characters correctly rejected. Message: The username and password could not be verified.
+2025-10-30 16:15:03 INFO  TC002_LoginTest:288 - Starting test: Login with spaces in credentials
+2025-10-30 16:15:03 INFO  TC002_LoginTest:292 - Entered username with leading and trailing spaces
+2025-10-30 16:15:03 INFO  TC002_LoginTest:295 - Entered password with leading and trailing spaces
+2025-10-30 16:15:03 INFO  TC002_LoginTest:298 - Clicked submit with spaces in credentials
+2025-10-30 16:15:03 INFO  TC002_LoginTest:309 - Test passed: Spaces in credentials handled correctly. Message: The username and password could not be verified.
+2025-10-30 16:15:03 INFO  TC002_LoginTest:320 - Starting test: Login with case-sensitive username
+2025-10-30 16:15:03 INFO  TC002_LoginTest:325 - Entered username in uppercase: MIKASA@06
+2025-10-30 16:15:03 INFO  TC002_LoginTest:328 - Entered valid password
+2025-10-30 16:15:04 INFO  TC002_LoginTest:331 - Clicked submit with uppercase username
+2025-10-30 16:15:04 INFO  TC002_LoginTest:343 - Test passed: Case sensitivity validated correctly. Message: The username and password could not be verified.
+2025-10-30 16:15:04 INFO  TC002_LoginTest:354 - Starting test: Login with excessively long username
+2025-10-30 16:15:04 INFO  TC002_LoginTest:359 - Entered excessively long username (500+ characters)
+2025-10-30 16:15:04 INFO  TC002_LoginTest:362 - Entered valid password
+2025-10-30 16:15:04 INFO  TC002_LoginTest:365 - Clicked submit with long username
+2025-10-30 16:15:05 INFO  TC002_LoginTest:378 - Test passed: Long username correctly rejected. Message: The username and password could not be verified.
+2025-10-30 16:15:05 INFO  TC002_LoginTest:389 - Starting test: Login with script tags (XSS)
+2025-10-30 16:15:05 INFO  TC002_LoginTest:393 - Entered script tag in username
+2025-10-30 16:15:05 INFO  TC002_LoginTest:396 - Entered script tag in password
+2025-10-30 16:15:05 INFO  TC002_LoginTest:399 - Clicked submit with script tags
+2025-10-30 16:15:15 ERROR TC002_LoginTest:414 - Test failed: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(), 'An internal error has occurred and has been logged.')]"}
+  (Session info: chrome=141.0.7390.125)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5681c46f8d8cdc6f777b34e64cca335d, findElement {using=xpath, value=//p[contains(text(), 'An internal error has occurred and has been logged.')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.125, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57711}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57711/devtoo..., se:cdpVersion: 141.0.7390.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5681c46f8d8cdc6f777b34e64cca335d
+2025-10-30 16:16:48 INFO  TC002_LoginTest:17 - URL is opened
+2025-10-30 16:16:48 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-10-30 16:16:49 INFO  TC002_LoginTest:24 - User entered the password:
+2025-10-30 16:16:51 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-10-30 16:16:53 INFO  TC002_LoginTest:37 - User not able to logout!
+2025-10-30 16:16:53 INFO  TC002_LoginTest:46 - ****test executed*****
+2025-10-30 16:16:53 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-10-30 16:16:53 INFO  TC002_LoginTest:56 - Entered username: mikasa@06
+2025-10-30 16:16:53 INFO  TC002_LoginTest:59 - Entered invalid password
+2025-10-30 16:16:53 INFO  TC002_LoginTest:62 - Clicked submit button with invalid password
+2025-10-30 16:16:53 INFO  TC002_LoginTest:74 - Test passed: Invalid password correctly rejected. Message: The username and password could not be verified.
+2025-10-30 16:16:53 INFO  TC002_LoginTest:86 - Starting test: Login with both invalid credentials
+2025-10-30 16:16:53 INFO  TC002_LoginTest:90 - Entered invalid username
+2025-10-30 16:16:53 INFO  TC002_LoginTest:93 - Entered invalid password
+2025-10-30 16:16:54 INFO  TC002_LoginTest:96 - Clicked submit with invalid credentials
+2025-10-30 16:16:54 INFO  TC002_LoginTest:109 - Test passed: Invalid credentials correctly rejected. Message: The username and password could not be verified.
+2025-10-30 16:16:54 INFO  TC002_LoginTest:120 - Starting test: Login with empty username
+2025-10-30 16:16:54 INFO  TC002_LoginTest:124 - Left username field empty
+2025-10-30 16:16:54 INFO  TC002_LoginTest:127 - Entered valid password
+2025-10-30 16:16:54 INFO  TC002_LoginTest:130 - Clicked submit with empty username
+2025-10-30 16:16:54 INFO  TC002_LoginTest:143 - Test passed: Empty username correctly rejected. Message: Please enter a username and password.
+2025-10-30 16:16:54 INFO  TC002_LoginTest:154 - Starting test: Login with empty password
+2025-10-30 16:16:54 INFO  TC002_LoginTest:158 - Entered valid username
+2025-10-30 16:16:54 INFO  TC002_LoginTest:161 - Left password field empty
+2025-10-30 16:16:54 INFO  TC002_LoginTest:164 - Clicked submit with empty password
+2025-10-30 16:16:54 INFO  TC002_LoginTest:177 - Test passed: Empty password correctly rejected. Message: Please enter a username and password.
+2025-10-30 16:16:54 INFO  TC002_LoginTest:188 - Starting test: Login with both fields empty
+2025-10-30 16:16:54 INFO  TC002_LoginTest:192 - Left username field empty
+2025-10-30 16:16:54 INFO  TC002_LoginTest:195 - Left password field empty
+2025-10-30 16:16:54 INFO  TC002_LoginTest:198 - Clicked submit with empty fields
+2025-10-30 16:16:54 INFO  TC002_LoginTest:211 - Test passed: Empty fields correctly rejected. Message: Please enter a username and password.
+2025-10-30 16:16:54 INFO  TC002_LoginTest:222 - Starting test: Login with SQL injection attempt
+2025-10-30 16:16:55 INFO  TC002_LoginTest:226 - Entered SQL injection in username
+2025-10-30 16:16:55 INFO  TC002_LoginTest:229 - Entered SQL injection in password
+2025-10-30 16:16:55 INFO  TC002_LoginTest:232 - Clicked submit with SQL injection
+2025-10-30 16:16:55 INFO  TC002_LoginTest:244 - Test passed: SQL injection prevented. Message: The username and password could not be verified.
+2025-10-30 16:16:55 INFO  TC002_LoginTest:255 - Starting test: Login with special characters
+2025-10-30 16:16:55 INFO  TC002_LoginTest:259 - Entered special characters in username
+2025-10-30 16:16:55 INFO  TC002_LoginTest:262 - Entered special characters in password
+2025-10-30 16:16:55 INFO  TC002_LoginTest:265 - Clicked submit with special characters
+2025-10-30 16:16:55 INFO  TC002_LoginTest:277 - Test passed: Special characters correctly rejected. Message: The username and password could not be verified.
+2025-10-30 16:16:55 INFO  TC002_LoginTest:288 - Starting test: Login with spaces in credentials
+2025-10-30 16:16:55 INFO  TC002_LoginTest:292 - Entered username with leading and trailing spaces
+2025-10-30 16:16:55 INFO  TC002_LoginTest:295 - Entered password with leading and trailing spaces
+2025-10-30 16:16:55 INFO  TC002_LoginTest:298 - Clicked submit with spaces in credentials
+2025-10-30 16:16:55 INFO  TC002_LoginTest:309 - Test passed: Spaces in credentials handled correctly. Message: The username and password could not be verified.
+2025-10-30 16:16:55 INFO  TC002_LoginTest:320 - Starting test: Login with case-sensitive username
+2025-10-30 16:16:55 INFO  TC002_LoginTest:325 - Entered username in uppercase: MIKASA@06
+2025-10-30 16:16:55 INFO  TC002_LoginTest:328 - Entered valid password
+2025-10-30 16:16:56 INFO  TC002_LoginTest:331 - Clicked submit with uppercase username
+2025-10-30 16:16:56 INFO  TC002_LoginTest:343 - Test passed: Case sensitivity validated correctly. Message: The username and password could not be verified.
+2025-10-30 16:16:56 INFO  TC002_LoginTest:354 - Starting test: Login with excessively long username
+2025-10-30 16:16:56 INFO  TC002_LoginTest:359 - Entered excessively long username (500+ characters)
+2025-10-30 16:16:56 INFO  TC002_LoginTest:362 - Entered valid password
+2025-10-30 16:16:56 INFO  TC002_LoginTest:365 - Clicked submit with long username
+2025-10-30 16:16:57 INFO  TC002_LoginTest:378 - Test passed: Long username correctly rejected. Message: The username and password could not be verified.
+2025-10-30 16:16:57 INFO  TC002_LoginTest:389 - Starting test: Login with script tags (XSS)
+2025-10-30 16:16:57 INFO  TC002_LoginTest:393 - Entered script tag in username
+2025-10-30 16:16:57 INFO  TC002_LoginTest:396 - Entered script tag in password
+2025-10-30 16:16:57 INFO  TC002_LoginTest:399 - Clicked submit with script tags
+2025-10-30 16:17:07 ERROR TC002_LoginTest:414 - Test failed: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(), 'An internal error has occurred and has been logged.')]"}
+  (Session info: chrome=141.0.7390.125)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d50af7023e518e75137d10670d606db, findElement {value=//p[contains(text(), 'An internal error has occurred and has been logged.')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.125, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57844}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57844/devtoo..., se:cdpVersion: 141.0.7390.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d50af7023e518e75137d10670d606db
+2025-10-30 16:18:16 INFO  TC002_LoginTest:17 - URL is opened
+2025-10-30 16:18:16 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-10-30 16:18:16 INFO  TC002_LoginTest:24 - User entered the password:
+2025-10-30 16:18:18 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-10-30 16:18:21 INFO  TC002_LoginTest:37 - User not able to logout!
+2025-10-30 16:18:21 INFO  TC002_LoginTest:46 - ****test executed*****
+2025-10-30 16:18:21 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-10-30 16:18:21 INFO  TC002_LoginTest:56 - Entered username: mikasa@06
+2025-10-30 16:18:21 INFO  TC002_LoginTest:59 - Entered invalid password
+2025-10-30 16:18:21 INFO  TC002_LoginTest:62 - Clicked submit button with invalid password
+2025-10-30 16:18:21 INFO  TC002_LoginTest:74 - Test passed: Invalid password correctly rejected. Message: The username and password could not be verified.
+2025-10-30 16:18:21 INFO  TC002_LoginTest:86 - Starting test: Login with both invalid credentials
+2025-10-30 16:18:21 INFO  TC002_LoginTest:90 - Entered invalid username
+2025-10-30 16:18:21 INFO  TC002_LoginTest:93 - Entered invalid password
+2025-10-30 16:18:21 INFO  TC002_LoginTest:96 - Clicked submit with invalid credentials
+2025-10-30 16:18:21 INFO  TC002_LoginTest:109 - Test passed: Invalid credentials correctly rejected. Message: The username and password could not be verified.
+2025-10-30 16:18:21 INFO  TC002_LoginTest:120 - Starting test: Login with empty username
+2025-10-30 16:18:21 INFO  TC002_LoginTest:124 - Left username field empty
+2025-10-30 16:18:22 INFO  TC002_LoginTest:127 - Entered valid password
+2025-10-30 16:18:22 INFO  TC002_LoginTest:130 - Clicked submit with empty username
+2025-10-30 16:18:22 INFO  TC002_LoginTest:143 - Test passed: Empty username correctly rejected. Message: Please enter a username and password.
+2025-10-30 16:18:22 INFO  TC002_LoginTest:154 - Starting test: Login with empty password
+2025-10-30 16:18:22 INFO  TC002_LoginTest:158 - Entered valid username
+2025-10-30 16:18:22 INFO  TC002_LoginTest:161 - Left password field empty
+2025-10-30 16:18:22 INFO  TC002_LoginTest:164 - Clicked submit with empty password
+2025-10-30 16:18:22 INFO  TC002_LoginTest:177 - Test passed: Empty password correctly rejected. Message: Please enter a username and password.
+2025-10-30 16:18:22 INFO  TC002_LoginTest:188 - Starting test: Login with both fields empty
+2025-10-30 16:18:22 INFO  TC002_LoginTest:192 - Left username field empty
+2025-10-30 16:18:22 INFO  TC002_LoginTest:195 - Left password field empty
+2025-10-30 16:18:22 INFO  TC002_LoginTest:198 - Clicked submit with empty fields
+2025-10-30 16:18:22 INFO  TC002_LoginTest:211 - Test passed: Empty fields correctly rejected. Message: Please enter a username and password.
+2025-10-30 16:18:22 INFO  TC002_LoginTest:222 - Starting test: Login with SQL injection attempt
+2025-10-30 16:18:22 INFO  TC002_LoginTest:226 - Entered SQL injection in username
+2025-10-30 16:18:22 INFO  TC002_LoginTest:229 - Entered SQL injection in password
+2025-10-30 16:18:22 INFO  TC002_LoginTest:232 - Clicked submit with SQL injection
+2025-10-30 16:18:23 INFO  TC002_LoginTest:255 - Starting test: Login with special characters
+2025-10-30 16:18:23 INFO  TC002_LoginTest:259 - Entered special characters in username
+2025-10-30 16:18:23 INFO  TC002_LoginTest:262 - Entered special characters in password
+2025-10-30 16:18:23 INFO  TC002_LoginTest:265 - Clicked submit with special characters
+2025-10-30 16:18:23 INFO  TC002_LoginTest:277 - Test passed: Special characters correctly rejected. Message: The username and password could not be verified.
+2025-10-30 16:18:23 INFO  TC002_LoginTest:288 - Starting test: Login with spaces in credentials
+2025-10-30 16:18:23 INFO  TC002_LoginTest:292 - Entered username with leading and trailing spaces
+2025-10-30 16:18:23 INFO  TC002_LoginTest:295 - Entered password with leading and trailing spaces
+2025-10-30 16:18:23 INFO  TC002_LoginTest:298 - Clicked submit with spaces in credentials
+2025-10-30 16:18:23 INFO  TC002_LoginTest:309 - Test passed: Spaces in credentials handled correctly. Message: The username and password could not be verified.
+2025-10-30 16:18:23 INFO  TC002_LoginTest:320 - Starting test: Login with case-sensitive username
+2025-10-30 16:18:23 INFO  TC002_LoginTest:325 - Entered username in uppercase: MIKASA@06
+2025-10-30 16:18:23 INFO  TC002_LoginTest:328 - Entered valid password
+2025-10-30 16:18:24 INFO  TC002_LoginTest:331 - Clicked submit with uppercase username
+2025-10-30 16:18:24 INFO  TC002_LoginTest:343 - Test passed: Case sensitivity validated correctly. Message: The username and password could not be verified.
+2025-10-30 16:18:24 INFO  TC002_LoginTest:354 - Starting test: Login with excessively long username
+2025-10-30 16:18:24 INFO  TC002_LoginTest:359 - Entered excessively long username (500+ characters)
+2025-10-30 16:18:24 INFO  TC002_LoginTest:362 - Entered valid password
+2025-10-30 16:18:24 INFO  TC002_LoginTest:365 - Clicked submit with long username
+2025-10-30 16:18:25 INFO  TC002_LoginTest:378 - Test passed: Long username correctly rejected. Message: The username and password could not be verified.
+2025-10-30 16:18:25 INFO  TC002_LoginTest:389 - Starting test: Login with script tags (XSS)
+2025-10-30 16:18:25 INFO  TC002_LoginTest:393 - Entered script tag in username
+2025-10-30 16:18:25 INFO  TC002_LoginTest:396 - Entered script tag in password
+2025-10-30 16:18:25 INFO  TC002_LoginTest:399 - Clicked submit with script tags
+2025-10-30 16:18:25 INFO  TC002_LoginTest:411 - Test passed: XSS attack prevented. Message: The username and password could not be verified.
+2025-10-30 16:19:33 INFO  TC002_LoginTest:17 - URL is opened
+2025-10-30 16:19:33 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-10-30 16:19:33 INFO  TC002_LoginTest:24 - User entered the password:
+2025-10-30 16:19:35 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-10-30 16:19:38 INFO  TC002_LoginTest:37 - User not able to logout!
+2025-10-30 16:19:38 INFO  TC002_LoginTest:46 - ****test executed*****
+2025-10-30 16:19:38 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-10-30 16:19:38 INFO  TC002_LoginTest:56 - Entered username: mikasa@06
+2025-10-30 16:19:38 INFO  TC002_LoginTest:59 - Entered invalid password
+2025-10-30 16:19:38 INFO  TC002_LoginTest:62 - Clicked submit button with invalid password
+2025-10-30 16:19:38 INFO  TC002_LoginTest:74 - Test passed: Invalid password correctly rejected. Message: The username and password could not be verified.
+2025-10-30 16:19:38 INFO  TC002_LoginTest:86 - Starting test: Login with both invalid credentials
+2025-10-30 16:19:38 INFO  TC002_LoginTest:90 - Entered invalid username
+2025-10-30 16:19:38 INFO  TC002_LoginTest:93 - Entered invalid password
+2025-10-30 16:19:39 INFO  TC002_LoginTest:96 - Clicked submit with invalid credentials
+2025-10-30 16:19:39 INFO  TC002_LoginTest:109 - Test passed: Invalid credentials correctly rejected. Message: The username and password could not be verified.
+2025-10-30 16:19:39 INFO  TC002_LoginTest:120 - Starting test: Login with empty username
+2025-10-30 16:19:39 INFO  TC002_LoginTest:124 - Left username field empty
+2025-10-30 16:19:39 INFO  TC002_LoginTest:127 - Entered valid password
+2025-10-30 16:19:39 INFO  TC002_LoginTest:130 - Clicked submit with empty username
+2025-10-30 16:19:39 INFO  TC002_LoginTest:143 - Test passed: Empty username correctly rejected. Message: Please enter a username and password.
+2025-10-30 16:19:39 INFO  TC002_LoginTest:154 - Starting test: Login with empty password
+2025-10-30 16:19:39 INFO  TC002_LoginTest:158 - Entered valid username
+2025-10-30 16:19:39 INFO  TC002_LoginTest:161 - Left password field empty
+2025-10-30 16:19:39 INFO  TC002_LoginTest:164 - Clicked submit with empty password
+2025-10-30 16:19:39 INFO  TC002_LoginTest:177 - Test passed: Empty password correctly rejected. Message: Please enter a username and password.
+2025-10-30 16:19:39 INFO  TC002_LoginTest:188 - Starting test: Login with both fields empty
+2025-10-30 16:19:39 INFO  TC002_LoginTest:192 - Left username field empty
+2025-10-30 16:19:39 INFO  TC002_LoginTest:195 - Left password field empty
+2025-10-30 16:19:39 INFO  TC002_LoginTest:198 - Clicked submit with empty fields
+2025-10-30 16:19:39 INFO  TC002_LoginTest:211 - Test passed: Empty fields correctly rejected. Message: Please enter a username and password.
+2025-10-30 16:19:39 INFO  TC002_LoginTest:222 - Starting test: Login with SQL injection attempt
+2025-10-30 16:19:39 INFO  TC002_LoginTest:226 - Entered SQL injection in username
+2025-10-30 16:19:40 INFO  TC002_LoginTest:229 - Entered SQL injection in password
+2025-10-30 16:19:40 INFO  TC002_LoginTest:232 - Clicked submit with SQL injection
+2025-10-30 16:19:40 INFO  TC002_LoginTest:244 - Test passed: SQL injection prevented. Message: The username and password could not be verified.
+2025-10-30 16:19:40 INFO  TC002_LoginTest:255 - Starting test: Login with special characters
+2025-10-30 16:19:40 INFO  TC002_LoginTest:259 - Entered special characters in username
+2025-10-30 16:19:40 INFO  TC002_LoginTest:262 - Entered special characters in password
+2025-10-30 16:19:40 INFO  TC002_LoginTest:265 - Clicked submit with special characters
+2025-10-30 16:19:40 INFO  TC002_LoginTest:277 - Test passed: Special characters correctly rejected. Message: The username and password could not be verified.
+2025-10-30 16:19:40 INFO  TC002_LoginTest:288 - Starting test: Login with spaces in credentials
+2025-10-30 16:19:40 INFO  TC002_LoginTest:292 - Entered username with leading and trailing spaces
+2025-10-30 16:19:40 INFO  TC002_LoginTest:295 - Entered password with leading and trailing spaces
+2025-10-30 16:19:40 INFO  TC002_LoginTest:298 - Clicked submit with spaces in credentials
+2025-10-30 16:19:40 INFO  TC002_LoginTest:309 - Test passed: Spaces in credentials handled correctly. Message: The username and password could not be verified.
+2025-10-30 16:19:40 INFO  TC002_LoginTest:320 - Starting test: Login with case-sensitive username
+2025-10-30 16:19:40 INFO  TC002_LoginTest:325 - Entered username in uppercase: MIKASA@06
+2025-10-30 16:19:41 INFO  TC002_LoginTest:328 - Entered valid password
+2025-10-30 16:19:41 INFO  TC002_LoginTest:331 - Clicked submit with uppercase username
+2025-10-30 16:19:41 INFO  TC002_LoginTest:343 - Test passed: Case sensitivity validated correctly. Message: The username and password could not be verified.
+2025-10-30 16:19:41 INFO  TC002_LoginTest:354 - Starting test: Login with excessively long username
+2025-10-30 16:19:41 INFO  TC002_LoginTest:359 - Entered excessively long username (500+ characters)
+2025-10-30 16:19:41 INFO  TC002_LoginTest:362 - Entered valid password
+2025-10-30 16:19:42 INFO  TC002_LoginTest:365 - Clicked submit with long username
+2025-10-30 16:19:42 INFO  TC002_LoginTest:378 - Test passed: Long username correctly rejected. Message: The username and password could not be verified.
+2025-10-30 16:19:42 INFO  TC002_LoginTest:389 - Starting test: Login with script tags (XSS)
+2025-10-30 16:19:42 INFO  TC002_LoginTest:393 - Entered script tag in username
+2025-10-30 16:19:42 INFO  TC002_LoginTest:396 - Entered script tag in password
+2025-10-30 16:19:42 INFO  TC002_LoginTest:399 - Clicked submit with script tags
+2025-10-30 16:19:42 INFO  TC002_LoginTest:411 - Test passed: XSS attack prevented. Message: The username and password could not be verified.
+2025-10-30 16:23:26 INFO  TC002_LoginTest:17 - URL is opened
+2025-10-30 16:23:26 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-10-30 16:23:26 INFO  TC002_LoginTest:24 - User entered the password:
+2025-10-30 16:23:28 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-10-30 16:23:30 INFO  TC002_LoginTest:37 - User logged out successfully!
+2025-10-30 16:23:30 INFO  TC002_LoginTest:46 - ****test executed*****
+2025-10-30 16:23:30 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-10-30 16:23:31 INFO  TC002_LoginTest:56 - Entered username: mikasa@06
+2025-10-30 16:23:31 INFO  TC002_LoginTest:59 - Entered invalid password
+2025-10-30 16:23:31 INFO  TC002_LoginTest:62 - Clicked submit button with invalid password
+2025-10-30 16:23:31 INFO  TC002_LoginTest:74 - Test passed: Invalid password correctly rejected. Message: The username and password could not be verified.
+2025-10-30 16:23:31 INFO  TC002_LoginTest:86 - Starting test: Login with both invalid credentials
+2025-10-30 16:23:31 INFO  TC002_LoginTest:90 - Entered invalid username
+2025-10-30 16:23:31 INFO  TC002_LoginTest:93 - Entered invalid password
+2025-10-30 16:23:31 INFO  TC002_LoginTest:96 - Clicked submit with invalid credentials
+2025-10-30 16:23:31 INFO  TC002_LoginTest:108 - Test passed: Invalid credentials correctly rejected. Message: The username and password could not be verified.
+2025-10-30 16:23:31 INFO  TC002_LoginTest:119 - Starting test: Login with empty username
+2025-10-30 16:23:31 INFO  TC002_LoginTest:123 - Left username field empty
+2025-10-30 16:23:31 INFO  TC002_LoginTest:126 - Entered valid password
+2025-10-30 16:23:31 INFO  TC002_LoginTest:129 - Clicked submit with empty username
+2025-10-30 16:23:32 INFO  TC002_LoginTest:141 - Test passed: Empty username correctly rejected. Message: Please enter a username and password.
+2025-10-30 16:23:32 INFO  TC002_LoginTest:152 - Starting test: Login with empty password
+2025-10-30 16:23:32 INFO  TC002_LoginTest:156 - Entered valid username
+2025-10-30 16:23:32 INFO  TC002_LoginTest:159 - Left password field empty
+2025-10-30 16:23:32 INFO  TC002_LoginTest:162 - Clicked submit with empty password
+2025-10-30 16:23:32 INFO  TC002_LoginTest:174 - Test passed: Empty password correctly rejected. Message: Please enter a username and password.
+2025-10-30 16:23:32 INFO  TC002_LoginTest:185 - Starting test: Login with both fields empty
+2025-10-30 16:23:32 INFO  TC002_LoginTest:189 - Left username field empty
+2025-10-30 16:23:32 INFO  TC002_LoginTest:192 - Left password field empty
+2025-10-30 16:23:32 INFO  TC002_LoginTest:195 - Clicked submit with empty fields
+2025-10-30 16:23:32 INFO  TC002_LoginTest:218 - Starting test: Login with SQL injection attempt
+2025-10-30 16:23:32 INFO  TC002_LoginTest:222 - Entered SQL injection in username
+2025-10-30 16:23:32 INFO  TC002_LoginTest:225 - Entered SQL injection in password
+2025-10-30 16:23:32 INFO  TC002_LoginTest:228 - Clicked submit with SQL injection
+2025-10-30 16:23:33 INFO  TC002_LoginTest:240 - Test passed: SQL injection prevented. Message: The username and password could not be verified.
+2025-10-30 16:23:33 INFO  TC002_LoginTest:251 - Starting test: Login with special characters
+2025-10-30 16:23:33 INFO  TC002_LoginTest:255 - Entered special characters in username
+2025-10-30 16:23:33 INFO  TC002_LoginTest:258 - Entered special characters in password
+2025-10-30 16:23:33 INFO  TC002_LoginTest:261 - Clicked submit with special characters
+2025-10-30 16:23:33 INFO  TC002_LoginTest:273 - Test passed: Special characters correctly rejected. Message: The username and password could not be verified.
+2025-10-30 16:23:33 INFO  TC002_LoginTest:284 - Starting test: Login with spaces in credentials
+2025-10-30 16:23:33 INFO  TC002_LoginTest:288 - Entered username with leading and trailing spaces
+2025-10-30 16:23:33 INFO  TC002_LoginTest:291 - Entered password with leading and trailing spaces
+2025-10-30 16:23:33 INFO  TC002_LoginTest:294 - Clicked submit with spaces in credentials
+2025-10-30 16:23:33 INFO  TC002_LoginTest:305 - Test passed: Spaces in credentials handled correctly. Message: The username and password could not be verified.
+2025-10-30 16:23:33 INFO  TC002_LoginTest:316 - Starting test: Login with case-sensitive username
+2025-10-30 16:23:33 INFO  TC002_LoginTest:321 - Entered username in uppercase: MIKASA@06
+2025-10-30 16:23:33 INFO  TC002_LoginTest:324 - Entered valid password
+2025-10-30 16:23:33 INFO  TC002_LoginTest:327 - Clicked submit with uppercase username
+2025-10-30 16:23:34 INFO  TC002_LoginTest:339 - Test passed: Case sensitivity validated correctly. Message: The username and password could not be verified.
+2025-10-30 16:23:34 INFO  TC002_LoginTest:350 - Starting test: Login with excessively long username
+2025-10-30 16:23:34 INFO  TC002_LoginTest:355 - Entered excessively long username (500+ characters)
+2025-10-30 16:23:34 INFO  TC002_LoginTest:358 - Entered valid password
+2025-10-30 16:23:34 INFO  TC002_LoginTest:361 - Clicked submit with long username
+2025-10-30 16:23:35 INFO  TC002_LoginTest:373 - Test passed: Long username correctly rejected. Message: The username and password could not be verified.
+2025-10-30 16:23:35 INFO  TC002_LoginTest:384 - Starting test: Login with script tags (XSS)
+2025-10-30 16:23:35 INFO  TC002_LoginTest:388 - Entered script tag in username
+2025-10-30 16:23:35 INFO  TC002_LoginTest:391 - Entered script tag in password
+2025-10-30 16:23:35 INFO  TC002_LoginTest:394 - Clicked submit with script tags
+2025-10-30 16:23:35 INFO  TC002_LoginTest:406 - Test passed: XSS attack prevented. Message: The username and password could not be verified.
+2025-10-30 16:23:56 INFO  TC002_LoginTest:17 - URL is opened
+2025-10-30 16:23:56 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-10-30 16:23:56 INFO  TC002_LoginTest:24 - User entered the password:
+2025-10-30 16:23:58 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-10-30 16:24:01 INFO  TC002_LoginTest:37 - User logged out successfully!
+2025-10-30 16:24:01 INFO  TC002_LoginTest:46 - ****test executed*****
+2025-10-30 16:24:01 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-10-30 16:24:01 INFO  TC002_LoginTest:56 - Entered username: mikasa@06
+2025-10-30 16:24:01 INFO  TC002_LoginTest:59 - Entered invalid password
+2025-10-30 16:24:01 INFO  TC002_LoginTest:62 - Clicked submit button with invalid password
+2025-10-30 16:24:01 INFO  TC002_LoginTest:74 - Test passed: Invalid password correctly rejected. Message: The username and password could not be verified.
+2025-10-30 16:24:01 INFO  TC002_LoginTest:86 - Starting test: Login with both invalid credentials
+2025-10-30 16:24:01 INFO  TC002_LoginTest:90 - Entered invalid username
+2025-10-30 16:24:01 INFO  TC002_LoginTest:93 - Entered invalid password
+2025-10-30 16:24:01 INFO  TC002_LoginTest:96 - Clicked submit with invalid credentials
+2025-10-30 16:24:01 INFO  TC002_LoginTest:108 - Test passed: Invalid credentials correctly rejected. Message: The username and password could not be verified.
+2025-10-30 16:24:01 INFO  TC002_LoginTest:119 - Starting test: Login with empty username
+2025-10-30 16:24:02 INFO  TC002_LoginTest:123 - Left username field empty
+2025-10-30 16:24:02 INFO  TC002_LoginTest:126 - Entered valid password
+2025-10-30 16:24:02 INFO  TC002_LoginTest:129 - Clicked submit with empty username
+2025-10-30 16:24:02 INFO  TC002_LoginTest:141 - Test passed: Empty username correctly rejected. Message: Please enter a username and password.
+2025-10-30 16:24:02 INFO  TC002_LoginTest:152 - Starting test: Login with empty password
+2025-10-30 16:24:02 INFO  TC002_LoginTest:156 - Entered valid username
+2025-10-30 16:24:02 INFO  TC002_LoginTest:159 - Left password field empty
+2025-10-30 16:24:02 INFO  TC002_LoginTest:162 - Clicked submit with empty password
+2025-10-30 16:24:02 INFO  TC002_LoginTest:174 - Test passed: Empty password correctly rejected. Message: Please enter a username and password.
+2025-10-30 16:24:02 INFO  TC002_LoginTest:185 - Starting test: Login with both fields empty
+2025-10-30 16:24:02 INFO  TC002_LoginTest:189 - Left username field empty
+2025-10-30 16:24:02 INFO  TC002_LoginTest:192 - Left password field empty
+2025-10-30 16:24:02 INFO  TC002_LoginTest:195 - Clicked submit with empty fields
+2025-10-30 16:24:02 INFO  TC002_LoginTest:207 - Test passed: Empty fields correctly rejected. Message: Please enter a username and password.
+2025-10-30 16:24:02 INFO  TC002_LoginTest:218 - Starting test: Login with SQL injection attempt
+2025-10-30 16:24:02 INFO  TC002_LoginTest:222 - Entered SQL injection in username
+2025-10-30 16:24:02 INFO  TC002_LoginTest:225 - Entered SQL injection in password
+2025-10-30 16:24:03 INFO  TC002_LoginTest:228 - Clicked submit with SQL injection
+2025-10-30 16:24:03 INFO  TC002_LoginTest:240 - Test passed: SQL injection prevented. Message: The username and password could not be verified.
+2025-10-30 16:24:03 INFO  TC002_LoginTest:251 - Starting test: Login with special characters
+2025-10-30 16:24:03 INFO  TC002_LoginTest:255 - Entered special characters in username
+2025-10-30 16:24:03 INFO  TC002_LoginTest:258 - Entered special characters in password
+2025-10-30 16:24:03 INFO  TC002_LoginTest:261 - Clicked submit with special characters
+2025-10-30 16:24:03 INFO  TC002_LoginTest:273 - Test passed: Special characters correctly rejected. Message: The username and password could not be verified.
+2025-10-30 16:24:03 INFO  TC002_LoginTest:284 - Starting test: Login with spaces in credentials
+2025-10-30 16:24:03 INFO  TC002_LoginTest:288 - Entered username with leading and trailing spaces
+2025-10-30 16:24:03 INFO  TC002_LoginTest:291 - Entered password with leading and trailing spaces
+2025-10-30 16:24:03 INFO  TC002_LoginTest:294 - Clicked submit with spaces in credentials
+2025-10-30 16:24:03 INFO  TC002_LoginTest:305 - Test passed: Spaces in credentials handled correctly. Message: The username and password could not be verified.
+2025-10-30 16:24:03 INFO  TC002_LoginTest:316 - Starting test: Login with case-sensitive username
+2025-10-30 16:24:03 INFO  TC002_LoginTest:321 - Entered username in uppercase: MIKASA@06
+2025-10-30 16:24:03 INFO  TC002_LoginTest:324 - Entered valid password
+2025-10-30 16:24:04 INFO  TC002_LoginTest:327 - Clicked submit with uppercase username
+2025-10-30 16:24:04 INFO  TC002_LoginTest:339 - Test passed: Case sensitivity validated correctly. Message: The username and password could not be verified.
+2025-10-30 16:24:04 INFO  TC002_LoginTest:350 - Starting test: Login with excessively long username
+2025-10-30 16:24:04 INFO  TC002_LoginTest:355 - Entered excessively long username (500+ characters)
+2025-10-30 16:24:04 INFO  TC002_LoginTest:358 - Entered valid password
+2025-10-30 16:24:04 INFO  TC002_LoginTest:361 - Clicked submit with long username
+2025-10-30 16:24:05 INFO  TC002_LoginTest:373 - Test passed: Long username correctly rejected. Message: The username and password could not be verified.
+2025-10-30 16:24:05 INFO  TC002_LoginTest:384 - Starting test: Login with script tags (XSS)
+2025-10-30 16:24:05 INFO  TC002_LoginTest:388 - Entered script tag in username
+2025-10-30 16:24:05 INFO  TC002_LoginTest:391 - Entered script tag in password
+2025-10-30 16:24:05 INFO  TC002_LoginTest:394 - Clicked submit with script tags
+2025-10-30 16:24:05 INFO  TC002_LoginTest:406 - Test passed: XSS attack prevented. Message: The username and password could not be verified.
+2025-10-30 17:16:10 INFO  TC002_LoginTest:17 - URL is opened
+2025-10-30 17:16:10 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-10-30 17:16:10 INFO  TC002_LoginTest:24 - User entered the password:
+2025-10-30 17:16:12 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-10-30 17:16:15 INFO  TC002_LoginTest:37 - User logged out successfully!
+2025-10-30 17:16:15 INFO  TC002_LoginTest:46 - ****test executed*****
+2025-10-30 17:16:15 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-10-30 17:16:15 INFO  TC002_LoginTest:56 - Entered username: mikasa@06
+2025-10-30 17:16:15 INFO  TC002_LoginTest:59 - Entered invalid password
+2025-10-30 17:16:15 INFO  TC002_LoginTest:62 - Clicked submit button with invalid password
+2025-10-30 17:16:15 INFO  TC002_LoginTest:74 - Test passed: Invalid password correctly rejected. Message: The username and password could not be verified.
+2025-10-30 17:16:15 INFO  TC002_LoginTest:86 - Starting test: Login with both invalid credentials
+2025-10-30 17:16:15 INFO  TC002_LoginTest:90 - Entered invalid username
+2025-10-30 17:16:15 INFO  TC002_LoginTest:93 - Entered invalid password
+2025-10-30 17:16:15 INFO  TC002_LoginTest:96 - Clicked submit with invalid credentials
+2025-10-30 17:16:15 INFO  TC002_LoginTest:108 - Test passed: Invalid credentials correctly rejected. Message: The username and password could not be verified.
+2025-10-30 17:16:15 INFO  TC002_LoginTest:119 - Starting test: Login with empty username
+2025-10-30 17:16:16 INFO  TC002_LoginTest:123 - Left username field empty
+2025-10-30 17:16:16 INFO  TC002_LoginTest:126 - Entered valid password
+2025-10-30 17:16:16 INFO  TC002_LoginTest:129 - Clicked submit with empty username
+2025-10-30 17:16:16 INFO  TC002_LoginTest:152 - Starting test: Login with empty password
+2025-10-30 17:16:16 INFO  TC002_LoginTest:156 - Entered valid username
+2025-10-30 17:16:16 INFO  TC002_LoginTest:159 - Left password field empty
+2025-10-30 17:16:16 INFO  TC002_LoginTest:162 - Clicked submit with empty password
+2025-10-30 17:16:16 INFO  TC002_LoginTest:174 - Test passed: Empty password correctly rejected. Message: Please enter a username and password.
+2025-10-30 17:16:16 INFO  TC002_LoginTest:185 - Starting test: Login with both fields empty
+2025-10-30 17:16:16 INFO  TC002_LoginTest:189 - Left username field empty
+2025-10-30 17:16:16 INFO  TC002_LoginTest:192 - Left password field empty
+2025-10-30 17:16:16 INFO  TC002_LoginTest:195 - Clicked submit with empty fields
+2025-10-30 17:16:16 INFO  TC002_LoginTest:207 - Test passed: Empty fields correctly rejected. Message: Please enter a username and password.
+2025-10-30 17:16:16 INFO  TC002_LoginTest:218 - Starting test: Login with SQL injection attempt
+2025-10-30 17:16:17 INFO  TC002_LoginTest:222 - Entered SQL injection in username
+2025-10-30 17:16:17 INFO  TC002_LoginTest:225 - Entered SQL injection in password
+2025-10-30 17:16:17 INFO  TC002_LoginTest:228 - Clicked submit with SQL injection
+2025-10-30 17:16:17 INFO  TC002_LoginTest:240 - Test passed: SQL injection prevented. Message: The username and password could not be verified.
+2025-10-30 17:16:17 INFO  TC002_LoginTest:251 - Starting test: Login with special characters
+2025-10-30 17:16:17 INFO  TC002_LoginTest:255 - Entered special characters in username
+2025-10-30 17:16:17 INFO  TC002_LoginTest:258 - Entered special characters in password
+2025-10-30 17:16:17 INFO  TC002_LoginTest:261 - Clicked submit with special characters
+2025-10-30 17:16:17 INFO  TC002_LoginTest:273 - Test passed: Special characters correctly rejected. Message: The username and password could not be verified.
+2025-10-30 17:16:17 INFO  TC002_LoginTest:284 - Starting test: Login with spaces in credentials
+2025-10-30 17:16:17 INFO  TC002_LoginTest:288 - Entered username with leading and trailing spaces
+2025-10-30 17:16:17 INFO  TC002_LoginTest:291 - Entered password with leading and trailing spaces
+2025-10-30 17:16:17 INFO  TC002_LoginTest:294 - Clicked submit with spaces in credentials
+2025-10-30 17:16:17 INFO  TC002_LoginTest:305 - Test passed: Spaces in credentials handled correctly. Message: The username and password could not be verified.
+2025-10-30 17:16:17 INFO  TC002_LoginTest:316 - Starting test: Login with case-sensitive username
+2025-10-30 17:16:17 INFO  TC002_LoginTest:321 - Entered username in uppercase: MIKASA@06
+2025-10-30 17:16:18 INFO  TC002_LoginTest:324 - Entered valid password
+2025-10-30 17:16:18 INFO  TC002_LoginTest:327 - Clicked submit with uppercase username
+2025-10-30 17:16:18 INFO  TC002_LoginTest:339 - Test passed: Case sensitivity validated correctly. Message: The username and password could not be verified.
+2025-10-30 17:16:18 INFO  TC002_LoginTest:350 - Starting test: Login with excessively long username
+2025-10-30 17:16:18 INFO  TC002_LoginTest:355 - Entered excessively long username (500+ characters)
+2025-10-30 17:16:18 INFO  TC002_LoginTest:358 - Entered valid password
+2025-10-30 17:16:19 INFO  TC002_LoginTest:361 - Clicked submit with long username
+2025-10-30 17:16:19 INFO  TC002_LoginTest:373 - Test passed: Long username correctly rejected. Message: The username and password could not be verified.
+2025-10-30 17:16:19 INFO  TC002_LoginTest:384 - Starting test: Login with script tags (XSS)
+2025-10-30 17:16:19 INFO  TC002_LoginTest:388 - Entered script tag in username
+2025-10-30 17:16:19 INFO  TC002_LoginTest:391 - Entered script tag in password
+2025-10-30 17:16:19 INFO  TC002_LoginTest:394 - Clicked submit with script tags
+2025-10-30 17:16:19 INFO  TC002_LoginTest:406 - Test passed: XSS attack prevented. Message: The username and password could not be verified.
+2025-10-30 17:16:37 INFO  TC002_LoginTest:17 - URL is opened
+2025-10-30 17:16:38 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-10-30 17:16:38 INFO  TC002_LoginTest:24 - User entered the password:
+2025-10-30 17:16:40 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-10-30 17:16:43 INFO  TC002_LoginTest:37 - User logged out successfully!
+2025-10-30 17:16:43 INFO  TC002_LoginTest:46 - ****test executed*****
+2025-10-30 17:16:43 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-10-30 17:16:43 INFO  TC002_LoginTest:56 - Entered username: mikasa@06
+2025-10-30 17:16:43 INFO  TC002_LoginTest:59 - Entered invalid password
+2025-10-30 17:16:43 INFO  TC002_LoginTest:62 - Clicked submit button with invalid password
+2025-10-30 17:16:43 INFO  TC002_LoginTest:74 - Test passed: Invalid password correctly rejected. Message: The username and password could not be verified.
+2025-10-30 17:16:43 INFO  TC002_LoginTest:86 - Starting test: Login with both invalid credentials
+2025-10-30 17:16:43 INFO  TC002_LoginTest:90 - Entered invalid username
+2025-10-30 17:16:43 INFO  TC002_LoginTest:93 - Entered invalid password
+2025-10-30 17:16:43 INFO  TC002_LoginTest:96 - Clicked submit with invalid credentials
+2025-10-30 17:16:43 INFO  TC002_LoginTest:108 - Test passed: Invalid credentials correctly rejected. Message: The username and password could not be verified.
+2025-10-30 17:16:43 INFO  TC002_LoginTest:119 - Starting test: Login with empty username
+2025-10-30 17:16:43 INFO  TC002_LoginTest:123 - Left username field empty
+2025-10-30 17:16:44 INFO  TC002_LoginTest:126 - Entered valid password
+2025-10-30 17:16:44 INFO  TC002_LoginTest:129 - Clicked submit with empty username
+2025-10-30 17:16:44 INFO  TC002_LoginTest:141 - Test passed: Empty username correctly rejected. Message: Please enter a username and password.
+2025-10-30 17:16:44 INFO  TC002_LoginTest:152 - Starting test: Login with empty password
+2025-10-30 17:16:44 INFO  TC002_LoginTest:156 - Entered valid username
+2025-10-30 17:16:44 INFO  TC002_LoginTest:159 - Left password field empty
+2025-10-30 17:16:44 INFO  TC002_LoginTest:162 - Clicked submit with empty password
+2025-10-30 17:16:44 INFO  TC002_LoginTest:174 - Test passed: Empty password correctly rejected. Message: Please enter a username and password.
+2025-10-30 17:16:44 INFO  TC002_LoginTest:185 - Starting test: Login with both fields empty
+2025-10-30 17:16:44 INFO  TC002_LoginTest:189 - Left username field empty
+2025-10-30 17:16:44 INFO  TC002_LoginTest:192 - Left password field empty
+2025-10-30 17:16:44 INFO  TC002_LoginTest:195 - Clicked submit with empty fields
+2025-10-30 17:16:44 INFO  TC002_LoginTest:218 - Starting test: Login with SQL injection attempt
+2025-10-30 17:16:44 INFO  TC002_LoginTest:222 - Entered SQL injection in username
+2025-10-30 17:16:44 INFO  TC002_LoginTest:225 - Entered SQL injection in password
+2025-10-30 17:16:45 INFO  TC002_LoginTest:228 - Clicked submit with SQL injection
+2025-10-30 17:16:45 INFO  TC002_LoginTest:240 - Test passed: SQL injection prevented. Message: The username and password could not be verified.
+2025-10-30 17:16:45 INFO  TC002_LoginTest:251 - Starting test: Login with special characters
+2025-10-30 17:16:45 INFO  TC002_LoginTest:255 - Entered special characters in username
+2025-10-30 17:16:45 INFO  TC002_LoginTest:258 - Entered special characters in password
+2025-10-30 17:16:45 INFO  TC002_LoginTest:261 - Clicked submit with special characters
+2025-10-30 17:16:45 INFO  TC002_LoginTest:273 - Test passed: Special characters correctly rejected. Message: The username and password could not be verified.
+2025-10-30 17:16:45 INFO  TC002_LoginTest:284 - Starting test: Login with spaces in credentials
+2025-10-30 17:16:45 INFO  TC002_LoginTest:288 - Entered username with leading and trailing spaces
+2025-10-30 17:16:45 INFO  TC002_LoginTest:291 - Entered password with leading and trailing spaces
+2025-10-30 17:16:45 INFO  TC002_LoginTest:294 - Clicked submit with spaces in credentials
+2025-10-30 17:16:45 INFO  TC002_LoginTest:305 - Test passed: Spaces in credentials handled correctly. Message: The username and password could not be verified.
+2025-10-30 17:16:45 INFO  TC002_LoginTest:316 - Starting test: Login with case-sensitive username
+2025-10-30 17:16:45 INFO  TC002_LoginTest:321 - Entered username in uppercase: MIKASA@06
+2025-10-30 17:16:45 INFO  TC002_LoginTest:324 - Entered valid password
+2025-10-30 17:16:46 INFO  TC002_LoginTest:327 - Clicked submit with uppercase username
+2025-10-30 17:16:46 INFO  TC002_LoginTest:339 - Test passed: Case sensitivity validated correctly. Message: The username and password could not be verified.
+2025-10-30 17:16:46 INFO  TC002_LoginTest:350 - Starting test: Login with excessively long username
+2025-10-30 17:16:46 INFO  TC002_LoginTest:355 - Entered excessively long username (500+ characters)
+2025-10-30 17:16:46 INFO  TC002_LoginTest:358 - Entered valid password
+2025-10-30 17:16:46 INFO  TC002_LoginTest:361 - Clicked submit with long username
+2025-10-30 17:16:47 INFO  TC002_LoginTest:384 - Starting test: Login with script tags (XSS)
+2025-10-30 17:16:47 INFO  TC002_LoginTest:388 - Entered script tag in username
+2025-10-30 17:16:47 INFO  TC002_LoginTest:391 - Entered script tag in password
+2025-10-30 17:16:47 INFO  TC002_LoginTest:394 - Clicked submit with script tags
+2025-10-30 17:18:43 INFO  TC002_LoginTest:17 - URL is opened
+2025-10-30 17:18:44 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-10-30 17:18:44 INFO  TC002_LoginTest:24 - User entered the password:
+2025-10-30 17:18:46 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-10-30 17:18:48 INFO  TC002_LoginTest:37 - User logged out successfully!
+2025-10-30 17:18:48 INFO  TC002_LoginTest:46 - ****test executed*****
+2025-10-30 17:18:48 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-10-30 17:18:48 INFO  TC002_LoginTest:56 - Entered username: mikasa@06
+2025-10-30 17:18:49 INFO  TC002_LoginTest:59 - Entered invalid password
+2025-10-30 17:18:49 INFO  TC002_LoginTest:62 - Clicked submit button with invalid password
+2025-10-30 17:18:49 INFO  TC002_LoginTest:74 - Test passed: Invalid password correctly rejected. Message: The username and password could not be verified.
+2025-10-30 17:18:49 INFO  TC002_LoginTest:86 - Starting test: Login with both invalid credentials
+2025-10-30 17:18:49 INFO  TC002_LoginTest:90 - Entered invalid username
+2025-10-30 17:18:49 INFO  TC002_LoginTest:93 - Entered invalid password
+2025-10-30 17:18:49 INFO  TC002_LoginTest:96 - Clicked submit with invalid credentials
+2025-10-30 17:18:49 INFO  TC002_LoginTest:108 - Test passed: Invalid credentials correctly rejected. Message: The username and password could not be verified.
+2025-10-30 17:18:49 INFO  TC002_LoginTest:119 - Starting test: Login with empty username
+2025-10-30 17:18:49 INFO  TC002_LoginTest:123 - Left username field empty
+2025-10-30 17:18:49 INFO  TC002_LoginTest:126 - Entered valid password
+2025-10-30 17:18:49 INFO  TC002_LoginTest:129 - Clicked submit with empty username
+2025-10-30 17:18:50 INFO  TC002_LoginTest:141 - Test passed: Empty username correctly rejected. Message: Please enter a username and password.
+2025-10-30 17:18:50 INFO  TC002_LoginTest:152 - Starting test: Login with empty password
+2025-10-30 17:18:50 INFO  TC002_LoginTest:156 - Entered valid username
+2025-10-30 17:18:50 INFO  TC002_LoginTest:159 - Left password field empty
+2025-10-30 17:18:50 INFO  TC002_LoginTest:162 - Clicked submit with empty password
+2025-10-30 17:18:50 INFO  TC002_LoginTest:174 - Test passed: Empty password correctly rejected. Message: Please enter a username and password.
+2025-10-30 17:18:50 INFO  TC002_LoginTest:185 - Starting test: Login with both fields empty
+2025-10-30 17:18:50 INFO  TC002_LoginTest:189 - Left username field empty
+2025-10-30 17:18:50 INFO  TC002_LoginTest:192 - Left password field empty
+2025-10-30 17:18:50 INFO  TC002_LoginTest:195 - Clicked submit with empty fields
+2025-10-30 17:18:50 INFO  TC002_LoginTest:207 - Test passed: Empty fields correctly rejected. Message: Please enter a username and password.
+2025-10-30 17:18:50 INFO  TC002_LoginTest:218 - Starting test: Login with SQL injection attempt
+2025-10-30 17:18:50 INFO  TC002_LoginTest:222 - Entered SQL injection in username
+2025-10-30 17:18:50 INFO  TC002_LoginTest:225 - Entered SQL injection in password
+2025-10-30 17:18:50 INFO  TC002_LoginTest:228 - Clicked submit with SQL injection
+2025-10-30 17:18:50 INFO  TC002_LoginTest:240 - Test passed: SQL injection prevented. Message: The username and password could not be verified.
+2025-10-30 17:18:50 INFO  TC002_LoginTest:251 - Starting test: Login with special characters
+2025-10-30 17:18:50 INFO  TC002_LoginTest:255 - Entered special characters in username
+2025-10-30 17:18:50 INFO  TC002_LoginTest:258 - Entered special characters in password
+2025-10-30 17:18:51 INFO  TC002_LoginTest:261 - Clicked submit with special characters
+2025-10-30 17:18:51 INFO  TC002_LoginTest:273 - Test passed: Special characters correctly rejected. Message: The username and password could not be verified.
+2025-10-30 17:18:51 INFO  TC002_LoginTest:284 - Starting test: Login with spaces in credentials
+2025-10-30 17:18:51 INFO  TC002_LoginTest:288 - Entered username with leading and trailing spaces
+2025-10-30 17:18:51 INFO  TC002_LoginTest:291 - Entered password with leading and trailing spaces
+2025-10-30 17:18:51 INFO  TC002_LoginTest:294 - Clicked submit with spaces in credentials
+2025-10-30 17:18:51 INFO  TC002_LoginTest:305 - Test passed: Spaces in credentials handled correctly. Message: The username and password could not be verified.
+2025-10-30 17:18:51 INFO  TC002_LoginTest:316 - Starting test: Login with case-sensitive username
+2025-10-30 17:18:51 INFO  TC002_LoginTest:321 - Entered username in uppercase: MIKASA@06
+2025-10-30 17:18:51 INFO  TC002_LoginTest:324 - Entered valid password
+2025-10-30 17:18:51 INFO  TC002_LoginTest:327 - Clicked submit with uppercase username
+2025-10-30 17:18:52 INFO  TC002_LoginTest:339 - Test passed: Case sensitivity validated correctly. Message: The username and password could not be verified.
+2025-10-30 17:18:52 INFO  TC002_LoginTest:350 - Starting test: Login with excessively long username
+2025-10-30 17:18:52 INFO  TC002_LoginTest:355 - Entered excessively long username (500+ characters)
+2025-10-30 17:18:52 INFO  TC002_LoginTest:358 - Entered valid password
+2025-10-30 17:18:53 INFO  TC002_LoginTest:361 - Clicked submit with long username
+2025-10-30 17:18:53 INFO  TC002_LoginTest:373 - Test passed: Long username correctly rejected. Message: The username and password could not be verified.
+2025-10-30 17:18:53 INFO  TC002_LoginTest:384 - Starting test: Login with script tags (XSS)
+2025-10-30 17:18:53 INFO  TC002_LoginTest:388 - Entered script tag in username
+2025-10-30 17:18:53 INFO  TC002_LoginTest:391 - Entered script tag in password
+2025-10-30 17:18:53 INFO  TC002_LoginTest:394 - Clicked submit with script tags
+2025-10-30 17:18:53 INFO  TC002_LoginTest:406 - Test passed: XSS attack prevented. Message: The username and password could not be verified.
+2025-10-30 17:19:29 INFO  TC002_LoginTest:17 - URL is opened
+2025-10-30 17:19:29 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-10-30 17:19:29 INFO  TC002_LoginTest:24 - User entered the password:
+2025-10-30 17:19:31 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-10-30 17:19:35 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-10-30 17:19:45 ERROR TC002_LoginTest:77 - Test failed: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=141.0.7390.125)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7167b37066d3d1f678f0c29225aab0a2, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.125, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60016}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60016/devtoo..., se:cdpVersion: 141.0.7390.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7167b37066d3d1f678f0c29225aab0a2
+2025-10-30 17:19:45 INFO  TC002_LoginTest:86 - Starting test: Login with both invalid credentials
+2025-10-30 17:19:47 ERROR TC002_LoginTest:111 - Test failed: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=141.0.7390.125)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7167b37066d3d1f678f0c29225aab0a2, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.125, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60016}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60016/devtoo..., se:cdpVersion: 141.0.7390.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7167b37066d3d1f678f0c29225aab0a2
+2025-10-30 17:20:01 INFO  TC002_LoginTest:17 - URL is opened
+2025-10-30 17:20:01 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-10-30 17:20:01 INFO  TC002_LoginTest:24 - User entered the password:
+2025-10-30 17:20:03 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-10-30 17:20:05 INFO  TC002_LoginTest:37 - User logged out successfully!
+2025-10-30 17:20:05 INFO  TC002_LoginTest:46 - ****test executed*****
+2025-10-30 17:20:05 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-10-30 17:20:05 INFO  TC002_LoginTest:56 - Entered username: mikasa@06
+2025-10-30 17:20:06 INFO  TC002_LoginTest:59 - Entered invalid password
+2025-10-30 17:20:06 INFO  TC002_LoginTest:62 - Clicked submit button with invalid password
+2025-10-30 17:20:06 INFO  TC002_LoginTest:74 - Test passed: Invalid password correctly rejected. Message: The username and password could not be verified.
+2025-10-30 17:20:06 INFO  TC002_LoginTest:86 - Starting test: Login with both invalid credentials
+2025-10-30 17:20:06 INFO  TC002_LoginTest:90 - Entered invalid username
+2025-10-30 17:20:06 INFO  TC002_LoginTest:93 - Entered invalid password
+2025-10-30 17:20:06 INFO  TC002_LoginTest:96 - Clicked submit with invalid credentials
+2025-10-30 17:20:06 INFO  TC002_LoginTest:108 - Test passed: Invalid credentials correctly rejected. Message: The username and password could not be verified.
+2025-10-30 17:20:06 INFO  TC002_LoginTest:119 - Starting test: Login with empty username
+2025-10-30 17:20:06 INFO  TC002_LoginTest:123 - Left username field empty
+2025-10-30 17:20:06 INFO  TC002_LoginTest:126 - Entered valid password
+2025-10-30 17:20:06 INFO  TC002_LoginTest:129 - Clicked submit with empty username
+2025-10-30 17:20:06 INFO  TC002_LoginTest:141 - Test passed: Empty username correctly rejected. Message: Please enter a username and password.
+2025-10-30 17:20:06 INFO  TC002_LoginTest:152 - Starting test: Login with empty password
+2025-10-30 17:20:06 INFO  TC002_LoginTest:156 - Entered valid username
+2025-10-30 17:20:06 INFO  TC002_LoginTest:159 - Left password field empty
+2025-10-30 17:20:07 INFO  TC002_LoginTest:162 - Clicked submit with empty password
+2025-10-30 17:20:07 INFO  TC002_LoginTest:174 - Test passed: Empty password correctly rejected. Message: Please enter a username and password.
+2025-10-30 17:20:07 INFO  TC002_LoginTest:185 - Starting test: Login with both fields empty
+2025-10-30 17:20:07 INFO  TC002_LoginTest:189 - Left username field empty
+2025-10-30 17:20:07 INFO  TC002_LoginTest:192 - Left password field empty
+2025-10-30 17:20:07 INFO  TC002_LoginTest:195 - Clicked submit with empty fields
+2025-10-30 17:20:07 INFO  TC002_LoginTest:207 - Test passed: Empty fields correctly rejected. Message: Please enter a username and password.
+2025-10-30 17:20:07 INFO  TC002_LoginTest:218 - Starting test: Login with SQL injection attempt
+2025-10-30 17:20:08 INFO  TC002_LoginTest:222 - Entered SQL injection in username
+2025-10-30 17:20:08 INFO  TC002_LoginTest:225 - Entered SQL injection in password
+2025-10-30 17:20:08 INFO  TC002_LoginTest:228 - Clicked submit with SQL injection
+2025-10-30 17:20:08 INFO  TC002_LoginTest:240 - Test passed: SQL injection prevented. Message: The username and password could not be verified.
+2025-10-30 17:20:08 INFO  TC002_LoginTest:251 - Starting test: Login with special characters
+2025-10-30 17:20:08 INFO  TC002_LoginTest:255 - Entered special characters in username
+2025-10-30 17:20:08 INFO  TC002_LoginTest:258 - Entered special characters in password
+2025-10-30 17:20:08 INFO  TC002_LoginTest:261 - Clicked submit with special characters
+2025-10-30 17:20:09 INFO  TC002_LoginTest:273 - Test passed: Special characters correctly rejected. Message: The username and password could not be verified.
+2025-10-30 17:20:09 INFO  TC002_LoginTest:284 - Starting test: Login with spaces in credentials
+2025-10-30 17:20:09 INFO  TC002_LoginTest:288 - Entered username with leading and trailing spaces
+2025-10-30 17:20:09 INFO  TC002_LoginTest:291 - Entered password with leading and trailing spaces
+2025-10-30 17:20:09 INFO  TC002_LoginTest:294 - Clicked submit with spaces in credentials
+2025-10-30 17:20:09 INFO  TC002_LoginTest:305 - Test passed: Spaces in credentials handled correctly. Message: The username and password could not be verified.
+2025-10-30 17:20:09 INFO  TC002_LoginTest:316 - Starting test: Login with case-sensitive username
+2025-10-30 17:20:09 INFO  TC002_LoginTest:321 - Entered username in uppercase: MIKASA@06
+2025-10-30 17:20:09 INFO  TC002_LoginTest:324 - Entered valid password
+2025-10-30 17:20:09 INFO  TC002_LoginTest:327 - Clicked submit with uppercase username
+2025-10-30 17:20:09 INFO  TC002_LoginTest:339 - Test passed: Case sensitivity validated correctly. Message: The username and password could not be verified.
+2025-10-30 17:20:09 INFO  TC002_LoginTest:350 - Starting test: Login with excessively long username
+2025-10-30 17:20:10 INFO  TC002_LoginTest:355 - Entered excessively long username (500+ characters)
+2025-10-30 17:20:10 INFO  TC002_LoginTest:358 - Entered valid password
+2025-10-30 17:20:10 INFO  TC002_LoginTest:361 - Clicked submit with long username
+2025-10-30 17:20:10 INFO  TC002_LoginTest:373 - Test passed: Long username correctly rejected. Message: The username and password could not be verified.
+2025-10-30 17:20:10 INFO  TC002_LoginTest:384 - Starting test: Login with script tags (XSS)
+2025-10-30 17:20:10 INFO  TC002_LoginTest:388 - Entered script tag in username
+2025-10-30 17:20:11 INFO  TC002_LoginTest:391 - Entered script tag in password
+2025-10-30 17:20:11 INFO  TC002_LoginTest:394 - Clicked submit with script tags
+2025-10-30 17:20:12 INFO  TC002_LoginTest:406 - Test passed: XSS attack prevented. Message: The username and password could not be verified.
+2025-10-30 17:21:50 INFO  TC002_LoginTest:17 - URL is opened
+2025-10-30 17:21:50 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-10-30 17:21:50 INFO  TC002_LoginTest:24 - User entered the password:
+2025-10-30 17:21:52 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-10-30 17:21:55 INFO  TC002_LoginTest:37 - User logged out successfully!
+2025-10-30 17:21:55 INFO  TC002_LoginTest:46 - ****test executed*****
+2025-10-30 17:21:55 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-10-30 17:21:55 INFO  TC002_LoginTest:56 - Entered username: mikasa@06
+2025-10-30 17:21:55 INFO  TC002_LoginTest:59 - Entered invalid password
+2025-10-30 17:21:55 INFO  TC002_LoginTest:62 - Clicked submit button with invalid password
+2025-10-30 17:21:55 INFO  TC002_LoginTest:74 - Test passed: Invalid password correctly rejected. Message: The username and password could not be verified.
+2025-10-30 17:21:55 INFO  TC002_LoginTest:86 - Starting test: Login with both invalid credentials
+2025-10-30 17:21:55 INFO  TC002_LoginTest:90 - Entered invalid username
+2025-10-30 17:21:55 INFO  TC002_LoginTest:93 - Entered invalid password
+2025-10-30 17:21:56 INFO  TC002_LoginTest:96 - Clicked submit with invalid credentials
+2025-10-30 17:21:56 INFO  TC002_LoginTest:108 - Test passed: Invalid credentials correctly rejected. Message: The username and password could not be verified.
+2025-10-30 17:21:56 INFO  TC002_LoginTest:119 - Starting test: Login with empty username
+2025-10-30 17:21:56 INFO  TC002_LoginTest:123 - Left username field empty
+2025-10-30 17:21:56 INFO  TC002_LoginTest:126 - Entered valid password
+2025-10-30 17:21:56 INFO  TC002_LoginTest:129 - Clicked submit with empty username
+2025-10-30 17:21:56 INFO  TC002_LoginTest:141 - Test passed: Empty username correctly rejected. Message: Please enter a username and password.
+2025-10-30 17:21:56 INFO  TC002_LoginTest:152 - Starting test: Login with empty password
+2025-10-30 17:21:56 INFO  TC002_LoginTest:156 - Entered valid username
+2025-10-30 17:21:56 INFO  TC002_LoginTest:159 - Left password field empty
+2025-10-30 17:21:56 INFO  TC002_LoginTest:162 - Clicked submit with empty password
+2025-10-30 17:21:57 INFO  TC002_LoginTest:174 - Test passed: Empty password correctly rejected. Message: Please enter a username and password.
+2025-10-30 17:21:57 INFO  TC002_LoginTest:185 - Starting test: Login with both fields empty
+2025-10-30 17:21:57 INFO  TC002_LoginTest:189 - Left username field empty
+2025-10-30 17:21:57 INFO  TC002_LoginTest:192 - Left password field empty
+2025-10-30 17:21:57 INFO  TC002_LoginTest:195 - Clicked submit with empty fields
+2025-10-30 17:21:57 INFO  TC002_LoginTest:207 - Test passed: Empty fields correctly rejected. Message: Please enter a username and password.
+2025-10-30 17:21:57 INFO  TC002_LoginTest:218 - Starting test: Login with SQL injection attempt
+2025-10-30 17:21:57 INFO  TC002_LoginTest:222 - Entered SQL injection in username
+2025-10-30 17:21:57 INFO  TC002_LoginTest:225 - Entered SQL injection in password
+2025-10-30 17:21:57 INFO  TC002_LoginTest:228 - Clicked submit with SQL injection
+2025-10-30 17:21:57 INFO  TC002_LoginTest:240 - Test passed: SQL injection prevented. Message: The username and password could not be verified.
+2025-10-30 17:21:57 INFO  TC002_LoginTest:251 - Starting test: Login with special characters
+2025-10-30 17:21:57 INFO  TC002_LoginTest:255 - Entered special characters in username
+2025-10-30 17:21:57 INFO  TC002_LoginTest:258 - Entered special characters in password
+2025-10-30 17:21:57 INFO  TC002_LoginTest:261 - Clicked submit with special characters
+2025-10-30 17:21:57 INFO  TC002_LoginTest:273 - Test passed: Special characters correctly rejected. Message: The username and password could not be verified.
+2025-10-30 17:21:57 INFO  TC002_LoginTest:284 - Starting test: Login with spaces in credentials
+2025-10-30 17:21:57 INFO  TC002_LoginTest:288 - Entered username with leading and trailing spaces
+2025-10-30 17:21:58 INFO  TC002_LoginTest:291 - Entered password with leading and trailing spaces
+2025-10-30 17:21:58 INFO  TC002_LoginTest:294 - Clicked submit with spaces in credentials
+2025-10-30 17:21:58 INFO  TC002_LoginTest:305 - Test passed: Spaces in credentials handled correctly. Message: The username and password could not be verified.
+2025-10-30 17:21:58 INFO  TC002_LoginTest:316 - Starting test: Login with case-sensitive username
+2025-10-30 17:21:58 INFO  TC002_LoginTest:321 - Entered username in uppercase: MIKASA@06
+2025-10-30 17:21:58 INFO  TC002_LoginTest:324 - Entered valid password
+2025-10-30 17:21:58 INFO  TC002_LoginTest:327 - Clicked submit with uppercase username
+2025-10-30 17:21:58 INFO  TC002_LoginTest:339 - Test passed: Case sensitivity validated correctly. Message: The username and password could not be verified.
+2025-10-30 17:21:58 INFO  TC002_LoginTest:350 - Starting test: Login with excessively long username
+2025-10-30 17:21:58 INFO  TC002_LoginTest:355 - Entered excessively long username (100+ characters)
+2025-10-30 17:21:58 INFO  TC002_LoginTest:358 - Entered valid password
+2025-10-30 17:21:58 INFO  TC002_LoginTest:361 - Clicked submit with long username
+2025-10-30 17:21:59 INFO  TC002_LoginTest:373 - Test passed: Long username correctly rejected. Message: The username and password could not be verified.
+2025-10-30 17:21:59 INFO  TC002_LoginTest:384 - Starting test: Login with script tags (XSS)
+2025-10-30 17:21:59 INFO  TC002_LoginTest:388 - Entered script tag in username
+2025-10-30 17:21:59 INFO  TC002_LoginTest:391 - Entered script tag in password
+2025-10-30 17:21:59 INFO  TC002_LoginTest:394 - Clicked submit with script tags
+2025-10-30 17:21:59 INFO  TC002_LoginTest:406 - Test passed: XSS attack prevented. Message: The username and password could not be verified.
+2025-10-30 17:40:46 INFO  TC002_LoginTest:17 - URL is opened
+2025-10-30 17:40:46 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-10-30 17:40:47 INFO  TC002_LoginTest:24 - User entered the password:
+2025-10-30 17:40:49 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-10-30 17:40:51 INFO  TC002_LoginTest:37 - User logged out successfully!
+2025-10-30 17:40:51 INFO  TC002_LoginTest:46 - ****test executed*****
+2025-10-30 17:40:51 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-10-30 17:40:51 INFO  TC002_LoginTest:56 - Entered username: mikasa@06
+2025-10-30 17:40:51 INFO  TC002_LoginTest:59 - Entered invalid password
+2025-10-30 17:40:51 INFO  TC002_LoginTest:62 - Clicked submit button with invalid password
+2025-10-30 17:40:52 INFO  TC002_LoginTest:74 - Test passed: Invalid password correctly rejected. Message: The username and password could not be verified.
+2025-10-30 17:40:52 INFO  TC002_LoginTest:86 - Starting test: Login with both invalid credentials
+2025-10-30 17:40:52 INFO  TC002_LoginTest:90 - Entered invalid username
+2025-10-30 17:40:52 INFO  TC002_LoginTest:93 - Entered invalid password
+2025-10-30 17:40:52 INFO  TC002_LoginTest:96 - Clicked submit with invalid credentials
+2025-10-30 17:40:52 INFO  TC002_LoginTest:108 - Test passed: Invalid credentials correctly rejected. Message: The username and password could not be verified.
+2025-10-30 17:40:52 INFO  TC002_LoginTest:119 - Starting test: Login with empty username
+2025-10-30 17:40:52 INFO  TC002_LoginTest:123 - Left username field empty
+2025-10-30 17:40:52 INFO  TC002_LoginTest:126 - Entered valid password
+2025-10-30 17:40:52 INFO  TC002_LoginTest:129 - Clicked submit with empty username
+2025-10-30 17:40:52 INFO  TC002_LoginTest:141 - Test passed: Empty username correctly rejected. Message: Please enter a username and password.
+2025-10-30 17:40:52 INFO  TC002_LoginTest:152 - Starting test: Login with empty password
+2025-10-30 17:40:52 INFO  TC002_LoginTest:156 - Entered valid username
+2025-10-30 17:40:52 INFO  TC002_LoginTest:159 - Left password field empty
+2025-10-30 17:40:52 INFO  TC002_LoginTest:162 - Clicked submit with empty password
+2025-10-30 17:40:52 INFO  TC002_LoginTest:174 - Test passed: Empty password correctly rejected. Message: Please enter a username and password.
+2025-10-30 17:40:52 INFO  TC002_LoginTest:185 - Starting test: Login with both fields empty
+2025-10-30 17:40:53 INFO  TC002_LoginTest:189 - Left username field empty
+2025-10-30 17:40:53 INFO  TC002_LoginTest:192 - Left password field empty
+2025-10-30 17:40:53 INFO  TC002_LoginTest:195 - Clicked submit with empty fields
+2025-10-30 17:40:53 INFO  TC002_LoginTest:207 - Test passed: Empty fields correctly rejected. Message: Please enter a username and password.
+2025-10-30 17:40:53 INFO  TC002_LoginTest:218 - Starting test: Login with SQL injection attempt
+2025-10-30 17:40:53 INFO  TC002_LoginTest:222 - Entered SQL injection in username
+2025-10-30 17:40:53 INFO  TC002_LoginTest:225 - Entered SQL injection in password
+2025-10-30 17:40:53 INFO  TC002_LoginTest:228 - Clicked submit with SQL injection
+2025-10-30 17:40:53 INFO  TC002_LoginTest:240 - Test passed: SQL injection prevented. Message: The username and password could not be verified.
+2025-10-30 17:40:53 INFO  TC002_LoginTest:251 - Starting test: Login with special characters
+2025-10-30 17:40:53 INFO  TC002_LoginTest:255 - Entered special characters in username
+2025-10-30 17:40:53 INFO  TC002_LoginTest:258 - Entered special characters in password
+2025-10-30 17:40:53 INFO  TC002_LoginTest:261 - Clicked submit with special characters
+2025-10-30 17:40:53 INFO  TC002_LoginTest:273 - Test passed: Special characters correctly rejected. Message: The username and password could not be verified.
+2025-10-30 17:40:53 INFO  TC002_LoginTest:284 - Starting test: Login with spaces in credentials
+2025-10-30 17:40:54 INFO  TC002_LoginTest:288 - Entered username with leading and trailing spaces
+2025-10-30 17:40:54 INFO  TC002_LoginTest:291 - Entered password with leading and trailing spaces
+2025-10-30 17:40:54 INFO  TC002_LoginTest:294 - Clicked submit with spaces in credentials
+2025-10-30 17:40:54 INFO  TC002_LoginTest:305 - Test passed: Spaces in credentials handled correctly. Message: The username and password could not be verified.
+2025-10-30 17:40:54 INFO  TC002_LoginTest:316 - Starting test: Login with case-sensitive username
+2025-10-30 17:40:54 INFO  TC002_LoginTest:321 - Entered username in uppercase: MIKASA@06
+2025-10-30 17:40:54 INFO  TC002_LoginTest:324 - Entered valid password
+2025-10-30 17:40:55 INFO  TC002_LoginTest:327 - Clicked submit with uppercase username
+2025-10-30 17:40:55 INFO  TC002_LoginTest:339 - Test passed: Case sensitivity validated correctly. Message: The username and password could not be verified.
+2025-10-30 17:40:55 INFO  TC002_LoginTest:350 - Starting test: Login with excessively long username
+2025-10-30 17:40:55 INFO  TC002_LoginTest:355 - Entered excessively long username (100+ characters)
+2025-10-30 17:40:55 INFO  TC002_LoginTest:358 - Entered valid password
+2025-10-30 17:40:55 INFO  TC002_LoginTest:361 - Clicked submit with long username
+2025-10-30 17:40:55 INFO  TC002_LoginTest:373 - Test passed: Long username correctly rejected. Message: The username and password could not be verified.
+2025-10-30 17:40:55 INFO  TC002_LoginTest:384 - Starting test: Login with script tags (XSS)
+2025-10-30 17:40:55 INFO  TC002_LoginTest:388 - Entered script tag in username
+2025-10-30 17:40:55 INFO  TC002_LoginTest:391 - Entered script tag in password
+2025-10-30 17:40:56 INFO  TC002_LoginTest:394 - Clicked submit with script tags
+2025-10-30 17:40:56 INFO  TC002_LoginTest:406 - Test passed: XSS attack prevented. Message: The username and password could not be verified.

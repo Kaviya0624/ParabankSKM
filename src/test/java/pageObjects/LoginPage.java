@@ -1,8 +1,13 @@
 package pageObjects;
 
+import java.time.Duration;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginPage extends BasePage {
 
@@ -35,6 +40,9 @@ public class LoginPage extends BasePage {
 	
 	@FindBy(xpath="//h1[normalize-space()='Accounts Overview']")
 	WebElement loginscu;
+	
+	@FindBy(xpath = "//p[@class='error']")
+    WebElement errorMessage;
 
 	public void setUsername(String uname) {
 		txtUserName.sendKeys(uname);
@@ -78,6 +86,17 @@ public class LoginPage extends BasePage {
 		{
 			return false;
 		}
+	}
+	
+	public String getLoginErrorMessage() {
+	    try {
+	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+	        WebElement errorElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[@class='error']")));
+	        return errorElement.getText().trim();
+	    } catch (Exception e) {
+	        System.out.println("No error message displayed.");
+	        return "";
+	    }
 	}
 
 }

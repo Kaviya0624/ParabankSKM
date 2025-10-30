@@ -8,14 +8,15 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC001_RegisterTest">
+      <class name="testCases.TC002_LoginTest">
         <methods>
           <include name="tearDown"/>
-          <include name="RegisterWithWhitespaceOnlyFields"/>
+          <include name="loginWithScriptTags"/>
           <include name="setup"/>
-          <include name="RegisterWithMissingSSN"/>
+          <include name="loginWithBothFieldsEmpty"/>
+          <include name="loginWithExcessivelyLongUsername"/>
         </methods>
-      </class> <!-- testCases.TC001_RegisterTest -->
+      </class> <!-- testCases.TC002_LoginTest -->
     </classes>
   </test> <!-- ParaBanking Test(failed) -->
 </suite> <!-- Failed suite [ParaBankingSuite] -->
