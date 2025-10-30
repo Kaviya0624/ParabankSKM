@@ -32,6 +32,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
+import pageObjects.LoginPage;
+
 
 public class BaseClass {
 
@@ -210,5 +212,17 @@ public Properties p;
 		    }
 		}
 
+	  public void loginToApp() throws InterruptedException {
+		    LoginPage lp = new LoginPage(driver);
+		    lp.setUsername(p.getProperty("UsernameID"));
+		    logger.info("User entered username");
+		    lp.setPassword(p.getProperty("UserPasswordId"));
+		    logger.info("User entered password");
+		    lp.clickSubmit();
+		    logger.info("Clicked login button");
+		    Thread.sleep(2000);
+		}
+	  
+	  
 
 }

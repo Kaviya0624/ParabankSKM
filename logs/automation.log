@@ -847,3 +847,162 @@ Session ID: 7167b37066d3d1f678f0c29225aab0a2
 2025-10-30 17:40:55 INFO  TC002_LoginTest:391 - Entered script tag in password
 2025-10-30 17:40:56 INFO  TC002_LoginTest:394 - Clicked submit with script tags
 2025-10-30 17:40:56 INFO  TC002_LoginTest:406 - Test passed: XSS attack prevented. Message: The username and password could not be verified.
+2025-10-30 17:45:23 INFO  TC003_OpenNewAccountTest:16 - URL is opened
+2025-10-30 17:45:23 INFO  TC003_OpenNewAccountTest:21 - User entered the User Name:
+2025-10-30 17:45:23 INFO  TC003_OpenNewAccountTest:24 - User entered the password:
+2025-10-30 17:45:25 INFO  TC003_OpenNewAccountTest:28 - User clicked on Login Button
+2025-10-30 17:45:28 INFO  TC003_OpenNewAccountTest:32 - user clicked on Open New Account
+2025-10-30 17:45:29 INFO  TC003_OpenNewAccountTest:39 - Clicked on 'Open New Account' submit button
+2025-10-30 17:45:29 INFO  TC003_OpenNewAccountTest:51 - ****test executed*****
+2025-10-30 18:04:15 INFO  TC003_OpenNewAccountTest:59 - URL is opened
+2025-10-30 18:04:16 INFO  TC003_OpenNewAccountTest:64 - User entered the User Name
+2025-10-30 18:04:16 INFO  TC003_OpenNewAccountTest:67 - User entered the password
+2025-10-30 18:04:18 INFO  TC003_OpenNewAccountTest:71 - User clicked on Login Button
+2025-10-30 18:04:20 INFO  TC003_OpenNewAccountTest:75 - User clicked on Open New Account
+2025-10-30 18:04:21 INFO  TC003_OpenNewAccountTest:80 - Selected Account Type: CHECKING
+2025-10-30 18:04:22 INFO  TC003_OpenNewAccountTest:85 - Clicked on 'Open New Account' submit button
+2025-10-30 18:06:05 INFO  TC003_OpenNewAccountTest:59 - URL is opened
+2025-10-30 18:06:05 INFO  TC003_OpenNewAccountTest:64 - User entered the User Name
+2025-10-30 18:06:05 INFO  TC003_OpenNewAccountTest:67 - User entered the password
+2025-10-30 18:06:07 INFO  TC003_OpenNewAccountTest:71 - User clicked on Login Button
+2025-10-30 18:06:09 INFO  TC003_OpenNewAccountTest:75 - User clicked on Open New Account
+2025-10-30 18:06:11 INFO  TC003_OpenNewAccountTest:80 - Selected Account Type: CHECKING
+2025-10-30 18:06:13 INFO  TC003_OpenNewAccountTest:85 - Clicked on 'Open New Account' submit button
+2025-10-30 18:06:57 INFO  TC003_OpenNewAccountTest:59 - URL is opened
+2025-10-30 18:06:57 INFO  TC003_OpenNewAccountTest:64 - User entered the User Name
+2025-10-30 18:06:57 INFO  TC003_OpenNewAccountTest:67 - User entered the password
+2025-10-30 18:06:59 INFO  TC003_OpenNewAccountTest:71 - User clicked on Login Button
+2025-10-30 18:07:02 INFO  TC003_OpenNewAccountTest:75 - User clicked on Open New Account
+2025-10-30 18:07:03 INFO  TC003_OpenNewAccountTest:80 - Selected Account Type: CHECKING
+2025-10-30 18:07:05 INFO  TC003_OpenNewAccountTest:85 - Clicked on 'Open New Account' submit button
+2025-10-30 18:07:48 INFO  TC003_OpenNewAccountTest:16 - URL is opened
+2025-10-30 18:07:48 INFO  TC003_OpenNewAccountTest:21 - User entered the User Name:
+2025-10-30 18:07:48 INFO  TC003_OpenNewAccountTest:24 - User entered the password:
+2025-10-30 18:07:51 INFO  TC003_OpenNewAccountTest:28 - User clicked on Login Button
+2025-10-30 18:07:53 INFO  TC003_OpenNewAccountTest:32 - user clicked on Open New Account
+2025-10-30 18:07:54 INFO  TC003_OpenNewAccountTest:39 - Clicked on 'Open New Account' submit button
+2025-10-30 18:07:54 INFO  TC003_OpenNewAccountTest:59 - URL is opened
+2025-10-30 18:09:29 INFO  TC003_OpenNewAccountTest:16 - URL is opened
+2025-10-30 18:09:29 INFO  TC003_OpenNewAccountTest:21 - User entered the User Name:
+2025-10-30 18:09:30 INFO  TC003_OpenNewAccountTest:24 - User entered the password:
+2025-10-30 18:09:32 INFO  TC003_OpenNewAccountTest:28 - User clicked on Login Button
+2025-10-30 18:09:34 INFO  TC003_OpenNewAccountTest:32 - user clicked on Open New Account
+2025-10-30 18:09:35 INFO  TC003_OpenNewAccountTest:39 - Clicked on 'Open New Account' submit button
+2025-10-30 18:09:36 INFO  TC003_OpenNewAccountTest:55 - ****test executed*****
+2025-10-30 18:09:36 INFO  TC003_OpenNewAccountTest:61 - URL is opened
+2025-10-30 18:09:36 INFO  TC003_OpenNewAccountTest:66 - User entered the User Name
+2025-10-30 18:09:36 INFO  TC003_OpenNewAccountTest:69 - User entered the password
+2025-10-30 18:09:38 INFO  TC003_OpenNewAccountTest:73 - User clicked on Login Button
+2025-10-30 18:09:40 INFO  TC003_OpenNewAccountTest:77 - User clicked on Open New Account
+2025-10-30 18:09:42 INFO  TC003_OpenNewAccountTest:82 - Selected Account Type: CHECKING
+2025-10-30 18:09:44 INFO  TC003_OpenNewAccountTest:87 - Clicked on 'Open New Account' submit button
+2025-10-30 18:10:42 INFO  TC003_OpenNewAccountTest:16 - URL is opened
+2025-10-30 18:10:42 INFO  TC003_OpenNewAccountTest:21 - User entered the User Name:
+2025-10-30 18:10:43 INFO  TC003_OpenNewAccountTest:24 - User entered the password:
+2025-10-30 18:10:45 INFO  TC003_OpenNewAccountTest:28 - User clicked on Login Button
+2025-10-30 18:10:47 INFO  TC003_OpenNewAccountTest:32 - user clicked on Open New Account
+2025-10-30 18:10:48 INFO  TC003_OpenNewAccountTest:39 - Clicked on 'Open New Account' submit button
+2025-10-30 18:10:49 INFO  TC003_OpenNewAccountTest:61 - URL is opened
+2025-10-30 18:15:47 INFO  TC003_OpenNewAccountTest:16 - URL is opened
+2025-10-30 18:15:47 INFO  TC003_OpenNewAccountTest:21 - User entered the User Name:
+2025-10-30 18:15:47 INFO  TC003_OpenNewAccountTest:24 - User entered the password:
+2025-10-30 18:15:49 INFO  TC003_OpenNewAccountTest:28 - User clicked on Login Button
+2025-10-30 18:15:52 INFO  TC003_OpenNewAccountTest:32 - user clicked on Open New Account
+2025-10-30 18:15:53 INFO  TC003_OpenNewAccountTest:39 - Clicked on 'Open New Account' submit button
+2025-10-30 18:15:53 INFO  TC003_OpenNewAccountTest:55 - ****test executed*****
+2025-10-30 18:15:53 INFO  TC003_OpenNewAccountTest:61 - URL is opened
+2025-10-30 18:15:53 INFO  TC003_OpenNewAccountTest:66 - User entered the User Name
+2025-10-30 18:15:53 INFO  TC003_OpenNewAccountTest:69 - User entered the password
+2025-10-30 18:15:55 INFO  TC003_OpenNewAccountTest:73 - User clicked on Login Button
+2025-10-30 18:15:58 INFO  TC003_OpenNewAccountTest:77 - User clicked on Open New Account
+2025-10-30 18:15:59 INFO  TC003_OpenNewAccountTest:82 - Selected Account Type: CHECKING
+2025-10-30 18:16:01 INFO  TC003_OpenNewAccountTest:87 - Clicked on 'Open New Account' submit button
+2025-10-30 18:16:40 INFO  TC003_OpenNewAccountTest:16 - URL is opened
+2025-10-30 18:16:40 INFO  TC003_OpenNewAccountTest:21 - User entered the User Name:
+2025-10-30 18:16:40 INFO  TC003_OpenNewAccountTest:24 - User entered the password:
+2025-10-30 18:16:42 INFO  TC003_OpenNewAccountTest:28 - User clicked on Login Button
+2025-10-30 18:16:44 INFO  TC003_OpenNewAccountTest:32 - user clicked on Open New Account
+2025-10-30 18:16:46 INFO  TC003_OpenNewAccountTest:39 - Clicked on 'Open New Account' submit button
+2025-10-30 18:16:46 INFO  TC003_OpenNewAccountTest:61 - URL is opened
+2025-10-30 18:19:33 INFO  TC003_OpenNewAccountTest:16 - URL is opened
+2025-10-30 18:19:33 INFO  TC003_OpenNewAccountTest:21 - User entered the User Name:
+2025-10-30 18:19:33 INFO  TC003_OpenNewAccountTest:24 - User entered the password:
+2025-10-30 18:19:36 INFO  TC003_OpenNewAccountTest:28 - User clicked on Login Button
+2025-10-30 18:19:38 INFO  TC003_OpenNewAccountTest:32 - user clicked on Open New Account
+2025-10-30 18:19:39 INFO  TC003_OpenNewAccountTest:39 - Clicked on 'Open New Account' submit button
+2025-10-30 18:19:39 INFO  TC003_OpenNewAccountTest:55 - ****test executed*****
+2025-10-30 18:19:40 INFO  TC003_OpenNewAccountTest:61 - URL is opened
+2025-10-30 18:19:40 INFO  TC003_OpenNewAccountTest:66 - User entered the User Name
+2025-10-30 18:19:40 INFO  TC003_OpenNewAccountTest:69 - User entered the password
+2025-10-30 18:19:42 INFO  TC003_OpenNewAccountTest:73 - User clicked on Login Button
+2025-10-30 18:19:44 INFO  TC003_OpenNewAccountTest:77 - User clicked on Open New Account
+2025-10-30 18:19:45 INFO  TC003_OpenNewAccountTest:82 - Selected Account Type: CHECKING
+2025-10-30 18:19:49 INFO  TC003_OpenNewAccountTest:87 - Clicked on 'Open New Account' submit button
+2025-10-30 18:19:50 INFO  TC003_OpenNewAccountTest:100 - ****Test executed successfully for Checking Account****
+2025-10-30 18:29:21 INFO  TC003_OpenNewAccountTest:218 - User entered username
+2025-10-30 18:29:21 INFO  TC003_OpenNewAccountTest:220 - User entered password
+2025-10-30 18:29:22 INFO  TC003_OpenNewAccountTest:222 - Clicked login button
+2025-10-30 18:29:26 INFO  TC003_OpenNewAccountTest:23 - user clicked on Open New Account
+2025-10-30 18:29:27 INFO  TC003_OpenNewAccountTest:30 - Clicked on 'Open New Account' submit button
+2025-10-30 18:29:28 INFO  TC003_OpenNewAccountTest:46 - ****test executed*****
+2025-10-30 18:29:28 INFO  TC003_OpenNewAccountTest:52 - URL is opened
+2025-10-30 18:29:28 INFO  TC003_OpenNewAccountTest:218 - User entered username
+2025-10-30 18:29:28 INFO  TC003_OpenNewAccountTest:220 - User entered password
+2025-10-30 18:29:28 INFO  TC003_OpenNewAccountTest:222 - Clicked login button
+2025-10-30 18:29:30 INFO  TC003_OpenNewAccountTest:59 - User clicked on Open New Account
+2025-10-30 18:29:31 INFO  TC003_OpenNewAccountTest:64 - Selected Account Type: CHECKING
+2025-10-30 18:29:36 INFO  TC003_OpenNewAccountTest:69 - Clicked on 'Open New Account' submit button
+2025-10-30 18:29:37 INFO  TC003_OpenNewAccountTest:82 - ****Test executed successfully for Checking Account****
+2025-10-30 18:40:05 INFO  TC003_OpenNewAccountTest:218 - User entered username
+2025-10-30 18:40:05 INFO  TC003_OpenNewAccountTest:220 - User entered password
+2025-10-30 18:40:05 INFO  TC003_OpenNewAccountTest:222 - Clicked login button
+2025-10-30 18:40:10 INFO  TC003_OpenNewAccountTest:24 - user clicked on Open New Account
+2025-10-30 18:40:11 INFO  TC003_OpenNewAccountTest:31 - Clicked on 'Open New Account' submit button
+2025-10-30 18:40:11 INFO  TC003_OpenNewAccountTest:47 - ****test executed*****
+2025-10-30 18:40:11 INFO  TC003_OpenNewAccountTest:53 - URL is opened
+2025-10-30 18:40:11 INFO  TC003_OpenNewAccountTest:218 - User entered username
+2025-10-30 18:40:11 INFO  TC003_OpenNewAccountTest:220 - User entered password
+2025-10-30 18:40:12 INFO  TC003_OpenNewAccountTest:222 - Clicked login button
+2025-10-30 18:40:14 INFO  TC003_OpenNewAccountTest:60 - User clicked on Open New Account
+2025-10-30 18:40:15 INFO  TC003_OpenNewAccountTest:65 - Selected Account Type: CHECKING
+2025-10-30 18:40:19 INFO  TC003_OpenNewAccountTest:70 - Clicked on 'Open New Account' submit button
+2025-10-30 18:40:20 INFO  TC003_OpenNewAccountTest:83 - ****Test executed successfully for Checking Account****
+2025-10-30 18:40:20 INFO  TC003_OpenNewAccountTest:89 - URL is opened
+2025-10-30 18:40:20 INFO  TC003_OpenNewAccountTest:218 - User entered username
+2025-10-30 18:40:20 INFO  TC003_OpenNewAccountTest:220 - User entered password
+2025-10-30 18:40:20 INFO  TC003_OpenNewAccountTest:222 - Clicked login button
+2025-10-30 18:40:22 INFO  TC003_OpenNewAccountTest:96 - User clicked on Open New Account
+2025-10-30 18:40:23 INFO  TC003_OpenNewAccountTest:101 - Selected Account Type: SAVINGS
+2025-10-30 18:40:27 INFO  TC003_OpenNewAccountTest:106 - Clicked on 'Open New Account' submit button
+2025-10-30 18:40:28 INFO  TC003_OpenNewAccountTest:126 - ****VerifyAccountDetailsNavigationTest executed successfully****
+2025-10-30 18:45:08 INFO  TC003_OpenNewAccountTest:218 - User entered username
+2025-10-30 18:45:08 INFO  TC003_OpenNewAccountTest:220 - User entered password
+2025-10-30 18:45:08 INFO  TC003_OpenNewAccountTest:222 - Clicked login button
+2025-10-30 18:45:12 INFO  TC003_OpenNewAccountTest:24 - user clicked on Open New Account
+2025-10-30 18:45:14 INFO  TC003_OpenNewAccountTest:31 - Clicked on 'Open New Account' submit button
+2025-10-30 18:45:14 INFO  TC003_OpenNewAccountTest:47 - ****test executed*****
+2025-10-30 18:45:14 INFO  TC003_OpenNewAccountTest:53 - URL is opened
+2025-10-30 18:45:14 INFO  TC003_OpenNewAccountTest:218 - User entered username
+2025-10-30 18:45:14 INFO  TC003_OpenNewAccountTest:220 - User entered password
+2025-10-30 18:45:14 INFO  TC003_OpenNewAccountTest:222 - Clicked login button
+2025-10-30 18:45:16 INFO  TC003_OpenNewAccountTest:60 - User clicked on Open New Account
+2025-10-30 18:45:18 INFO  TC003_OpenNewAccountTest:65 - Selected Account Type: CHECKING
+2025-10-30 18:45:22 INFO  TC003_OpenNewAccountTest:70 - Clicked on 'Open New Account' submit button
+2025-10-30 18:45:23 INFO  TC003_OpenNewAccountTest:83 - ****Test executed successfully for Checking Account****
+2025-10-30 18:45:23 INFO  TC003_OpenNewAccountTest:89 - URL is opened
+2025-10-30 18:45:23 INFO  TC003_OpenNewAccountTest:218 - User entered username
+2025-10-30 18:45:23 INFO  TC003_OpenNewAccountTest:220 - User entered password
+2025-10-30 18:45:23 INFO  TC003_OpenNewAccountTest:222 - Clicked login button
+2025-10-30 18:45:25 INFO  TC003_OpenNewAccountTest:96 - User clicked on Open New Account
+2025-10-30 18:45:26 INFO  TC003_OpenNewAccountTest:101 - Selected Account Type: SAVINGS
+2025-10-30 18:45:31 INFO  TC003_OpenNewAccountTest:106 - Clicked on 'Open New Account' submit button
+2025-10-30 18:45:32 INFO  TC003_OpenNewAccountTest:126 - ****VerifyAccountDetailsNavigationTest executed successfully****
+2025-10-30 18:45:32 INFO  TC003_OpenNewAccountTest:132 - Starting VerifyBackButtonAfterAccountCreationTest
+2025-10-30 18:45:32 INFO  TC003_OpenNewAccountTest:218 - User entered username
+2025-10-30 18:45:32 INFO  TC003_OpenNewAccountTest:220 - User entered password
+2025-10-30 18:45:32 INFO  TC003_OpenNewAccountTest:222 - Clicked login button
+2025-10-30 18:45:34 INFO  TC003_OpenNewAccountTest:139 - User clicked on Open New Account
+2025-10-30 18:45:35 INFO  TC003_OpenNewAccountTest:144 - Selected Account Type: SAVINGS
+2025-10-30 18:45:39 INFO  TC003_OpenNewAccountTest:149 - Clicked on 'Open New Account' submit button
+2025-10-30 18:45:40 INFO  TC003_OpenNewAccountTest:158 - Clicked on Back button
+2025-10-30 18:45:40 INFO  TC003_OpenNewAccountTest:170 - ****VerifyBackButtonAfterAccountCreationTest executed successfully****
