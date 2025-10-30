@@ -8,14 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC003_OpenNewAccountTest">
+      <class name="testCases.TC004_TransferFundsTest">
         <methods>
           <include name="tearDown"/>
-          <include name="OpenCheckingAccountTest"/>
+          <include name="TransferFundsWithExcessiveAmountTest"/>
           <include name="setup"/>
-          <include name="OpenNewAccountTest"/>
         </methods>
-      </class> <!-- testCases.TC003_OpenNewAccountTest -->
+      </class> <!-- testCases.TC004_TransferFundsTest -->
     </classes>
   </test> <!-- ParaBanking Test(failed) -->
 </suite> <!-- Failed suite [ParaBankingSuite] -->

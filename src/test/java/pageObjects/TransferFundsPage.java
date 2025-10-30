@@ -1,11 +1,13 @@
 package pageObjects;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class TransferFundsPage extends BasePage {
 	
@@ -32,6 +34,10 @@ public class TransferFundsPage extends BasePage {
 	@FindBy(xpath = "//h1[normalize-space()='Transfer Complete!']")
 	WebElement transferCompleteMessage;
 
+	@FindBy(xpath = "//p[contains(text(),'An internal error has occurred and has been logged')]")
+	WebElement internalErrorMessage;
+
+	
 	
 	public void clickOnTransferFunds() {
 		TransferFunds.click();
@@ -70,4 +76,23 @@ public class TransferFundsPage extends BasePage {
 			return (e.getMessage());
 		}
 	}
+	
+	public String getErrorMessage1() {
+	    try {
+	        return internalErrorMessage.getText();
+	    } catch (Exception e) {
+	        return "";
+	    }
+	}
+	
+	public String getErrorMessage() {
+	    try {
+	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+	        wait.until(ExpectedConditions.visibilityOf(internalErrorMessage));
+	        return internalErrorMessage.getText().trim();
+	    } catch (Exception e) {
+	        return "Error message not found or not visible: " + e.getMessage();
+	    }
+
+}
 }

@@ -23,7 +23,7 @@
        <class name="testCases.TC010_AccountOverview"/>   -->
        
        
-        <class name="testCases.TC003_OpenNewAccountTest"/>
+       <class name="testCases.TC004_TransferFundsTest"/>
        
     </classes>
   </test> <!-- Test -->

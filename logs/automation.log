@@ -1006,3 +1006,289 @@ Session ID: 7167b37066d3d1f678f0c29225aab0a2
 2025-10-30 18:45:39 INFO  TC003_OpenNewAccountTest:149 - Clicked on 'Open New Account' submit button
 2025-10-30 18:45:40 INFO  TC003_OpenNewAccountTest:158 - Clicked on Back button
 2025-10-30 18:45:40 INFO  TC003_OpenNewAccountTest:170 - ****VerifyBackButtonAfterAccountCreationTest executed successfully****
+2025-10-30 22:05:04 INFO  TC001_RegisterTest:18 - URL is opened
+2025-10-30 22:05:05 INFO  TC001_RegisterTest:22 - User clicked on register Link
+2025-10-30 22:05:05 INFO  TC001_RegisterTest:25 - User Entered the First Name.
+2025-10-30 22:05:05 INFO  TC001_RegisterTest:28 - User Entered the Last Name.
+2025-10-30 22:05:05 INFO  TC001_RegisterTest:31 - User Entered the Address.
+2025-10-30 22:05:05 INFO  TC001_RegisterTest:34 - User Entered the City.
+2025-10-30 22:05:05 INFO  TC001_RegisterTest:37 - User Entered the State.
+2025-10-30 22:05:05 INFO  TC001_RegisterTest:40 - User Entered the ZipCode.
+2025-10-30 22:05:05 INFO  TC001_RegisterTest:43 - User Entered the PhoneNumber.
+2025-10-30 22:05:06 INFO  TC001_RegisterTest:46 - User Entered the Ssn.
+2025-10-30 22:05:06 INFO  TC001_RegisterTest:49 - User Entered the Username.
+2025-10-30 22:05:06 INFO  TC001_RegisterTest:54 - User Entered the Password.
+2025-10-30 22:05:06 INFO  TC001_RegisterTest:57 - User Entered the RepeatedPassword.
+2025-10-30 22:05:06 INFO  TC001_RegisterTest:66 - Account created successfully! Message displayed: Your account was created successfully. You are now logged in.
+2025-10-30 22:05:07 INFO  TC001_RegisterTest:78 - ****test executed*****
+2025-10-30 22:05:07 INFO  TC001_RegisterTest:85 - URL is opened
+2025-10-30 22:05:07 INFO  TC001_RegisterTest:89 - User clicked on Register link
+2025-10-30 22:05:07 INFO  TC001_RegisterTest:93 - Left First Name blank
+2025-10-30 22:05:08 INFO  TC001_RegisterTest:109 - Clicked on Register button
+2025-10-30 22:05:08 INFO  TC001_RegisterTest:116 - Validation message displayed correctly: First name is required.
+2025-10-30 22:05:08 INFO  TC001_RegisterTest:122 - **** Negative Test Executed: Missing First Name ****
+2025-10-30 22:05:08 INFO  TC001_RegisterTest:128 - URL is opened
+2025-10-30 22:05:08 INFO  TC001_RegisterTest:132 - User clicked on Register link
+2025-10-30 22:05:09 INFO  TC001_RegisterTest:150 - Clicked on Register button
+2025-10-30 22:05:09 INFO  TC001_RegisterTest:159 - Validation message displayed correctly: Last name is required.
+2025-10-30 22:05:09 INFO  TC001_RegisterTest:164 - **** Negative Test Executed: Missing Last Name ****
+2025-10-30 22:05:13 INFO  TC001_RegisterTest:262 - Validation message displayed correctly: State is required.
+2025-10-30 22:05:14 INFO  TC001_RegisterTest:296 - Validation message displayed correctly: Zip Code is required.
+2025-10-30 22:05:16 INFO  TC001_RegisterTest:328 - Fetched SSN error message: Social Security Number is required.
+2025-10-30 22:05:16 INFO  TC001_RegisterTest:336 - Validation message displayed correctly: Social Security Number is required.
+2025-10-30 22:05:17 INFO  TC001_RegisterTest:370 - Validation message displayed correctly: Username is required.
+2025-10-30 22:05:18 INFO  TC001_RegisterTest:404 - Validation message displayed correctly: Password is required.
+2025-10-30 22:05:19 INFO  TC001_RegisterTest:437 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
+2025-10-30 22:05:21 INFO  TC001_RegisterTest:473 - Validation message displayed correctly for existing username: This username already exists.
+2025-10-30 22:05:22 INFO  TC002_LoginTest:17 - URL is opened
+2025-10-30 22:05:22 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-10-30 22:05:22 INFO  TC002_LoginTest:24 - User entered the password:
+2025-10-30 22:05:25 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-10-30 22:05:27 INFO  TC002_LoginTest:37 - User logged out successfully!
+2025-10-30 22:05:27 INFO  TC002_LoginTest:46 - ****test executed*****
+2025-10-30 22:05:27 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-10-30 22:05:27 INFO  TC002_LoginTest:56 - Entered username: levi
+2025-10-30 22:05:27 INFO  TC002_LoginTest:59 - Entered invalid password
+2025-10-30 22:05:27 INFO  TC002_LoginTest:62 - Clicked submit button with invalid password
+2025-10-30 22:05:27 INFO  TC002_LoginTest:74 - Test passed: Invalid password correctly rejected. Message: The username and password could not be verified.
+2025-10-30 22:05:27 INFO  TC002_LoginTest:86 - Starting test: Login with both invalid credentials
+2025-10-30 22:05:27 INFO  TC002_LoginTest:90 - Entered invalid username
+2025-10-30 22:05:27 INFO  TC002_LoginTest:93 - Entered invalid password
+2025-10-30 22:05:27 INFO  TC002_LoginTest:96 - Clicked submit with invalid credentials
+2025-10-30 22:05:28 INFO  TC002_LoginTest:108 - Test passed: Invalid credentials correctly rejected. Message: The username and password could not be verified.
+2025-10-30 22:05:28 INFO  TC002_LoginTest:119 - Starting test: Login with empty username
+2025-10-30 22:05:28 INFO  TC002_LoginTest:123 - Left username field empty
+2025-10-30 22:05:28 INFO  TC002_LoginTest:126 - Entered valid password
+2025-10-30 22:05:28 INFO  TC002_LoginTest:129 - Clicked submit with empty username
+2025-10-30 22:05:28 INFO  TC002_LoginTest:141 - Test passed: Empty username correctly rejected. Message: Please enter a username and password.
+2025-10-30 22:05:28 INFO  TC002_LoginTest:152 - Starting test: Login with empty password
+2025-10-30 22:05:28 INFO  TC002_LoginTest:156 - Entered valid username
+2025-10-30 22:05:28 INFO  TC002_LoginTest:159 - Left password field empty
+2025-10-30 22:05:28 INFO  TC002_LoginTest:162 - Clicked submit with empty password
+2025-10-30 22:05:28 INFO  TC002_LoginTest:174 - Test passed: Empty password correctly rejected. Message: Please enter a username and password.
+2025-10-30 22:05:28 INFO  TC002_LoginTest:185 - Starting test: Login with both fields empty
+2025-10-30 22:05:28 INFO  TC002_LoginTest:189 - Left username field empty
+2025-10-30 22:05:28 INFO  TC002_LoginTest:192 - Left password field empty
+2025-10-30 22:05:28 INFO  TC002_LoginTest:195 - Clicked submit with empty fields
+2025-10-30 22:05:28 INFO  TC002_LoginTest:207 - Test passed: Empty fields correctly rejected. Message: Please enter a username and password.
+2025-10-30 22:05:28 INFO  TC002_LoginTest:218 - Starting test: Login with SQL injection attempt
+2025-10-30 22:05:28 INFO  TC002_LoginTest:222 - Entered SQL injection in username
+2025-10-30 22:05:28 INFO  TC002_LoginTest:225 - Entered SQL injection in password
+2025-10-30 22:05:28 INFO  TC002_LoginTest:228 - Clicked submit with SQL injection
+2025-10-30 22:05:29 INFO  TC002_LoginTest:240 - Test passed: SQL injection prevented. Message: The username and password could not be verified.
+2025-10-30 22:05:29 INFO  TC002_LoginTest:251 - Starting test: Login with special characters
+2025-10-30 22:05:29 INFO  TC002_LoginTest:255 - Entered special characters in username
+2025-10-30 22:05:29 INFO  TC002_LoginTest:258 - Entered special characters in password
+2025-10-30 22:05:29 INFO  TC002_LoginTest:261 - Clicked submit with special characters
+2025-10-30 22:05:29 INFO  TC002_LoginTest:273 - Test passed: Special characters correctly rejected. Message: The username and password could not be verified.
+2025-10-30 22:05:29 INFO  TC002_LoginTest:284 - Starting test: Login with spaces in credentials
+2025-10-30 22:05:29 INFO  TC002_LoginTest:288 - Entered username with leading and trailing spaces
+2025-10-30 22:05:29 INFO  TC002_LoginTest:291 - Entered password with leading and trailing spaces
+2025-10-30 22:05:29 INFO  TC002_LoginTest:294 - Clicked submit with spaces in credentials
+2025-10-30 22:05:29 INFO  TC002_LoginTest:305 - Test passed: Spaces in credentials handled correctly. Message: The username and password could not be verified.
+2025-10-30 22:05:29 INFO  TC002_LoginTest:316 - Starting test: Login with case-sensitive username
+2025-10-30 22:05:29 INFO  TC002_LoginTest:321 - Entered username in uppercase: LEVI
+2025-10-30 22:05:29 INFO  TC002_LoginTest:324 - Entered valid password
+2025-10-30 22:05:29 INFO  TC002_LoginTest:327 - Clicked submit with uppercase username
+2025-10-30 22:05:29 INFO  TC002_LoginTest:339 - Test passed: Case sensitivity validated correctly. Message: The username and password could not be verified.
+2025-10-30 22:05:29 INFO  TC002_LoginTest:350 - Starting test: Login with excessively long username
+2025-10-30 22:05:30 INFO  TC002_LoginTest:355 - Entered excessively long username (100+ characters)
+2025-10-30 22:05:30 INFO  TC002_LoginTest:358 - Entered valid password
+2025-10-30 22:05:30 INFO  TC002_LoginTest:361 - Clicked submit with long username
+2025-10-30 22:05:30 INFO  TC002_LoginTest:373 - Test passed: Long username correctly rejected. Message: The username and password could not be verified.
+2025-10-30 22:05:30 INFO  TC002_LoginTest:384 - Starting test: Login with script tags (XSS)
+2025-10-30 22:05:31 INFO  TC002_LoginTest:388 - Entered script tag in username
+2025-10-30 22:05:31 INFO  TC002_LoginTest:391 - Entered script tag in password
+2025-10-30 22:05:31 INFO  TC002_LoginTest:394 - Clicked submit with script tags
+2025-10-30 22:05:31 INFO  TC002_LoginTest:406 - Test passed: XSS attack prevented. Message: The username and password could not be verified.
+2025-10-30 22:05:32 INFO  TC003_OpenNewAccountTest:218 - User entered username
+2025-10-30 22:05:33 INFO  TC003_OpenNewAccountTest:220 - User entered password
+2025-10-30 22:05:33 INFO  TC003_OpenNewAccountTest:222 - Clicked login button
+2025-10-30 22:05:37 INFO  TC003_OpenNewAccountTest:24 - user clicked on Open New Account
+2025-10-30 22:05:38 INFO  TC003_OpenNewAccountTest:31 - Clicked on 'Open New Account' submit button
+2025-10-30 22:05:39 INFO  TC003_OpenNewAccountTest:47 - ****test executed*****
+2025-10-30 22:05:39 INFO  TC003_OpenNewAccountTest:53 - URL is opened
+2025-10-30 22:05:39 INFO  TC003_OpenNewAccountTest:218 - User entered username
+2025-10-30 22:05:39 INFO  TC003_OpenNewAccountTest:220 - User entered password
+2025-10-30 22:05:39 INFO  TC003_OpenNewAccountTest:222 - Clicked login button
+2025-10-30 22:05:41 INFO  TC003_OpenNewAccountTest:60 - User clicked on Open New Account
+2025-10-30 22:05:42 INFO  TC003_OpenNewAccountTest:65 - Selected Account Type: CHECKING
+2025-10-30 22:05:46 INFO  TC003_OpenNewAccountTest:70 - Clicked on 'Open New Account' submit button
+2025-10-30 22:05:47 INFO  TC003_OpenNewAccountTest:83 - ****Test executed successfully for Checking Account****
+2025-10-30 22:05:47 INFO  TC003_OpenNewAccountTest:89 - URL is opened
+2025-10-30 22:05:47 INFO  TC003_OpenNewAccountTest:218 - User entered username
+2025-10-30 22:05:47 INFO  TC003_OpenNewAccountTest:220 - User entered password
+2025-10-30 22:05:47 INFO  TC003_OpenNewAccountTest:222 - Clicked login button
+2025-10-30 22:05:50 INFO  TC003_OpenNewAccountTest:96 - User clicked on Open New Account
+2025-10-30 22:05:51 INFO  TC003_OpenNewAccountTest:101 - Selected Account Type: SAVINGS
+2025-10-30 22:05:55 INFO  TC003_OpenNewAccountTest:106 - Clicked on 'Open New Account' submit button
+2025-10-30 22:05:56 INFO  TC003_OpenNewAccountTest:126 - ****VerifyAccountDetailsNavigationTest executed successfully****
+2025-10-30 22:05:56 INFO  TC003_OpenNewAccountTest:132 - Starting VerifyBackButtonAfterAccountCreationTest
+2025-10-30 22:05:56 INFO  TC003_OpenNewAccountTest:218 - User entered username
+2025-10-30 22:05:56 INFO  TC003_OpenNewAccountTest:220 - User entered password
+2025-10-30 22:05:56 INFO  TC003_OpenNewAccountTest:222 - Clicked login button
+2025-10-30 22:05:58 INFO  TC003_OpenNewAccountTest:139 - User clicked on Open New Account
+2025-10-30 22:05:59 INFO  TC003_OpenNewAccountTest:144 - Selected Account Type: SAVINGS
+2025-10-30 22:06:04 INFO  TC003_OpenNewAccountTest:149 - Clicked on 'Open New Account' submit button
+2025-10-30 22:06:04 INFO  TC003_OpenNewAccountTest:158 - Clicked on Back button
+2025-10-30 22:06:05 INFO  TC003_OpenNewAccountTest:170 - ****VerifyBackButtonAfterAccountCreationTest executed successfully****
+2025-10-30 22:25:21 INFO  TC004_TransferFundsTest:17 - URL is opened
+2025-10-30 22:25:21 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-10-30 22:25:22 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-10-30 22:25:22 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-10-30 22:25:35 INFO  TC004_TransferFundsTest:50 - ****test executed*****
+2025-10-30 22:25:35 INFO  TC004_TransferFundsTest:57 - Starting TransferFundsWithoutAmountTest
+2025-10-30 22:25:35 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-10-30 22:25:35 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-10-30 22:25:35 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-10-30 22:25:37 INFO  TC004_TransferFundsTest:64 - User clicked on Transfer Funds link
+2025-10-30 22:25:41 INFO  TC004_TransferFundsTest:75 - Clicked on Transfer button without amount
+2025-10-30 22:25:41 INFO  TC004_TransferFundsTest:87 - ****TransferFundsWithoutAmountTest executed successfully****
+2025-10-30 22:25:41 INFO  TC004_TransferFundsTest:93 - Starting TransferFundsWithInvalidAmountTest
+2025-10-30 22:25:41 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-10-30 22:25:41 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-10-30 22:25:41 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-10-30 22:25:43 INFO  TC004_TransferFundsTest:100 - User clicked on Transfer Funds link
+2025-10-30 22:25:47 INFO  TC004_TransferFundsTest:111 - Clicked on Transfer button with invalid amount
+2025-10-30 22:25:47 INFO  TC004_TransferFundsTest:123 - ****TransferFundsWithInvalidAmountTest executed successfully****
+2025-10-30 22:32:42 INFO  TC004_TransferFundsTest:17 - URL is opened
+2025-10-30 22:32:42 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-10-30 22:32:43 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-10-30 22:32:43 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-10-30 22:32:56 INFO  TC004_TransferFundsTest:50 - ****test executed*****
+2025-10-30 22:32:56 INFO  TC004_TransferFundsTest:57 - Starting TransferFundsWithoutAmountTest
+2025-10-30 22:32:56 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-10-30 22:32:56 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-10-30 22:32:56 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-10-30 22:32:58 INFO  TC004_TransferFundsTest:64 - User clicked on Transfer Funds link
+2025-10-30 22:33:02 INFO  TC004_TransferFundsTest:75 - Clicked on Transfer button without amount
+2025-10-30 22:33:02 INFO  TC004_TransferFundsTest:87 - ****TransferFundsWithoutAmountTest executed successfully****
+2025-10-30 22:33:02 INFO  TC004_TransferFundsTest:93 - Starting TransferFundsWithInvalidAmountTest
+2025-10-30 22:33:02 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-10-30 22:33:02 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-10-30 22:33:02 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-10-30 22:33:05 INFO  TC004_TransferFundsTest:100 - User clicked on Transfer Funds link
+2025-10-30 22:33:08 INFO  TC004_TransferFundsTest:111 - Clicked on Transfer button with invalid amount
+2025-10-30 22:33:08 INFO  TC004_TransferFundsTest:123 - ****TransferFundsWithInvalidAmountTest executed successfully****
+2025-10-30 22:33:08 INFO  TC004_TransferFundsTest:129 - Starting TransferFundsWithDecimalAmountTest
+2025-10-30 22:33:08 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-10-30 22:33:08 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-10-30 22:33:08 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-10-30 22:33:11 INFO  TC004_TransferFundsTest:136 - User clicked on Transfer Funds link
+2025-10-30 22:33:14 INFO  TC004_TransferFundsTest:147 - Clicked on Transfer button with decimal amount
+2025-10-30 22:33:14 INFO  TC004_TransferFundsTest:159 - ****TransferFundsWithDecimalAmountTest executed successfully****
+2025-10-30 22:33:14 INFO  TC004_TransferFundsTest:165 - Starting TransferFundsWithSpecialCharactersTest
+2025-10-30 22:33:14 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-10-30 22:33:14 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-10-30 22:33:15 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-10-30 22:33:17 INFO  TC004_TransferFundsTest:172 - User clicked on Transfer Funds link
+2025-10-30 22:33:20 INFO  TC004_TransferFundsTest:183 - Clicked on Transfer button with special characters
+2025-10-30 22:33:20 INFO  TC004_TransferFundsTest:195 - ****TransferFundsWithSpecialCharactersTest executed successfully****
+2025-10-30 22:33:20 INFO  TC004_TransferFundsTest:201 - Starting TransferFundsWithExcessiveAmountTest
+2025-10-30 22:33:20 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-10-30 22:33:21 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-10-30 22:33:21 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-10-30 22:33:23 INFO  TC004_TransferFundsTest:208 - User clicked on Transfer Funds link
+2025-10-30 22:33:26 INFO  TC004_TransferFundsTest:219 - Clicked on Transfer button with excessive amount
+2025-10-30 22:34:40 INFO  TC004_TransferFundsTest:17 - URL is opened
+2025-10-30 22:34:40 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-10-30 22:34:40 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-10-30 22:34:40 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-10-30 22:34:54 INFO  TC004_TransferFundsTest:50 - ****test executed*****
+2025-10-30 22:34:54 INFO  TC004_TransferFundsTest:57 - Starting TransferFundsWithoutAmountTest
+2025-10-30 22:34:54 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-10-30 22:34:54 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-10-30 22:34:54 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-10-30 22:34:56 INFO  TC004_TransferFundsTest:64 - User clicked on Transfer Funds link
+2025-10-30 22:35:00 INFO  TC004_TransferFundsTest:75 - Clicked on Transfer button without amount
+2025-10-30 22:35:00 INFO  TC004_TransferFundsTest:87 - ****TransferFundsWithoutAmountTest executed successfully****
+2025-10-30 22:35:00 INFO  TC004_TransferFundsTest:93 - Starting TransferFundsWithInvalidAmountTest
+2025-10-30 22:35:00 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-10-30 22:35:00 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-10-30 22:35:00 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-10-30 22:35:02 INFO  TC004_TransferFundsTest:100 - User clicked on Transfer Funds link
+2025-10-30 22:35:06 INFO  TC004_TransferFundsTest:111 - Clicked on Transfer button with invalid amount
+2025-10-30 22:35:06 INFO  TC004_TransferFundsTest:123 - ****TransferFundsWithInvalidAmountTest executed successfully****
+2025-10-30 22:35:06 INFO  TC004_TransferFundsTest:129 - Starting TransferFundsWithDecimalAmountTest
+2025-10-30 22:35:06 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-10-30 22:35:06 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-10-30 22:35:06 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-10-30 22:35:08 INFO  TC004_TransferFundsTest:136 - User clicked on Transfer Funds link
+2025-10-30 22:35:12 INFO  TC004_TransferFundsTest:147 - Clicked on Transfer button with decimal amount
+2025-10-30 22:35:12 INFO  TC004_TransferFundsTest:159 - ****TransferFundsWithDecimalAmountTest executed successfully****
+2025-10-30 22:35:12 INFO  TC004_TransferFundsTest:165 - Starting TransferFundsWithSpecialCharactersTest
+2025-10-30 22:35:12 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-10-30 22:35:12 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-10-30 22:35:12 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-10-30 22:35:14 INFO  TC004_TransferFundsTest:172 - User clicked on Transfer Funds link
+2025-10-30 22:35:18 INFO  TC004_TransferFundsTest:183 - Clicked on Transfer button with special characters
+2025-10-30 22:35:18 INFO  TC004_TransferFundsTest:195 - ****TransferFundsWithSpecialCharactersTest executed successfully****
+2025-10-30 22:35:18 INFO  TC004_TransferFundsTest:201 - Starting TransferFundsWithExcessiveAmountTest
+2025-10-30 22:35:18 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-10-30 22:35:18 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-10-30 22:35:18 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-10-30 22:35:21 INFO  TC004_TransferFundsTest:208 - User clicked on Transfer Funds link
+2025-10-30 22:35:24 INFO  TC004_TransferFundsTest:219 - Clicked on Transfer button with excessive amount
+2025-10-30 22:37:02 INFO  TC004_TransferFundsTest:201 - Starting TransferFundsWithExcessiveAmountTest
+2025-10-30 22:37:02 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-10-30 22:37:02 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-10-30 22:37:02 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-10-30 22:37:04 INFO  TC004_TransferFundsTest:208 - User clicked on Transfer Funds link
+2025-10-30 22:37:08 INFO  TC004_TransferFundsTest:219 - Clicked on Transfer button with excessive amount
+2025-10-30 22:38:35 INFO  TC004_TransferFundsTest:201 - Starting TransferFundsWithExcessiveAmountTest
+2025-10-30 22:38:36 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-10-30 22:38:36 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-10-30 22:38:36 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-10-30 22:38:38 INFO  TC004_TransferFundsTest:208 - User clicked on Transfer Funds link
+2025-10-30 22:38:42 INFO  TC004_TransferFundsTest:219 - Clicked on Transfer button with excessive amount
+2025-10-30 22:40:17 INFO  TC004_TransferFundsTest:207 - Starting TransferFundsWithExcessiveAmountTest
+2025-10-30 22:40:17 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-10-30 22:40:17 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-10-30 22:40:17 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-10-30 22:40:19 INFO  TC004_TransferFundsTest:214 - User clicked on Transfer Funds link
+2025-10-30 22:40:19 INFO  TC004_TransferFundsTest:218 - Entered excessive amount
+2025-10-30 22:40:20 INFO  TC004_TransferFundsTest:223 - Clicked on Transfer button with excessive amount
+2025-10-30 22:40:20 INFO  TC004_TransferFundsTest:231 - Error message displayed: An internal error has occurred and has been logged.
+2025-10-30 22:40:20 INFO  TC004_TransferFundsTest:242 - ****TransferFundsWithExcessiveAmountTest executed successfully****
+2025-10-30 22:42:29 INFO  TC004_TransferFundsTest:23 - URL is opened
+2025-10-30 22:42:29 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-10-30 22:42:30 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-10-30 22:42:30 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-10-30 22:42:43 INFO  TC004_TransferFundsTest:56 - ****test executed*****
+2025-10-30 22:42:43 INFO  TC004_TransferFundsTest:63 - Starting TransferFundsWithoutAmountTest
+2025-10-30 22:42:43 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-10-30 22:42:43 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-10-30 22:42:43 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-10-30 22:42:45 INFO  TC004_TransferFundsTest:70 - User clicked on Transfer Funds link
+2025-10-30 22:42:49 INFO  TC004_TransferFundsTest:81 - Clicked on Transfer button without amount
+2025-10-30 22:42:49 INFO  TC004_TransferFundsTest:93 - ****TransferFundsWithoutAmountTest executed successfully****
+2025-10-30 22:42:49 INFO  TC004_TransferFundsTest:99 - Starting TransferFundsWithInvalidAmountTest
+2025-10-30 22:42:49 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-10-30 22:42:49 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-10-30 22:42:49 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-10-30 22:42:52 INFO  TC004_TransferFundsTest:106 - User clicked on Transfer Funds link
+2025-10-30 22:42:55 INFO  TC004_TransferFundsTest:117 - Clicked on Transfer button with invalid amount
+2025-10-30 22:42:55 INFO  TC004_TransferFundsTest:129 - ****TransferFundsWithInvalidAmountTest executed successfully****
+2025-10-30 22:42:55 INFO  TC004_TransferFundsTest:135 - Starting TransferFundsWithDecimalAmountTest
+2025-10-30 22:42:55 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-10-30 22:42:55 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-10-30 22:42:56 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-10-30 22:42:58 INFO  TC004_TransferFundsTest:142 - User clicked on Transfer Funds link
+2025-10-30 22:43:01 INFO  TC004_TransferFundsTest:153 - Clicked on Transfer button with decimal amount
+2025-10-30 22:43:01 INFO  TC004_TransferFundsTest:165 - ****TransferFundsWithDecimalAmountTest executed successfully****
+2025-10-30 22:43:01 INFO  TC004_TransferFundsTest:171 - Starting TransferFundsWithSpecialCharactersTest
+2025-10-30 22:43:01 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-10-30 22:43:02 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-10-30 22:43:02 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-10-30 22:43:04 INFO  TC004_TransferFundsTest:178 - User clicked on Transfer Funds link
+2025-10-30 22:43:07 INFO  TC004_TransferFundsTest:189 - Clicked on Transfer button with special characters
+2025-10-30 22:43:07 INFO  TC004_TransferFundsTest:201 - ****TransferFundsWithSpecialCharactersTest executed successfully****
+2025-10-30 22:43:08 INFO  TC004_TransferFundsTest:208 - Starting TransferFundsWithExcessiveAmountTest
+2025-10-30 22:43:08 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-10-30 22:43:08 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-10-30 22:43:08 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-10-30 22:43:10 INFO  TC004_TransferFundsTest:215 - User clicked on Transfer Funds link
+2025-10-30 22:43:10 INFO  TC004_TransferFundsTest:218 - Entered excessive amount
+2025-10-30 22:43:10 INFO  TC004_TransferFundsTest:223 - Clicked on Transfer button with excessive amount
+2025-10-30 22:43:10 INFO  TC004_TransferFundsTest:226 - Error message displayed: An internal error has occurred and has been logged.
+2025-10-30 22:43:10 INFO  TC004_TransferFundsTest:237 - ****TransferFundsWithExcessiveAmountTest executed successfully****
