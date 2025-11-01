@@ -1,29 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-30T22:42:26 IST" name="ParaBankingSuite" finished-at="2025-10-30T22:43:11 IST" duration-ms="44352">
+  <suite started-at="2025-11-01T23:42:53 IST" name="ParaBankingSuite" finished-at="2025-11-01T23:43:52 IST" duration-ms="59502">
     <groups>
-      <group name="Functional">
-        <method signature="TC004_TransferFundsTest.TransferFundsWithDecimalAmountTest()[pri:4, instance:testCases.TC004_TransferFundsTest@8458f04]" name="TransferFundsWithDecimalAmountTest" class="testCases.TC004_TransferFundsTest"/>
-      </group> <!-- Functional -->
       <group name="Master">
-        <method signature="TC004_TransferFundsTest.TransferFundsWithAmountTest()[pri:1, instance:testCases.TC004_TransferFundsTest@8458f04]" name="TransferFundsWithAmountTest" class="testCases.TC004_TransferFundsTest"/>
+        <method signature="TC005_BillPayTest.BillPayWithValidDetailsTest()[pri:1, instance:testCases.TC005_BillPayTest@16eb3ea3]" name="BillPayWithValidDetailsTest" class="testCases.TC005_BillPayTest"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC004_TransferFundsTest.TransferFundsWithAmountTest()[pri:1, instance:testCases.TC004_TransferFundsTest@8458f04]" name="TransferFundsWithAmountTest" class="testCases.TC004_TransferFundsTest"/>
-        <method signature="TC004_TransferFundsTest.TransferFundsWithDecimalAmountTest()[pri:4, instance:testCases.TC004_TransferFundsTest@8458f04]" name="TransferFundsWithDecimalAmountTest" class="testCases.TC004_TransferFundsTest"/>
+        <method signature="TC005_BillPayTest.BillPayWithValidDetailsTest()[pri:1, instance:testCases.TC005_BillPayTest@16eb3ea3]" name="BillPayWithValidDetailsTest" class="testCases.TC005_BillPayTest"/>
       </group> <!-- Sanity -->
       <group name="Negative">
-        <method signature="TC004_TransferFundsTest.TransferFundsWithoutAmountTest()[pri:2, instance:testCases.TC004_TransferFundsTest@8458f04]" name="TransferFundsWithoutAmountTest" class="testCases.TC004_TransferFundsTest"/>
-        <method signature="TC004_TransferFundsTest.TransferFundsWithInvalidAmountTest()[pri:3, instance:testCases.TC004_TransferFundsTest@8458f04]" name="TransferFundsWithInvalidAmountTest" class="testCases.TC004_TransferFundsTest"/>
-        <method signature="TC004_TransferFundsTest.TransferFundsWithSpecialCharactersTest()[pri:5, instance:testCases.TC004_TransferFundsTest@8458f04]" name="TransferFundsWithSpecialCharactersTest" class="testCases.TC004_TransferFundsTest"/>
-        <method signature="TC004_TransferFundsTest.TransferFundsWithExcessiveAmountTest()[pri:6, instance:testCases.TC004_TransferFundsTest@8458f04]" name="TransferFundsWithExcessiveAmountTest" class="testCases.TC004_TransferFundsTest"/>
+        <method signature="TC005_BillPayTest.BillPayWithoutPayeeNameTest()[pri:2, instance:testCases.TC005_BillPayTest@16eb3ea3]" name="BillPayWithoutPayeeNameTest" class="testCases.TC005_BillPayTest"/>
+        <method signature="TC005_BillPayTest.BillPayWithoutAddressTest()[pri:3, instance:testCases.TC005_BillPayTest@16eb3ea3]" name="BillPayWithoutAddressTest" class="testCases.TC005_BillPayTest"/>
+        <method signature="TC005_BillPayTest.BillPayWithoutCityTest()[pri:4, instance:testCases.TC005_BillPayTest@16eb3ea3]" name="BillPayWithoutCityTest" class="testCases.TC005_BillPayTest"/>
+        <method signature="TC005_BillPayTest.BillPayWithoutStateTest()[pri:5, instance:testCases.TC005_BillPayTest@16eb3ea3]" name="BillPayWithoutStateTest" class="testCases.TC005_BillPayTest"/>
+        <method signature="TC005_BillPayTest.BillPayWithoutPhoneTest()[pri:6, instance:testCases.TC005_BillPayTest@16eb3ea3]" name="BillPayWithoutPhoneTest" class="testCases.TC005_BillPayTest"/>
+        <method signature="TC005_BillPayTest.BillPayWithoutAccountNumberTest()[pri:7, instance:testCases.TC005_BillPayTest@16eb3ea3]" name="BillPayWithoutAccountNumberTest" class="testCases.TC005_BillPayTest"/>
+        <method signature="TC005_BillPayTest.BillPayWithoutVerifyAccountTest()[pri:8, instance:testCases.TC005_BillPayTest@16eb3ea3]" name="BillPayWithoutVerifyAccountTest" class="testCases.TC005_BillPayTest"/>
+        <method signature="TC005_BillPayTest.BillPayWithoutAmountTest()[pri:9, instance:testCases.TC005_BillPayTest@16eb3ea3]" name="BillPayWithoutAmountTest" class="testCases.TC005_BillPayTest"/>
+        <method signature="TC005_BillPayTest.BillPayWithMismatchedAccountNumbersTest()[pri:10, instance:testCases.TC005_BillPayTest@16eb3ea3]" name="BillPayWithMismatchedAccountNumbersTest" class="testCases.TC005_BillPayTest"/>
+        <method signature="TC005_BillPayTest.BillPayWithNonNumericAccountNumberTest()[pri:11, instance:testCases.TC005_BillPayTest@16eb3ea3]" name="BillPayWithNonNumericAccountNumberTest" class="testCases.TC005_BillPayTest"/>
+        <method signature="TC005_BillPayTest.BillPayWithNonNumericAmountTest()[pri:12, instance:testCases.TC005_BillPayTest@16eb3ea3]" name="BillPayWithNonNumericAmountTest" class="testCases.TC005_BillPayTest"/>
+        <method signature="TC005_BillPayTest.BillPayWithAllFieldsEmptyTest()[pri:13, instance:testCases.TC005_BillPayTest@16eb3ea3]" name="BillPayWithAllFieldsEmptyTest" class="testCases.TC005_BillPayTest"/>
       </group> <!-- Negative -->
+      <group name="Positive">
+        <method signature="TC005_BillPayTest.BillPayWithDecimalAmountTest()[pri:14, instance:testCases.TC005_BillPayTest@16eb3ea3]" name="BillPayWithDecimalAmountTest" class="testCases.TC005_BillPayTest"/>
+      </group> <!-- Positive -->
     </groups>
-    <test started-at="2025-10-30T22:42:26 IST" name="ParaBanking Test" finished-at="2025-10-30T22:43:11 IST" duration-ms="44352">
-      <class name="testCases.TC004_TransferFundsTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_TransferFundsTest@8458f04]" started-at="2025-10-30T22:42:27 IST" name="setup" finished-at="2025-10-30T22:42:29 IST" duration-ms="2464" status="PASS">
+    <test started-at="2025-11-01T23:42:53 IST" name="ParaBanking Test" finished-at="2025-11-01T23:43:52 IST" duration-ms="59502">
+      <class name="testCases.TC005_BillPayTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_BillPayTest@16eb3ea3]" started-at="2025-11-01T23:42:53 IST" name="setup" finished-at="2025-11-01T23:42:56 IST" duration-ms="2779" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,35 +46,67 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TransferFundsWithAmountTest()[pri:1, instance:testCases.TC004_TransferFundsTest@8458f04]" started-at="2025-10-30T22:42:29 IST" name="TransferFundsWithAmountTest" finished-at="2025-10-30T22:42:43 IST" duration-ms="13557" status="PASS">
+        <test-method signature="BillPayWithValidDetailsTest()[pri:1, instance:testCases.TC005_BillPayTest@16eb3ea3]" started-at="2025-11-01T23:42:56 IST" name="BillPayWithValidDetailsTest" finished-at="2025-11-01T23:43:08 IST" duration-ms="11923" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TransferFundsWithAmountTest -->
-        <test-method signature="TransferFundsWithoutAmountTest()[pri:2, instance:testCases.TC004_TransferFundsTest@8458f04]" started-at="2025-10-30T22:42:43 IST" name="TransferFundsWithoutAmountTest" finished-at="2025-10-30T22:42:49 IST" duration-ms="6127" status="PASS">
+        </test-method> <!-- BillPayWithValidDetailsTest -->
+        <test-method signature="BillPayWithoutPayeeNameTest()[pri:2, instance:testCases.TC005_BillPayTest@16eb3ea3]" started-at="2025-11-01T23:43:08 IST" name="BillPayWithoutPayeeNameTest" finished-at="2025-11-01T23:43:11 IST" duration-ms="3447" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TransferFundsWithoutAmountTest -->
-        <test-method signature="TransferFundsWithInvalidAmountTest()[pri:3, instance:testCases.TC004_TransferFundsTest@8458f04]" started-at="2025-10-30T22:42:49 IST" name="TransferFundsWithInvalidAmountTest" finished-at="2025-10-30T22:42:55 IST" duration-ms="6190" status="PASS">
+        </test-method> <!-- BillPayWithoutPayeeNameTest -->
+        <test-method signature="BillPayWithoutAddressTest()[pri:3, instance:testCases.TC005_BillPayTest@16eb3ea3]" started-at="2025-11-01T23:43:11 IST" name="BillPayWithoutAddressTest" finished-at="2025-11-01T23:43:15 IST" duration-ms="3469" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TransferFundsWithInvalidAmountTest -->
-        <test-method signature="TransferFundsWithDecimalAmountTest()[pri:4, instance:testCases.TC004_TransferFundsTest@8458f04]" started-at="2025-10-30T22:42:55 IST" name="TransferFundsWithDecimalAmountTest" finished-at="2025-10-30T22:43:01 IST" duration-ms="6137" status="PASS">
+        </test-method> <!-- BillPayWithoutAddressTest -->
+        <test-method signature="BillPayWithoutCityTest()[pri:4, instance:testCases.TC005_BillPayTest@16eb3ea3]" started-at="2025-11-01T23:43:15 IST" name="BillPayWithoutCityTest" finished-at="2025-11-01T23:43:18 IST" duration-ms="3349" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TransferFundsWithDecimalAmountTest -->
-        <test-method signature="TransferFundsWithSpecialCharactersTest()[pri:5, instance:testCases.TC004_TransferFundsTest@8458f04]" started-at="2025-10-30T22:43:01 IST" name="TransferFundsWithSpecialCharactersTest" finished-at="2025-10-30T22:43:07 IST" duration-ms="6111" status="PASS">
+        </test-method> <!-- BillPayWithoutCityTest -->
+        <test-method signature="BillPayWithoutStateTest()[pri:5, instance:testCases.TC005_BillPayTest@16eb3ea3]" started-at="2025-11-01T23:43:18 IST" name="BillPayWithoutStateTest" finished-at="2025-11-01T23:43:22 IST" duration-ms="3400" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TransferFundsWithSpecialCharactersTest -->
-        <test-method signature="TransferFundsWithExcessiveAmountTest()[pri:6, instance:testCases.TC004_TransferFundsTest@8458f04]" started-at="2025-10-30T22:43:07 IST" name="TransferFundsWithExcessiveAmountTest" finished-at="2025-10-30T22:43:10 IST" duration-ms="2997" status="PASS">
+        </test-method> <!-- BillPayWithoutStateTest -->
+        <test-method signature="BillPayWithoutPhoneTest()[pri:6, instance:testCases.TC005_BillPayTest@16eb3ea3]" started-at="2025-11-01T23:43:22 IST" name="BillPayWithoutPhoneTest" finished-at="2025-11-01T23:43:25 IST" duration-ms="3421" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TransferFundsWithExcessiveAmountTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_TransferFundsTest@8458f04]" started-at="2025-10-30T22:43:10 IST" name="tearDown" finished-at="2025-10-30T22:43:11 IST" duration-ms="335" status="PASS">
+        </test-method> <!-- BillPayWithoutPhoneTest -->
+        <test-method signature="BillPayWithoutAccountNumberTest()[pri:7, instance:testCases.TC005_BillPayTest@16eb3ea3]" started-at="2025-11-01T23:43:25 IST" name="BillPayWithoutAccountNumberTest" finished-at="2025-11-01T23:43:29 IST" duration-ms="3424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillPayWithoutAccountNumberTest -->
+        <test-method signature="BillPayWithoutVerifyAccountTest()[pri:8, instance:testCases.TC005_BillPayTest@16eb3ea3]" started-at="2025-11-01T23:43:29 IST" name="BillPayWithoutVerifyAccountTest" finished-at="2025-11-01T23:43:32 IST" duration-ms="3324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillPayWithoutVerifyAccountTest -->
+        <test-method signature="BillPayWithoutAmountTest()[pri:9, instance:testCases.TC005_BillPayTest@16eb3ea3]" started-at="2025-11-01T23:43:32 IST" name="BillPayWithoutAmountTest" finished-at="2025-11-01T23:43:35 IST" duration-ms="3381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillPayWithoutAmountTest -->
+        <test-method signature="BillPayWithMismatchedAccountNumbersTest()[pri:10, instance:testCases.TC005_BillPayTest@16eb3ea3]" started-at="2025-11-01T23:43:35 IST" name="BillPayWithMismatchedAccountNumbersTest" finished-at="2025-11-01T23:43:39 IST" duration-ms="3472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillPayWithMismatchedAccountNumbersTest -->
+        <test-method signature="BillPayWithNonNumericAccountNumberTest()[pri:11, instance:testCases.TC005_BillPayTest@16eb3ea3]" started-at="2025-11-01T23:43:39 IST" name="BillPayWithNonNumericAccountNumberTest" finished-at="2025-11-01T23:43:42 IST" duration-ms="3381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillPayWithNonNumericAccountNumberTest -->
+        <test-method signature="BillPayWithNonNumericAmountTest()[pri:12, instance:testCases.TC005_BillPayTest@16eb3ea3]" started-at="2025-11-01T23:43:42 IST" name="BillPayWithNonNumericAmountTest" finished-at="2025-11-01T23:43:45 IST" duration-ms="3389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillPayWithNonNumericAmountTest -->
+        <test-method signature="BillPayWithAllFieldsEmptyTest()[pri:13, instance:testCases.TC005_BillPayTest@16eb3ea3]" started-at="2025-11-01T23:43:45 IST" name="BillPayWithAllFieldsEmptyTest" finished-at="2025-11-01T23:43:49 IST" duration-ms="3135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillPayWithAllFieldsEmptyTest -->
+        <test-method signature="BillPayWithDecimalAmountTest()[pri:14, instance:testCases.TC005_BillPayTest@16eb3ea3]" started-at="2025-11-01T23:43:49 IST" name="BillPayWithDecimalAmountTest" finished-at="2025-11-01T23:43:52 IST" duration-ms="3467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillPayWithDecimalAmountTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_BillPayTest@16eb3ea3]" started-at="2025-11-01T23:43:52 IST" name="tearDown" finished-at="2025-11-01T23:43:52 IST" duration-ms="242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC004_TransferFundsTest -->
+      </class> <!-- testCases.TC005_BillPayTest -->
     </test> <!-- ParaBanking Test -->
   </suite> <!-- ParaBankingSuite -->
 </testng-results>
