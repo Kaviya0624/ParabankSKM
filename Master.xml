@@ -21,9 +21,9 @@
        <class name="testCases.TC008_HomePageTest"/> 
        <class name="testCases.TC009_FooterTest"/> 
        <class name="testCases.TC010_AccountOverview"/>   -->
+        <class name="testCases.TC004_TransferFundsTest"/>
        
-       
-       <class name="testCases.TC005_BillPayTest"/>
+   
        
     </classes>
   </test> <!-- Test -->

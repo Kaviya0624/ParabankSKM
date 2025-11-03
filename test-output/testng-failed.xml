@@ -8,16 +8,15 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC005_BillPayTest">
+      <class name="testCases.TC004_TransferFundsTest">
         <methods>
+          <include name="TransferFundsWithDecimalAmountTest"/>
           <include name="tearDown"/>
-          <include name="BillPayWithMismatchedAccountNumbersTest"/>
-          <include name="BillPayWithNonNumericAmountTest"/>
-          <include name="BillPayWithNonNumericAccountNumberTest"/>
+          <include name="TransferFundsWithSpecialCharactersTest"/>
+          <include name="TransferFundsWithExcessiveAmountTest"/>
           <include name="setup"/>
-          <include name="BillPayWithAllFieldsEmptyTest"/>
         </methods>
-      </class> <!-- testCases.TC005_BillPayTest -->
+      </class> <!-- testCases.TC004_TransferFundsTest -->
     </classes>
   </test> <!-- ParaBanking Test(failed) -->
 </suite> <!-- Failed suite [ParaBankingSuite] -->

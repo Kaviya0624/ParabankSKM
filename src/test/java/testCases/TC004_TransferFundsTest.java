@@ -146,9 +146,11 @@ public class TC004_TransferFundsTest extends BaseClass {
 	        tf.clickOnTransferSubmitBtn();
 	        logger.info("Clicked on Transfer button with decimal amount");
 
-	        String successMsg = tf.isTransferComplete();
-	        Assert.assertTrue(successMsg.contains("Transfer Complete!"),
-	                "Expected success message not displayed. Actual: " + successMsg);
+	        String actualMessage2 = tf.isTransferComplete();
+		     String expectedMessage = "Transfer Complete!";
+		     Thread.sleep(2000);
+		     Assert.assertTrue(actualMessage2.contains(expectedMessage),
+		                "Transfer failed or confirmation message not found. Actual message: " + actualMessage2);
 
 	        lp.clickLogOut();
 	    } 

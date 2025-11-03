@@ -66,15 +66,16 @@ public class TransferFundsPage extends BasePage {
 	}
 
 	
-	public String isTransferComplete()
-	{
-		try {
-			return(transferCompleteMessage.getText());
-		}
-		catch(Exception e)
-		{
-			return (e.getMessage());
-		}
+	public String isTransferComplete() {
+	    try {
+	        if (transferCompleteMessage.isDisplayed()) {
+	            return transferCompleteMessage.getText();
+	        } else {
+	            return "";
+	        }
+	    } catch (Exception e) {
+	        return "";
+	    }
 	}
 	
 	public String getErrorMessage1() {
