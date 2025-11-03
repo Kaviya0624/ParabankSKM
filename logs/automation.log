@@ -1241,3 +1241,592 @@
 2025-11-03 19:58:14 INFO  TC010_AccountOverview:222 - Clicked login button
 2025-11-03 19:58:16 INFO  TC010_AccountOverview:25 - First account found: 13566
 2025-11-03 19:58:16 INFO  TC010_AccountOverview:27 - Clicked on first account successfully
+2025-11-03 20:40:55 INFO  TC002_LoginTest:17 - URL is opened
+2025-11-03 20:40:55 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-11-03 20:40:55 INFO  TC002_LoginTest:24 - User entered the password:
+2025-11-03 20:40:58 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-11-03 20:41:00 INFO  TC002_LoginTest:37 - User logged out successfully!
+2025-11-03 20:41:00 INFO  TC002_LoginTest:46 - ****test executed*****
+2025-11-03 20:41:00 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-11-03 20:41:10 ERROR TC002_LoginTest:77 - Test failed: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=141.0.7390.125)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [8c2618a4ab1297e24d7d797979aa424e, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.125, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56172}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.6:4444/sessi..., se:cdpVersion: 141.0.7390.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c2618a4ab1297e24d7d797979aa424e
+2025-11-03 20:41:10 INFO  TC002_LoginTest:86 - Starting test: Login with both invalid credentials
+2025-11-03 20:41:20 ERROR TC002_LoginTest:111 - Test failed: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=141.0.7390.125)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [8c2618a4ab1297e24d7d797979aa424e, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.125, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56172}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.6:4444/sessi..., se:cdpVersion: 141.0.7390.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c2618a4ab1297e24d7d797979aa424e
+2025-11-03 20:41:20 INFO  TC002_LoginTest:119 - Starting test: Login with empty username
+2025-11-03 20:41:30 ERROR TC002_LoginTest:144 - Test failed: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=141.0.7390.125)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [8c2618a4ab1297e24d7d797979aa424e, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.125, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56172}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.6:4444/sessi..., se:cdpVersion: 141.0.7390.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c2618a4ab1297e24d7d797979aa424e
+2025-11-03 20:41:30 INFO  TC002_LoginTest:152 - Starting test: Login with empty password
+2025-11-03 20:41:41 ERROR TC002_LoginTest:177 - Test failed: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=141.0.7390.125)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [8c2618a4ab1297e24d7d797979aa424e, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.125, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56172}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.6:4444/sessi..., se:cdpVersion: 141.0.7390.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c2618a4ab1297e24d7d797979aa424e
+2025-11-03 20:41:41 INFO  TC002_LoginTest:185 - Starting test: Login with both fields empty
+2025-11-03 20:41:51 ERROR TC002_LoginTest:210 - Test failed: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=141.0.7390.125)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [8c2618a4ab1297e24d7d797979aa424e, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.125, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56172}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.6:4444/sessi..., se:cdpVersion: 141.0.7390.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c2618a4ab1297e24d7d797979aa424e
+2025-11-03 20:41:51 INFO  TC002_LoginTest:218 - Starting test: Login with SQL injection attempt
+2025-11-03 20:41:56 ERROR TC002_LoginTest:243 - Test failed: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=141.0.7390.125)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [8c2618a4ab1297e24d7d797979aa424e, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.125, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56172}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.6:4444/sessi..., se:cdpVersion: 141.0.7390.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c2618a4ab1297e24d7d797979aa424e
+2025-11-03 20:42:34 INFO  TC002_LoginTest:17 - URL is opened
+2025-11-03 20:42:34 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-11-03 20:42:34 INFO  TC002_LoginTest:24 - User entered the password:
+2025-11-03 20:42:36 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-11-03 20:42:39 INFO  TC002_LoginTest:37 - User logged out successfully!
+2025-11-03 20:42:39 INFO  TC002_LoginTest:46 - ****test executed*****
+2025-11-03 20:42:39 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-11-03 20:42:39 INFO  TC002_LoginTest:56 - Entered username: mikasa@06
+2025-11-03 20:42:39 INFO  TC002_LoginTest:59 - Entered invalid password
+2025-11-03 20:42:39 INFO  TC002_LoginTest:62 - Clicked submit button with invalid password
+2025-11-03 20:42:39 INFO  TC002_LoginTest:74 - Test passed: Invalid password correctly rejected. Message: The username and password could not be verified.
+2025-11-03 20:42:39 INFO  TC002_LoginTest:86 - Starting test: Login with both invalid credentials
+2025-11-03 20:42:39 INFO  TC002_LoginTest:90 - Entered invalid username
+2025-11-03 20:42:40 INFO  TC002_LoginTest:93 - Entered invalid password
+2025-11-03 20:42:40 INFO  TC002_LoginTest:96 - Clicked submit with invalid credentials
+2025-11-03 20:42:40 INFO  TC002_LoginTest:108 - Test passed: Invalid credentials correctly rejected. Message: The username and password could not be verified.
+2025-11-03 20:42:40 INFO  TC002_LoginTest:119 - Starting test: Login with empty username
+2025-11-03 20:42:40 INFO  TC002_LoginTest:123 - Left username field empty
+2025-11-03 20:42:40 INFO  TC002_LoginTest:126 - Entered valid password
+2025-11-03 20:42:40 INFO  TC002_LoginTest:129 - Clicked submit with empty username
+2025-11-03 20:42:40 INFO  TC002_LoginTest:141 - Test passed: Empty username correctly rejected. Message: Please enter a username and password.
+2025-11-03 20:42:40 INFO  TC002_LoginTest:152 - Starting test: Login with empty password
+2025-11-03 20:42:40 INFO  TC002_LoginTest:156 - Entered valid username
+2025-11-03 20:42:40 INFO  TC002_LoginTest:159 - Left password field empty
+2025-11-03 20:42:40 INFO  TC002_LoginTest:162 - Clicked submit with empty password
+2025-11-03 20:42:40 INFO  TC002_LoginTest:174 - Test passed: Empty password correctly rejected. Message: Please enter a username and password.
+2025-11-03 20:42:40 INFO  TC002_LoginTest:185 - Starting test: Login with both fields empty
+2025-11-03 20:42:41 INFO  TC002_LoginTest:189 - Left username field empty
+2025-11-03 20:42:41 INFO  TC002_LoginTest:192 - Left password field empty
+2025-11-03 20:42:41 INFO  TC002_LoginTest:195 - Clicked submit with empty fields
+2025-11-03 20:42:41 INFO  TC002_LoginTest:207 - Test passed: Empty fields correctly rejected. Message: Please enter a username and password.
+2025-11-03 20:42:41 INFO  TC002_LoginTest:218 - Starting test: Login with SQL injection attempt
+2025-11-03 20:42:41 INFO  TC002_LoginTest:222 - Entered SQL injection in username
+2025-11-03 20:42:41 INFO  TC002_LoginTest:225 - Entered SQL injection in password
+2025-11-03 20:42:41 INFO  TC002_LoginTest:228 - Clicked submit with SQL injection
+2025-11-03 20:42:41 INFO  TC002_LoginTest:240 - Test passed: SQL injection prevented. Message: The username and password could not be verified.
+2025-11-03 20:42:41 INFO  TC002_LoginTest:251 - Starting test: Login with special characters
+2025-11-03 20:42:41 INFO  TC002_LoginTest:255 - Entered special characters in username
+2025-11-03 20:42:41 INFO  TC002_LoginTest:258 - Entered special characters in password
+2025-11-03 20:42:41 INFO  TC002_LoginTest:261 - Clicked submit with special characters
+2025-11-03 20:42:41 INFO  TC002_LoginTest:273 - Test passed: Special characters correctly rejected. Message: The username and password could not be verified.
+2025-11-03 20:42:41 INFO  TC002_LoginTest:284 - Starting test: Login with spaces in credentials
+2025-11-03 20:42:41 INFO  TC002_LoginTest:288 - Entered username with leading and trailing spaces
+2025-11-03 20:42:42 INFO  TC002_LoginTest:291 - Entered password with leading and trailing spaces
+2025-11-03 20:42:42 INFO  TC002_LoginTest:294 - Clicked submit with spaces in credentials
+2025-11-03 20:42:42 INFO  TC002_LoginTest:305 - Test passed: Spaces in credentials handled correctly. Message: The username and password could not be verified.
+2025-11-03 20:42:42 INFO  TC002_LoginTest:316 - Starting test: Login with case-sensitive username
+2025-11-03 20:42:42 INFO  TC002_LoginTest:321 - Entered username in uppercase: MIKASA@06
+2025-11-03 20:42:42 INFO  TC002_LoginTest:324 - Entered valid password
+2025-11-03 20:42:42 INFO  TC002_LoginTest:327 - Clicked submit with uppercase username
+2025-11-03 20:42:42 INFO  TC002_LoginTest:339 - Test passed: Case sensitivity validated correctly. Message: The username and password could not be verified.
+2025-11-03 20:42:42 INFO  TC002_LoginTest:350 - Starting test: Login with excessively long username
+2025-11-03 20:42:42 INFO  TC002_LoginTest:355 - Entered excessively long username (100+ characters)
+2025-11-03 20:42:43 INFO  TC002_LoginTest:358 - Entered valid password
+2025-11-03 20:42:43 INFO  TC002_LoginTest:361 - Clicked submit with long username
+2025-11-03 20:42:43 INFO  TC002_LoginTest:373 - Test passed: Long username correctly rejected. Message: The username and password could not be verified.
+2025-11-03 20:42:43 INFO  TC002_LoginTest:384 - Starting test: Login with script tags (XSS)
+2025-11-03 20:42:43 INFO  TC002_LoginTest:388 - Entered script tag in username
+2025-11-03 20:42:43 INFO  TC002_LoginTest:391 - Entered script tag in password
+2025-11-03 20:42:43 INFO  TC002_LoginTest:394 - Clicked submit with script tags
+2025-11-03 20:42:43 INFO  TC002_LoginTest:406 - Test passed: XSS attack prevented. Message: The username and password could not be verified.
+2025-11-03 20:50:22 INFO  TC002_LoginTest:17 - URL is opened
+2025-11-03 20:50:22 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-11-03 20:50:22 INFO  TC002_LoginTest:24 - User entered the password:
+2025-11-03 20:50:24 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-11-03 20:50:27 INFO  TC002_LoginTest:37 - User logged out successfully!
+2025-11-03 20:50:27 INFO  TC002_LoginTest:46 - ****test executed*****
+2025-11-03 20:50:27 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-11-03 20:50:27 INFO  TC002_LoginTest:56 - Entered username: mikasa@06
+2025-11-03 20:50:27 INFO  TC002_LoginTest:59 - Entered invalid password
+2025-11-03 20:50:27 INFO  TC002_LoginTest:62 - Clicked submit button with invalid password
+2025-11-03 20:50:27 INFO  TC002_LoginTest:74 - Test passed: Invalid password correctly rejected. Message: The username and password could not be verified.
+2025-11-03 20:50:27 INFO  TC002_LoginTest:86 - Starting test: Login with both invalid credentials
+2025-11-03 20:50:27 INFO  TC002_LoginTest:90 - Entered invalid username
+2025-11-03 20:50:28 INFO  TC002_LoginTest:93 - Entered invalid password
+2025-11-03 20:50:28 INFO  TC002_LoginTest:96 - Clicked submit with invalid credentials
+2025-11-03 20:50:28 INFO  TC002_LoginTest:108 - Test passed: Invalid credentials correctly rejected. Message: The username and password could not be verified.
+2025-11-03 20:50:28 INFO  TC002_LoginTest:119 - Starting test: Login with empty username
+2025-11-03 20:50:28 INFO  TC002_LoginTest:123 - Left username field empty
+2025-11-03 20:50:28 INFO  TC002_LoginTest:126 - Entered valid password
+2025-11-03 20:50:28 INFO  TC002_LoginTest:129 - Clicked submit with empty username
+2025-11-03 20:50:28 INFO  TC002_LoginTest:141 - Test passed: Empty username correctly rejected. Message: Please enter a username and password.
+2025-11-03 20:50:28 INFO  TC002_LoginTest:152 - Starting test: Login with empty password
+2025-11-03 20:50:28 INFO  TC002_LoginTest:156 - Entered valid username
+2025-11-03 20:50:28 INFO  TC002_LoginTest:159 - Left password field empty
+2025-11-03 20:50:28 INFO  TC002_LoginTest:162 - Clicked submit with empty password
+2025-11-03 20:50:28 INFO  TC002_LoginTest:174 - Test passed: Empty password correctly rejected. Message: Please enter a username and password.
+2025-11-03 20:50:28 INFO  TC002_LoginTest:185 - Starting test: Login with both fields empty
+2025-11-03 20:50:29 INFO  TC002_LoginTest:189 - Left username field empty
+2025-11-03 20:50:29 INFO  TC002_LoginTest:192 - Left password field empty
+2025-11-03 20:50:29 INFO  TC002_LoginTest:195 - Clicked submit with empty fields
+2025-11-03 20:50:29 INFO  TC002_LoginTest:207 - Test passed: Empty fields correctly rejected. Message: Please enter a username and password.
+2025-11-03 20:50:29 INFO  TC002_LoginTest:218 - Starting test: Login with SQL injection attempt
+2025-11-03 20:50:29 INFO  TC002_LoginTest:222 - Entered SQL injection in username
+2025-11-03 20:50:29 INFO  TC002_LoginTest:225 - Entered SQL injection in password
+2025-11-03 20:50:29 INFO  TC002_LoginTest:228 - Clicked submit with SQL injection
+2025-11-03 20:50:29 INFO  TC002_LoginTest:240 - Test passed: SQL injection prevented. Message: The username and password could not be verified.
+2025-11-03 20:50:29 INFO  TC002_LoginTest:251 - Starting test: Login with special characters
+2025-11-03 20:50:29 INFO  TC002_LoginTest:255 - Entered special characters in username
+2025-11-03 20:50:29 INFO  TC002_LoginTest:258 - Entered special characters in password
+2025-11-03 20:50:30 INFO  TC002_LoginTest:261 - Clicked submit with special characters
+2025-11-03 20:50:30 INFO  TC002_LoginTest:273 - Test passed: Special characters correctly rejected. Message: The username and password could not be verified.
+2025-11-03 20:50:30 INFO  TC002_LoginTest:284 - Starting test: Login with spaces in credentials
+2025-11-03 20:50:30 INFO  TC002_LoginTest:288 - Entered username with leading and trailing spaces
+2025-11-03 20:50:30 INFO  TC002_LoginTest:291 - Entered password with leading and trailing spaces
+2025-11-03 20:50:30 INFO  TC002_LoginTest:294 - Clicked submit with spaces in credentials
+2025-11-03 20:50:30 INFO  TC002_LoginTest:305 - Test passed: Spaces in credentials handled correctly. Message: The username and password could not be verified.
+2025-11-03 20:50:30 INFO  TC002_LoginTest:316 - Starting test: Login with case-sensitive username
+2025-11-03 20:50:30 INFO  TC002_LoginTest:321 - Entered username in uppercase: MIKASA@06
+2025-11-03 20:50:30 INFO  TC002_LoginTest:324 - Entered valid password
+2025-11-03 20:50:32 INFO  TC002_LoginTest:327 - Clicked submit with uppercase username
+2025-11-03 20:50:32 INFO  TC002_LoginTest:339 - Test passed: Case sensitivity validated correctly. Message: The username and password could not be verified.
+2025-11-03 20:50:32 INFO  TC002_LoginTest:350 - Starting test: Login with excessively long username
+2025-11-03 20:50:32 INFO  TC002_LoginTest:355 - Entered excessively long username (100+ characters)
+2025-11-03 20:50:32 INFO  TC002_LoginTest:358 - Entered valid password
+2025-11-03 20:50:33 INFO  TC002_LoginTest:361 - Clicked submit with long username
+2025-11-03 20:50:33 INFO  TC002_LoginTest:373 - Test passed: Long username correctly rejected. Message: The username and password could not be verified.
+2025-11-03 20:50:33 INFO  TC002_LoginTest:384 - Starting test: Login with script tags (XSS)
+2025-11-03 20:50:33 INFO  TC002_LoginTest:388 - Entered script tag in username
+2025-11-03 20:50:33 INFO  TC002_LoginTest:391 - Entered script tag in password
+2025-11-03 20:50:33 INFO  TC002_LoginTest:394 - Clicked submit with script tags
+2025-11-03 20:50:33 INFO  TC002_LoginTest:406 - Test passed: XSS attack prevented. Message: The username and password could not be verified.
+2025-11-03 20:51:47 INFO  TC002_LoginTest:17 - URL is opened
+2025-11-03 20:51:47 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-11-03 20:51:47 INFO  TC002_LoginTest:24 - User entered the password:
+2025-11-03 20:51:49 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-11-03 20:51:52 INFO  TC002_LoginTest:37 - User logged out successfully!
+2025-11-03 20:51:52 INFO  TC002_LoginTest:46 - ****test executed*****
+2025-11-03 20:51:52 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-11-03 20:51:52 INFO  TC002_LoginTest:56 - Entered username: mikasa@06
+2025-11-03 20:51:52 INFO  TC002_LoginTest:59 - Entered invalid password
+2025-11-03 20:51:52 INFO  TC002_LoginTest:62 - Clicked submit button with invalid password
+2025-11-03 20:51:52 INFO  TC002_LoginTest:74 - Test passed: Invalid password correctly rejected. Message: The username and password could not be verified.
+2025-11-03 20:51:52 INFO  TC002_LoginTest:86 - Starting test: Login with both invalid credentials
+2025-11-03 20:51:52 INFO  TC002_LoginTest:90 - Entered invalid username
+2025-11-03 20:51:52 INFO  TC002_LoginTest:93 - Entered invalid password
+2025-11-03 20:51:52 INFO  TC002_LoginTest:96 - Clicked submit with invalid credentials
+2025-11-03 20:51:53 INFO  TC002_LoginTest:108 - Test passed: Invalid credentials correctly rejected. Message: The username and password could not be verified.
+2025-11-03 20:51:53 INFO  TC002_LoginTest:119 - Starting test: Login with empty username
+2025-11-03 20:51:53 INFO  TC002_LoginTest:123 - Left username field empty
+2025-11-03 20:51:53 INFO  TC002_LoginTest:126 - Entered valid password
+2025-11-03 20:51:53 INFO  TC002_LoginTest:129 - Clicked submit with empty username
+2025-11-03 20:51:53 INFO  TC002_LoginTest:141 - Test passed: Empty username correctly rejected. Message: Please enter a username and password.
+2025-11-03 20:51:53 INFO  TC002_LoginTest:152 - Starting test: Login with empty password
+2025-11-03 20:51:53 INFO  TC002_LoginTest:156 - Entered valid username
+2025-11-03 20:51:53 INFO  TC002_LoginTest:159 - Left password field empty
+2025-11-03 20:51:54 INFO  TC002_LoginTest:162 - Clicked submit with empty password
+2025-11-03 20:51:54 INFO  TC002_LoginTest:174 - Test passed: Empty password correctly rejected. Message: Please enter a username and password.
+2025-11-03 20:51:54 INFO  TC002_LoginTest:185 - Starting test: Login with both fields empty
+2025-11-03 20:51:54 INFO  TC002_LoginTest:189 - Left username field empty
+2025-11-03 20:51:54 INFO  TC002_LoginTest:192 - Left password field empty
+2025-11-03 20:51:54 INFO  TC002_LoginTest:195 - Clicked submit with empty fields
+2025-11-03 20:51:54 INFO  TC002_LoginTest:207 - Test passed: Empty fields correctly rejected. Message: Please enter a username and password.
+2025-11-03 20:51:54 INFO  TC002_LoginTest:218 - Starting test: Login with SQL injection attempt
+2025-11-03 20:51:54 INFO  TC002_LoginTest:222 - Entered SQL injection in username
+2025-11-03 20:51:55 INFO  TC002_LoginTest:225 - Entered SQL injection in password
+2025-11-03 20:51:55 INFO  TC002_LoginTest:228 - Clicked submit with SQL injection
+2025-11-03 20:51:55 INFO  TC002_LoginTest:240 - Test passed: SQL injection prevented. Message: The username and password could not be verified.
+2025-11-03 20:51:55 INFO  TC002_LoginTest:251 - Starting test: Login with special characters
+2025-11-03 20:51:55 INFO  TC002_LoginTest:255 - Entered special characters in username
+2025-11-03 20:51:55 INFO  TC002_LoginTest:258 - Entered special characters in password
+2025-11-03 20:51:55 INFO  TC002_LoginTest:261 - Clicked submit with special characters
+2025-11-03 20:51:55 INFO  TC002_LoginTest:273 - Test passed: Special characters correctly rejected. Message: The username and password could not be verified.
+2025-11-03 20:51:55 INFO  TC002_LoginTest:284 - Starting test: Login with spaces in credentials
+2025-11-03 20:51:55 INFO  TC002_LoginTest:288 - Entered username with leading and trailing spaces
+2025-11-03 20:51:55 INFO  TC002_LoginTest:291 - Entered password with leading and trailing spaces
+2025-11-03 20:51:55 INFO  TC002_LoginTest:294 - Clicked submit with spaces in credentials
+2025-11-03 20:51:55 INFO  TC002_LoginTest:305 - Test passed: Spaces in credentials handled correctly. Message: The username and password could not be verified.
+2025-11-03 20:51:55 INFO  TC002_LoginTest:316 - Starting test: Login with case-sensitive username
+2025-11-03 20:51:55 INFO  TC002_LoginTest:321 - Entered username in uppercase: MIKASA@06
+2025-11-03 20:51:55 INFO  TC002_LoginTest:324 - Entered valid password
+2025-11-03 20:51:56 INFO  TC002_LoginTest:327 - Clicked submit with uppercase username
+2025-11-03 20:51:56 INFO  TC002_LoginTest:339 - Test passed: Case sensitivity validated correctly. Message: The username and password could not be verified.
+2025-11-03 20:51:56 INFO  TC002_LoginTest:350 - Starting test: Login with excessively long username
+2025-11-03 20:51:56 INFO  TC002_LoginTest:355 - Entered excessively long username (100+ characters)
+2025-11-03 20:51:56 INFO  TC002_LoginTest:358 - Entered valid password
+2025-11-03 20:51:56 INFO  TC002_LoginTest:361 - Clicked submit with long username
+2025-11-03 20:51:56 INFO  TC002_LoginTest:373 - Test passed: Long username correctly rejected. Message: The username and password could not be verified.
+2025-11-03 20:51:56 INFO  TC002_LoginTest:384 - Starting test: Login with script tags (XSS)
+2025-11-03 20:51:56 INFO  TC002_LoginTest:388 - Entered script tag in username
+2025-11-03 20:51:56 INFO  TC002_LoginTest:391 - Entered script tag in password
+2025-11-03 20:51:56 INFO  TC002_LoginTest:394 - Clicked submit with script tags
+2025-11-03 20:51:57 INFO  TC002_LoginTest:406 - Test passed: XSS attack prevented. Message: The username and password could not be verified.
+2025-11-03 20:52:06 INFO  TC002_LoginTest:17 - URL is opened
+2025-11-03 20:52:06 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-11-03 20:52:06 INFO  TC002_LoginTest:24 - User entered the password:
+2025-11-03 20:52:09 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-11-03 20:52:12 INFO  TC002_LoginTest:37 - User logged out successfully!
+2025-11-03 20:52:12 INFO  TC002_LoginTest:46 - ****test executed*****
+2025-11-03 20:52:12 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-11-03 20:52:12 INFO  TC002_LoginTest:56 - Entered username: mikasa@06
+2025-11-03 20:52:12 INFO  TC002_LoginTest:59 - Entered invalid password
+2025-11-03 20:52:12 INFO  TC002_LoginTest:62 - Clicked submit button with invalid password
+2025-11-03 20:52:12 INFO  TC002_LoginTest:74 - Test passed: Invalid password correctly rejected. Message: The username and password could not be verified.
+2025-11-03 20:52:12 INFO  TC002_LoginTest:86 - Starting test: Login with both invalid credentials
+2025-11-03 20:52:12 INFO  TC002_LoginTest:90 - Entered invalid username
+2025-11-03 20:52:12 INFO  TC002_LoginTest:93 - Entered invalid password
+2025-11-03 20:52:12 INFO  TC002_LoginTest:96 - Clicked submit with invalid credentials
+2025-11-03 20:52:12 INFO  TC002_LoginTest:108 - Test passed: Invalid credentials correctly rejected. Message: The username and password could not be verified.
+2025-11-03 20:52:12 INFO  TC002_LoginTest:119 - Starting test: Login with empty username
+2025-11-03 20:52:12 INFO  TC002_LoginTest:123 - Left username field empty
+2025-11-03 20:52:12 INFO  TC002_LoginTest:126 - Entered valid password
+2025-11-03 20:52:13 INFO  TC002_LoginTest:129 - Clicked submit with empty username
+2025-11-03 20:52:13 INFO  TC002_LoginTest:141 - Test passed: Empty username correctly rejected. Message: Please enter a username and password.
+2025-11-03 20:52:13 INFO  TC002_LoginTest:152 - Starting test: Login with empty password
+2025-11-03 20:52:13 INFO  TC002_LoginTest:156 - Entered valid username
+2025-11-03 20:52:13 INFO  TC002_LoginTest:159 - Left password field empty
+2025-11-03 20:52:13 INFO  TC002_LoginTest:162 - Clicked submit with empty password
+2025-11-03 20:52:13 INFO  TC002_LoginTest:174 - Test passed: Empty password correctly rejected. Message: Please enter a username and password.
+2025-11-03 20:52:13 INFO  TC002_LoginTest:185 - Starting test: Login with both fields empty
+2025-11-03 20:52:13 INFO  TC002_LoginTest:189 - Left username field empty
+2025-11-03 20:52:13 INFO  TC002_LoginTest:192 - Left password field empty
+2025-11-03 20:52:13 INFO  TC002_LoginTest:195 - Clicked submit with empty fields
+2025-11-03 20:52:13 INFO  TC002_LoginTest:207 - Test passed: Empty fields correctly rejected. Message: Please enter a username and password.
+2025-11-03 20:52:13 INFO  TC002_LoginTest:218 - Starting test: Login with SQL injection attempt
+2025-11-03 20:52:13 INFO  TC002_LoginTest:222 - Entered SQL injection in username
+2025-11-03 20:52:13 INFO  TC002_LoginTest:225 - Entered SQL injection in password
+2025-11-03 20:52:13 INFO  TC002_LoginTest:228 - Clicked submit with SQL injection
+2025-11-03 20:52:14 INFO  TC002_LoginTest:240 - Test passed: SQL injection prevented. Message: The username and password could not be verified.
+2025-11-03 20:52:14 INFO  TC002_LoginTest:251 - Starting test: Login with special characters
+2025-11-03 20:52:14 INFO  TC002_LoginTest:255 - Entered special characters in username
+2025-11-03 20:52:14 INFO  TC002_LoginTest:258 - Entered special characters in password
+2025-11-03 20:52:14 INFO  TC002_LoginTest:261 - Clicked submit with special characters
+2025-11-03 20:52:14 INFO  TC002_LoginTest:273 - Test passed: Special characters correctly rejected. Message: The username and password could not be verified.
+2025-11-03 20:52:14 INFO  TC002_LoginTest:284 - Starting test: Login with spaces in credentials
+2025-11-03 20:52:14 INFO  TC002_LoginTest:288 - Entered username with leading and trailing spaces
+2025-11-03 20:52:14 INFO  TC002_LoginTest:291 - Entered password with leading and trailing spaces
+2025-11-03 20:52:14 INFO  TC002_LoginTest:294 - Clicked submit with spaces in credentials
+2025-11-03 20:52:14 INFO  TC002_LoginTest:305 - Test passed: Spaces in credentials handled correctly. Message: The username and password could not be verified.
+2025-11-03 20:52:14 INFO  TC002_LoginTest:316 - Starting test: Login with case-sensitive username
+2025-11-03 20:52:14 INFO  TC002_LoginTest:321 - Entered username in uppercase: MIKASA@06
+2025-11-03 20:52:14 INFO  TC002_LoginTest:324 - Entered valid password
+2025-11-03 20:52:15 INFO  TC002_LoginTest:327 - Clicked submit with uppercase username
+2025-11-03 20:52:15 INFO  TC002_LoginTest:339 - Test passed: Case sensitivity validated correctly. Message: The username and password could not be verified.
+2025-11-03 20:52:15 INFO  TC002_LoginTest:350 - Starting test: Login with excessively long username
+2025-11-03 20:52:15 INFO  TC002_LoginTest:355 - Entered excessively long username (100+ characters)
+2025-11-03 20:52:15 INFO  TC002_LoginTest:358 - Entered valid password
+2025-11-03 20:52:15 INFO  TC002_LoginTest:361 - Clicked submit with long username
+2025-11-03 20:52:15 INFO  TC002_LoginTest:373 - Test passed: Long username correctly rejected. Message: The username and password could not be verified.
+2025-11-03 20:52:15 INFO  TC002_LoginTest:384 - Starting test: Login with script tags (XSS)
+2025-11-03 20:52:15 INFO  TC002_LoginTest:388 - Entered script tag in username
+2025-11-03 20:52:16 INFO  TC002_LoginTest:391 - Entered script tag in password
+2025-11-03 20:52:16 INFO  TC002_LoginTest:394 - Clicked submit with script tags
+2025-11-03 20:52:16 INFO  TC002_LoginTest:406 - Test passed: XSS attack prevented. Message: The username and password could not be verified.
+2025-11-03 20:53:46 INFO  TC002_LoginTest:17 - URL is opened
+2025-11-03 20:53:46 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-11-03 20:53:46 INFO  TC002_LoginTest:24 - User entered the password:
+2025-11-03 20:53:49 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-11-03 20:53:51 INFO  TC002_LoginTest:37 - User logged out successfully!
+2025-11-03 20:53:51 INFO  TC002_LoginTest:46 - ****test executed*****
+2025-11-03 20:53:51 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-11-03 20:54:01 ERROR TC002_LoginTest:77 - Test failed: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=141.0.7390.125)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a0aba954ca7b55dd8a8dfd852144aeef, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.125, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.6:4444/sessi..., se:cdpVersion: 141.0.7390.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0aba954ca7b55dd8a8dfd852144aeef
+2025-11-03 20:54:01 INFO  TC002_LoginTest:86 - Starting test: Login with both invalid credentials
+2025-11-03 20:54:11 ERROR TC002_LoginTest:111 - Test failed: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=141.0.7390.125)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a0aba954ca7b55dd8a8dfd852144aeef, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.125, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.6:4444/sessi..., se:cdpVersion: 141.0.7390.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0aba954ca7b55dd8a8dfd852144aeef
+2025-11-03 20:54:11 INFO  TC002_LoginTest:119 - Starting test: Login with empty username
+2025-11-03 20:54:21 ERROR TC002_LoginTest:144 - Test failed: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=141.0.7390.125)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a0aba954ca7b55dd8a8dfd852144aeef, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.125, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.6:4444/sessi..., se:cdpVersion: 141.0.7390.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0aba954ca7b55dd8a8dfd852144aeef
+2025-11-03 20:54:21 INFO  TC002_LoginTest:152 - Starting test: Login with empty password
+2025-11-03 20:54:32 ERROR TC002_LoginTest:177 - Test failed: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=141.0.7390.125)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a0aba954ca7b55dd8a8dfd852144aeef, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.125, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.6:4444/sessi..., se:cdpVersion: 141.0.7390.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0aba954ca7b55dd8a8dfd852144aeef
+2025-11-03 20:54:32 INFO  TC002_LoginTest:185 - Starting test: Login with both fields empty
+2025-11-03 20:54:42 ERROR TC002_LoginTest:210 - Test failed: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=141.0.7390.125)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a0aba954ca7b55dd8a8dfd852144aeef, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.125, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.6:4444/sessi..., se:cdpVersion: 141.0.7390.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0aba954ca7b55dd8a8dfd852144aeef
+2025-11-03 20:54:42 INFO  TC002_LoginTest:218 - Starting test: Login with SQL injection attempt
+2025-11-03 20:54:52 ERROR TC002_LoginTest:243 - Test failed: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=141.0.7390.125)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a0aba954ca7b55dd8a8dfd852144aeef, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.125, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.6:4444/sessi..., se:cdpVersion: 141.0.7390.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0aba954ca7b55dd8a8dfd852144aeef
+2025-11-03 20:54:52 INFO  TC002_LoginTest:251 - Starting test: Login with special characters
+2025-11-03 20:55:02 ERROR TC002_LoginTest:276 - Test failed: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=141.0.7390.125)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a0aba954ca7b55dd8a8dfd852144aeef, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.125, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.6:4444/sessi..., se:cdpVersion: 141.0.7390.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0aba954ca7b55dd8a8dfd852144aeef
+2025-11-03 20:55:02 INFO  TC002_LoginTest:284 - Starting test: Login with spaces in credentials
+2025-11-03 20:55:12 ERROR TC002_LoginTest:308 - Test failed: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=141.0.7390.125)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a0aba954ca7b55dd8a8dfd852144aeef, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.125, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.6:4444/sessi..., se:cdpVersion: 141.0.7390.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0aba954ca7b55dd8a8dfd852144aeef
+2025-11-03 20:55:12 INFO  TC002_LoginTest:316 - Starting test: Login with case-sensitive username
+2025-11-03 20:55:13 ERROR TC002_LoginTest:342 - Test failed: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=141.0.7390.125)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a0aba954ca7b55dd8a8dfd852144aeef, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.125, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.6:4444/sessi..., se:cdpVersion: 141.0.7390.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0aba954ca7b55dd8a8dfd852144aeef
+2025-11-03 20:57:06 INFO  TC002_LoginTest:17 - URL is opened
+2025-11-03 20:57:06 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-11-03 20:57:06 INFO  TC002_LoginTest:24 - User entered the password:
+2025-11-03 20:57:08 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-11-03 20:57:11 INFO  TC002_LoginTest:37 - User logged out successfully!
+2025-11-03 20:57:11 INFO  TC002_LoginTest:46 - ****test executed*****
+2025-11-03 20:57:11 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-11-03 20:57:11 INFO  TC002_LoginTest:56 - Entered username: mikasa@06
+2025-11-03 20:57:11 INFO  TC002_LoginTest:59 - Entered invalid password
+2025-11-03 20:57:11 INFO  TC002_LoginTest:62 - Clicked submit button with invalid password
+2025-11-03 20:57:11 INFO  TC002_LoginTest:74 - Test passed: Invalid password correctly rejected. Message: The username and password could not be verified.
+2025-11-03 20:57:11 INFO  TC002_LoginTest:86 - Starting test: Login with both invalid credentials
+2025-11-03 20:57:11 INFO  TC002_LoginTest:90 - Entered invalid username
+2025-11-03 20:57:11 INFO  TC002_LoginTest:93 - Entered invalid password
+2025-11-03 20:57:11 INFO  TC002_LoginTest:96 - Clicked submit with invalid credentials
+2025-11-03 20:57:11 INFO  TC002_LoginTest:108 - Test passed: Invalid credentials correctly rejected. Message: The username and password could not be verified.
+2025-11-03 20:57:11 INFO  TC002_LoginTest:119 - Starting test: Login with empty username
+2025-11-03 20:57:11 INFO  TC002_LoginTest:123 - Left username field empty
+2025-11-03 20:57:11 INFO  TC002_LoginTest:126 - Entered valid password
+2025-11-03 20:57:12 INFO  TC002_LoginTest:129 - Clicked submit with empty username
+2025-11-03 20:57:12 INFO  TC002_LoginTest:141 - Test passed: Empty username correctly rejected. Message: Please enter a username and password.
+2025-11-03 20:57:12 INFO  TC002_LoginTest:152 - Starting test: Login with empty password
+2025-11-03 20:57:12 INFO  TC002_LoginTest:156 - Entered valid username
+2025-11-03 20:57:12 INFO  TC002_LoginTest:159 - Left password field empty
+2025-11-03 20:57:12 INFO  TC002_LoginTest:162 - Clicked submit with empty password
+2025-11-03 20:57:12 INFO  TC002_LoginTest:174 - Test passed: Empty password correctly rejected. Message: Please enter a username and password.
+2025-11-03 20:57:12 INFO  TC002_LoginTest:185 - Starting test: Login with both fields empty
+2025-11-03 20:57:12 INFO  TC002_LoginTest:189 - Left username field empty
+2025-11-03 20:57:12 INFO  TC002_LoginTest:192 - Left password field empty
+2025-11-03 20:57:12 INFO  TC002_LoginTest:195 - Clicked submit with empty fields
+2025-11-03 20:57:12 INFO  TC002_LoginTest:207 - Test passed: Empty fields correctly rejected. Message: Please enter a username and password.
+2025-11-03 20:57:12 INFO  TC002_LoginTest:218 - Starting test: Login with SQL injection attempt
+2025-11-03 20:57:12 INFO  TC002_LoginTest:222 - Entered SQL injection in username
+2025-11-03 20:57:12 INFO  TC002_LoginTest:225 - Entered SQL injection in password
+2025-11-03 20:57:13 INFO  TC002_LoginTest:228 - Clicked submit with SQL injection
+2025-11-03 20:57:13 INFO  TC002_LoginTest:240 - Test passed: SQL injection prevented. Message: The username and password could not be verified.
+2025-11-03 20:57:13 INFO  TC002_LoginTest:251 - Starting test: Login with special characters
+2025-11-03 20:57:13 INFO  TC002_LoginTest:255 - Entered special characters in username
+2025-11-03 20:57:13 INFO  TC002_LoginTest:258 - Entered special characters in password
+2025-11-03 20:57:13 INFO  TC002_LoginTest:261 - Clicked submit with special characters
+2025-11-03 20:57:13 INFO  TC002_LoginTest:273 - Test passed: Special characters correctly rejected. Message: The username and password could not be verified.
+2025-11-03 20:57:13 INFO  TC002_LoginTest:284 - Starting test: Login with spaces in credentials
+2025-11-03 20:57:13 INFO  TC002_LoginTest:288 - Entered username with leading and trailing spaces
+2025-11-03 20:57:13 INFO  TC002_LoginTest:291 - Entered password with leading and trailing spaces
+2025-11-03 20:57:13 INFO  TC002_LoginTest:294 - Clicked submit with spaces in credentials
+2025-11-03 20:57:13 INFO  TC002_LoginTest:305 - Test passed: Spaces in credentials handled correctly. Message: The username and password could not be verified.
+2025-11-03 20:57:13 INFO  TC002_LoginTest:316 - Starting test: Login with case-sensitive username
+2025-11-03 20:57:13 INFO  TC002_LoginTest:321 - Entered username in uppercase: MIKASA@06
+2025-11-03 20:57:13 INFO  TC002_LoginTest:324 - Entered valid password
+2025-11-03 20:57:14 INFO  TC002_LoginTest:327 - Clicked submit with uppercase username
+2025-11-03 20:57:14 INFO  TC002_LoginTest:339 - Test passed: Case sensitivity validated correctly. Message: The username and password could not be verified.
+2025-11-03 20:57:14 INFO  TC002_LoginTest:350 - Starting test: Login with excessively long username
+2025-11-03 20:57:14 INFO  TC002_LoginTest:355 - Entered excessively long username (100+ characters)
+2025-11-03 20:57:14 INFO  TC002_LoginTest:358 - Entered valid password
+2025-11-03 20:57:14 INFO  TC002_LoginTest:361 - Clicked submit with long username
+2025-11-03 20:57:14 INFO  TC002_LoginTest:373 - Test passed: Long username correctly rejected. Message: The username and password could not be verified.
+2025-11-03 20:57:14 INFO  TC002_LoginTest:384 - Starting test: Login with script tags (XSS)
+2025-11-03 20:57:14 INFO  TC002_LoginTest:388 - Entered script tag in username
+2025-11-03 20:57:14 INFO  TC002_LoginTest:391 - Entered script tag in password
+2025-11-03 20:57:14 INFO  TC002_LoginTest:394 - Clicked submit with script tags
+2025-11-03 20:57:15 INFO  TC002_LoginTest:406 - Test passed: XSS attack prevented. Message: The username and password could not be verified.
+2025-11-03 21:44:26 INFO  TC002_LoginTest:17 - URL is opened
+2025-11-03 21:44:26 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-11-03 21:44:26 INFO  TC002_LoginTest:24 - User entered the password:
+2025-11-03 21:44:28 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-11-03 21:44:31 INFO  TC002_LoginTest:37 - User logged out successfully!
+2025-11-03 21:44:31 INFO  TC002_LoginTest:46 - ****test executed*****
+2025-11-03 21:44:31 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-11-03 21:44:31 INFO  TC002_LoginTest:56 - Entered username: mikasa@06
+2025-11-03 21:44:31 INFO  TC002_LoginTest:59 - Entered invalid password
+2025-11-03 21:44:31 INFO  TC002_LoginTest:62 - Clicked submit button with invalid password
+2025-11-03 21:44:31 INFO  TC002_LoginTest:74 - Test passed: Invalid password correctly rejected. Message: The username and password could not be verified.
+2025-11-03 21:44:31 INFO  TC002_LoginTest:86 - Starting test: Login with both invalid credentials
+2025-11-03 21:44:31 INFO  TC002_LoginTest:90 - Entered invalid username
+2025-11-03 21:44:32 INFO  TC002_LoginTest:93 - Entered invalid password
+2025-11-03 21:44:32 INFO  TC002_LoginTest:96 - Clicked submit with invalid credentials
+2025-11-03 21:44:32 INFO  TC002_LoginTest:108 - Test passed: Invalid credentials correctly rejected. Message: The username and password could not be verified.
+2025-11-03 21:44:32 INFO  TC002_LoginTest:119 - Starting test: Login with empty username
+2025-11-03 21:44:32 INFO  TC002_LoginTest:123 - Left username field empty
+2025-11-03 21:44:32 INFO  TC002_LoginTest:126 - Entered valid password
+2025-11-03 21:44:32 INFO  TC002_LoginTest:129 - Clicked submit with empty username
+2025-11-03 21:44:32 INFO  TC002_LoginTest:141 - Test passed: Empty username correctly rejected. Message: Please enter a username and password.
+2025-11-03 21:44:32 INFO  TC002_LoginTest:152 - Starting test: Login with empty password
+2025-11-03 21:44:32 INFO  TC002_LoginTest:156 - Entered valid username
+2025-11-03 21:44:32 INFO  TC002_LoginTest:159 - Left password field empty
+2025-11-03 21:44:32 INFO  TC002_LoginTest:162 - Clicked submit with empty password
+2025-11-03 21:44:32 INFO  TC002_LoginTest:174 - Test passed: Empty password correctly rejected. Message: Please enter a username and password.
+2025-11-03 21:44:32 INFO  TC002_LoginTest:185 - Starting test: Login with both fields empty
+2025-11-03 21:44:32 INFO  TC002_LoginTest:189 - Left username field empty
+2025-11-03 21:44:32 INFO  TC002_LoginTest:192 - Left password field empty
+2025-11-03 21:44:33 INFO  TC002_LoginTest:195 - Clicked submit with empty fields
+2025-11-03 21:44:33 INFO  TC002_LoginTest:207 - Test passed: Empty fields correctly rejected. Message: Please enter a username and password.
+2025-11-03 21:44:33 INFO  TC002_LoginTest:218 - Starting test: Login with SQL injection attempt
+2025-11-03 21:44:33 INFO  TC002_LoginTest:222 - Entered SQL injection in username
+2025-11-03 21:44:33 INFO  TC002_LoginTest:225 - Entered SQL injection in password
+2025-11-03 21:44:33 INFO  TC002_LoginTest:228 - Clicked submit with SQL injection
+2025-11-03 21:44:33 INFO  TC002_LoginTest:240 - Test passed: SQL injection prevented. Message: The username and password could not be verified.
+2025-11-03 21:44:33 INFO  TC002_LoginTest:251 - Starting test: Login with special characters
+2025-11-03 21:44:33 INFO  TC002_LoginTest:255 - Entered special characters in username
+2025-11-03 21:44:33 INFO  TC002_LoginTest:258 - Entered special characters in password
+2025-11-03 21:44:33 INFO  TC002_LoginTest:261 - Clicked submit with special characters
+2025-11-03 21:44:33 INFO  TC002_LoginTest:273 - Test passed: Special characters correctly rejected. Message: The username and password could not be verified.
+2025-11-03 21:44:33 INFO  TC002_LoginTest:284 - Starting test: Login with spaces in credentials
+2025-11-03 21:44:33 INFO  TC002_LoginTest:288 - Entered username with leading and trailing spaces
+2025-11-03 21:44:34 INFO  TC002_LoginTest:291 - Entered password with leading and trailing spaces
+2025-11-03 21:44:34 INFO  TC002_LoginTest:294 - Clicked submit with spaces in credentials
+2025-11-03 21:44:34 INFO  TC002_LoginTest:305 - Test passed: Spaces in credentials handled correctly. Message: The username and password could not be verified.
+2025-11-03 21:44:34 INFO  TC002_LoginTest:316 - Starting test: Login with case-sensitive username
+2025-11-03 21:44:34 INFO  TC002_LoginTest:321 - Entered username in uppercase: MIKASA@06
+2025-11-03 21:44:34 INFO  TC002_LoginTest:324 - Entered valid password
+2025-11-03 21:44:34 INFO  TC002_LoginTest:327 - Clicked submit with uppercase username
+2025-11-03 21:44:34 INFO  TC002_LoginTest:339 - Test passed: Case sensitivity validated correctly. Message: The username and password could not be verified.
+2025-11-03 21:44:34 INFO  TC002_LoginTest:350 - Starting test: Login with excessively long username
+2025-11-03 21:44:35 INFO  TC002_LoginTest:355 - Entered excessively long username (100+ characters)
+2025-11-03 21:44:35 INFO  TC002_LoginTest:358 - Entered valid password
+2025-11-03 21:44:35 INFO  TC002_LoginTest:361 - Clicked submit with long username
+2025-11-03 21:44:35 INFO  TC002_LoginTest:373 - Test passed: Long username correctly rejected. Message: The username and password could not be verified.
+2025-11-03 21:44:35 INFO  TC002_LoginTest:384 - Starting test: Login with script tags (XSS)
+2025-11-03 21:44:35 INFO  TC002_LoginTest:388 - Entered script tag in username
+2025-11-03 21:44:35 INFO  TC002_LoginTest:391 - Entered script tag in password
+2025-11-03 21:44:36 INFO  TC002_LoginTest:394 - Clicked submit with script tags
+2025-11-03 21:44:36 INFO  TC002_LoginTest:406 - Test passed: XSS attack prevented. Message: The username and password could not be verified.
+2025-11-03 21:44:42 INFO  TC002_LoginTest:17 - URL is opened
+2025-11-03 21:44:42 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-11-03 21:44:43 INFO  TC002_LoginTest:24 - User entered the password:
+2025-11-03 21:44:45 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-11-03 21:44:47 INFO  TC002_LoginTest:37 - User logged out successfully!
+2025-11-03 21:44:47 INFO  TC002_LoginTest:46 - ****test executed*****
+2025-11-03 21:44:47 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-11-03 21:44:47 INFO  TC002_LoginTest:56 - Entered username: mikasa@06
+2025-11-03 21:44:47 INFO  TC002_LoginTest:59 - Entered invalid password
+2025-11-03 21:44:48 INFO  TC002_LoginTest:62 - Clicked submit button with invalid password
+2025-11-03 21:44:48 INFO  TC002_LoginTest:74 - Test passed: Invalid password correctly rejected. Message: The username and password could not be verified.
+2025-11-03 21:44:48 INFO  TC002_LoginTest:86 - Starting test: Login with both invalid credentials
+2025-11-03 21:44:48 INFO  TC002_LoginTest:90 - Entered invalid username
+2025-11-03 21:44:48 INFO  TC002_LoginTest:93 - Entered invalid password
+2025-11-03 21:44:48 INFO  TC002_LoginTest:96 - Clicked submit with invalid credentials
+2025-11-03 21:44:48 INFO  TC002_LoginTest:108 - Test passed: Invalid credentials correctly rejected. Message: The username and password could not be verified.
+2025-11-03 21:44:48 INFO  TC002_LoginTest:119 - Starting test: Login with empty username
+2025-11-03 21:44:48 INFO  TC002_LoginTest:123 - Left username field empty
+2025-11-03 21:44:48 INFO  TC002_LoginTest:126 - Entered valid password
+2025-11-03 21:44:48 INFO  TC002_LoginTest:129 - Clicked submit with empty username
+2025-11-03 21:44:48 INFO  TC002_LoginTest:141 - Test passed: Empty username correctly rejected. Message: Please enter a username and password.
+2025-11-03 21:44:48 INFO  TC002_LoginTest:152 - Starting test: Login with empty password
+2025-11-03 21:44:48 INFO  TC002_LoginTest:156 - Entered valid username
+2025-11-03 21:44:49 INFO  TC002_LoginTest:159 - Left password field empty
+2025-11-03 21:44:49 INFO  TC002_LoginTest:162 - Clicked submit with empty password
+2025-11-03 21:44:49 INFO  TC002_LoginTest:174 - Test passed: Empty password correctly rejected. Message: Please enter a username and password.
+2025-11-03 21:44:49 INFO  TC002_LoginTest:185 - Starting test: Login with both fields empty
+2025-11-03 21:44:49 INFO  TC002_LoginTest:189 - Left username field empty
+2025-11-03 21:44:49 INFO  TC002_LoginTest:192 - Left password field empty
+2025-11-03 21:44:49 INFO  TC002_LoginTest:195 - Clicked submit with empty fields
+2025-11-03 21:44:49 INFO  TC002_LoginTest:207 - Test passed: Empty fields correctly rejected. Message: Please enter a username and password.
+2025-11-03 21:44:49 INFO  TC002_LoginTest:218 - Starting test: Login with SQL injection attempt
+2025-11-03 21:44:49 INFO  TC002_LoginTest:222 - Entered SQL injection in username
+2025-11-03 21:44:49 INFO  TC002_LoginTest:225 - Entered SQL injection in password
+2025-11-03 21:44:49 INFO  TC002_LoginTest:228 - Clicked submit with SQL injection
+2025-11-03 21:44:49 INFO  TC002_LoginTest:240 - Test passed: SQL injection prevented. Message: The username and password could not be verified.
+2025-11-03 21:44:49 INFO  TC002_LoginTest:251 - Starting test: Login with special characters
+2025-11-03 21:44:49 INFO  TC002_LoginTest:255 - Entered special characters in username
+2025-11-03 21:44:50 INFO  TC002_LoginTest:258 - Entered special characters in password
+2025-11-03 21:44:50 INFO  TC002_LoginTest:261 - Clicked submit with special characters
+2025-11-03 21:44:50 INFO  TC002_LoginTest:273 - Test passed: Special characters correctly rejected. Message: The username and password could not be verified.
+2025-11-03 21:44:50 INFO  TC002_LoginTest:284 - Starting test: Login with spaces in credentials
+2025-11-03 21:44:50 INFO  TC002_LoginTest:288 - Entered username with leading and trailing spaces
+2025-11-03 21:44:50 INFO  TC002_LoginTest:291 - Entered password with leading and trailing spaces
+2025-11-03 21:44:50 INFO  TC002_LoginTest:294 - Clicked submit with spaces in credentials
+2025-11-03 21:44:51 INFO  TC002_LoginTest:305 - Test passed: Spaces in credentials handled correctly. Message: The username and password could not be verified.
+2025-11-03 21:44:51 INFO  TC002_LoginTest:316 - Starting test: Login with case-sensitive username
+2025-11-03 21:44:51 INFO  TC002_LoginTest:321 - Entered username in uppercase: MIKASA@06
+2025-11-03 21:44:51 INFO  TC002_LoginTest:324 - Entered valid password
+2025-11-03 21:44:51 INFO  TC002_LoginTest:327 - Clicked submit with uppercase username
+2025-11-03 21:44:51 INFO  TC002_LoginTest:339 - Test passed: Case sensitivity validated correctly. Message: The username and password could not be verified.
+2025-11-03 21:44:51 INFO  TC002_LoginTest:350 - Starting test: Login with excessively long username
+2025-11-03 21:44:51 INFO  TC002_LoginTest:355 - Entered excessively long username (100+ characters)
+2025-11-03 21:44:51 INFO  TC002_LoginTest:358 - Entered valid password
+2025-11-03 21:44:52 INFO  TC002_LoginTest:361 - Clicked submit with long username
+2025-11-03 21:44:52 INFO  TC002_LoginTest:373 - Test passed: Long username correctly rejected. Message: The username and password could not be verified.
+2025-11-03 21:44:52 INFO  TC002_LoginTest:384 - Starting test: Login with script tags (XSS)
+2025-11-03 21:44:52 INFO  TC002_LoginTest:388 - Entered script tag in username
+2025-11-03 21:44:52 INFO  TC002_LoginTest:391 - Entered script tag in password
+2025-11-03 21:44:52 INFO  TC002_LoginTest:394 - Clicked submit with script tags
+2025-11-03 21:44:52 INFO  TC002_LoginTest:406 - Test passed: XSS attack prevented. Message: The username and password could not be verified.
