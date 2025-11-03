@@ -71,9 +71,9 @@ public class TC005_BillPayTest extends BaseClass {
 		
 		catch(Exception e)
 		{
-			logger.info("****test executed*****");
+			 Assert.fail();
 		}
-	
+		logger.info("****test executed*****");
 	}
 	
 	@Test(priority = 2, groups = {"Negative"})

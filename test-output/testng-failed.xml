@@ -8,15 +8,16 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC004_TransferFundsTest">
+      <class name="testCases.TC006_ApplyLoanTest">
         <methods>
-          <include name="TransferFundsWithDecimalAmountTest"/>
+          <include name="ApplyLoanWithUnrealisticCombinationTest"/>
           <include name="tearDown"/>
-          <include name="TransferFundsWithSpecialCharactersTest"/>
-          <include name="TransferFundsWithExcessiveAmountTest"/>
+          <include name="ApplyLoanWithInsufficientBalanceTest"/>
+          <include name="ApplyLoanWithNegativeAmountTest"/>
+          <include name="VerifyApplyLoanWithDecimalAmountTest"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC004_TransferFundsTest -->
+      </class> <!-- testCases.TC006_ApplyLoanTest -->
     </classes>
   </test> <!-- ParaBanking Test(failed) -->
 </suite> <!-- Failed suite [ParaBankingSuite] -->

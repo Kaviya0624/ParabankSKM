@@ -627,3 +627,230 @@
 2025-11-03 18:43:29 INFO  TC004_TransferFundsTest:219 - Clicked on Transfer button with excessive amount
 2025-11-03 18:43:29 INFO  TC004_TransferFundsTest:222 - Error message displayed: An internal error has occurred and has been logged.
 2025-11-03 18:43:29 INFO  TC004_TransferFundsTest:233 - ****TransferFundsWithExcessiveAmountTest executed successfully****
+2025-11-03 19:22:22 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:22:22 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:22:22 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:22:28 INFO  TC006_ApplyLoanTest:35 - Loan approval message verified
+2025-11-03 19:22:28 INFO  TC006_ApplyLoanTest:40 - Loan status is Approved. Test Passed!
+2025-11-03 19:22:28 INFO  TC006_ApplyLoanTest:50 - ****test executed*****
+2025-11-03 19:22:28 INFO  TC006_ApplyLoanTest:56 - Starting ApplyLoanWithoutAmountTest
+2025-11-03 19:22:28 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:22:28 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:22:28 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:22:31 INFO  TC006_ApplyLoanTest:68 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:22:31 INFO  TC006_ApplyLoanTest:408 - Starting VerifyApplyLoanWithDecimalAmountTest
+2025-11-03 19:22:31 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:22:31 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:22:32 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:22:37 INFO  TC006_ApplyLoanTest:426 - Loan approval message verified
+2025-11-03 19:22:37 INFO  TC006_ApplyLoanTest:431 - Loan status is Approved. Test Passed!
+2025-11-03 19:22:37 INFO  TC006_ApplyLoanTest:439 - ****VerifyApplyLoanWithDecimalAmountTest executed successfully****
+2025-11-03 19:22:37 INFO  TC006_ApplyLoanTest:82 - Starting ApplyLoanWithoutDownPaymentTest
+2025-11-03 19:22:38 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:22:38 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:22:38 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:22:40 INFO  TC006_ApplyLoanTest:96 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:22:40 INFO  TC006_ApplyLoanTest:105 - ****ApplyLoanWithoutDownPaymentTest executed successfully****
+2025-11-03 19:22:41 INFO  TC006_ApplyLoanTest:111 - Starting ApplyLoanWithNonNumericAmountTest
+2025-11-03 19:22:41 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:22:41 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:22:41 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:22:43 INFO  TC006_ApplyLoanTest:125 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:22:43 INFO  TC006_ApplyLoanTest:134 - ****ApplyLoanWithNonNumericAmountTest executed successfully****
+2025-11-03 19:22:43 INFO  TC006_ApplyLoanTest:140 - Starting ApplyLoanWithNonNumericDownPaymentTest
+2025-11-03 19:22:44 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:22:44 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:22:44 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:22:46 INFO  TC006_ApplyLoanTest:154 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:22:46 INFO  TC006_ApplyLoanTest:163 - ****ApplyLoanWithNonNumericDownPaymentTest executed successfully****
+2025-11-03 19:22:46 INFO  TC006_ApplyLoanTest:169 - Starting ApplyLoanWithExcessiveAmountTest
+2025-11-03 19:22:46 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:22:47 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:22:47 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:22:49 INFO  TC006_ApplyLoanTest:183 - Error message displayed: We cannot grant a loan in that amount with your available funds.
+2025-11-03 19:22:50 INFO  TC006_ApplyLoanTest:193 - ****ApplyLoanWithExcessiveAmountTest executed successfully****
+2025-11-03 19:22:50 INFO  TC006_ApplyLoanTest:200 - Starting ApplyLoanWithSpecialCharactersInAmountTest
+2025-11-03 19:22:50 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:22:50 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:22:50 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:22:52 INFO  TC006_ApplyLoanTest:214 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:22:53 INFO  TC006_ApplyLoanTest:223 - ****ApplyLoanWithSpecialCharactersInAmountTest executed successfully****
+2025-11-03 19:22:53 INFO  TC006_ApplyLoanTest:229 - Starting ApplyLoanWithEmptySubmissionTest
+2025-11-03 19:22:53 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:22:53 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:22:53 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:22:55 INFO  TC006_ApplyLoanTest:242 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:22:55 INFO  TC006_ApplyLoanTest:251 - ****ApplyLoanWithEmptySubmissionTest executed successfully****
+2025-11-03 19:22:55 INFO  TC006_ApplyLoanTest:257 - Starting ApplyLoanWithAmountLessThanDownPaymentTest
+2025-11-03 19:22:56 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:22:56 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:22:56 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:22:58 INFO  TC006_ApplyLoanTest:271 - Error message displayed: You do not have sufficient funds for the given down payment.
+2025-11-03 19:22:58 INFO  TC006_ApplyLoanTest:280 - ****ApplyLoanWithAmountLessThanDownPaymentTest executed successfully****
+2025-11-03 19:22:59 INFO  TC006_ApplyLoanTest:286 - Starting ApplyLoanWithZeroAmountTest
+2025-11-03 19:22:59 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:22:59 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:22:59 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:23:02 INFO  TC006_ApplyLoanTest:300 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:23:02 INFO  TC006_ApplyLoanTest:309 - ****ApplyLoanWithZeroAmountTest executed successfully****
+2025-11-03 19:23:02 INFO  TC006_ApplyLoanTest:316 - Starting ApplyLoanWithNegativeAmountTest
+2025-11-03 19:23:02 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:23:02 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:23:02 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:23:05 INFO  TC006_ApplyLoanTest:328 - Clicked Apply Now with negative loan amount
+2025-11-03 19:23:05 INFO  TC006_ApplyLoanTest:331 - Error message displayed: We cannot grant a loan in that amount with your available funds.
+2025-11-03 19:23:05 INFO  TC006_ApplyLoanTest:349 - Starting ApplyLoanWithUnrealisticCombinationTest
+2025-11-03 19:23:15 INFO  TC006_ApplyLoanTest:379 - Starting ApplyLoanWithInsufficientBalanceTest
+2025-11-03 19:26:12 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:26:12 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:26:12 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:26:18 INFO  TC006_ApplyLoanTest:35 - Loan approval message verified
+2025-11-03 19:26:18 INFO  TC006_ApplyLoanTest:40 - Loan status is Approved. Test Passed!
+2025-11-03 19:26:18 INFO  TC006_ApplyLoanTest:50 - ****test executed*****
+2025-11-03 19:26:18 INFO  TC006_ApplyLoanTest:56 - Starting ApplyLoanWithoutAmountTest
+2025-11-03 19:26:18 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:26:18 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:26:19 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:26:21 INFO  TC006_ApplyLoanTest:68 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:26:21 INFO  TC006_ApplyLoanTest:82 - Starting ApplyLoanWithoutDownPaymentTest
+2025-11-03 19:26:22 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:26:22 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:26:22 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:26:24 INFO  TC006_ApplyLoanTest:96 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:26:24 INFO  TC006_ApplyLoanTest:105 - ****ApplyLoanWithoutDownPaymentTest executed successfully****
+2025-11-03 19:26:25 INFO  TC006_ApplyLoanTest:111 - Starting ApplyLoanWithNonNumericAmountTest
+2025-11-03 19:26:25 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:26:25 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:26:25 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:26:27 INFO  TC006_ApplyLoanTest:125 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:26:27 INFO  TC006_ApplyLoanTest:134 - ****ApplyLoanWithNonNumericAmountTest executed successfully****
+2025-11-03 19:26:27 INFO  TC006_ApplyLoanTest:140 - Starting ApplyLoanWithNonNumericDownPaymentTest
+2025-11-03 19:26:28 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:26:28 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:26:28 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:26:30 INFO  TC006_ApplyLoanTest:154 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:26:30 INFO  TC006_ApplyLoanTest:163 - ****ApplyLoanWithNonNumericDownPaymentTest executed successfully****
+2025-11-03 19:26:30 INFO  TC006_ApplyLoanTest:169 - Starting ApplyLoanWithExcessiveAmountTest
+2025-11-03 19:26:31 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:26:31 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:26:31 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:26:34 INFO  TC006_ApplyLoanTest:183 - Error message displayed: We cannot grant a loan in that amount with your available funds.
+2025-11-03 19:26:34 INFO  TC006_ApplyLoanTest:193 - ****ApplyLoanWithExcessiveAmountTest executed successfully****
+2025-11-03 19:26:34 INFO  TC006_ApplyLoanTest:200 - Starting ApplyLoanWithSpecialCharactersInAmountTest
+2025-11-03 19:26:34 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:26:34 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:26:34 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:26:37 INFO  TC006_ApplyLoanTest:214 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:26:37 INFO  TC006_ApplyLoanTest:223 - ****ApplyLoanWithSpecialCharactersInAmountTest executed successfully****
+2025-11-03 19:26:37 INFO  TC006_ApplyLoanTest:229 - Starting ApplyLoanWithEmptySubmissionTest
+2025-11-03 19:26:37 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:26:37 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:26:37 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:26:39 INFO  TC006_ApplyLoanTest:242 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:26:40 INFO  TC006_ApplyLoanTest:251 - ****ApplyLoanWithEmptySubmissionTest executed successfully****
+2025-11-03 19:26:40 INFO  TC006_ApplyLoanTest:257 - Starting ApplyLoanWithAmountLessThanDownPaymentTest
+2025-11-03 19:26:40 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:26:40 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:26:40 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:26:42 INFO  TC006_ApplyLoanTest:271 - Error message displayed: You do not have sufficient funds for the given down payment.
+2025-11-03 19:26:43 INFO  TC006_ApplyLoanTest:280 - ****ApplyLoanWithAmountLessThanDownPaymentTest executed successfully****
+2025-11-03 19:26:43 INFO  TC006_ApplyLoanTest:286 - Starting ApplyLoanWithZeroAmountTest
+2025-11-03 19:26:43 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:26:43 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:26:43 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:26:46 INFO  TC006_ApplyLoanTest:300 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:26:46 INFO  TC006_ApplyLoanTest:309 - ****ApplyLoanWithZeroAmountTest executed successfully****
+2025-11-03 19:26:46 INFO  TC006_ApplyLoanTest:316 - Starting ApplyLoanWithNegativeAmountTest
+2025-11-03 19:26:46 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:26:46 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:26:46 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:26:49 INFO  TC006_ApplyLoanTest:328 - Clicked Apply Now with negative loan amount
+2025-11-03 19:26:49 INFO  TC006_ApplyLoanTest:331 - Error message displayed: We cannot grant a loan in that amount with your available funds.
+2025-11-03 19:26:49 INFO  TC006_ApplyLoanTest:349 - Starting ApplyLoanWithUnrealisticCombinationTest
+2025-11-03 19:26:59 INFO  TC006_ApplyLoanTest:379 - Starting ApplyLoanWithInsufficientBalanceTest
+2025-11-03 19:27:09 INFO  TC006_ApplyLoanTest:408 - Starting VerifyApplyLoanWithDecimalAmountTest
+2025-11-03 19:29:38 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:29:38 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:29:38 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:29:44 INFO  TC006_ApplyLoanTest:35 - Loan approval message verified
+2025-11-03 19:29:44 INFO  TC006_ApplyLoanTest:40 - Loan status is Approved. Test Passed!
+2025-11-03 19:29:44 INFO  TC006_ApplyLoanTest:50 - ****test executed*****
+2025-11-03 19:29:44 INFO  TC006_ApplyLoanTest:56 - Starting ApplyLoanWithoutAmountTest
+2025-11-03 19:29:44 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:29:45 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:29:45 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:29:47 INFO  TC006_ApplyLoanTest:68 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:29:48 INFO  TC006_ApplyLoanTest:82 - Starting ApplyLoanWithoutDownPaymentTest
+2025-11-03 19:29:48 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:29:48 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:29:48 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:29:50 INFO  TC006_ApplyLoanTest:96 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:29:51 INFO  TC006_ApplyLoanTest:105 - ****ApplyLoanWithoutDownPaymentTest executed successfully****
+2025-11-03 19:29:51 INFO  TC006_ApplyLoanTest:111 - Starting ApplyLoanWithNonNumericAmountTest
+2025-11-03 19:29:51 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:29:51 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:29:51 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:29:53 INFO  TC006_ApplyLoanTest:125 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:29:54 INFO  TC006_ApplyLoanTest:134 - ****ApplyLoanWithNonNumericAmountTest executed successfully****
+2025-11-03 19:29:54 INFO  TC006_ApplyLoanTest:140 - Starting ApplyLoanWithNonNumericDownPaymentTest
+2025-11-03 19:29:54 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:29:54 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:29:54 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:29:56 INFO  TC006_ApplyLoanTest:154 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:29:57 INFO  TC006_ApplyLoanTest:163 - ****ApplyLoanWithNonNumericDownPaymentTest executed successfully****
+2025-11-03 19:29:57 INFO  TC006_ApplyLoanTest:169 - Starting ApplyLoanWithExcessiveAmountTest
+2025-11-03 19:29:57 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:29:57 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:29:57 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:29:59 INFO  TC006_ApplyLoanTest:183 - Error message displayed: We cannot grant a loan in that amount with your available funds.
+2025-11-03 19:30:00 INFO  TC006_ApplyLoanTest:193 - ****ApplyLoanWithExcessiveAmountTest executed successfully****
+2025-11-03 19:30:00 INFO  TC006_ApplyLoanTest:200 - Starting ApplyLoanWithSpecialCharactersInAmountTest
+2025-11-03 19:30:00 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:30:00 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:30:00 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:30:02 INFO  TC006_ApplyLoanTest:214 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:30:03 INFO  TC006_ApplyLoanTest:223 - ****ApplyLoanWithSpecialCharactersInAmountTest executed successfully****
+2025-11-03 19:30:03 INFO  TC006_ApplyLoanTest:229 - Starting ApplyLoanWithEmptySubmissionTest
+2025-11-03 19:30:03 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:30:03 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:30:03 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:30:05 INFO  TC006_ApplyLoanTest:242 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:30:05 INFO  TC006_ApplyLoanTest:251 - ****ApplyLoanWithEmptySubmissionTest executed successfully****
+2025-11-03 19:30:05 INFO  TC006_ApplyLoanTest:257 - Starting ApplyLoanWithAmountLessThanDownPaymentTest
+2025-11-03 19:30:06 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:30:06 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:30:06 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:30:08 INFO  TC006_ApplyLoanTest:271 - Error message displayed: You do not have sufficient funds for the given down payment.
+2025-11-03 19:30:09 INFO  TC006_ApplyLoanTest:280 - ****ApplyLoanWithAmountLessThanDownPaymentTest executed successfully****
+2025-11-03 19:30:09 INFO  TC006_ApplyLoanTest:286 - Starting ApplyLoanWithZeroAmountTest
+2025-11-03 19:30:09 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:30:09 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:30:09 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:30:12 INFO  TC006_ApplyLoanTest:300 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:30:12 INFO  TC006_ApplyLoanTest:309 - ****ApplyLoanWithZeroAmountTest executed successfully****
+2025-11-03 19:30:12 INFO  TC006_ApplyLoanTest:316 - Starting ApplyLoanWithNegativeAmountTest
+2025-11-03 19:30:12 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:30:12 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:30:12 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:30:15 INFO  TC006_ApplyLoanTest:328 - Clicked Apply Now with negative loan amount
+2025-11-03 19:30:15 INFO  TC006_ApplyLoanTest:331 - Error message displayed: We cannot grant a loan in that amount with your available funds.
+2025-11-03 19:30:15 INFO  TC006_ApplyLoanTest:342 - ****ApplyLoanWithNegativeAmountTest executed successfully****
+2025-11-03 19:30:15 INFO  TC006_ApplyLoanTest:349 - Starting ApplyLoanWithUnrealisticCombinationTest
+2025-11-03 19:30:15 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:30:15 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:30:15 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:30:18 INFO  TC006_ApplyLoanTest:363 - Error message displayed: You do not have sufficient funds for the given down payment.
+2025-11-03 19:30:18 INFO  TC006_ApplyLoanTest:372 - ****ApplyLoanWithUnrealisticCombinationTest executed successfully****
+2025-11-03 19:30:18 INFO  TC006_ApplyLoanTest:379 - Starting ApplyLoanWithInsufficientBalanceTest
+2025-11-03 19:30:18 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:30:18 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:30:18 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:30:21 INFO  TC006_ApplyLoanTest:393 - Error message displayed: You do not have sufficient funds for the given down payment.
+2025-11-03 19:30:21 INFO  TC006_ApplyLoanTest:402 - ****ApplyLoanWithInsufficientBalanceTest executed successfully****
+2025-11-03 19:30:21 INFO  TC006_ApplyLoanTest:408 - Starting VerifyApplyLoanWithDecimalAmountTest
+2025-11-03 19:30:21 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:30:21 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:30:21 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:30:27 INFO  TC006_ApplyLoanTest:426 - Loan approval message verified
+2025-11-03 19:30:27 INFO  TC006_ApplyLoanTest:431 - Loan status is Approved. Test Passed!
+2025-11-03 19:30:27 INFO  TC006_ApplyLoanTest:439 - ****VerifyApplyLoanWithDecimalAmountTest executed successfully****
