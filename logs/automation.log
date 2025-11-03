@@ -854,3 +854,390 @@
 2025-11-03 19:30:27 INFO  TC006_ApplyLoanTest:426 - Loan approval message verified
 2025-11-03 19:30:27 INFO  TC006_ApplyLoanTest:431 - Loan status is Approved. Test Passed!
 2025-11-03 19:30:27 INFO  TC006_ApplyLoanTest:439 - ****VerifyApplyLoanWithDecimalAmountTest executed successfully****
+2025-11-03 19:41:52 INFO  TC010_AccountOverview:218 - User entered username
+2025-11-03 19:41:52 INFO  TC010_AccountOverview:220 - User entered password
+2025-11-03 19:41:52 INFO  TC010_AccountOverview:222 - Clicked login button
+2025-11-03 19:41:54 INFO  TC010_AccountOverview:25 - First account found: 13566
+2025-11-03 19:41:55 INFO  TC010_AccountOverview:27 - Clicked on first account successfully
+2025-11-03 19:50:27 INFO  TC010_AccountOverview:218 - User entered username
+2025-11-03 19:50:28 INFO  TC010_AccountOverview:220 - User entered password
+2025-11-03 19:50:28 INFO  TC010_AccountOverview:222 - Clicked login button
+2025-11-03 19:50:30 INFO  TC010_AccountOverview:25 - First account found: 13566
+2025-11-03 19:50:30 INFO  TC010_AccountOverview:27 - Clicked on first account successfully
+2025-11-03 19:53:18 INFO  TC001_RegisterTest:18 - URL is opened
+2025-11-03 19:53:18 INFO  TC001_RegisterTest:22 - User clicked on register Link
+2025-11-03 19:53:18 INFO  TC001_RegisterTest:25 - User Entered the First Name.
+2025-11-03 19:53:19 INFO  TC001_RegisterTest:28 - User Entered the Last Name.
+2025-11-03 19:53:19 INFO  TC001_RegisterTest:31 - User Entered the Address.
+2025-11-03 19:53:19 INFO  TC001_RegisterTest:34 - User Entered the City.
+2025-11-03 19:53:19 INFO  TC001_RegisterTest:37 - User Entered the State.
+2025-11-03 19:53:19 INFO  TC001_RegisterTest:40 - User Entered the ZipCode.
+2025-11-03 19:53:19 INFO  TC001_RegisterTest:43 - User Entered the PhoneNumber.
+2025-11-03 19:53:19 INFO  TC001_RegisterTest:46 - User Entered the Ssn.
+2025-11-03 19:53:19 INFO  TC001_RegisterTest:49 - User Entered the Username.
+2025-11-03 19:53:19 INFO  TC001_RegisterTest:54 - User Entered the Password.
+2025-11-03 19:53:19 INFO  TC001_RegisterTest:57 - User Entered the RepeatedPassword.
+2025-11-03 19:53:19 INFO  TC001_RegisterTest:66 - Account created successfully! Message displayed: Your account was created successfully. You are now logged in.
+2025-11-03 19:53:20 INFO  TC001_RegisterTest:78 - ****test executed*****
+2025-11-03 19:53:20 INFO  TC001_RegisterTest:85 - URL is opened
+2025-11-03 19:53:20 INFO  TC001_RegisterTest:89 - User clicked on Register link
+2025-11-03 19:53:20 INFO  TC001_RegisterTest:93 - Left First Name blank
+2025-11-03 19:53:21 INFO  TC001_RegisterTest:109 - Clicked on Register button
+2025-11-03 19:53:21 INFO  TC001_RegisterTest:116 - Validation message displayed correctly: First name is required.
+2025-11-03 19:53:21 INFO  TC001_RegisterTest:122 - **** Negative Test Executed: Missing First Name ****
+2025-11-03 19:53:21 INFO  TC001_RegisterTest:128 - URL is opened
+2025-11-03 19:53:21 INFO  TC001_RegisterTest:132 - User clicked on Register link
+2025-11-03 19:53:22 INFO  TC001_RegisterTest:150 - Clicked on Register button
+2025-11-03 19:53:22 INFO  TC001_RegisterTest:159 - Validation message displayed correctly: Last name is required.
+2025-11-03 19:53:22 INFO  TC001_RegisterTest:164 - **** Negative Test Executed: Missing Last Name ****
+2025-11-03 19:53:25 INFO  TC001_RegisterTest:262 - Validation message displayed correctly: State is required.
+2025-11-03 19:53:26 INFO  TC001_RegisterTest:296 - Validation message displayed correctly: Zip Code is required.
+2025-11-03 19:53:28 INFO  TC001_RegisterTest:328 - Fetched SSN error message: Social Security Number is required.
+2025-11-03 19:53:28 INFO  TC001_RegisterTest:336 - Validation message displayed correctly: Social Security Number is required.
+2025-11-03 19:53:29 INFO  TC001_RegisterTest:370 - Validation message displayed correctly: Username is required.
+2025-11-03 19:53:31 INFO  TC001_RegisterTest:404 - Validation message displayed correctly: Password is required.
+2025-11-03 19:53:32 INFO  TC001_RegisterTest:437 - Validation message displayed correctly for mismatched passwords: Passwords did not match.
+2025-11-03 19:53:33 INFO  TC001_RegisterTest:473 - Validation message displayed correctly for existing username: This username already exists.
+2025-11-03 19:53:34 INFO  TC002_LoginTest:17 - URL is opened
+2025-11-03 19:53:34 INFO  TC002_LoginTest:22 - User entered the User Name:
+2025-11-03 19:53:35 INFO  TC002_LoginTest:24 - User entered the password:
+2025-11-03 19:53:37 INFO  TC002_LoginTest:27 - User clicked on Login Button
+2025-11-03 19:53:39 INFO  TC002_LoginTest:37 - User logged out successfully!
+2025-11-03 19:53:39 INFO  TC002_LoginTest:46 - ****test executed*****
+2025-11-03 19:53:39 INFO  TC002_LoginTest:52 - Starting test: Login with invalid password
+2025-11-03 19:53:39 INFO  TC002_LoginTest:56 - Entered username: mikasa@06
+2025-11-03 19:53:39 INFO  TC002_LoginTest:59 - Entered invalid password
+2025-11-03 19:53:39 INFO  TC002_LoginTest:62 - Clicked submit button with invalid password
+2025-11-03 19:53:39 INFO  TC002_LoginTest:74 - Test passed: Invalid password correctly rejected. Message: The username and password could not be verified.
+2025-11-03 19:53:39 INFO  TC002_LoginTest:86 - Starting test: Login with both invalid credentials
+2025-11-03 19:53:40 INFO  TC002_LoginTest:90 - Entered invalid username
+2025-11-03 19:53:40 INFO  TC002_LoginTest:93 - Entered invalid password
+2025-11-03 19:53:40 INFO  TC002_LoginTest:96 - Clicked submit with invalid credentials
+2025-11-03 19:53:40 INFO  TC002_LoginTest:108 - Test passed: Invalid credentials correctly rejected. Message: The username and password could not be verified.
+2025-11-03 19:53:40 INFO  TC002_LoginTest:119 - Starting test: Login with empty username
+2025-11-03 19:53:40 INFO  TC002_LoginTest:123 - Left username field empty
+2025-11-03 19:53:40 INFO  TC002_LoginTest:126 - Entered valid password
+2025-11-03 19:53:40 INFO  TC002_LoginTest:129 - Clicked submit with empty username
+2025-11-03 19:53:41 INFO  TC002_LoginTest:141 - Test passed: Empty username correctly rejected. Message: Please enter a username and password.
+2025-11-03 19:53:41 INFO  TC002_LoginTest:152 - Starting test: Login with empty password
+2025-11-03 19:53:41 INFO  TC002_LoginTest:156 - Entered valid username
+2025-11-03 19:53:41 INFO  TC002_LoginTest:159 - Left password field empty
+2025-11-03 19:53:41 INFO  TC002_LoginTest:162 - Clicked submit with empty password
+2025-11-03 19:53:41 INFO  TC002_LoginTest:174 - Test passed: Empty password correctly rejected. Message: Please enter a username and password.
+2025-11-03 19:53:41 INFO  TC002_LoginTest:185 - Starting test: Login with both fields empty
+2025-11-03 19:53:41 INFO  TC002_LoginTest:189 - Left username field empty
+2025-11-03 19:53:41 INFO  TC002_LoginTest:192 - Left password field empty
+2025-11-03 19:53:41 INFO  TC002_LoginTest:195 - Clicked submit with empty fields
+2025-11-03 19:53:41 INFO  TC002_LoginTest:207 - Test passed: Empty fields correctly rejected. Message: Please enter a username and password.
+2025-11-03 19:53:41 INFO  TC002_LoginTest:218 - Starting test: Login with SQL injection attempt
+2025-11-03 19:53:41 INFO  TC002_LoginTest:222 - Entered SQL injection in username
+2025-11-03 19:53:41 INFO  TC002_LoginTest:225 - Entered SQL injection in password
+2025-11-03 19:53:41 INFO  TC002_LoginTest:228 - Clicked submit with SQL injection
+2025-11-03 19:53:41 INFO  TC002_LoginTest:240 - Test passed: SQL injection prevented. Message: The username and password could not be verified.
+2025-11-03 19:53:41 INFO  TC002_LoginTest:251 - Starting test: Login with special characters
+2025-11-03 19:53:41 INFO  TC002_LoginTest:255 - Entered special characters in username
+2025-11-03 19:53:42 INFO  TC002_LoginTest:258 - Entered special characters in password
+2025-11-03 19:53:42 INFO  TC002_LoginTest:261 - Clicked submit with special characters
+2025-11-03 19:53:42 INFO  TC002_LoginTest:273 - Test passed: Special characters correctly rejected. Message: The username and password could not be verified.
+2025-11-03 19:53:42 INFO  TC002_LoginTest:284 - Starting test: Login with spaces in credentials
+2025-11-03 19:53:42 INFO  TC002_LoginTest:288 - Entered username with leading and trailing spaces
+2025-11-03 19:53:42 INFO  TC002_LoginTest:291 - Entered password with leading and trailing spaces
+2025-11-03 19:53:42 INFO  TC002_LoginTest:294 - Clicked submit with spaces in credentials
+2025-11-03 19:53:42 INFO  TC002_LoginTest:305 - Test passed: Spaces in credentials handled correctly. Message: The username and password could not be verified.
+2025-11-03 19:53:42 INFO  TC002_LoginTest:316 - Starting test: Login with case-sensitive username
+2025-11-03 19:53:42 INFO  TC002_LoginTest:321 - Entered username in uppercase: MIKASA@06
+2025-11-03 19:53:42 INFO  TC002_LoginTest:324 - Entered valid password
+2025-11-03 19:53:42 INFO  TC002_LoginTest:327 - Clicked submit with uppercase username
+2025-11-03 19:53:43 INFO  TC002_LoginTest:339 - Test passed: Case sensitivity validated correctly. Message: The username and password could not be verified.
+2025-11-03 19:53:43 INFO  TC002_LoginTest:350 - Starting test: Login with excessively long username
+2025-11-03 19:53:43 INFO  TC002_LoginTest:355 - Entered excessively long username (100+ characters)
+2025-11-03 19:53:43 INFO  TC002_LoginTest:358 - Entered valid password
+2025-11-03 19:53:43 INFO  TC002_LoginTest:361 - Clicked submit with long username
+2025-11-03 19:53:43 INFO  TC002_LoginTest:373 - Test passed: Long username correctly rejected. Message: The username and password could not be verified.
+2025-11-03 19:53:43 INFO  TC002_LoginTest:384 - Starting test: Login with script tags (XSS)
+2025-11-03 19:53:43 INFO  TC002_LoginTest:388 - Entered script tag in username
+2025-11-03 19:53:43 INFO  TC002_LoginTest:391 - Entered script tag in password
+2025-11-03 19:53:44 INFO  TC002_LoginTest:394 - Clicked submit with script tags
+2025-11-03 19:53:44 INFO  TC002_LoginTest:406 - Test passed: XSS attack prevented. Message: The username and password could not be verified.
+2025-11-03 19:53:45 INFO  TC003_OpenNewAccountTest:218 - User entered username
+2025-11-03 19:53:45 INFO  TC003_OpenNewAccountTest:220 - User entered password
+2025-11-03 19:53:46 INFO  TC003_OpenNewAccountTest:222 - Clicked login button
+2025-11-03 19:53:50 INFO  TC003_OpenNewAccountTest:24 - user clicked on Open New Account
+2025-11-03 19:53:51 INFO  TC003_OpenNewAccountTest:31 - Clicked on 'Open New Account' submit button
+2025-11-03 19:53:52 INFO  TC003_OpenNewAccountTest:47 - ****test executed*****
+2025-11-03 19:53:52 INFO  TC003_OpenNewAccountTest:53 - URL is opened
+2025-11-03 19:53:52 INFO  TC003_OpenNewAccountTest:218 - User entered username
+2025-11-03 19:53:52 INFO  TC003_OpenNewAccountTest:220 - User entered password
+2025-11-03 19:53:52 INFO  TC003_OpenNewAccountTest:222 - Clicked login button
+2025-11-03 19:53:54 INFO  TC003_OpenNewAccountTest:60 - User clicked on Open New Account
+2025-11-03 19:53:55 INFO  TC003_OpenNewAccountTest:65 - Selected Account Type: CHECKING
+2025-11-03 19:54:00 INFO  TC003_OpenNewAccountTest:70 - Clicked on 'Open New Account' submit button
+2025-11-03 19:54:00 INFO  TC003_OpenNewAccountTest:83 - ****Test executed successfully for Checking Account****
+2025-11-03 19:54:00 INFO  TC003_OpenNewAccountTest:89 - URL is opened
+2025-11-03 19:54:01 INFO  TC003_OpenNewAccountTest:218 - User entered username
+2025-11-03 19:54:01 INFO  TC003_OpenNewAccountTest:220 - User entered password
+2025-11-03 19:54:01 INFO  TC003_OpenNewAccountTest:222 - Clicked login button
+2025-11-03 19:54:03 INFO  TC003_OpenNewAccountTest:96 - User clicked on Open New Account
+2025-11-03 19:54:04 INFO  TC003_OpenNewAccountTest:101 - Selected Account Type: SAVINGS
+2025-11-03 19:54:08 INFO  TC003_OpenNewAccountTest:106 - Clicked on 'Open New Account' submit button
+2025-11-03 19:54:09 INFO  TC003_OpenNewAccountTest:126 - ****VerifyAccountDetailsNavigationTest executed successfully****
+2025-11-03 19:54:09 INFO  TC003_OpenNewAccountTest:132 - Starting VerifyBackButtonAfterAccountCreationTest
+2025-11-03 19:54:09 INFO  TC003_OpenNewAccountTest:218 - User entered username
+2025-11-03 19:54:09 INFO  TC003_OpenNewAccountTest:220 - User entered password
+2025-11-03 19:54:09 INFO  TC003_OpenNewAccountTest:222 - Clicked login button
+2025-11-03 19:54:12 INFO  TC003_OpenNewAccountTest:139 - User clicked on Open New Account
+2025-11-03 19:54:13 INFO  TC003_OpenNewAccountTest:144 - Selected Account Type: SAVINGS
+2025-11-03 19:54:17 INFO  TC003_OpenNewAccountTest:149 - Clicked on 'Open New Account' submit button
+2025-11-03 19:54:18 INFO  TC003_OpenNewAccountTest:158 - Clicked on Back button
+2025-11-03 19:54:18 INFO  TC003_OpenNewAccountTest:170 - ****VerifyBackButtonAfterAccountCreationTest executed successfully****
+2025-11-03 19:54:20 INFO  TC004_TransferFundsTest:17 - URL is opened
+2025-11-03 19:54:20 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-11-03 19:54:20 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-11-03 19:54:20 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-11-03 19:54:33 INFO  TC004_TransferFundsTest:50 - ****test executed*****
+2025-11-03 19:54:33 INFO  TC004_TransferFundsTest:57 - Starting TransferFundsWithoutAmountTest
+2025-11-03 19:54:33 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-11-03 19:54:33 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-11-03 19:54:33 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-11-03 19:54:36 INFO  TC004_TransferFundsTest:64 - User clicked on Transfer Funds link
+2025-11-03 19:54:39 INFO  TC004_TransferFundsTest:75 - Clicked on Transfer button without amount
+2025-11-03 19:54:39 INFO  TC004_TransferFundsTest:87 - ****TransferFundsWithoutAmountTest executed successfully****
+2025-11-03 19:54:39 INFO  TC004_TransferFundsTest:93 - Starting TransferFundsWithInvalidAmountTest
+2025-11-03 19:54:39 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-11-03 19:54:39 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-11-03 19:54:40 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-11-03 19:54:42 INFO  TC004_TransferFundsTest:100 - User clicked on Transfer Funds link
+2025-11-03 19:54:45 INFO  TC004_TransferFundsTest:111 - Clicked on Transfer button with invalid amount
+2025-11-03 19:54:45 INFO  TC004_TransferFundsTest:123 - ****TransferFundsWithInvalidAmountTest executed successfully****
+2025-11-03 19:54:45 INFO  TC004_TransferFundsTest:129 - Starting TransferFundsWithDecimalAmountTest
+2025-11-03 19:54:45 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-11-03 19:54:45 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-11-03 19:54:46 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-11-03 19:54:48 INFO  TC004_TransferFundsTest:136 - User clicked on Transfer Funds link
+2025-11-03 19:54:51 INFO  TC004_TransferFundsTest:147 - Clicked on Transfer button with decimal amount
+2025-11-03 19:54:53 INFO  TC004_TransferFundsTest:161 - ****TransferFundsWithDecimalAmountTest executed successfully****
+2025-11-03 19:54:54 INFO  TC004_TransferFundsTest:167 - Starting TransferFundsWithSpecialCharactersTest
+2025-11-03 19:54:54 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-11-03 19:54:54 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-11-03 19:54:54 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-11-03 19:54:56 INFO  TC004_TransferFundsTest:174 - User clicked on Transfer Funds link
+2025-11-03 19:55:00 INFO  TC004_TransferFundsTest:185 - Clicked on Transfer button with special characters
+2025-11-03 19:55:00 INFO  TC004_TransferFundsTest:197 - ****TransferFundsWithSpecialCharactersTest executed successfully****
+2025-11-03 19:55:00 INFO  TC004_TransferFundsTest:204 - Starting TransferFundsWithExcessiveAmountTest
+2025-11-03 19:55:00 INFO  TC004_TransferFundsTest:218 - User entered username
+2025-11-03 19:55:00 INFO  TC004_TransferFundsTest:220 - User entered password
+2025-11-03 19:55:00 INFO  TC004_TransferFundsTest:222 - Clicked login button
+2025-11-03 19:55:02 INFO  TC004_TransferFundsTest:211 - User clicked on Transfer Funds link
+2025-11-03 19:55:02 INFO  TC004_TransferFundsTest:214 - Entered excessive amount
+2025-11-03 19:55:02 INFO  TC004_TransferFundsTest:219 - Clicked on Transfer button with excessive amount
+2025-11-03 19:55:02 INFO  TC004_TransferFundsTest:222 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:55:03 INFO  TC004_TransferFundsTest:233 - ****TransferFundsWithExcessiveAmountTest executed successfully****
+2025-11-03 19:55:04 INFO  TC005_BillPayTest:23 - URL is opened
+2025-11-03 19:55:04 INFO  TC005_BillPayTest:218 - User entered username
+2025-11-03 19:55:04 INFO  TC005_BillPayTest:220 - User entered password
+2025-11-03 19:55:05 INFO  TC005_BillPayTest:222 - Clicked login button
+2025-11-03 19:55:09 INFO  TC005_BillPayTest:32 - user clicked on Bill Payament Menu! 
+2025-11-03 19:55:10 INFO  TC005_BillPayTest:36 - User entered the name.
+2025-11-03 19:55:10 INFO  TC005_BillPayTest:38 - User entered the Address.
+2025-11-03 19:55:10 INFO  TC005_BillPayTest:40 - User entered the City.
+2025-11-03 19:55:10 INFO  TC005_BillPayTest:42 - User entered the State.
+2025-11-03 19:55:10 INFO  TC005_BillPayTest:44 - User entered the zipCode.
+2025-11-03 19:55:11 INFO  TC005_BillPayTest:47 - User entered the Phone Number.
+2025-11-03 19:55:11 INFO  TC005_BillPayTest:49 - User entered the AccountNumber.
+2025-11-03 19:55:11 INFO  TC005_BillPayTest:51 - User Verified the Account.
+2025-11-03 19:55:13 INFO  TC005_BillPayTest:57 - User choose to account from #
+2025-11-03 19:55:13 INFO  TC005_BillPayTest:60 - User Send Payment!
+2025-11-03 19:55:16 INFO  TC005_BillPayTest:76 - ****test executed*****
+2025-11-03 19:55:16 INFO  TC005_BillPayTest:82 - Starting BillPayWithoutPayeeNameTest
+2025-11-03 19:55:16 INFO  TC005_BillPayTest:218 - User entered username
+2025-11-03 19:55:16 INFO  TC005_BillPayTest:220 - User entered password
+2025-11-03 19:55:16 INFO  TC005_BillPayTest:222 - Clicked login button
+2025-11-03 19:55:18 INFO  TC005_BillPayTest:89 - User clicked on Bill Pay Menu
+2025-11-03 19:55:19 INFO  TC005_BillPayTest:103 - Clicked on Send Payment button with blank Payee Name
+2025-11-03 19:55:19 INFO  TC005_BillPayTest:107 - Validation message displayed: Payee name is required.
+2025-11-03 19:55:19 INFO  TC005_BillPayTest:118 - ****BillPayWithoutPayeeNameTest executed successfully****
+2025-11-03 19:55:19 INFO  TC005_BillPayTest:124 - Starting BillPayWithoutAddressTest
+2025-11-03 19:55:19 INFO  TC005_BillPayTest:218 - User entered username
+2025-11-03 19:55:19 INFO  TC005_BillPayTest:220 - User entered password
+2025-11-03 19:55:20 INFO  TC005_BillPayTest:222 - Clicked login button
+2025-11-03 19:55:22 INFO  TC005_BillPayTest:131 - User clicked on Bill Pay Menu
+2025-11-03 19:55:23 INFO  TC005_BillPayTest:144 - Clicked on Send Payment button with blank Address
+2025-11-03 19:55:23 INFO  TC005_BillPayTest:147 - Validation message displayed: Address is required.
+2025-11-03 19:55:23 INFO  TC005_BillPayTest:157 - ****BillPayWithoutAddressTest executed successfully****
+2025-11-03 19:55:23 INFO  TC005_BillPayTest:163 - Starting BillPayWithoutCityTest
+2025-11-03 19:55:23 INFO  TC005_BillPayTest:218 - User entered username
+2025-11-03 19:55:23 INFO  TC005_BillPayTest:220 - User entered password
+2025-11-03 19:55:23 INFO  TC005_BillPayTest:222 - Clicked login button
+2025-11-03 19:55:26 INFO  TC005_BillPayTest:184 - Validation message displayed: City is required.
+2025-11-03 19:55:26 INFO  TC005_BillPayTest:194 - ****BillPayWithoutCityTest executed successfully****
+2025-11-03 19:55:26 INFO  TC005_BillPayTest:200 - Starting BillPayWithoutStateTest
+2025-11-03 19:55:26 INFO  TC005_BillPayTest:218 - User entered username
+2025-11-03 19:55:26 INFO  TC005_BillPayTest:220 - User entered password
+2025-11-03 19:55:26 INFO  TC005_BillPayTest:222 - Clicked login button
+2025-11-03 19:55:29 INFO  TC005_BillPayTest:221 - Validation message displayed: State is required.
+2025-11-03 19:55:29 INFO  TC005_BillPayTest:231 - ****BillPayWithoutStateTest executed successfully****
+2025-11-03 19:55:29 INFO  TC005_BillPayTest:237 - Starting BillPayWithoutPhoneTest
+2025-11-03 19:55:29 INFO  TC005_BillPayTest:218 - User entered username
+2025-11-03 19:55:30 INFO  TC005_BillPayTest:220 - User entered password
+2025-11-03 19:55:30 INFO  TC005_BillPayTest:222 - Clicked login button
+2025-11-03 19:55:33 INFO  TC005_BillPayTest:258 - Validation message displayed: Phone number is required.
+2025-11-03 19:55:33 INFO  TC005_BillPayTest:268 - ****BillPayWithoutPhoneTest executed successfully****
+2025-11-03 19:55:33 INFO  TC005_BillPayTest:274 - Starting BillPayWithoutAccountNumberTest
+2025-11-03 19:55:33 INFO  TC005_BillPayTest:218 - User entered username
+2025-11-03 19:55:33 INFO  TC005_BillPayTest:220 - User entered password
+2025-11-03 19:55:33 INFO  TC005_BillPayTest:222 - Clicked login button
+2025-11-03 19:55:36 INFO  TC005_BillPayTest:295 - Validation message displayed: Account number is required.
+2025-11-03 19:55:36 INFO  TC005_BillPayTest:305 - ****BillPayWithoutAccountNumberTest executed successfully****
+2025-11-03 19:55:36 INFO  TC005_BillPayTest:311 - Starting BillPayWithoutVerifyAccountTest
+2025-11-03 19:55:36 INFO  TC005_BillPayTest:218 - User entered username
+2025-11-03 19:55:36 INFO  TC005_BillPayTest:220 - User entered password
+2025-11-03 19:55:36 INFO  TC005_BillPayTest:222 - Clicked login button
+2025-11-03 19:55:39 INFO  TC005_BillPayTest:332 - Validation message displayed: Account number is required.
+2025-11-03 19:55:39 INFO  TC005_BillPayTest:342 - ****BillPayWithoutVerifyAccountTest executed successfully****
+2025-11-03 19:55:39 INFO  TC005_BillPayTest:348 - Starting BillPayWithoutAmountTest
+2025-11-03 19:55:40 INFO  TC005_BillPayTest:218 - User entered username
+2025-11-03 19:55:40 INFO  TC005_BillPayTest:220 - User entered password
+2025-11-03 19:55:40 INFO  TC005_BillPayTest:222 - Clicked login button
+2025-11-03 19:55:43 INFO  TC005_BillPayTest:369 - Validation message displayed: The amount cannot be empty.
+2025-11-03 19:55:43 INFO  TC005_BillPayTest:379 - ****BillPayWithoutAmountTest executed successfully****
+2025-11-03 19:55:43 INFO  TC005_BillPayTest:386 - Starting BillPayWithMismatchedAccountNumbersTest
+2025-11-03 19:55:43 INFO  TC005_BillPayTest:218 - User entered username
+2025-11-03 19:55:43 INFO  TC005_BillPayTest:220 - User entered password
+2025-11-03 19:55:43 INFO  TC005_BillPayTest:222 - Clicked login button
+2025-11-03 19:55:46 INFO  TC005_BillPayTest:407 - Validation message displayed: The account numbers do not match.
+2025-11-03 19:55:46 INFO  TC005_BillPayTest:417 - ****BillPayWithMismatchedAccountNumbersTest executed successfully****
+2025-11-03 19:55:46 INFO  TC005_BillPayTest:423 - Starting BillPayWithNonNumericAccountNumberTest
+2025-11-03 19:55:46 INFO  TC005_BillPayTest:218 - User entered username
+2025-11-03 19:55:46 INFO  TC005_BillPayTest:220 - User entered password
+2025-11-03 19:55:47 INFO  TC005_BillPayTest:222 - Clicked login button
+2025-11-03 19:55:49 INFO  TC005_BillPayTest:444 - Validation message displayed: Please enter a valid number.
+2025-11-03 19:55:50 INFO  TC005_BillPayTest:454 - ****BillPayWithNonNumericAccountNumberTest executed successfully****
+2025-11-03 19:55:50 INFO  TC005_BillPayTest:461 - Starting BillPayWithNonNumericAmountTest
+2025-11-03 19:55:50 INFO  TC005_BillPayTest:218 - User entered username
+2025-11-03 19:55:50 INFO  TC005_BillPayTest:220 - User entered password
+2025-11-03 19:55:50 INFO  TC005_BillPayTest:222 - Clicked login button
+2025-11-03 19:55:53 INFO  TC005_BillPayTest:482 - Validation message displayed: Please enter a valid amount.
+2025-11-03 19:55:53 INFO  TC005_BillPayTest:492 - ****BillPayWithNonNumericAmountTest executed successfully****
+2025-11-03 19:55:53 INFO  TC005_BillPayTest:498 - Starting BillPayWithAllFieldsEmptyTest
+2025-11-03 19:55:53 INFO  TC005_BillPayTest:218 - User entered username
+2025-11-03 19:55:53 INFO  TC005_BillPayTest:220 - User entered password
+2025-11-03 19:55:53 INFO  TC005_BillPayTest:222 - Clicked login button
+2025-11-03 19:55:56 INFO  TC005_BillPayTest:518 - Clicked on Send Payment with all blank fields
+2025-11-03 19:55:56 INFO  TC005_BillPayTest:525 - Total validation errors displayed: 13
+2025-11-03 19:55:56 INFO  TC005_BillPayTest:532 - ****BillPayWithAllFieldsEmptyTest executed successfully****
+2025-11-03 19:55:56 INFO  TC005_BillPayTest:538 - Starting BillPayWithDecimalAmountTest
+2025-11-03 19:55:56 INFO  TC005_BillPayTest:218 - User entered username
+2025-11-03 19:55:56 INFO  TC005_BillPayTest:220 - User entered password
+2025-11-03 19:55:56 INFO  TC005_BillPayTest:222 - Clicked login button
+2025-11-03 19:56:00 INFO  TC005_BillPayTest:567 - ****BillPayWithDecimalAmountTest executed successfully****
+2025-11-03 19:56:01 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:56:01 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:56:01 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:56:07 INFO  TC006_ApplyLoanTest:35 - Loan approval message verified
+2025-11-03 19:56:07 INFO  TC006_ApplyLoanTest:40 - Loan status is Approved. Test Passed!
+2025-11-03 19:56:07 INFO  TC006_ApplyLoanTest:50 - ****test executed*****
+2025-11-03 19:56:07 INFO  TC006_ApplyLoanTest:56 - Starting ApplyLoanWithoutAmountTest
+2025-11-03 19:56:07 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:56:07 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:56:07 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:56:10 INFO  TC006_ApplyLoanTest:68 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:56:10 INFO  TC006_ApplyLoanTest:82 - Starting ApplyLoanWithoutDownPaymentTest
+2025-11-03 19:56:10 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:56:10 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:56:10 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:56:13 INFO  TC006_ApplyLoanTest:96 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:56:13 INFO  TC006_ApplyLoanTest:105 - ****ApplyLoanWithoutDownPaymentTest executed successfully****
+2025-11-03 19:56:13 INFO  TC006_ApplyLoanTest:111 - Starting ApplyLoanWithNonNumericAmountTest
+2025-11-03 19:56:13 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:56:13 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:56:13 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:56:16 INFO  TC006_ApplyLoanTest:125 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:56:16 INFO  TC006_ApplyLoanTest:134 - ****ApplyLoanWithNonNumericAmountTest executed successfully****
+2025-11-03 19:56:16 INFO  TC006_ApplyLoanTest:140 - Starting ApplyLoanWithNonNumericDownPaymentTest
+2025-11-03 19:56:16 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:56:16 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:56:16 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:56:19 INFO  TC006_ApplyLoanTest:154 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:56:19 INFO  TC006_ApplyLoanTest:163 - ****ApplyLoanWithNonNumericDownPaymentTest executed successfully****
+2025-11-03 19:56:19 INFO  TC006_ApplyLoanTest:169 - Starting ApplyLoanWithExcessiveAmountTest
+2025-11-03 19:56:19 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:56:19 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:56:19 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:56:22 INFO  TC006_ApplyLoanTest:183 - Error message displayed: We cannot grant a loan in that amount with your available funds.
+2025-11-03 19:56:22 INFO  TC006_ApplyLoanTest:193 - ****ApplyLoanWithExcessiveAmountTest executed successfully****
+2025-11-03 19:56:22 INFO  TC006_ApplyLoanTest:200 - Starting ApplyLoanWithSpecialCharactersInAmountTest
+2025-11-03 19:56:22 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:56:22 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:56:22 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:56:25 INFO  TC006_ApplyLoanTest:214 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:56:25 INFO  TC006_ApplyLoanTest:223 - ****ApplyLoanWithSpecialCharactersInAmountTest executed successfully****
+2025-11-03 19:56:25 INFO  TC006_ApplyLoanTest:229 - Starting ApplyLoanWithEmptySubmissionTest
+2025-11-03 19:56:25 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:56:25 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:56:25 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:56:28 INFO  TC006_ApplyLoanTest:242 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:56:28 INFO  TC006_ApplyLoanTest:251 - ****ApplyLoanWithEmptySubmissionTest executed successfully****
+2025-11-03 19:56:28 INFO  TC006_ApplyLoanTest:257 - Starting ApplyLoanWithAmountLessThanDownPaymentTest
+2025-11-03 19:56:28 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:56:28 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:56:28 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:56:31 INFO  TC006_ApplyLoanTest:271 - Error message displayed: You do not have sufficient funds for the given down payment.
+2025-11-03 19:56:31 INFO  TC006_ApplyLoanTest:280 - ****ApplyLoanWithAmountLessThanDownPaymentTest executed successfully****
+2025-11-03 19:56:31 INFO  TC006_ApplyLoanTest:286 - Starting ApplyLoanWithZeroAmountTest
+2025-11-03 19:56:31 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:56:31 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:56:31 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:56:34 INFO  TC006_ApplyLoanTest:300 - Error message displayed: An internal error has occurred and has been logged.
+2025-11-03 19:56:34 INFO  TC006_ApplyLoanTest:309 - ****ApplyLoanWithZeroAmountTest executed successfully****
+2025-11-03 19:56:34 INFO  TC006_ApplyLoanTest:316 - Starting ApplyLoanWithNegativeAmountTest
+2025-11-03 19:56:34 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:56:34 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:56:35 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:56:37 INFO  TC006_ApplyLoanTest:328 - Clicked Apply Now with negative loan amount
+2025-11-03 19:56:37 INFO  TC006_ApplyLoanTest:331 - Error message displayed: We cannot grant a loan in that amount with your available funds.
+2025-11-03 19:56:37 INFO  TC006_ApplyLoanTest:342 - ****ApplyLoanWithNegativeAmountTest executed successfully****
+2025-11-03 19:56:37 INFO  TC006_ApplyLoanTest:349 - Starting ApplyLoanWithUnrealisticCombinationTest
+2025-11-03 19:56:37 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:56:37 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:56:38 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:56:40 INFO  TC006_ApplyLoanTest:363 - Error message displayed: You do not have sufficient funds for the given down payment.
+2025-11-03 19:56:40 INFO  TC006_ApplyLoanTest:372 - ****ApplyLoanWithUnrealisticCombinationTest executed successfully****
+2025-11-03 19:56:40 INFO  TC006_ApplyLoanTest:379 - Starting ApplyLoanWithInsufficientBalanceTest
+2025-11-03 19:56:40 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:56:40 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:56:41 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:56:43 INFO  TC006_ApplyLoanTest:393 - Error message displayed: You do not have sufficient funds for the given down payment.
+2025-11-03 19:56:43 INFO  TC006_ApplyLoanTest:402 - ****ApplyLoanWithInsufficientBalanceTest executed successfully****
+2025-11-03 19:56:43 INFO  TC006_ApplyLoanTest:408 - Starting VerifyApplyLoanWithDecimalAmountTest
+2025-11-03 19:56:43 INFO  TC006_ApplyLoanTest:218 - User entered username
+2025-11-03 19:56:43 INFO  TC006_ApplyLoanTest:220 - User entered password
+2025-11-03 19:56:44 INFO  TC006_ApplyLoanTest:222 - Clicked login button
+2025-11-03 19:56:49 INFO  TC006_ApplyLoanTest:426 - Loan approval message verified
+2025-11-03 19:56:49 INFO  TC006_ApplyLoanTest:431 - Loan status is Approved. Test Passed!
+2025-11-03 19:56:49 INFO  TC006_ApplyLoanTest:439 - ****VerifyApplyLoanWithDecimalAmountTest executed successfully****
+2025-11-03 19:56:52 INFO  TC007_LoginDDT:26 - ***login started******
+2025-11-03 19:56:56 INFO  TC007_LoginDDT:26 - ***login started******
+2025-11-03 19:57:08 INFO  TC007_LoginDDT:26 - ***login started******
+2025-11-03 19:57:20 INFO  TC007_LoginDDT:26 - ***login started******
+2025-11-03 19:57:23 INFO  TC007_LoginDDT:26 - ***login started******
+2025-11-03 19:57:37 INFO  TC008_HomePageTest:218 - User entered username
+2025-11-03 19:57:37 INFO  TC008_HomePageTest:220 - User entered password
+2025-11-03 19:57:37 INFO  TC008_HomePageTest:222 - Clicked login button
+2025-11-03 19:57:39 INFO  TC008_HomePageTest:24 - Clicked About Us link
+2025-11-03 19:57:39 INFO  TC008_HomePageTest:35 - Clicked Services link
+2025-11-03 19:57:43 INFO  TC008_HomePageTest:46 - Clicked Products link
+2025-11-03 19:57:53 INFO  TC008_HomePageTest:67 - Clicked Locations link
+2025-11-03 19:57:54 INFO  TC008_HomePageTest:71 - Clicked Admin Page link
+2025-11-03 19:57:54 INFO  TC008_HomePageTest:78 - Clicked Home link
+2025-11-03 19:57:54 INFO  TC008_HomePageTest:81 - Clicked About link
+2025-11-03 19:57:54 INFO  TC008_HomePageTest:84 - Clicked Contact link
+2025-11-03 19:57:55 INFO  TC008_HomePageTest:101 - All homepage verifications completed successfully!
+2025-11-03 19:57:57 INFO  TC009_FooterTest:218 - User entered username
+2025-11-03 19:57:57 INFO  TC009_FooterTest:220 - User entered password
+2025-11-03 19:57:58 INFO  TC009_FooterTest:222 - Clicked login button
+2025-11-03 19:58:11 INFO  TC009_FooterTest:54 - Clicked Contact link
+2025-11-03 19:58:14 INFO  TC010_AccountOverview:218 - User entered username
+2025-11-03 19:58:14 INFO  TC010_AccountOverview:220 - User entered password
+2025-11-03 19:58:14 INFO  TC010_AccountOverview:222 - Clicked login button
+2025-11-03 19:58:16 INFO  TC010_AccountOverview:25 - First account found: 13566
+2025-11-03 19:58:16 INFO  TC010_AccountOverview:27 - Clicked on first account successfully

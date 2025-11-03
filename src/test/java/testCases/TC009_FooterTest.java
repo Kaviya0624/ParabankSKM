@@ -11,19 +11,16 @@ import testBase.BaseClass;
 public class TC009_FooterTest extends BaseClass {
 	
 	
-	@Test
+	@Test(priority=1,groups={"Sanity" , "Master"})
 	public void VerifyFooterSection() throws InterruptedException
 	{
+		try
+		{
 		FooterSection fp = new FooterSection(driver);
 		HomePage hp = new HomePage(driver);
 		LoginPage lp = new LoginPage(driver);
 		
-		lp.setUsername(p.getProperty("UsernameID"));
-		logger.info("User entered the User Name:");
-		lp.setPassword(p.getProperty("UserPasswordId"));
-		logger.info("User entered the password:");
-		Thread.sleep(2000);
-		lp.clickSubmit();
+		loginToApp();
 		
 		scrollToBottom();
 		Thread.sleep(2000);
@@ -61,6 +58,13 @@ public class TC009_FooterTest extends BaseClass {
 	        hp.enterPhone(randomeNumber());
 	        hp.enterMessage("good");
 	        hp.clickSendToCustomerCare();
+	        
+		 }
+		catch(Exception e)
+		{
+			 Assert.fail();
+		}
+		
 	
 	}
 

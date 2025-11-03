@@ -10,19 +10,15 @@ import testBase.BaseClass;
 public class TC008_HomePageTest extends BaseClass {
 	
 	
-	@Test
+	@Test(priority=1,groups={"Sanity" , "Master"})
 	public void VerifyHomePage() throws InterruptedException
 	{
-		
+		try
+		{
 		HomePage hp = new HomePage(driver);
 		LoginPage lp = new LoginPage(driver);
 
-		lp.setUsername(p.getProperty("UsernameID"));
-		logger.info("User entered the User Name:");
-		lp.setPassword(p.getProperty("UserPasswordId"));
-		logger.info("User entered the password:");
-		Thread.sleep(2000);
-		lp.clickSubmit();
+		 loginToApp();
 		
 			hp.clickAboutUs();
 	        logger.info("Clicked About Us link");
@@ -94,10 +90,17 @@ public class TC008_HomePageTest extends BaseClass {
 	        hp.clickSendToCustomerCare();
 	        
 	       
-	        logger.info("All homepage verifications completed successfully!");
+	        
 	        
 	    }
+		catch(Exception e)
+		{
+			 Assert.fail();
+		}
 		
+		logger.info("All homepage verifications completed successfully!");
 	}
+	
+}
 
 

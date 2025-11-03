@@ -9,16 +9,16 @@ import testBase.BaseClass;
 
 public class TC010_AccountOverview extends BaseClass {
 
-    @Test
+    @Test(priority=1,groups={"Sanity" , "Master"})
     public void verifyAccountOverview() throws InterruptedException {
+    	
+    	try
+		{
         LoginPage lp = new LoginPage(driver);
         AccountsOverviewPage aop = new AccountsOverviewPage(driver);
 
-        // Login
-        lp.setUsername(p.getProperty("UsernameID"));
-        lp.setPassword(p.getProperty("UserPasswordId"));
-        lp.clickSubmit();
-        logger.info("Logged in successfully");
+        
+        loginToApp();
 
         // Select first account
         String accountNum = aop.getFirstAccountNumber();
@@ -34,13 +34,12 @@ public class TC010_AccountOverview extends BaseClass {
         Thread.sleep(2000);
 
         if (aop.hasTransactions()) {
-            // Click first transaction
             aop.clickTransactionByIndex(1);
             Thread.sleep(1000);
             Assert.assertTrue(aop.isTransactionDetailsDisplayed(), "Transaction Details page not displayed");
             System.out.println("Debit transaction verified: " + aop.getTransactionDetailsHeading());
         } else {
-            System.out.println("No Debit transactions found for September.");
+            System.out.println("No Debit transactions found for the following month.");
         }
 
         // Navigate back and click a random transaction
@@ -61,7 +60,14 @@ public class TC010_AccountOverview extends BaseClass {
             Assert.assertTrue(aop.isTransactionDetailsDisplayed(), "Transaction Details page not displayed");
             System.out.println("Credit transaction verified: " + aop.getTransactionDetailsHeading());
         } else {
-            System.out.println("No Credit transactions found for October.");
+            System.out.println("No Credit transactions found for the selected month.");
         }
+    }
+     catch(Exception e)
+	{
+		 Assert.fail();
+	}
+        
+        
     }
 }
