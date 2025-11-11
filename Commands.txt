@@ -1,0 +1,23 @@
+To Run Standalone grid
+----------------------
+cmd
+java -jar selenium-server-4.23.1.jar standalone
+http://localhost:4444/ui/#
+
+To Start Grid on Docker
+----------------------
+cd C:\Users\ADMIN\eclipse-workspace\ParabankSKM
+docker-compose up
+
+
+To Remove Containers on Docker
+------------------------------
+cd C:\Users\ADMIN\eclipse-workspace\ParabankSKM
+docker-compose down
+
+
+To Run pom.xml in Command Prompt
+-------------------
+cd C:\Users\ADMIN\eclipse-workspace\ParabankSKM
+mvn test
+
