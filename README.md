@@ -82,7 +82,14 @@ ParabankSKM/
 ```bash
 git clone https://github.com/Kaviya0624/ParabankSKM.git
 cd ParabankSKM
+
+💡 Note:
+This framework was tested against the Parabank web application deployed locally using Apache Tomcat.
+You can download the Parabank WAR file from the official source, deploy it on Tomcat
+(e.g., http://localhost:8080/parabank), and then execute the automation suite against that local instance.
+
 ```
+
 
 ### 2️⃣ Install Dependencies
 ```bash
