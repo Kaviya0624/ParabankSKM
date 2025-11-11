@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ParaBanking Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>70/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>67/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Nov 03 19:53:15 IST 2025</td>
+<td>Started on:</td><td>Tue Nov 11 21:26:11 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>310 seconds (310348 ms)</td>
+<tr><td>Total time:</td><td>336 seconds (336318 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,169 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TC004_TransferFundsTest.TransferFundsWithSpecialCharactersTest()'><b>TransferFundsWithSpecialCharactersTest</b><br>Test class: testCases.TC004_TransferFundsTest</td>
+<td><div><pre>java.lang.AssertionError: Exception occurred: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;username&apos;]&quot;}
+  (Session info: chrome=142.0.7444.61)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9c8f0d9ceadd0bdab72b3e433b9079fd, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55931}, goog:processID: 8520, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55931/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c8f0d9ceadd0bdab72b3e433b9079fd
+	at testCases.TC004_TransferFundsTest.TransferFundsWithSpecialCharactersTest(TC004_TransferFundsTest.java:194)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1254893565", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1254893565'><pre>java.lang.AssertionError: Exception occurred: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;username&apos;]&quot;}
+  (Session info: chrome=142.0.7444.61)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9c8f0d9ceadd0bdab72b3e433b9079fd, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55931}, goog:processID: 8520, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55931/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c8f0d9ceadd0bdab72b3e433b9079fd
+	at org.testng.Assert.fail(Assert.java:111)
+	at testCases.TC004_TransferFundsTest.TransferFundsWithSpecialCharactersTest(TC004_TransferFundsTest.java:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>10</td>
+<td>testCases.TC004_TransferFundsTest@35841320</td></tr>
+<tr>
+<td title='testCases.TC004_TransferFundsTest.TransferFundsWithDecimalAmountTest()'><b>TransferFundsWithDecimalAmountTest</b><br>Test class: testCases.TC004_TransferFundsTest</td>
+<td><div><pre>java.lang.AssertionError: Transfer failed or confirmation message not found. Actual message:  expected [true] but found [false]
+	at testCases.TC004_TransferFundsTest.TransferFundsWithDecimalAmountTest(TC004_TransferFundsTest.java:152)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace709671086", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace709671086'><pre>java.lang.AssertionError: Transfer failed or confirmation message not found. Actual message:  expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testCases.TC004_TransferFundsTest.TransferFundsWithDecimalAmountTest(TC004_TransferFundsTest.java:152)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>8</td>
+<td>testCases.TC004_TransferFundsTest@35841320</td></tr>
+<tr>
+<td title='testCases.TC004_TransferFundsTest.TransferFundsWithExcessiveAmountTest()'><b>TransferFundsWithExcessiveAmountTest</b><br>Test class: testCases.TC004_TransferFundsTest</td>
+<td><div><pre>java.lang.AssertionError: Exception occurred: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;username&apos;]&quot;}
+  (Session info: chrome=142.0.7444.61)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9c8f0d9ceadd0bdab72b3e433b9079fd, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55931}, goog:processID: 8520, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55931/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c8f0d9ceadd0bdab72b3e433b9079fd
+	at testCases.TC004_TransferFundsTest.TransferFundsWithExcessiveAmountTest(TC004_TransferFundsTest.java:230)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1113560279", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1113560279'><pre>java.lang.AssertionError: Exception occurred: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;username&apos;]&quot;}
+  (Session info: chrome=142.0.7444.61)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9c8f0d9ceadd0bdab72b3e433b9079fd, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55931}, goog:processID: 8520, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55931/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c8f0d9ceadd0bdab72b3e433b9079fd
+	at org.testng.Assert.fail(Assert.java:111)
+	at testCases.TC004_TransferFundsTest.TransferFundsWithExcessiveAmountTest(TC004_TransferFundsTest.java:230)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>10</td>
+<td>testCases.TC004_TransferFundsTest@35841320</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,66 +238,6 @@ function toggleAllBoxes() {
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
-<tr>
-<td title='testCases.TC005_BillPayTest.BillPayWithoutStateTest()'><b>BillPayWithoutStateTest</b><br>Test class: testCases.TC005_BillPayTest</td>
-<td></td>
-<td>3</td>
-<td>testCases.TC005_BillPayTest@61c4eee0</td></tr>
-<tr>
-<td title='testCases.TC006_ApplyLoanTest.VerifyApplyLoanWithDecimalAmountTest()'><b>VerifyApplyLoanWithDecimalAmountTest</b><br>Test class: testCases.TC006_ApplyLoanTest</td>
-<td></td>
-<td>5</td>
-<td>testCases.TC006_ApplyLoanTest@6f10d5b6</td></tr>
-<tr>
-<td title='testCases.TC005_BillPayTest.BillPayWithoutAmountTest()'><b>BillPayWithoutAmountTest</b><br>Test class: testCases.TC005_BillPayTest</td>
-<td></td>
-<td>3</td>
-<td>testCases.TC005_BillPayTest@61c4eee0</td></tr>
-<tr>
-<td title='testCases.TC001_RegisterTest.RegisterWithMissingState()'><b>RegisterWithMissingState</b><br>Test class: testCases.TC001_RegisterTest</td>
-<td></td>
-<td>1</td>
-<td>testCases.TC001_RegisterTest@23e84203</td></tr>
-<tr>
-<td title='testCases.TC005_BillPayTest.BillPayWithAllFieldsEmptyTest()'><b>BillPayWithAllFieldsEmptyTest</b><br>Test class: testCases.TC005_BillPayTest</td>
-<td></td>
-<td>3</td>
-<td>testCases.TC005_BillPayTest@61c4eee0</td></tr>
-<tr>
-<td title='testCases.TC006_ApplyLoanTest.ApplyLoanWithoutAmountTest()'><b>ApplyLoanWithoutAmountTest</b><br>Test class: testCases.TC006_ApplyLoanTest</td>
-<td></td>
-<td>2</td>
-<td>testCases.TC006_ApplyLoanTest@6f10d5b6</td></tr>
-<tr>
-<td title='testCases.TC002_LoginTest.loginWithSQLInjection()'><b>loginWithSQLInjection</b><br>Test class: testCases.TC002_LoginTest</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC002_LoginTest@1972e513</td></tr>
-<tr>
-<td title='testCases.TC005_BillPayTest.BillPayWithDecimalAmountTest()'><b>BillPayWithDecimalAmountTest</b><br>Test class: testCases.TC005_BillPayTest</td>
-<td></td>
-<td>3</td>
-<td>testCases.TC005_BillPayTest@61c4eee0</td></tr>
-<tr>
-<td title='testCases.TC007_LoginDDT.verify_Loginddt()'><b>verify_Loginddt</b><br>Test class: testCases.TC007_LoginDDT<br>Parameters: naruto, hinata, valid</td>
-<td></td>
-<td>2</td>
-<td>testCases.TC007_LoginDDT@1040be71</td></tr>
-<tr>
-<td title='testCases.TC005_BillPayTest.BillPayWithoutAddressTest()'><b>BillPayWithoutAddressTest</b><br>Test class: testCases.TC005_BillPayTest</td>
-<td></td>
-<td>3</td>
-<td>testCases.TC005_BillPayTest@61c4eee0</td></tr>
-<tr>
-<td title='testCases.TC006_ApplyLoanTest.ApplyLoanWithAmountLessThanDownPaymentTest()'><b>ApplyLoanWithAmountLessThanDownPaymentTest</b><br>Test class: testCases.TC006_ApplyLoanTest</td>
-<td></td>
-<td>3</td>
-<td>testCases.TC006_ApplyLoanTest@6f10d5b6</td></tr>
-<tr>
-<td title='testCases.TC001_RegisterTest.RegisterWithExistingUsername()'><b>RegisterWithExistingUsername</b><br>Test class: testCases.TC001_RegisterTest</td>
-<td></td>
-<td>1</td>
-<td>testCases.TC001_RegisterTest@23e84203</td></tr>
 <tr>
 <td title='testCases.TC003_OpenNewAccountTest.VerifyAccountDetailsNavigationTest()'><b>VerifyAccountDetailsNavigationTest</b><br>Test class: testCases.TC003_OpenNewAccountTest</td>
 <td></td>
@@ -146,102 +249,27 @@ function toggleAllBoxes() {
 <td>3</td>
 <td>testCases.TC005_BillPayTest@61c4eee0</td></tr>
 <tr>
-<td title='testCases.TC006_ApplyLoanTest.ApplyLoanWithUnrealisticCombinationTest()'><b>ApplyLoanWithUnrealisticCombinationTest</b><br>Test class: testCases.TC006_ApplyLoanTest</td>
-<td></td>
-<td>3</td>
-<td>testCases.TC006_ApplyLoanTest@6f10d5b6</td></tr>
-<tr>
-<td title='testCases.TC006_ApplyLoanTest.ApplyLoanWithNonNumericDownPaymentTest()'><b>ApplyLoanWithNonNumericDownPaymentTest</b><br>Test class: testCases.TC006_ApplyLoanTest</td>
-<td></td>
-<td>2</td>
-<td>testCases.TC006_ApplyLoanTest@6f10d5b6</td></tr>
-<tr>
-<td title='testCases.TC001_RegisterTest.RegisterWithMissingLastName()'><b>RegisterWithMissingLastName</b><br>Test class: testCases.TC001_RegisterTest</td>
-<td></td>
-<td>1</td>
-<td>testCases.TC001_RegisterTest@23e84203</td></tr>
-<tr>
-<td title='testCases.TC007_LoginDDT.verify_Loginddt()'><b>verify_Loginddt</b><br>Test class: testCases.TC007_LoginDDT<br>Parameters: levi, hange, Invalid</td>
-<td></td>
-<td>12</td>
-<td>testCases.TC007_LoginDDT@1040be71</td></tr>
-<tr>
-<td title='testCases.TC002_LoginTest.loginWithBothFieldsEmpty()'><b>loginWithBothFieldsEmpty</b><br>Test class: testCases.TC002_LoginTest</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC002_LoginTest@1972e513</td></tr>
-<tr>
-<td title='testCases.TC007_LoginDDT.verify_Loginddt()'><b>verify_Loginddt</b><br>Test class: testCases.TC007_LoginDDT<br>Parameters: mikasa@06, eren, valid</td>
-<td></td>
-<td>3</td>
-<td>testCases.TC007_LoginDDT@1040be71</td></tr>
-<tr>
-<td title='testCases.TC002_LoginTest.loginWithExcessivelyLongUsername()'><b>loginWithExcessivelyLongUsername</b><br>Test class: testCases.TC002_LoginTest</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC002_LoginTest@1972e513</td></tr>
-<tr>
-<td title='testCases.TC006_ApplyLoanTest.ApplyLoanWithoutDownPaymentTest()'><b>ApplyLoanWithoutDownPaymentTest</b><br>Test class: testCases.TC006_ApplyLoanTest</td>
-<td></td>
-<td>2</td>
-<td>testCases.TC006_ApplyLoanTest@6f10d5b6</td></tr>
-<tr>
-<td title='testCases.TC007_LoginDDT.verify_Loginddt()'><b>verify_Loginddt</b><br>Test class: testCases.TC007_LoginDDT<br>Parameters: gabi, falco, Invalid</td>
-<td></td>
-<td>12</td>
-<td>testCases.TC007_LoginDDT@1040be71</td></tr>
-<tr>
-<td title='testCases.TC001_RegisterTest.RegisterWithMismatchedPasswords()'><b>RegisterWithMismatchedPasswords</b><br>Test class: testCases.TC001_RegisterTest</td>
-<td></td>
-<td>1</td>
-<td>testCases.TC001_RegisterTest@23e84203</td></tr>
-<tr>
-<td title='testCases.TC006_ApplyLoanTest.ApplyLoanWithSpecialCharactersInAmountTest()'><b>ApplyLoanWithSpecialCharactersInAmountTest</b><br>Test class: testCases.TC006_ApplyLoanTest</td>
-<td></td>
-<td>2</td>
-<td>testCases.TC006_ApplyLoanTest@6f10d5b6</td></tr>
-<tr>
-<td title='testCases.TC007_LoginDDT.verify_Loginddt()'><b>verify_Loginddt</b><br>Test class: testCases.TC007_LoginDDT<br>Parameters: jiraya, leaf, Invalid</td>
-<td></td>
-<td>12</td>
-<td>testCases.TC007_LoginDDT@1040be71</td></tr>
-<tr>
-<td title='testCases.TC005_BillPayTest.BillPayWithValidDetailsTest()'><b>BillPayWithValidDetailsTest</b><br>Test class: testCases.TC005_BillPayTest</td>
-<td></td>
-<td>11</td>
-<td>testCases.TC005_BillPayTest@61c4eee0</td></tr>
-<tr>
 <td title='testCases.TC006_ApplyLoanTest.ApplyLoanWithEmptySubmissionTest()'><b>ApplyLoanWithEmptySubmissionTest</b><br>Test class: testCases.TC006_ApplyLoanTest</td>
 <td></td>
 <td>2</td>
 <td>testCases.TC006_ApplyLoanTest@6f10d5b6</td></tr>
-<tr>
-<td title='testCases.TC006_ApplyLoanTest.VerifyApplyLoan()'><b>VerifyApplyLoan</b><br>Test class: testCases.TC006_ApplyLoanTest</td>
-<td></td>
-<td>6</td>
-<td>testCases.TC006_ApplyLoanTest@6f10d5b6</td></tr>
-<tr>
-<td title='testCases.TC010_AccountOverview.verifyAccountOverview()'><b>verifyAccountOverview</b><br>Test class: testCases.TC010_AccountOverview</td>
-<td></td>
-<td>9</td>
-<td>testCases.TC010_AccountOverview@2a693f59</td></tr>
-<tr>
-<td title='testCases.TC002_LoginTest.loginWithScriptTags()'><b>loginWithScriptTags</b><br>Test class: testCases.TC002_LoginTest</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC002_LoginTest@1972e513</td></tr>
 <tr>
 <td title='testCases.TC001_RegisterTest.RegisterWithMissingSSN()'><b>RegisterWithMissingSSN</b><br>Test class: testCases.TC001_RegisterTest</td>
 <td></td>
 <td>2</td>
 <td>testCases.TC001_RegisterTest@23e84203</td></tr>
 <tr>
-<td title='testCases.TC006_ApplyLoanTest.ApplyLoanWithInsufficientBalanceTest()'><b>ApplyLoanWithInsufficientBalanceTest</b><br>Test class: testCases.TC006_ApplyLoanTest</td>
+<td title='testCases.TC005_BillPayTest.BillPayWithValidDetailsTest()'><b>BillPayWithValidDetailsTest</b><br>Test class: testCases.TC005_BillPayTest</td>
 <td></td>
-<td>2</td>
-<td>testCases.TC006_ApplyLoanTest@6f10d5b6</td></tr>
+<td>11</td>
+<td>testCases.TC005_BillPayTest@61c4eee0</td></tr>
 <tr>
-<td title='testCases.TC001_RegisterTest.RegisterWithMissingPassword()'><b>RegisterWithMissingPassword</b><br>Test class: testCases.TC001_RegisterTest</td>
+<td title='testCases.TC008_HomePageTest.VerifyHomePage()'><b>VerifyHomePage</b><br>Test class: testCases.TC008_HomePageTest</td>
+<td></td>
+<td>19</td>
+<td>testCases.TC008_HomePageTest@548a24a</td></tr>
+<tr>
+<td title='testCases.TC001_RegisterTest.RegisterWithMissingUsername()'><b>RegisterWithMissingUsername</b><br>Test class: testCases.TC001_RegisterTest</td>
 <td></td>
 <td>1</td>
 <td>testCases.TC001_RegisterTest@23e84203</td></tr>
@@ -251,87 +279,7 @@ function toggleAllBoxes() {
 <td>3</td>
 <td>testCases.TC006_ApplyLoanTest@6f10d5b6</td></tr>
 <tr>
-<td title='testCases.TC001_RegisterTest.RegisterWithMissingAddress()'><b>RegisterWithMissingAddress</b><br>Test class: testCases.TC001_RegisterTest</td>
-<td></td>
-<td>1</td>
-<td>testCases.TC001_RegisterTest@23e84203</td></tr>
-<tr>
-<td title='testCases.TC005_BillPayTest.BillPayWithoutVerifyAccountTest()'><b>BillPayWithoutVerifyAccountTest</b><br>Test class: testCases.TC005_BillPayTest</td>
-<td></td>
-<td>3</td>
-<td>testCases.TC005_BillPayTest@61c4eee0</td></tr>
-<tr>
-<td title='testCases.TC004_TransferFundsTest.TransferFundsWithoutAmountTest()'><b>TransferFundsWithoutAmountTest</b><br>Test class: testCases.TC004_TransferFundsTest</td>
-<td></td>
-<td>6</td>
-<td>testCases.TC004_TransferFundsTest@35841320</td></tr>
-<tr>
-<td title='testCases.TC008_HomePageTest.VerifyHomePage()'><b>VerifyHomePage</b><br>Test class: testCases.TC008_HomePageTest</td>
-<td></td>
-<td>18</td>
-<td>testCases.TC008_HomePageTest@548a24a</td></tr>
-<tr>
-<td title='testCases.TC005_BillPayTest.BillPayWithNonNumericAccountNumberTest()'><b>BillPayWithNonNumericAccountNumberTest</b><br>Test class: testCases.TC005_BillPayTest</td>
-<td></td>
-<td>3</td>
-<td>testCases.TC005_BillPayTest@61c4eee0</td></tr>
-<tr>
-<td title='testCases.TC005_BillPayTest.BillPayWithoutCityTest()'><b>BillPayWithoutCityTest</b><br>Test class: testCases.TC005_BillPayTest</td>
-<td></td>
-<td>3</td>
-<td>testCases.TC005_BillPayTest@61c4eee0</td></tr>
-<tr>
-<td title='testCases.TC006_ApplyLoanTest.ApplyLoanWithExcessiveAmountTest()'><b>ApplyLoanWithExcessiveAmountTest</b><br>Test class: testCases.TC006_ApplyLoanTest</td>
-<td></td>
-<td>3</td>
-<td>testCases.TC006_ApplyLoanTest@6f10d5b6</td></tr>
-<tr>
-<td title='testCases.TC002_LoginTest.loginWithSpecialCharacters()'><b>loginWithSpecialCharacters</b><br>Test class: testCases.TC002_LoginTest</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC002_LoginTest@1972e513</td></tr>
-<tr>
-<td title='testCases.TC001_RegisterTest.RegisterTest()'><b>RegisterTest</b><br>Test class: testCases.TC001_RegisterTest</td>
-<td></td>
-<td>1</td>
-<td>testCases.TC001_RegisterTest@23e84203</td></tr>
-<tr>
-<td title='testCases.TC003_OpenNewAccountTest.OpenCheckingAccountTest()'><b>OpenCheckingAccountTest</b><br>Test class: testCases.TC003_OpenNewAccountTest</td>
-<td></td>
-<td>8</td>
-<td>testCases.TC003_OpenNewAccountTest@7ae0a9ec</td></tr>
-<tr>
-<td title='testCases.TC002_LoginTest.loginWithBothInvalidCredentials()'><b>loginWithBothInvalidCredentials</b><br>Test class: testCases.TC002_LoginTest</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC002_LoginTest@1972e513</td></tr>
-<tr>
-<td title='testCases.TC001_RegisterTest.RegisterWithMissingCity()'><b>RegisterWithMissingCity</b><br>Test class: testCases.TC001_RegisterTest</td>
-<td></td>
-<td>1</td>
-<td>testCases.TC001_RegisterTest@23e84203</td></tr>
-<tr>
-<td title='testCases.TC001_RegisterTest.RegisterWithMissingZipCode()'><b>RegisterWithMissingZipCode</b><br>Test class: testCases.TC001_RegisterTest</td>
-<td></td>
-<td>1</td>
-<td>testCases.TC001_RegisterTest@23e84203</td></tr>
-<tr>
-<td title='testCases.TC005_BillPayTest.BillPayWithoutPayeeNameTest()'><b>BillPayWithoutPayeeNameTest</b><br>Test class: testCases.TC005_BillPayTest</td>
-<td></td>
-<td>3</td>
-<td>testCases.TC005_BillPayTest@61c4eee0</td></tr>
-<tr>
-<td title='testCases.TC003_OpenNewAccountTest.VerifyBackButtonAfterAccountCreationTest()'><b>VerifyBackButtonAfterAccountCreationTest</b><br>Test class: testCases.TC003_OpenNewAccountTest</td>
-<td></td>
-<td>8</td>
-<td>testCases.TC003_OpenNewAccountTest@7ae0a9ec</td></tr>
-<tr>
-<td title='testCases.TC005_BillPayTest.BillPayWithMismatchedAccountNumbersTest()'><b>BillPayWithMismatchedAccountNumbersTest</b><br>Test class: testCases.TC005_BillPayTest</td>
-<td></td>
-<td>3</td>
-<td>testCases.TC005_BillPayTest@61c4eee0</td></tr>
-<tr>
-<td title='testCases.TC002_LoginTest.loginWithSpacesInCredentials()'><b>loginWithSpacesInCredentials</b><br>Test class: testCases.TC002_LoginTest</td>
+<td title='testCases.TC002_LoginTest.loginWithInvalidPassword()'><b>loginWithInvalidPassword</b><br>Test class: testCases.TC002_LoginTest</td>
 <td></td>
 <td>0</td>
 <td>testCases.TC002_LoginTest@1972e513</td></tr>
@@ -341,6 +289,176 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>testCases.TC002_LoginTest@1972e513</td></tr>
 <tr>
+<td title='testCases.TC001_RegisterTest.RegisterWithMissingPassword()'><b>RegisterWithMissingPassword</b><br>Test class: testCases.TC001_RegisterTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC001_RegisterTest@23e84203</td></tr>
+<tr>
+<td title='testCases.TC006_ApplyLoanTest.ApplyLoanWithoutAmountTest()'><b>ApplyLoanWithoutAmountTest</b><br>Test class: testCases.TC006_ApplyLoanTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC006_ApplyLoanTest@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.TC001_RegisterTest.RegisterWithMissingFirstName()'><b>RegisterWithMissingFirstName</b><br>Test class: testCases.TC001_RegisterTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC001_RegisterTest@23e84203</td></tr>
+<tr>
+<td title='testCases.TC006_ApplyLoanTest.ApplyLoanWithUnrealisticCombinationTest()'><b>ApplyLoanWithUnrealisticCombinationTest</b><br>Test class: testCases.TC006_ApplyLoanTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC006_ApplyLoanTest@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.TC006_ApplyLoanTest.VerifyApplyLoan()'><b>VerifyApplyLoan</b><br>Test class: testCases.TC006_ApplyLoanTest</td>
+<td></td>
+<td>7</td>
+<td>testCases.TC006_ApplyLoanTest@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.TC006_ApplyLoanTest.ApplyLoanWithNonNumericDownPaymentTest()'><b>ApplyLoanWithNonNumericDownPaymentTest</b><br>Test class: testCases.TC006_ApplyLoanTest</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC006_ApplyLoanTest@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.TC005_BillPayTest.BillPayWithoutAddressTest()'><b>BillPayWithoutAddressTest</b><br>Test class: testCases.TC005_BillPayTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC005_BillPayTest@61c4eee0</td></tr>
+<tr>
+<td title='testCases.TC007_LoginDDT.verify_Loginddt()'><b>verify_Loginddt</b><br>Test class: testCases.TC007_LoginDDT<br>Parameters: levi, hange, Invalid</td>
+<td></td>
+<td>12</td>
+<td>testCases.TC007_LoginDDT@1040be71</td></tr>
+<tr>
+<td title='testCases.TC005_BillPayTest.BillPayWithoutCityTest()'><b>BillPayWithoutCityTest</b><br>Test class: testCases.TC005_BillPayTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC005_BillPayTest@61c4eee0</td></tr>
+<tr>
+<td title='testCases.TC002_LoginTest.loginWithSpacesInCredentials()'><b>loginWithSpacesInCredentials</b><br>Test class: testCases.TC002_LoginTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC002_LoginTest@1972e513</td></tr>
+<tr>
+<td title='testCases.TC002_LoginTest.loginWithBothInvalidCredentials()'><b>loginWithBothInvalidCredentials</b><br>Test class: testCases.TC002_LoginTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC002_LoginTest@1972e513</td></tr>
+<tr>
+<td title='testCases.TC005_BillPayTest.BillPayWithoutVerifyAccountTest()'><b>BillPayWithoutVerifyAccountTest</b><br>Test class: testCases.TC005_BillPayTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC005_BillPayTest@61c4eee0</td></tr>
+<tr>
+<td title='testCases.TC004_TransferFundsTest.TransferFundsWithAmountTest()'><b>TransferFundsWithAmountTest</b><br>Test class: testCases.TC004_TransferFundsTest</td>
+<td></td>
+<td>13</td>
+<td>testCases.TC004_TransferFundsTest@35841320</td></tr>
+<tr>
+<td title='testCases.TC002_LoginTest.loginWithScriptTags()'><b>loginWithScriptTags</b><br>Test class: testCases.TC002_LoginTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC002_LoginTest@1972e513</td></tr>
+<tr>
+<td title='testCases.TC001_RegisterTest.RegisterWithMissingZipCode()'><b>RegisterWithMissingZipCode</b><br>Test class: testCases.TC001_RegisterTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC001_RegisterTest@23e84203</td></tr>
+<tr>
+<td title='testCases.TC006_ApplyLoanTest.ApplyLoanWithExcessiveAmountTest()'><b>ApplyLoanWithExcessiveAmountTest</b><br>Test class: testCases.TC006_ApplyLoanTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC006_ApplyLoanTest@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.TC006_ApplyLoanTest.VerifyApplyLoanWithDecimalAmountTest()'><b>VerifyApplyLoanWithDecimalAmountTest</b><br>Test class: testCases.TC006_ApplyLoanTest</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC006_ApplyLoanTest@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.TC001_RegisterTest.RegisterWithMissingAddress()'><b>RegisterWithMissingAddress</b><br>Test class: testCases.TC001_RegisterTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC001_RegisterTest@23e84203</td></tr>
+<tr>
+<td title='testCases.TC006_ApplyLoanTest.ApplyLoanWithoutDownPaymentTest()'><b>ApplyLoanWithoutDownPaymentTest</b><br>Test class: testCases.TC006_ApplyLoanTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC006_ApplyLoanTest@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.TC001_RegisterTest.RegisterWithExistingUsername()'><b>RegisterWithExistingUsername</b><br>Test class: testCases.TC001_RegisterTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC001_RegisterTest@23e84203</td></tr>
+<tr>
+<td title='testCases.TC005_BillPayTest.BillPayWithDecimalAmountTest()'><b>BillPayWithDecimalAmountTest</b><br>Test class: testCases.TC005_BillPayTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC005_BillPayTest@61c4eee0</td></tr>
+<tr>
+<td title='testCases.TC001_RegisterTest.RegisterWithMissingCity()'><b>RegisterWithMissingCity</b><br>Test class: testCases.TC001_RegisterTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC001_RegisterTest@23e84203</td></tr>
+<tr>
+<td title='testCases.TC002_LoginTest.loginWithEmptyPassword()'><b>loginWithEmptyPassword</b><br>Test class: testCases.TC002_LoginTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC002_LoginTest@1972e513</td></tr>
+<tr>
+<td title='testCases.TC006_ApplyLoanTest.ApplyLoanWithInsufficientBalanceTest()'><b>ApplyLoanWithInsufficientBalanceTest</b><br>Test class: testCases.TC006_ApplyLoanTest</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC006_ApplyLoanTest@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.TC005_BillPayTest.BillPayWithNonNumericAccountNumberTest()'><b>BillPayWithNonNumericAccountNumberTest</b><br>Test class: testCases.TC005_BillPayTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC005_BillPayTest@61c4eee0</td></tr>
+<tr>
+<td title='testCases.TC001_RegisterTest.RegisterWithMissingState()'><b>RegisterWithMissingState</b><br>Test class: testCases.TC001_RegisterTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC001_RegisterTest@23e84203</td></tr>
+<tr>
+<td title='testCases.TC001_RegisterTest.RegisterWithMismatchedPasswords()'><b>RegisterWithMismatchedPasswords</b><br>Test class: testCases.TC001_RegisterTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC001_RegisterTest@23e84203</td></tr>
+<tr>
+<td title='testCases.TC002_LoginTest.loginWithSpecialCharacters()'><b>loginWithSpecialCharacters</b><br>Test class: testCases.TC002_LoginTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC002_LoginTest@1972e513</td></tr>
+<tr>
+<td title='testCases.TC004_TransferFundsTest.TransferFundsWithoutAmountTest()'><b>TransferFundsWithoutAmountTest</b><br>Test class: testCases.TC004_TransferFundsTest</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC004_TransferFundsTest@35841320</td></tr>
+<tr>
+<td title='testCases.TC006_ApplyLoanTest.ApplyLoanWithSpecialCharactersInAmountTest()'><b>ApplyLoanWithSpecialCharactersInAmountTest</b><br>Test class: testCases.TC006_ApplyLoanTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC006_ApplyLoanTest@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.TC007_LoginDDT.verify_Loginddt()'><b>verify_Loginddt</b><br>Test class: testCases.TC007_LoginDDT<br>Parameters: jiraya, leaf, Invalid</td>
+<td></td>
+<td>12</td>
+<td>testCases.TC007_LoginDDT@1040be71</td></tr>
+<tr>
+<td title='testCases.TC004_TransferFundsTest.TransferFundsWithInvalidAmountTest()'><b>TransferFundsWithInvalidAmountTest</b><br>Test class: testCases.TC004_TransferFundsTest</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC004_TransferFundsTest@35841320</td></tr>
+<tr>
+<td title='testCases.TC005_BillPayTest.BillPayWithAllFieldsEmptyTest()'><b>BillPayWithAllFieldsEmptyTest</b><br>Test class: testCases.TC005_BillPayTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC005_BillPayTest@61c4eee0</td></tr>
+<tr>
+<td title='testCases.TC001_RegisterTest.RegisterTest()'><b>RegisterTest</b><br>Test class: testCases.TC001_RegisterTest</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC001_RegisterTest@23e84203</td></tr>
+<tr>
 <td title='testCases.TC002_LoginTest.loginWithEmptyUsername()'><b>loginWithEmptyUsername</b><br>Test class: testCases.TC002_LoginTest</td>
 <td></td>
 <td>0</td>
@@ -348,80 +466,110 @@ function toggleAllBoxes() {
 <tr>
 <td title='testCases.TC009_FooterTest.VerifyFooterSection()'><b>VerifyFooterSection</b><br>Test class: testCases.TC009_FooterTest</td>
 <td></td>
-<td>14</td>
+<td>13</td>
 <td>testCases.TC009_FooterTest@433defed</td></tr>
 <tr>
-<td title='testCases.TC002_LoginTest.loginWithEmptyPassword()'><b>loginWithEmptyPassword</b><br>Test class: testCases.TC002_LoginTest</td>
+<td title='testCases.TC002_LoginTest.loginWithBothFieldsEmpty()'><b>loginWithBothFieldsEmpty</b><br>Test class: testCases.TC002_LoginTest</td>
 <td></td>
 <td>0</td>
 <td>testCases.TC002_LoginTest@1972e513</td></tr>
 <tr>
-<td title='testCases.TC004_TransferFundsTest.TransferFundsWithAmountTest()'><b>TransferFundsWithAmountTest</b><br>Test class: testCases.TC004_TransferFundsTest</td>
+<td title='testCases.TC003_OpenNewAccountTest.OpenNewAccountTest()'><b>OpenNewAccountTest</b><br>Test class: testCases.TC003_OpenNewAccountTest</td>
 <td></td>
-<td>13</td>
-<td>testCases.TC004_TransferFundsTest@35841320</td></tr>
-<tr>
-<td title='testCases.TC006_ApplyLoanTest.ApplyLoanWithNonNumericAmountTest()'><b>ApplyLoanWithNonNumericAmountTest</b><br>Test class: testCases.TC006_ApplyLoanTest</td>
-<td></td>
-<td>2</td>
-<td>testCases.TC006_ApplyLoanTest@6f10d5b6</td></tr>
-<tr>
-<td title='testCases.TC006_ApplyLoanTest.ApplyLoanWithZeroAmountTest()'><b>ApplyLoanWithZeroAmountTest</b><br>Test class: testCases.TC006_ApplyLoanTest</td>
-<td></td>
-<td>3</td>
-<td>testCases.TC006_ApplyLoanTest@6f10d5b6</td></tr>
-<tr>
-<td title='testCases.TC004_TransferFundsTest.TransferFundsWithDecimalAmountTest()'><b>TransferFundsWithDecimalAmountTest</b><br>Test class: testCases.TC004_TransferFundsTest</td>
-<td></td>
-<td>8</td>
-<td>testCases.TC004_TransferFundsTest@35841320</td></tr>
-<tr>
-<td title='testCases.TC004_TransferFundsTest.TransferFundsWithSpecialCharactersTest()'><b>TransferFundsWithSpecialCharactersTest</b><br>Test class: testCases.TC004_TransferFundsTest</td>
-<td></td>
-<td>6</td>
-<td>testCases.TC004_TransferFundsTest@35841320</td></tr>
-<tr>
-<td title='testCases.TC001_RegisterTest.RegisterWithMissingFirstName()'><b>RegisterWithMissingFirstName</b><br>Test class: testCases.TC001_RegisterTest</td>
-<td></td>
-<td>1</td>
-<td>testCases.TC001_RegisterTest@23e84203</td></tr>
-<tr>
-<td title='testCases.TC004_TransferFundsTest.TransferFundsWithInvalidAmountTest()'><b>TransferFundsWithInvalidAmountTest</b><br>Test class: testCases.TC004_TransferFundsTest</td>
-<td></td>
-<td>6</td>
-<td>testCases.TC004_TransferFundsTest@35841320</td></tr>
+<td>7</td>
+<td>testCases.TC003_OpenNewAccountTest@7ae0a9ec</td></tr>
 <tr>
 <td title='testCases.TC005_BillPayTest.BillPayWithoutPhoneTest()'><b>BillPayWithoutPhoneTest</b><br>Test class: testCases.TC005_BillPayTest</td>
 <td></td>
 <td>3</td>
 <td>testCases.TC005_BillPayTest@61c4eee0</td></tr>
 <tr>
-<td title='testCases.TC004_TransferFundsTest.TransferFundsWithExcessiveAmountTest()'><b>TransferFundsWithExcessiveAmountTest</b><br>Test class: testCases.TC004_TransferFundsTest</td>
-<td></td>
-<td>2</td>
-<td>testCases.TC004_TransferFundsTest@35841320</td></tr>
-<tr>
-<td title='testCases.TC003_OpenNewAccountTest.OpenNewAccountTest()'><b>OpenNewAccountTest</b><br>Test class: testCases.TC003_OpenNewAccountTest</td>
-<td></td>
-<td>6</td>
-<td>testCases.TC003_OpenNewAccountTest@7ae0a9ec</td></tr>
-<tr>
-<td title='testCases.TC001_RegisterTest.RegisterWithMissingUsername()'><b>RegisterWithMissingUsername</b><br>Test class: testCases.TC001_RegisterTest</td>
-<td></td>
-<td>1</td>
-<td>testCases.TC001_RegisterTest@23e84203</td></tr>
-<tr>
 <td title='testCases.TC005_BillPayTest.BillPayWithoutAccountNumberTest()'><b>BillPayWithoutAccountNumberTest</b><br>Test class: testCases.TC005_BillPayTest</td>
 <td></td>
 <td>3</td>
 <td>testCases.TC005_BillPayTest@61c4eee0</td></tr>
+<tr>
+<td title='testCases.TC003_OpenNewAccountTest.OpenCheckingAccountTest()'><b>OpenCheckingAccountTest</b><br>Test class: testCases.TC003_OpenNewAccountTest</td>
+<td></td>
+<td>8</td>
+<td>testCases.TC003_OpenNewAccountTest@7ae0a9ec</td></tr>
+<tr>
+<td title='testCases.TC002_LoginTest.loginWithExcessivelyLongUsername()'><b>loginWithExcessivelyLongUsername</b><br>Test class: testCases.TC002_LoginTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC002_LoginTest@1972e513</td></tr>
 <tr>
 <td title='testCases.TC002_LoginTest.loginTest()'><b>loginTest</b><br>Test class: testCases.TC002_LoginTest</td>
 <td></td>
 <td>4</td>
 <td>testCases.TC002_LoginTest@1972e513</td></tr>
 <tr>
-<td title='testCases.TC002_LoginTest.loginWithInvalidPassword()'><b>loginWithInvalidPassword</b><br>Test class: testCases.TC002_LoginTest</td>
+<td title='testCases.TC005_BillPayTest.BillPayWithMismatchedAccountNumbersTest()'><b>BillPayWithMismatchedAccountNumbersTest</b><br>Test class: testCases.TC005_BillPayTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC005_BillPayTest@61c4eee0</td></tr>
+<tr>
+<td title='testCases.TC005_BillPayTest.BillPayWithoutAmountTest()'><b>BillPayWithoutAmountTest</b><br>Test class: testCases.TC005_BillPayTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC005_BillPayTest@61c4eee0</td></tr>
+<tr>
+<td title='testCases.TC001_RegisterTest.RegisterWithMissingLastName()'><b>RegisterWithMissingLastName</b><br>Test class: testCases.TC001_RegisterTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC001_RegisterTest@23e84203</td></tr>
+<tr>
+<td title='testCases.TC005_BillPayTest.BillPayWithoutStateTest()'><b>BillPayWithoutStateTest</b><br>Test class: testCases.TC005_BillPayTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC005_BillPayTest@61c4eee0</td></tr>
+<tr>
+<td title='testCases.TC005_BillPayTest.BillPayWithoutPayeeNameTest()'><b>BillPayWithoutPayeeNameTest</b><br>Test class: testCases.TC005_BillPayTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC005_BillPayTest@61c4eee0</td></tr>
+<tr>
+<td title='testCases.TC006_ApplyLoanTest.ApplyLoanWithZeroAmountTest()'><b>ApplyLoanWithZeroAmountTest</b><br>Test class: testCases.TC006_ApplyLoanTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC006_ApplyLoanTest@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.TC007_LoginDDT.verify_Loginddt()'><b>verify_Loginddt</b><br>Test class: testCases.TC007_LoginDDT<br>Parameters: mikasa@06, eren, valid</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC007_LoginDDT@1040be71</td></tr>
+<tr>
+<td title='testCases.TC006_ApplyLoanTest.ApplyLoanWithAmountLessThanDownPaymentTest()'><b>ApplyLoanWithAmountLessThanDownPaymentTest</b><br>Test class: testCases.TC006_ApplyLoanTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC006_ApplyLoanTest@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.TC010_AccountOverview.verifyAccountOverview()'><b>verifyAccountOverview</b><br>Test class: testCases.TC010_AccountOverview</td>
+<td></td>
+<td>10</td>
+<td>testCases.TC010_AccountOverview@2a693f59</td></tr>
+<tr>
+<td title='testCases.TC007_LoginDDT.verify_Loginddt()'><b>verify_Loginddt</b><br>Test class: testCases.TC007_LoginDDT<br>Parameters: naruto, hinata, valid</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC007_LoginDDT@1040be71</td></tr>
+<tr>
+<td title='testCases.TC007_LoginDDT.verify_Loginddt()'><b>verify_Loginddt</b><br>Test class: testCases.TC007_LoginDDT<br>Parameters: gabi, falco, Invalid</td>
+<td></td>
+<td>12</td>
+<td>testCases.TC007_LoginDDT@1040be71</td></tr>
+<tr>
+<td title='testCases.TC003_OpenNewAccountTest.VerifyBackButtonAfterAccountCreationTest()'><b>VerifyBackButtonAfterAccountCreationTest</b><br>Test class: testCases.TC003_OpenNewAccountTest</td>
+<td></td>
+<td>8</td>
+<td>testCases.TC003_OpenNewAccountTest@7ae0a9ec</td></tr>
+<tr>
+<td title='testCases.TC006_ApplyLoanTest.ApplyLoanWithNonNumericAmountTest()'><b>ApplyLoanWithNonNumericAmountTest</b><br>Test class: testCases.TC006_ApplyLoanTest</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC006_ApplyLoanTest@6f10d5b6</td></tr>
+<tr>
+<td title='testCases.TC002_LoginTest.loginWithSQLInjection()'><b>loginWithSQLInjection</b><br>Test class: testCases.TC002_LoginTest</td>
 <td></td>
 <td>0</td>
 <td>testCases.TC002_LoginTest@1972e513</td></tr>
