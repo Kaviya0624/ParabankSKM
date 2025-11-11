@@ -8,6 +8,11 @@
 
 ---
 
+## 🎯 Objective
+Showcase a scalable Selenium TestNG framework demonstrating strong QA automation design, reporting, and CI/CD readiness.
+
+---
+
 ## 📌 Overview
 
 **ParabankSKM** is a **Selenium Test Automation Framework** built using **Java, TestNG, and Maven**, designed to automate core functionalities of the **Parabank web application**.
