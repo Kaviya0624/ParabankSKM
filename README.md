@@ -213,6 +213,13 @@ Below is a quick visual demo of the automation framework executing all Parabank 
 
 ### Jenkins Build
 
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/936a1bf4-e04a-4880-aa2d-339be3518f35" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/76d63c1b-c39d-4a82-b1e4-56b044ccf57c" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/40adfc9d-a259-4426-8ad2-e3f60c55ef98" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/10694e45-474d-4994-9d88-909461d59557" />
+
+
+
 
 
 ---
