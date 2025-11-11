@@ -75,7 +75,7 @@ ParabankSKM/
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/ParabankSKM.git
+git clone https://github.com/Kaviya0624/ParabankSKM.git
 cd ParabankSKM
 ```
 
@@ -165,8 +165,6 @@ reports/ExtentReport.html
 
 * Integrate **Allure Reports** for advanced visualization  
 * Introduce **API Testing** (RestAssured) for backend validation  
-* Integrate with **GitHub Actions / Jenkins** for CI pipelines  
-* Add support for **Edge / Safari** browsers  
 
 ---
 
@@ -190,13 +188,16 @@ Hi, I’m **Siva Kaviyamalya 👋** — an aspiring Automation Test Engineer pas
 ## 🖼 Screenshots
 
 ### Test Execution Report
-![Extent Report Screenshot](https://github.com/user-attachments/assets/e45ab574-6b7a-402e-b2fe-4f4cdfa99e5e)
+
 
 ### Selenium Grid
-![Selenium Grid Dashboard](https://github.com/user-attachments/assets/242296f7-63dd-4d9e-9318-f2918f246f55)
+
 
 ### Jenkins Build
-![Jenkins Dashboard](https://github.com/user-attachments/assets/c39d3c66-7842-43a0-92ca-d5e3ffdcb636)
+
+
+### Jenkins Build
+
 
 ---
 
