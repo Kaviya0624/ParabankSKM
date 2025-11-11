@@ -196,18 +196,23 @@ Hi, I’m **Siva Kaviyamalya 👋** — an aspiring Automation Test Engineer pas
 
 ---
 
+---
+
+## 🎥 Test Execution Demo
+
+Below is a quick visual demo of the automation framework executing all Parabank test cases successfully ✅
+
+![Test Execution](https://github.com/Kaviya0624/ParabankSKM/blob/master/Parabank_TestExecution.gif)
+
+---
+
 ## 🖼 Screenshots
-
-### Test Execution Report
-
 
 ### Selenium Grid
 
 
 ### Jenkins Build
 
-
-### Jenkins Build
 
 
 ---
