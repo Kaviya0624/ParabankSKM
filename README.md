@@ -1,4 +1,4 @@
-# 🏦 Parabank – Selenium Test Automation Framework
+# 🏦 ParabankSKM – Selenium Test Automation Framework
 
 ![Java](https://img.shields.io/badge/Java-17+-blue)
 ![Selenium](https://img.shields.io/badge/Selenium-WebDriver-orange)
@@ -196,8 +196,6 @@ Hi, I’m **Siva Kaviyamalya 👋** — an aspiring Automation Test Engineer pas
 
 ---
 
----
-
 ## 🎥 Test Execution Demo
 
 Below is a quick visual demo of the automation framework executing all Parabank test cases successfully ✅
@@ -207,6 +205,8 @@ Below is a quick visual demo of the automation framework executing all Parabank 
 ---
 
 ## 🖼 Screenshots
+
+Below are snapshots from Selenium Grid and Jenkins execution environments 📸
 
 ### Selenium Grid - Standalone
 
