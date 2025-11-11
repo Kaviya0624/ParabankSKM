@@ -1,4 +1,4 @@
-# 🏦 ParabankSKM – Selenium Test Automation Framework
+# 🏦 Parabank – Selenium Test Automation Framework
 
 ![Java](https://img.shields.io/badge/Java-17+-blue)
 ![Selenium](https://img.shields.io/badge/Selenium-WebDriver-orange)
