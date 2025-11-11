@@ -208,7 +208,10 @@ Below is a quick visual demo of the automation framework executing all Parabank 
 
 ## 🖼 Screenshots
 
-### Selenium Grid
+### Selenium Grid - Standalone
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/2bbf6d21-2825-4e73-b541-c1916df48d36" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/28431803-97a0-4107-bcda-ebd69bcc7705" />
 
 
 ### Jenkins Build
@@ -217,10 +220,6 @@ Below is a quick visual demo of the automation framework executing all Parabank 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/76d63c1b-c39d-4a82-b1e4-56b044ccf57c" />
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/40adfc9d-a259-4426-8ad2-e3f60c55ef98" />
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/10694e45-474d-4994-9d88-909461d59557" />
-
-
-
-
 
 ---
 
